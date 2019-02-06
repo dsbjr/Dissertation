@@ -1,0 +1,96 @@
+%\documentclass[12pt,twoside]{report}
+\documentclass[12pt]{report}
+
+%% Last Modification by Derrick Boone February 2019. Template from Emma Pease
+
+% note that the document can be single or double sided.  
+% note that the Registrar's office now allows 10pt, 11pt, or 12pt
+
+\usepackage{suthesis-2e}
+\usepackage{caption}
+\usepackage{graphicx}
+% default is now online June/2016 version
+%\usepackage[online]{suthesis-2e}
+%\usepackage[hardcopy]{suthesis-2e}
+% the following is for doing engineering theses. 
+% I am definitely not sure of the wording on the signature page so check
+%\usepackage[engineer]{suthesis-2e}
+
+% one can change the default font to Times Roman but note that most
+% ways of creating pdf files from latex automatically embed (which btw
+% is a good idea even with the standard fonts)
+
+    \title{Electrolyte Gating of the Two-Dimensional Proximate
+            Kitaev Spin Liquid $\alpha$-Ruthenium Trichloride}
+    \author{Derrick Sherrod Boone, Jr.}
+    \dept{Applied Physics}
+    \principaladviser{David Goldhaber-Gordon}
+    \firstreader{Ian Fisher}
+    \secondreader{Evan Reed\\(Materials Science)}
+    \thirdreader{Marc Kastner}
+%% one can also have a \thirdreader and \fourthreader
+
+%% note that certain departments and types of theses have other requirements
+%% For instance theses in the departments of 
+%% Asian Languages
+%% French and Italian
+%% Spanish and Portuguese
+%% need to define the \dept, \dualthesis, and the actual language
+%\dualthesis
+%\languagemajor{Chinese}
+%% 
+%% Those for Graduate Program in Humanities need to define 
+%\humanitiesthesis
+%\jointprogram{Arts and Crafts}
+%% 
+%% For submission to a committee or program (no department)
+% \committeethesis
+% \programthesis
+%%
+%% For School of Education or Business or Law
+% \educationthesis
+% \businessthesis
+% \lawthesis  (law actually isn't listed in the official documents, 2013/1014)
+
+\bibliographystyle{unsrt}
+
+\begin{document}
+
+% for a variety of reasons this is an all in one document; however,
+% when actually doing the thesis it is strongly recommended that each
+% chapter be in a separate file and use \include to include in the
+% main file.
+
+%% the \beforepreface command produces the title page
+%% in the online version it skips the copyright (page 2) and signature (page 3) pages 
+%% in the non-online version these would be included
+    \beforepreface
+
+
+%% Abstract can be any number of pages
+    \prefacesection{Abstract}
+        The abstract goes here.
+
+\newpage
+
+"What is true is mine." -Seneca
+
+%% one can also have a prefacesection that is a Preface instead of
+%% Acknowledgements.   The thematic purpose is the same (thanks).
+    \prefacesection{Acknowledgements}
+        Here is where I thank people and include some quotes.
+
+%% afterpreface produces a table of contents and any other tables
+%% wanted. At the end pagenumbering changes from roman to arabic and
+%% is restarted
+    \afterpreface
+ 
+\include{./tex/intro}
+
+\include{./tex/ch2}
+
+\include{./tex/ch3}
+
+\bibliography{C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft}
+
+\end{document}

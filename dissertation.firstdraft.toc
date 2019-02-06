@@ -1,0 +1,7 @@
+\contentsline {chapter}{Abstract}{iv}
+\contentsline {chapter}{Acknowledgements}{vi}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Phases of matter}{1}
+\contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium Trichloride}{3}
+\contentsline {chapter}{\numberline {3}Electrolyte Gating}{4}
+\contentsline {chapter}{Bibliography}{5}
