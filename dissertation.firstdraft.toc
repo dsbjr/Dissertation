@@ -2,6 +2,8 @@
 \contentsline {chapter}{Acknowledgements}{vi}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Phases of matter}{1}
-\contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium Trichloride}{3}
-\contentsline {chapter}{\numberline {3}Electrolyte Gating}{4}
-\contentsline {chapter}{Bibliography}{5}
+\contentsline {section}{\numberline {1.2}Topological Phases}{3}
+\contentsline {subsection}{\numberline {1.2.1}The toric code}{3}
+\contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium Trichloride}{4}
+\contentsline {chapter}{\numberline {3}Electrolyte Gating}{5}
+\contentsline {chapter}{Bibliography}{6}
