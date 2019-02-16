@@ -2,7 +2,7 @@
 Condensed matter physics is the rigorous study of what happens when a large number of cold atoms at high density are allowed to interact. It tells us why and at what temperature water freezes, why magnets attract some materials and not others, why glass is clear, why metal is shiny, and many other things. It is the branch of physics that reveals the richness of our physical world.
 
 \section{Phases of matter}
-Many materials that differ in their constituents and microscopic structure have similar bulk properties. For example, although water and mercury at ambient conditions have dramatically different densities and electrical conductivities, they are both nearly incompressible and deform continuously when a shear stress is applied. We capture these similarities by saying water and mercury are both in the liquid phase\footnote{Depending on the context, there may be a difference between a \textit{phase} of matter and and \textit{state} of matter. I will use phase in this dissertation as it seems to apply more generally.}. Phases of matter arise not just because of constituent particles, but also by the way those constituents are arranged.
+Many materials that differ in their constituents and microscopic structure have similar bulk properties. For example, although water and mercury at ambient conditions have dramatically different densities and electrical conductivities, they are both nearly incompressible and deform continuously when a shear stress is applied. We capture these similarities by saying water and mercury are both in the liquid phase\footnote{Depending on the context, there may be a difference between a \textit{phase} of matter and and \textit{state} of matter. I will use phase in this dissertation as it seems to apply more generally.}. Phases of matter arise not just because of properties of the matter, but also how the matter is arranged.
 
 A phase of matter has uniform equilibrium thermodynamic properties (density, magentization, etc.) and is defined by these properties being analytic functions of the thermodynamic parameters (e.g., temperature, pressure) \cite{Pathria2011}. Therefore, the properties of matter in static equilibrium in a given phase are the same for all space, and these properties are smooth functions of the parameters. For example, liquid water at a uniform temperature has the same density everywhere, and when it is heated by a small amount, its density decreases by a corresponding small amount. Phases of matter are separated by phase transitions, where the thermodynamic properties (or their derivatives with respect to a parameter) are no longer continuous\footnote{Infinite order phase transitions are a theoretical exception. See \cite{Costin1990}}. For example, when liquid water boils at ambient pressure, its temperature remains the same, but its density decreases discontinuously by a factor of $10^6$.
 
@@ -24,19 +24,45 @@ However, in addition to the above examples, there are kinds of matter which main
 
 \section{Topological Phases}
 
-Topological order is a property of quantum systems that have both long-range entanglement and large ground state degeneracy. In these systems, there is no local order parameter like density or magnetization. Instead, there is a global topological invariant that changes discontinuously between phases \cite{Wen2017}. First, we set out to understand topology by considering the properties of a simple quantum topological system - Kitaev's toric code. Using the topological concepts we learn from the toric code, we will be able to understand the topological nature of some physical systems, including quantum hall states and the eventual subject of this dissertation: the spin liquid.
+Topological order is a property of quantum systems that have both large ground state degeneracy and long-range entanglement. In these systems, there is no local order parameter like density or magnetization. Instead, there is a global topological invariant that changes discontinuously between phases \cite{Wen2017}. First, we set out to understand topology by considering the properties of a simple quantum topological system - Kitaev's toric code. Using the topological concepts we learn from the toric code, we will be able to understand the topological nature of some physical systems, including quantum hall states and the eventual subject of this dissertation: the spin liquid.
 
 \subsection{The toric code}
 
 The following explanation draws heavily from \cite{Kitaev2003} and \cite{topOrderEdX}.
 
-Consider a system of spin-$\frac{1}{2}$ electrons living on the edges of a square lattice. We first define two operators:
+Consider a system of spin-$\frac{1}{2}$ particles living on the edges of a square lattice. We first define two operators:
 
 \begin{align*}
 A_s&=\prod_{j \in star(s)} \sigma^{x}_{j} 		& B_{p}&=\prod_{j \in plaquette(s)} \sigma^{z}_{j}
 \end{align*}
 
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg}\label{fig:f1}
+  \captionsetup{width=0.9\textwidth}
+  \captionof{figure}[Toric code operators on the lattice]{A square lattice with a spin-$\frac{1}{2}$ particles on each edge. The toric code operators $A_{s}$ and $B_{p}$ act on the spins highlighted in blue and red, respectively. Diagram from \cite{topOrderEdX}.}
+\end{centering}
 
+The operator $A_{s}$ multiplies the spin in the x direction for all spins connected at vertex $s$ (for star). The operator $B_{p}$ multiplies the spin in the z direction for all the spins around a square $p$ (for plaquette). Operators $A_{s}$ and $B_{s}$ are both Hermitian with eigenvalues $\pm 1$. Perhaps surprisingly, they also commute. While it is clear the operators commute for distant vertices and plaquettes, we can also see that they commute for a vertex and plaquette with overlapping bonds because a vertex and plaquette will always share exactly two edges \cite{Kitaev2003}.
+
+With an established understanding of $A_{s}$ and $B_{p}$, let us consider the ground state of the following Hamiltonian:
+
+\begin{equation}
+H = -A \prod_{s} A_{s} - B \prod_{p} B_{p}
+\end{equation}
+
+Because $A_{s}$ and $B_{s}$ commute, the ground state of the Hamiltonian is simply the ground state that simultaneously minimizes the energy for both operators. Consider first the minimal energy state associated with $A_{s}$ in the $\sigma^{z}$ basis. Provided that exactly two bonds in a each plaquette have the same spin, the $A_{s}$ term in the Hamiltonian will be minimized. Having only two bonds in each plaquette with the same spin defines a ``loop gas" - any state that consists of closed loops of the same spin will be a satisfactory ground state. This large number of states that minimize the energy of the Hamiltonian satisfies the first requirement for topological order: massive ground state degeneracy.
+
+%XX put image of loop gas here%
+
+Now consider the minimal energy state associated with $B_{p}$. In the $\sigma^{x}$ basis, using the above argument we find that the minimal energy state consists of loops of the same spin drawn on the dual lattice.\footnote{The dual of a lattice $R$ is the set $\hat{R}$ of all vectors $\mathbf{x} \in$ span($\Lambda$) such that $\mathbf{x} \cdot \mathbf{y}$ is an integer for all $\mathbf{y} \in \Lambda$. In this case, the dual lattice is a square lattice with the same lattice constant having a vertex at the center of each plaquette in the original lattice.} But in the $\sigma^{z}$ basis, $\sigma^{x}$ is off-diagonal. Therefore the states that minimize $B_{p}$ in the $\sigma^{z}$ basis are necessarily superposition states - in this case an equal weight superposition of all the possible states that minimize $A_{s}$ \cite{Savary2017}.\footnote{This illustrates a beautiful symmetry of the toric code. In either (or any) basis, the ground state is highly entangled, as it must be.} This kind of superposition cannot be factored into a product state, and therefore satisfies the second requirement for topological order: long-range entanglement.
+
+We have seen that the ground state of the toric code Hamiltonian satisfies the requirements for having topological order. But what can we observe about this system that shows it to have topological order? Further investigation of this system shows that it allows quasiparticle excitations with fractional quantum numbers.
+
+Consider the ground state of the toric code Hamiltonian to be a vacuum state of closed spin loops. What if we were to flip a spin in the lattice? To do so, we would add some amount of energy (either $A$ or $B$ from the Hamiltonian) and break the string into a loop. Any spin flip excitation must carry integer spin ($-\frac{1}{2}$ to $\frac{1}{2}$ or vice-versa is a change by an integer amount). However, when we break a loop into a string, we get \textit{two} quasiparticle excitation ``ends", each of which may diffuse around the lattice by smooth deformations\footnote{If we flip two and only two spins that share a vertex or a plaquette, we have not changed the energy of the system. Accordingly, such changes are allowed and can smoothly deform loops without breaking them} of the loops in the ground state. While flipping a spin changes the spin of the system by an integer, there are two physically separate quasiparticle excitations over which the integer spin is distributed. Each end of the string is therefore a quasiparticle excitation carrying fractional spin. Fractional excitations are the hallmark of topological order, and their presence in a system is proof that it is topologically nontrivial.
+
+\subsection{Example: Quantum Hall Effects}
+
+\section{Spin Liquids}
  
 
 Fuck all this - teach topology with the Toric code.
