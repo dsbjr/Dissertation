@@ -1,3 +1,7 @@
+\section*{How to read this dissertation}
+
+Jump ahead to chapter XX to see Raman results, which are the new contribution
+
 \chapter{Introduction}
 Condensed matter physics is the rigorous study of what happens when a large number of cold atoms at high density are allowed to interact. It tells us why and at what temperature water freezes, why magnets attract some materials and not others, why glass is clear, why metal is shiny, and many other things. It is the branch of physics that reveals the richness of our physical world.
 
@@ -30,16 +34,17 @@ Topological order is a property of quantum systems that have both large ground s
 
 The following explanation draws heavily from \cite{Kitaev2003} and \cite{topOrderEdX}.
 
-Consider a system of spin-$\frac{1}{2}$ particles living on the edges of a square lattice. We first define two operators:
+Consider a system of spin-$\frac{1}{2}$ particles living on the edges of a square lattice with periodic boundary conditions. We first define two operators:
 
 \begin{align*}
 A_s&=\prod_{j \in star(s)} \sigma^{x}_{j} 		& B_{p}&=\prod_{j \in plaquette(s)} \sigma^{z}_{j}
 \end{align*}
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg}\label{fig:f1}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg}
   \captionsetup{width=0.9\textwidth}
   \captionof{figure}[Toric code operators on the lattice]{A square lattice with a spin-$\frac{1}{2}$ particles on each edge. The toric code operators $A_{s}$ and $B_{p}$ act on the spins highlighted in blue and red, respectively. Diagram from \cite{topOrderEdX}.}
+  \label{fig:toricCode1}
 \end{centering}
 
 The operator $A_{s}$ multiplies the spin in the x direction for all spins connected at vertex $s$ (for star). The operator $B_{p}$ multiplies the spin in the z direction for all the spins around a square $p$ (for plaquette). Operators $A_{s}$ and $B_{s}$ are both Hermitian with eigenvalues $\pm 1$. Perhaps surprisingly, they also commute. While it is clear the operators commute for distant vertices and plaquettes, we can also see that they commute for a vertex and plaquette with overlapping bonds because a vertex and plaquette will always share exactly two edges \cite{Kitaev2003}.
@@ -47,20 +52,55 @@ The operator $A_{s}$ multiplies the spin in the x direction for all spins connec
 With an established understanding of $A_{s}$ and $B_{p}$, let us consider the ground state of the following Hamiltonian:
 
 \begin{equation}
-H = -A \prod_{s} A_{s} - B \prod_{p} B_{p}
+H_{\text{tor}} = -A \prod_{s} A_{s} - B \prod_{p} B_{p}
 \end{equation}
 
 Because $A_{s}$ and $B_{s}$ commute, the ground state of the Hamiltonian is simply the ground state that simultaneously minimizes the energy for both operators. Consider first the minimal energy state associated with $A_{s}$ in the $\sigma^{z}$ basis. Provided that exactly two bonds in a each plaquette have the same spin, the $A_{s}$ term in the Hamiltonian will be minimized. Having only two bonds in each plaquette with the same spin defines a ``loop gas" - any state that consists of closed loops of the same spin will be a satisfactory ground state. This large number of states that minimize the energy of the Hamiltonian satisfies the first requirement for topological order: massive ground state degeneracy.
 
-%XX put image of loop gas here%
+\begin{centering}
+\includegraphics[width=0.8\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopOrderEdX.jpg}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Fractional excitations in the toric code]{Loops and fractional excitations in the toric code. Each end is a topological defect that carries a fractional spin. Red and blue highlights relate to the $\sigma^{z}$ and $\sigma^{x}$ operators, respectively. Diagram from \cite{topOrderEdX}.}
+  \label{fig:toricCode2}
+\end{centering}
 
 Now consider the minimal energy state associated with $B_{p}$. In the $\sigma^{x}$ basis, using the above argument we find that the minimal energy state consists of loops of the same spin drawn on the dual lattice.\footnote{The dual of a lattice $R$ is the set $\hat{R}$ of all vectors $\mathbf{x} \in$ span($\Lambda$) such that $\mathbf{x} \cdot \mathbf{y}$ is an integer for all $\mathbf{y} \in \Lambda$. In this case, the dual lattice is a square lattice with the same lattice constant having a vertex at the center of each plaquette in the original lattice.} But in the $\sigma^{z}$ basis, $\sigma^{x}$ is off-diagonal. Therefore the states that minimize $B_{p}$ in the $\sigma^{z}$ basis are necessarily superposition states - in this case an equal weight superposition of all the possible states that minimize $A_{s}$ \cite{Savary2017}.\footnote{This illustrates a beautiful symmetry of the toric code. In either (or any) basis, the ground state is highly entangled, as it must be.} This kind of superposition cannot be factored into a product state, and therefore satisfies the second requirement for topological order: long-range entanglement.
 
 We have seen that the ground state of the toric code Hamiltonian satisfies the requirements for having topological order. But what can we observe about this system that shows it to have topological order? Further investigation of this system shows that it allows quasiparticle excitations with fractional quantum numbers.
 
-Consider the ground state of the toric code Hamiltonian to be a vacuum state of closed spin loops. What if we were to flip a spin in the lattice? To do so, we would add some amount of energy (either $A$ or $B$ from the Hamiltonian) and break the string into a loop. Any spin flip excitation must carry integer spin ($-\frac{1}{2}$ to $\frac{1}{2}$ or vice-versa is a change by an integer amount). However, when we break a loop into a string, we get \textit{two} quasiparticle excitation ``ends", each of which may diffuse around the lattice by smooth deformations\footnote{If we flip two and only two spins that share a vertex or a plaquette, we have not changed the energy of the system. Accordingly, such changes are allowed and can smoothly deform loops without breaking them} of the loops in the ground state. While flipping a spin changes the spin of the system by an integer, there are two physically separate quasiparticle excitations over which the integer spin is distributed. Each end of the string is therefore a quasiparticle excitation carrying fractional spin. Fractional excitations are the hallmark of topological order, and their presence in a system is proof that it is topologically nontrivial.
+Consider the ground state of the toric code Hamiltonian to be a vacuum state of closed spin loops. What if we were to flip a spin in the lattice? To do so, we would add some amount of energy (either $A$ or $B$ from the Hamiltonian) and break the loop into a string (see Figure~\ref{fig:toricCode2}). Any spin flip excitation must carry integer spin ($-\frac{1}{2}$ to $\frac{1}{2}$ or vice-versa is a change by an integer amount). However, when we break a loop into a string, we get \textit{two} quasiparticle excitation ``ends", each of which may diffuse around the lattice by smooth deformations\footnote{If we flip two and only two spins that share a vertex or a plaquette, we have not changed the energy of the system. Accordingly, such changes are allowed and can smoothly deform loops without breaking them} of the loops in the ground state. While flipping a spin changes the spin of the system by an integer, there are two physically separate quasiparticle excitations over which the integer spin is distributed. Each end of the string is therefore a quasiparticle excitation carrying fractional spin. Fractional excitations are the hallmark of topological order, and their presence in a system is proof that it is topologically nontrivial.
+
+\begin{centering}
+\includegraphics[width=0.8\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Topologically distinct loops in the toric code]{Red and blue lines show topologically distinct loops on the toric code lattice.}
+  \label{fig:toricCode3}
+\end{centering}
+
+Another physical realization of the topology of the system is the four energetically degenerate but topologically distinct ground state configurations which are robust against local perturbations. Consider a loop that spans the boundaries of the lattice. This loop cannot be contracted to a point by any unitary locality-preserving operator, and is therefore topologically nontrivial. Further, a state with this loop is a ground state of the system, and therefore protected against local perturbations by the gap in the spectrum of $H_{\text{tor}}$ \cite{Bravyi2010}. There are four of these states, one for each way one can cross a periodic boundary (in the x and y directions, visualized in figure \ref{fig:toricCode3}), and one for each of the types of loops ($\sigma^{z}$ and $\sigma^{x}$). The number of boundary-spanning loops in a particular state serves at the topological invariant in this system and distinguishes topological states from one another. The topological invariant changes discontinuously as we move between states with different numbers of boundary-spanning loops. Rather than phases having different symmetries, we have phases with different topological invariants.
+
+With the toric code, we have seen how massive ground state degeneracy and long-range entanglement give rise to fractional excitations and topological invariants that distinguish separate phases of matter. However, the toric code, while useful pedagogically, does not currently have a physical realization. To see physical evidence of topological order, we next turn to quantum Hall systems.
 
 \subsection{Example: Quantum Hall Effects}
+
+Here we briefly review the classical Hall effect, before describing the integer and fractional quantum Hall effects, which have topological order.
+
+\subsubsection{The Classical Hall Effect}
+A charged particle moving in a magnetic field experiences the Lorentz force, which is perpendicular to both the velocity of the particle and the magnetic field and proportional to the product of the charge, speed, and magnetic field strength \cite{Griffiths1999}:
+
+\begin{equation}
+\vec{\mathbf{F}} = q(\vec{\mathbf{v}} \times \vec{\mathbf{B}})
+\end{equation}
+
+During the diffusive transport of charge carriers (electrons or holes) in a conducting material exposed to a magnetic field, the Lorentz force gives rise to the classical Hall effect. Charge carriers accumulate along the edges of a current-carrying strip of material, creating an electric field transverse to the direction of the current and a corresponding Hall Voltage, given by:
+
+\begin{equation}
+V_{h} = \frac{I B R_{H}}{t}
+\end{equation}
+
+Where $I$,  $B$, $R_{H}$, and $t$ are the current, magnetic field strength, Hall coefficient (an intrinsic property of the material), and the thickness of the current-carrying sample, respectively. The Hall effect is often used to determine the charge and density of the charge carriers in a material \cite{Pierret2002l}.
+
+At low temperatures, low densities, and small length scales, the transport of charge carriers (assumed to be electrons for the remainder of this discussion) subject to a magnetic field is no longer dominated by scattering between electrons and impurities, nuclei, or other electrons. When electrons scatter so infrequently that they begin to display trajectories that no longer have the characteristics of a random walk (i.e., electrons move without collision long enough such that their trajectories bend due to the the Lorentz force), we say that the transport has transitioned from diffusive to ballistic. For our systems, this occurs when the average time between scattering events exceeds the cyclotron period. The delicate interaction between the kinetic and potential energy of ballistic electrons in a magnetic field gives rise to the rich physics of the quantum Hall effect \cite{Beenakker1991}.
 
 \section{Spin Liquids}
  

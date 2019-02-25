@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Pathria2011}
 R.~K. Pathria and Paul~D. Beale.
@@ -45,5 +45,26 @@ A.~Akhmerov, J.~Sau, B.~van Heck, M.~Irfan, B.~Nijholt, and T.~O. Rosdahl.
 Lucille Savary and Leon Balents.
 \newblock {Quantum Spin Liquids: A Review}.
 \newblock {\em Reports on Progress in Physics}, 80(016502), 2017.
+
+\bibitem{Bravyi2010}
+Sergey Bravyi, Matthew Hastings, and Spyridon Michalakis.
+\newblock {Topological quantum order : Stability under local perturbations
+  Topological}.
+\newblock {\em Journal of Mathematical Physics}, 51(093512), 2010.
+
+\bibitem{Griffiths1999}
+David~J. Griffiths.
+\newblock {\em {Introduction to Electrodynaics}}.
+\newblock Prentice Hall, New Jersey, USA, 3rd edition, 1999.
+
+\bibitem{Pierret2002}
+Robert~F. Pierret.
+\newblock {\em {Advanced Semiconductor Fundamentals}}.
+\newblock Pearson, Upper Saddle Hill, NJ, USA, 2nd edition, 2002.
+
+\bibitem{Beenakker1991}
+C~W~J Beenakker and H~van Houten.
+\newblock {Quantum Transport in Semiconductor Nanostructures}.
+\newblock {\em Solid State Physics}, 44:1--228, 1991.
 
 \end{thebibliography}
