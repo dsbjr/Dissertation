@@ -67,4 +67,10 @@ C~W~J Beenakker and H~van Houten.
 \newblock {Quantum Transport in Semiconductor Nanostructures}.
 \newblock {\em Solid State Physics}, 44:1--228, 1991.
 
+\bibitem{VonKlitzing1980}
+K~von Klitzing, G~Dorda, and M~Pepper.
+\newblock {New Method for High Accuracy Determination of the Fine-Structure
+  Constant Based on Quantized Hall Resistance}.
+\newblock {\em Physical Review Letters}, 45(6):494--497, 1980.
+
 \end{thebibliography}

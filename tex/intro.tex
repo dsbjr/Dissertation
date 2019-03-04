@@ -98,27 +98,59 @@ During the diffusive transport of charge carriers (electrons or holes) in a cond
 V_{h} = \frac{I B R_{H}}{t}
 \end{equation}
 
-Where $I$,  $B$, $R_{H}$, and $t$ are the current, magnetic field strength, Hall coefficient (an intrinsic property of the material), and the thickness of the current-carrying sample, respectively. The Hall effect is often used to determine the charge and density of the charge carriers in a material \cite{Pierret2002l}.
+Where $I$,  $B$, $R_{H}$, and $t$ are the current, magnetic field strength, Hall coefficient (an intrinsic property of the material), and the thickness of the current-carrying sample, respectively. The Hall effect is often used to determine the charge and density of the charge carriers in a material \cite{Pierret2002}.
 
 At low temperatures, low densities, and small length scales, the transport of charge carriers (assumed to be electrons for the remainder of this discussion) subject to a magnetic field is no longer dominated by scattering between electrons and impurities, nuclei, or other electrons. When electrons scatter so infrequently that they begin to display trajectories that no longer have the characteristics of a random walk (i.e., electrons move without collision long enough such that their trajectories bend due to the the Lorentz force), we say that the transport has transitioned from diffusive to ballistic. For our systems, this occurs when the average time between scattering events exceeds the cyclotron period. The delicate interaction between the kinetic and potential energy of ballistic electrons in a magnetic field gives rise to the rich physics of the quantum Hall effect \cite{Beenakker1991}.
 
+\subsubsection{The Integer Quantum Hall Effect}
+
+In 1980, von Klitzing, Dorda, and Pepper performed Hall measurements at high magnetic fields and low temperatures (up to 18 Tesla and as low as 1.5 Kelvin) on a two-dimensional electron gas (2DEG) at the inversion layer of a silicon-based metal oxide semi-conductor field effect transistor \cite{VonKlitzing1980}. The result of these measurements showed that the Hall voltage plateaued and the longitudinal voltage approached zero at certain discrete values of electron density (modulated by applying a gate voltage).
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[von Klitzing's measurement of the quantum Hall effect]{von Klitzing's measurement of the Hall voltage $U_{h}$ and longitudinal voltage $U_{pp}$ \cite{VonKlitzing1980}. Note that the minima in this figure at non-integer values of n result from spin and valley degeneracy.}
+  \label{fig:IQHE1}
+\end{centering}
+
+We can understand the behavior of $U_{h}$ (the Hall voltage defined above as $V_{H}$) and $U_{pp}$ (the longitudinal voltage measured parallel to the direction of the current) by examining the wavefunction for electrons in a 2DEG subject to a magnetic field. Consider a system in which the magnetic field is oriented in the z-direction using the Landau gauge $\vec{\mathbf{A}} = (0,Bx,0)$. The Hamiltonian for this system\footnote{neglecting electron-electron interactions} is given by
+
+\begin{equation}
+\hat{H} = \sum_{i} \hat{H_{i}} = \frac{1}{2m_{e}} \left[ \hat{p}_{x,i}^{2} + \left(\hat{p}_{y,i} + \frac{eB}{c} \hat{x}_{i} \right)^{2} \right]
+\end{equation}
+
+Because the Hamiltonian does not explicit depend on the coordinates $y,i$, we can guess an ansatz solution of the form $\Psi(x,y) = \psi_{x}(x) e^{ik_{y}y}$ for a single electron. Solving the Schrodinger equation using this ansatz gives $\psi_{x}(x)$ as the solution to the quantum harmonic oscillator, and therefore the overall solution for a single electron becomes:
+
+\begin{equation}
+\Psi(x,y) = N e^{ik_{y}y}e^{\frac{(x-X)^{2}}{2(\hbar c/eB)}} H_{n} \left(\frac{x-X}{\sqrt{\hbar c/ eB}} \right)
+\end{equation}
+
+Where $X$ is a parameter related to the size of the cyclotron orbit, $N$ is a normalization constant, and $H_{n}$ is the nth Hermite polynomial. The ground state of the many electron wavefunction, called the \textit{lowest Landau level} can be written as \cite{yosh:qhe}
+
+\begin{equation} \label{psi-el}
+\psi(z_{i},\overline{z}_{i}) = N \prod_{i > j} (z_{i} - z_{j}) e^{-\frac{eB}{4 \hbar c} \sum_{i} z_{i} \overline{z}_{i}}
+\end{equation}
+
+where $z_{i} = x_{i} + iy_{i}$ is the complex position of the \textit{i}th electron.
+
+The quantized behavior of $U_{h}$ and $U_{pp}$ can be explained by considering the energy density of states of electrons described by the above wavefunction. Because the energies are quantized and identical to the harmonic oscillator, the energy density of states is given by
+
+\begin{equation}
+D(E) \propto \sum_{n} \delta \left(E - \left(n + \frac{1}{2} \hbar \omega_{c} \right) \right)
+\end{equation}
+
+where $n$ is the index of the Landau level the electrons occupy, and $\omega_{c}$ is the cyclotron frequency given by $\omega_{c} = \frac{eB}{m_{e} c}$ \cite{chak:qhe}. Note that the previous expression is exact for ideal materials at zero temperature only. Impurities and non-zero temperature will broaden the delta function peaks.
+
+As the gate is used to tune the electron density, the Fermi energy in the sample passes through the broadened peaks in the expression for the density of states. In regions where the density of states is zero, topologically-protected edge states carry current without dissipation and therefore $U_{pp}$ approaches zero and $U_{h}$ is fixed at a constant voltage. The changes that occur as the system moves through different Landau levels are smooth curves rather than step functions because of impurity broadening of the density of states.
+
+The wavefunction for quantum Hall electrons is highly degenerate, as all the electrons must pack into states having quantum harmonic oscillator energies. The degeneracy \footnote{Here we assume that we work in a material without valley degeneracy and that the magnetic field is large enough such that the 2DEG is spin polarized (equivalently, that the Zeeman splitting is greater than $\hbar \omega_{c}$).} is given by \cite{chak:qhe}
+
+\begin{equation}
+\nu = \frac{n_{e}\Phi_{0}}{\Phi}
+\end{equation}
+
+where $n_{e}$ is the number of electrons in the sample, $\Phi$ is the magnetic flux through the sample, and $\Phi_{0}$ is the quantum of magnetic flux. $\nu$ is also called the filling factor, because it can be interpreted as the number of Landau levels that are filled for a given electron density and magnetic flux. For filling factors having $\nu$ less than one, there is at least one flux quantum for every electron, so all the electrons are in the lowest Landau level. For $\nu$ greater than one, each flux quanta already is already associated with at least one electron, so the by the Pauli exclusion principle the remaining electrons are pushed into higher Landau levels.
+
+The quantum Hall wavefunction and the energy density of states described above explain the quantum Hall effect when $\nu$ is an integer. However, careful experiments reveal quantized values of the Hall and longitudinal voltages when $\nu$ is a ratio. These states require a more careful analysis.
+
 \section{Spin Liquids}
- 
-
-Fuck all this - teach topology with the Toric code.
-
-Interacting system spins on a 2D lattice with a special hamiltonian. The ground state of this Hamiltonian is a loop gas - as long as there are no free ends, the energy of the system is the same. Therefore, any state with loops is a good state. The vertex operator changes between degenerate states. Basically, it changes the loop configuration.
-
-If you put this lattice on a torus, then you get loops that cannot be deformed by the vertex operator smoothly into other loops. These are the loops that go across the periodic boundary. 
-
-Things to remember: Quantum hall states have topological order - consider the conductivity an order parameter - as you change the field this parameter changes discontinuously without a change in symmetry. The chern number you can derive from the band structure (?) and is a topological order parameter that changes. Maybe I can start with the quantum hall effect?
-
-Start with IQHE - explain it and then show how the conductivity is an order parameter. Then show how the FQHE extends the IQHE. Then show the topological excitations in the FQHE are evidence of topological order and their presence requires the ground state to have topological order. Then show that spin liquids are a state that has topological excitations, and therefore topological order - even in the absence of symmetry breaking.
-
-Somehow topological order is connected to fractional excitations in two dimensions. Fractional quantum hall liquids always have edge excitations.
-
-Topological order is connected to the ground state degeneracy of a system. The ground state degeneracy is somehow related to the topological order parameter.
-
-Consider using the Toric code.
-
-What is condensed matter, what's a spin liquid, why gate it, etc... This is going okay so far.
