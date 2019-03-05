@@ -125,7 +125,7 @@ Because the Hamiltonian does not explicit depend on the coordinates $y,i$, we ca
 \Psi(x,y) = N e^{ik_{y}y}e^{\frac{(x-X)^{2}}{2(\hbar c/eB)}} H_{n} \left(\frac{x-X}{\sqrt{\hbar c/ eB}} \right)
 \end{equation}
 
-Where $X$ is a parameter related to the size of the cyclotron orbit, $N$ is a normalization constant, and $H_{n}$ is the nth Hermite polynomial. The ground state of the many electron wavefunction, called the \textit{lowest Landau level} can be written as \cite{yosh:qhe}
+Where $X$ is a parameter related to the size of the cyclotron orbit, $N$ is a normalization constant, and $H_{n}$ is the nth Hermite polynomial. The ground state of the many electron wavefunction, the lowest Landau level can be written as \cite{Yoshioka2002}
 
 \begin{equation} \label{psi-el}
 \psi(z_{i},\overline{z}_{i}) = N \prod_{i > j} (z_{i} - z_{j}) e^{-\frac{eB}{4 \hbar c} \sum_{i} z_{i} \overline{z}_{i}}
@@ -133,24 +133,61 @@ Where $X$ is a parameter related to the size of the cyclotron orbit, $N$ is a no
 
 where $z_{i} = x_{i} + iy_{i}$ is the complex position of the \textit{i}th electron.
 
-The quantized behavior of $U_{h}$ and $U_{pp}$ can be explained by considering the energy density of states of electrons described by the above wavefunction. Because the energies are quantized and identical to the harmonic oscillator, the energy density of states is given by
-
-\begin{equation}
-D(E) \propto \sum_{n} \delta \left(E - \left(n + \frac{1}{2} \hbar \omega_{c} \right) \right)
-\end{equation}
-
-where $n$ is the index of the Landau level the electrons occupy, and $\omega_{c}$ is the cyclotron frequency given by $\omega_{c} = \frac{eB}{m_{e} c}$ \cite{chak:qhe}. Note that the previous expression is exact for ideal materials at zero temperature only. Impurities and non-zero temperature will broaden the delta function peaks.
-
-As the gate is used to tune the electron density, the Fermi energy in the sample passes through the broadened peaks in the expression for the density of states. In regions where the density of states is zero, topologically-protected edge states carry current without dissipation and therefore $U_{pp}$ approaches zero and $U_{h}$ is fixed at a constant voltage. The changes that occur as the system moves through different Landau levels are smooth curves rather than step functions because of impurity broadening of the density of states.
-
-The wavefunction for quantum Hall electrons is highly degenerate, as all the electrons must pack into states having quantum harmonic oscillator energies. The degeneracy \footnote{Here we assume that we work in a material without valley degeneracy and that the magnetic field is large enough such that the 2DEG is spin polarized (equivalently, that the Zeeman splitting is greater than $\hbar \omega_{c}$).} is given by \cite{chak:qhe}
+This wavefunction must be degenerate, as it is composed of single electron harmonic oscillator wavefunctions. In fact, the degeneracy is given by \cite{Chakraborty1995}:
 
 \begin{equation}
 \nu = \frac{n_{e}\Phi_{0}}{\Phi}
 \end{equation}
 
-where $n_{e}$ is the number of electrons in the sample, $\Phi$ is the magnetic flux through the sample, and $\Phi_{0}$ is the quantum of magnetic flux. $\nu$ is also called the filling factor, because it can be interpreted as the number of Landau levels that are filled for a given electron density and magnetic flux. For filling factors having $\nu$ less than one, there is at least one flux quantum for every electron, so all the electrons are in the lowest Landau level. For $\nu$ greater than one, each flux quanta already is already associated with at least one electron, so the by the Pauli exclusion principle the remaining electrons are pushed into higher Landau levels.
+where $n_{e}$ is the number of electrons and $\Phi$ and $\Phi_{0}$ are the magnetic flux and magnetic flux quantum, respectively\footnote{Here we assume that we work in a material without valley degeneracy and that the magnetic field is large enough such that the 2DEG is spin polarized (equivalently, that the Zeeman splitting is greater than $\hbar \omega_{c}$).}. Therefore, the ground state of this system is degenerate - a requirement for topological order. A discussion of entanglement in this system is beyond the scope of this dissertation.
 
-The quantum Hall wavefunction and the energy density of states described above explain the quantum Hall effect when $\nu$ is an integer. However, careful experiments reveal quantized values of the Hall and longitudinal voltages when $\nu$ is a ratio. These states require a more careful analysis.
+We can see evidence of this topological order by considering the quantization of the Hall voltage in this system. The density of states is a superposition of harmonic oscillator states, so we write it\footnote{Note that this expression is exact for ideal materials at zero temperature only. Impurities and non-zero temperature will broaden the delta function peaks.} as:
+
+\begin{equation}
+D(E) \propto \sum_{n} \delta \left(E - \left(n + \frac{1}{2} \hbar \omega_{c} \right) \right)
+\end{equation}
+
+where $n$ is the index of the Landau level the electrons occupy, and $\omega_{c}$ is the cyclotron frequency given by $\omega_{c} = \frac{eB}{m_{e} c}$ \cite{Chakraborty1995}.
+
+Consider the system at zero temperature. As the electron density is tuned, the Fermi energy in the sample passes through the delta functions in the expression for the density of states. Between the peaks in the density of states, the electrons are locked in cyclotron orbits and therefore the bulk of the system in insulating. However, the electrons on the edges of the system cannot complete a full cyclotron orbit without encountering the edge of the system. We can visualize these electrons as executing "skipping" orbits along the edges. These edge states carry current without dissipation and therefore $U_{pp}$ approaches zero and $U_{h}$ is fixed at a constant voltage. As the Fermi energy passes through each harmonic oscillator energy level, $\frac{U_{h}}{I}$ changes between different integer multiples of $R_{k} \approx 25812$ $\Omega$, the resistance quantum. We can see the hallmarks of topological order in this system by interpreting $n_{e}$ as the tunable parameter and $R_{h} = \frac{U_{h}}{I} = \nu R_{k}$\footnote{$\nu$ is also called the filling factor, because it can be interpreted as the number of Landau levels that are filled for a given electron density and magnetic flux. For filling factors having $\nu$ less than one, there is at least one flux quantum for every electron, so all the electrons are in the lowest Landau level. For $\nu$ greater than one, each flux quanta already is already associated with at least one electron, so the by the Pauli exclusion principle the remaining electrons are pushed into higher Landau levels.} as the topological order parameter. As we tune the density, the topological order parameter changes discontinously between distinct quantum Hall phases.
+
+A complete discussion entanglement and the topological properties of the IQHE requires an appeal to gauge symmetries and group theory beyond the scope of this dissertation (see section III of \cite{Wen2017} for further information). However, the topological order inherent in the IQHE manifests more easily in the fractional quantum Hall effect, where excitations are fractionalized and $\nu$ discussed above takes on non-integer values.
+
+\subsubsection{The Fractional Quantum Hall Effect}
+
+In 1982, Tsui, Stormer, and Gossard measured a quantized Hall voltage at $\nu = \frac{1}{3}$ \cite{Tsui1982}, which they called "striking evidence for a new electronic state..." (their results also suggested quantized Hall voltages for $\nu = \frac{2}{3}$ and $\nu = \frac{3}{2}$, but the mobility of electrons in the sample and the measurement temperature prevented confirming these states). We would not expect a gap in the density of states at filling factors corresponding to fractions. Accordingly, the analysis for the integer quantum Hall effect breaks down in the presence of Tsui's measurement.
+
+In 1983, Laughlin, by a variational method, proposed the form of a wavefunction that accurately describes the Fractional Quantum Hall Effect (FQHE) identified by Tsui \cite{Laughlin1983}. The Laughlin wavefunction is given by
+
+\begin{equation}
+\psi = \prod_{i < j} \left( \frac{z_{i} - z_{j}}{l_{B}} \right)^{3} e^{-\frac{1}{4} \sum_{i} \frac{|z_{i}|^{2}}{l_{B}^{2}}}
+\end{equation}
+
+where $z_{i}$ is the complex position of the \textit{i}th electron as before and $l_{B}$ is the magnetic length given by $l_{B} = \sqrt{\frac{\hbar}{eB}}$.
+
+Further measurements confirmed the presence of a series of fractional quantum Hall states occurring at filling factors of the form $\nu = \frac{1}{p}$, where where $p$ is an odd integer. The Laughlin wavefunction, generalized to the form
+
+\begin{equation}
+\psi = \prod_{i < j} \left( \frac{z_{i} - z_{j}}{l_{B}} \right)^{\frac{1}{\nu}} e^{-\frac{1}{4} \sum_{i} \frac{|z_{i}|^{2}}{l_{B}^{2}}}
+\end{equation}
+
+also describes these states. Note that $p$ must be odd such that the wavefunction is antisymmetric and describes fermions.
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.4]{WilletQHEMeasurement.png}
+%\caption{Willet and colleagues' measurement of the quantum Hall effect \cite{will:qhm}. Note the extensive %number of quantum Hall states.}
+%\label{detailedQHE}
+%\end{figure}
+
+The Laughlin wavefunction describes a system of electrons that avoid each other in an optimal way. For a state with $\nu = 1/p$, the wavefunction is proportional to the p$^{\text{th}}$ power of the separation between the electrons. This factor in the wavefunction yields two results. First, if an electron approaches within a magnetic length of another electron, the magnitude of the wavefunction drops dramatically, meaning electrons must stay far apart. Second, the wavefunction cannot be factored into single-particle states and therefore is massively entangled.
+
+A fractional quantum Hall state meets the requirements for topological order and shows fractional excitations like those in the toric code. A direct measurement of the charge of quasiparticle excitations in the $\nu=\frac{1}{3}$ state shows that electrons carry a charge of $\frac{e}{3}$ \cite{Goldman1995}.
+
+\subsubsection{Conclusion}
+
+Through our examination of the quantum Hall effect, we have seen a physical realization of a topologically-ordered phase of matter.  For these systems, the tunable parameter is the electron density, the topological invariant is related to the filling factor, and the phases are separated by discontinuous changes in the filling factor that we observe as changes in the quantized conductance. These phases demonstrate ground state degeneracy and entanglement, and show fractionalized excitations that are the hallmark of topological order.
 
 \section{Spin Liquids}
+
+Now that we have some understanding, 

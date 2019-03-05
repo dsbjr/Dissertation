@@ -7,7 +7,9 @@
 \contentsline {subsection}{\numberline {1.2.2}Example: Quantum Hall Effects}{8}
 \contentsline {subsubsection}{The Classical Hall Effect}{8}
 \contentsline {subsubsection}{The Integer Quantum Hall Effect}{9}
-\contentsline {section}{\numberline {1.3}Spin Liquids}{12}
+\contentsline {subsubsection}{The Fractional Quantum Hall Effect}{12}
+\contentsline {subsubsection}{Conclusion}{13}
+\contentsline {section}{\numberline {1.3}Spin Liquids}{13}
 \contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium Trichloride}{4}
 \contentsline {chapter}{\numberline {3}Electrolyte Gating}{5}
 \contentsline {chapter}{Bibliography}{6}
