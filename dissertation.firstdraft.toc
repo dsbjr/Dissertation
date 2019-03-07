@@ -9,7 +9,11 @@
 \contentsline {subsubsection}{The Integer Quantum Hall Effect}{9}
 \contentsline {subsubsection}{The Fractional Quantum Hall Effect}{12}
 \contentsline {subsubsection}{Conclusion}{13}
-\contentsline {section}{\numberline {1.3}Spin Liquids}{13}
+\contentsline {section}{\numberline {1.3}Spin Liquids}{14}
+\contentsline {subsection}{\numberline {1.3.1}What is a Spin Liquid?}{14}
+\contentsline {subsubsection}{Geometric Frustration}{14}
+\contentsline {subsection}{\numberline {1.3.2}The Kitaev Model}{14}
+\contentsline {subsection}{\numberline {1.3.3}Examples of Spin Liquids}{14}
 \contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium Trichloride}{4}
 \contentsline {chapter}{\numberline {3}Electrolyte Gating}{5}
 \contentsline {chapter}{Bibliography}{6}

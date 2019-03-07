@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  5 MAR 2019 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  6 MAR 2019 16:43
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -295,19 +295,30 @@ Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMe
 asurement-vonK.png  used on input line 110.
 (pdftex.def)             Requested size: 216.81pt x 247.27054pt.
  [9 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png (
-PNG copy)>] [10] [11] [12]) [13]
+PNG copy)>] [10] [11]
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.png, i
+d=84, 764.8575pt x 558.085pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.p
+ng Graphic file (type png)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.pn
+g>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEM
+easurement-Willet.png  used on input line 177.
+(pdftex.def)             Requested size: 216.81pt x 158.19579pt.
+ [12] [13 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Wil
+let.png>]) [14]
 (dissertation.firstdraft.bbl [6
 
 
 
 
-]) [7] (dissertation.firstdraft.aux
+] [7]) [8] (dissertation.firstdraft.aux
 (tex/intro.aux) (tex/ch2.aux) (tex/ch3.aux)) ) 
 Here is how much of TeX's memory you used:
- 3463 strings out of 492973
- 53471 string characters out of 3135932
- 115360 words of memory out of 3000000
- 7265 multiletter control sequences out of 15000+200000
+ 3472 strings out of 492973
+ 53860 string characters out of 3135932
+ 115379 words of memory out of 3000000
+ 7273 multiletter control sequences out of 15000+200000
  13229 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,41p,1783b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -333,9 +344,9 @@ e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on dissertation.firstdraft.pdf (22 pages, 710357 bytes).
+Output written on dissertation.firstdraft.pdf (24 pages, 819325 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

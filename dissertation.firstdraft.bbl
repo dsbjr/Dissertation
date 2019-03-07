@@ -94,10 +94,22 @@ R.~B. Laughlin.
   fractionally charged excitations.
 \newblock {\em Physical Review Letters}, 50(1395), 1983.
 
+\bibitem{Willet1987}
+R.~Willet, J.~P. Eisenstein, H.~L. St{\"o}rmer, D.~C. Tsui, A.~C. Gossard, and
+  J.~H. English.
+\newblock Observation of an even-denominator quantum number in the fractional
+  quantum hall effect.
+\newblock {\em Physical Review Letters}, 50(1776), 1987.
+
 \bibitem{Goldman1995}
 V.~J. Goldman and Su. B.
 \newblock Resonant tunneling in the quantum hall regime: Measurement of
   fractional charge.
 \newblock {\em Science}, 17:1010--1012, 1995.
+
+\bibitem{Balents2010}
+Leon Balents.
+\newblock {Spin liquids in frustrated magnets}.
+\newblock {\em Nature}, 464:199--208, 2010.
 
 \end{thebibliography}
