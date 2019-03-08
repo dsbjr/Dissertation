@@ -149,7 +149,7 @@ D(E) \propto \sum_{n} \delta \left(E - \left(n + \frac{1}{2} \hbar \omega_{c} \r
 
 where $n$ is the index of the Landau level the electrons occupy, and $\omega_{c}$ is the cyclotron frequency given by $\omega_{c} = \frac{eB}{m_{e} c}$ \cite{Chakraborty1995}.
 
-Consider the system at zero temperature. As the electron density is tuned, the Fermi energy in the sample passes through the delta functions in the expression for the density of states. Between the peaks in the density of states, the electrons are locked in cyclotron orbits and therefore the bulk of the system in insulating. However, the electrons on the edges of the system cannot complete a full cyclotron orbit without encountering the edge of the system. We can visualize these electrons as executing "skipping" orbits along the edges. These edge states carry current without dissipation and therefore $U_{pp}$ approaches zero and $U_{h}$ is fixed at a constant voltage. As the Fermi energy passes through each harmonic oscillator energy level, $\frac{U_{h}}{I}$ changes between different integer multiples of $R_{k} \approx 25812$ $\Omega$, the resistance quantum. We can see the hallmarks of topological order in this system by interpreting $n_{e}$ as the tunable parameter and $R_{h} = \frac{U_{h}}{I} = \nu R_{k}$\footnote{$\nu$ is also called the filling factor, because it can be interpreted as the number of Landau levels that are filled for a given electron density and magnetic flux. For filling factors having $\nu$ less than one, there is at least one flux quantum for every electron, so all the electrons are in the lowest Landau level. For $\nu$ greater than one, each flux quanta already is already associated with at least one electron, so the by the Pauli exclusion principle the remaining electrons are pushed into higher Landau levels.} as the topological order parameter. As we tune the density, the topological order parameter changes discontinously between distinct quantum Hall phases.
+Consider the system at zero temperature. As the electron density is tuned, the Fermi energy in the sample passes through the delta functions in the expression for the density of states. Between the peaks in the density of states, the electrons are locked in cyclotron orbits and therefore the bulk of the system in insulating. However, the electrons on the edges of the system cannot complete a full cyclotron orbit without encountering the edge of the system. We can visualize these electrons as executing "skipping" orbits along the edges. These edge states carry current without dissipation and therefore $U_{pp}$ approaches zero and $U_{h}$ is fixed at a constant voltage. As the Fermi energy passes through each harmonic oscillator energy level, $\frac{U_{h}}{I}$ changes between different integer multiples of $R_{k} \approx 25812$ $\Omega$, the resistance quantum. We can see the hallmarks of topological order in this system by interpreting $n_{e}$ as the tunable parameter and $R_{h} = \frac{U_{h}}{I} = \nu R_{k}$\footnote{$\nu$ is also called the filling factor, because it can be interpreted as the number of Landau levels that are filled for a given electron density and magnetic flux. For filling factors having $\nu$ less than one, there is at least one flux quantum for every electron, so all the electrons are in the lowest Landau level. For $\nu$ greater than one, each flux quanta already is already associated with at least one electron, so by the Pauli exclusion principle the remaining electrons are pushed into higher Landau levels.} as the topological order parameter. As we tune the density, the topological order parameter changes discontinously between distinct quantum Hall phases.
 
 A complete discussion entanglement and the topological properties of the IQHE requires an appeal to gauge symmetries and group theory beyond the scope of this dissertation (see section III of \cite{Wen2017} for further information). However, the topological order inherent in the IQHE manifests more easily in the fractional quantum Hall effect, where excitations are fractionalized and $\nu$ discussed above takes on non-integer values.
 
@@ -198,13 +198,32 @@ Spin liquids are challenging to define. In fact, it is easier to say what they \
 
 \subsubsection{Geometric Frustration}
 
-Consider a system of localized spins interacting on a square lattice and a triangular lattice according to the following Hamiltonian: 
+Consider a system of Ising spins interacting on a square lattice and a triangular lattice according to the following Hamiltonian: 
 
 \begin{equation}
 H = \sum_{\text{N.N.}} -J s_{i} \cdot s_{j}
 \end{equation}
 
-On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an antiferromagnetic interaction ($J < 0$), there is a single minimal energy configuration that is the ground state. 
-\subsection{The Kitaev Model}
+On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an antiferromagnetic interaction ($J < 0$), there is a single minimal energy configuration that is the ground state. The nearest neighbor spins are either parallel or anti-parallel, respectively. These are the ferromagnetic and antiferromagnetic (\textit{Ne{\'e}l}) states. There is also a unique minimal energy configuration for the ferromagnetic interaction on the triangular lattice. But what is the ground state for an antiferromagnetic interaction on the triangular lattice?
 
-\subsection{Examples of Spin Liquids}
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Geometric Frustration on the Triangular Lattice]{Degenerate lowest energy states for the antiferromagnetic nearest neighbor interaction on the triangular lattice. Red lines highlight the interaction between parallel spins which is energetically unfavorable. From \cite{Balents2010}.}
+  \label{fig:Frustration1}
+\end{centering}
+
+On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy.
+
+While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) are geometrically frustrated when there is a nearest neighbor antiferromagnetic interaction. We can compare frustration between these kinds of systems by calculating the frustration factor \cite{Ramirez1994}:
+
+\begin{equation}
+f = \frac{|\Theta_{cw}|}{T_{c}}
+\end{equation}
+
+Where $\Theta_{cw}$ is the Curie-Weiss temperature\footnote{Note that for an antiferromagnetic interaction $\Theta_{cw}$ is negative; therefore, we use the absolute value.} extracted from the high-temperature magnetic susceptibility and $T_{c}$ is the temperature at which the material magnetically orders. We can think of $f$ as telling us how strongly the order is suppressed by geometric frustration - the material would like to order at something like $\Theta_{cw}$, but given the geometric frustration, it orders at $T_{c}$ instead. A value of $f$ between 5 and 10 indicates strong geometric frustration.
+
+
+\subsection{Some Spin Liquid Materials}
+
+\subsection{The Kitaev Model}
