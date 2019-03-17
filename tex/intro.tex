@@ -215,13 +215,31 @@ On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an 
 
 On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy.
 
-While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) are geometrically frustrated when there is a nearest neighbor antiferromagnetic interaction. We can compare frustration between these kinds of systems by calculating the frustration factor \cite{Ramirez1994}:
+While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) are geometrically frustrated when there is a nearest neighbor antiferromagnetic interaction. While there are physical realizations of these interactions, many of them eventually develop magnetic order at low temperature. We can compare frustration between these kinds of systems by calculating the frustration factor \cite{Ramirez1994}:
 
 \begin{equation}
 f = \frac{|\Theta_{cw}|}{T_{c}}
 \end{equation}
 
-Where $\Theta_{cw}$ is the Curie-Weiss temperature\footnote{Note that for an antiferromagnetic interaction $\Theta_{cw}$ is negative; therefore, we use the absolute value.} extracted from the high-temperature magnetic susceptibility and $T_{c}$ is the temperature at which the material magnetically orders. We can think of $f$ as telling us how strongly the order is suppressed by geometric frustration - the material would like to order at something like $\Theta_{cw}$, but given the geometric frustration, it orders at $T_{c}$ instead. A value of $f$ between 5 and 10 indicates strong geometric frustration.
+Where $\Theta_{cw}$ is the Curie-Weiss temperature\footnote{Note that for an antiferromagnetic interaction $\Theta_{cw}$ is negative; therefore, we use the absolute value.} extracted from the high-temperature magnetic susceptibility and $T_{c}$ is the temperature at which the material magnetically orders. We can think of $f$ as telling us how strongly the order is suppressed by geometric frustration - the material would like to order at something like $\Theta_{cw}$, but given the geometric frustration, it orders at $T_{c}$ instead. A value of $f$ between 5 and 10 indicates strong geometric frustration. In the range $\Theta_{cw} < T < T_{c}$, we would expect frustration to play a factor: above $\Theta_{cw}$ thermal excitations keep the material from ordering, below $T_{c}$ the material is ordered.
+
+\begin{center}
+\resizebox{\textwidth}{!}{
+	\begin{tabular}{l | l | l | l | l}
+		\hline
+		\hline
+		\textbf{Material} & VCl\textsubscript{2} & NaTiO\textsubscript{2} & ZnCr\textsubscript{2}O\textsubscript{4} & K\textsubscript{2}IrCl\textsubscript{6}\\ \hline
+		\textbf{Frustration Factor} & 12 & $>$500 & 24 & 10\\ \hline \hline
+	\end{tabular}
+	}
+	\captionof{table}[Frustration factors for selected geometrically frustrated magnets]{Frustration factors for selected geometrically frustrated magnets \cite{Ramirez1994}}\label{tbl:frustratedmagens}
+\end{center}
+
+While most geometrically frustrated systems eventually develop magnetic order, there are some that do not (i.e., $f = \infty$). These systems fall into two broad categories: spin ices and spin liquids.
+
+\subsubsection{Frustrated systems that do not order}
+
+A spin ice is a frustrated magnetic system with macroscopic ground state degeneracy that freezes into a disordered configuration at low temperature. A good example of a spin ice is 
 
 
 \subsection{Some Spin Liquid Materials}
