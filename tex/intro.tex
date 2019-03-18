@@ -194,7 +194,7 @@ Now that we have an understanding of topological order and have examined a physi
 
 \subsection{What is a Spin Liquid?}
 
-Spin liquids are challenging to define. In fact, it is easier to say what they \textit{aren't} rather than what they are. As a working definition, we can define spin liquids as a systems with a ground state composed of well-formed local magnetic moments that do not develop long-range order, even at T = 0 K \cite{Balents2010}. We will later see how this description requires the elements of topological order. But first, to get a physical understanding of spin liquids, we'll look at geometric frustration.
+Spin liquids are challenging to define. In fact, it is easier to say what they \textit{aren't} rather than what they are. As a working definition, we can define spin liquids as a systems with a ground state composed of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K \cite{Balents2010}. We will later see how this description requires the elements of topological order. But first, to get a physical understanding of spin liquids, we'll look at geometric frustration.
 
 \subsubsection{Geometric Frustration}
 
@@ -215,7 +215,7 @@ On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an 
 
 On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy.
 
-While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) are geometrically frustrated when there is a nearest neighbor antiferromagnetic interaction. While there are physical realizations of these interactions, many of them eventually develop magnetic order at low temperature. We can compare frustration between these kinds of systems by calculating the frustration factor \cite{Ramirez1994}:
+While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) may be geometrically frustrated when there is a nearest neighbor ferromagnetic or antiferromagnetic interaction. Despit their frustration, many of these systems have interactions (e.g., next-nearest neighbor) that cause them to develop magnetic order at low temperature. We can compare the degree of frustration in frustrated systems that order by calculating the frustration factor \cite{Ramirez1994}:
 
 \begin{equation}
 f = \frac{|\Theta_{cw}|}{T_{c}}
@@ -239,7 +239,16 @@ While most geometrically frustrated systems eventually develop magnetic order, t
 
 \subsubsection{Frustrated systems that do not order}
 
-A spin ice is a frustrated magnetic system with macroscopic ground state degeneracy that freezes into a disordered configuration at low temperature. A good example of a spin ice is 
+A spin ice is a frustrated magnetic system with macroscopic ground state degeneracy that freezes into a disordered configuration at sufficiently low temperature\footnote{These systems are called spin ices because the arrangements of the spins follow the so-called ``ice rules" for proton arrangement in water ice.}. As a spin ice is cooled, thermal fluctuations are no longer sufficiently energetic to change the spin configuration and the system is ``trapped" in a static, randomly chosen, disordered state \cite{Bramwell2001}.
+
+\begin{centering}
+\includegraphics[width=0.3\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/PyrochloreLattice-Balents2010.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Frustration on a pyrochlore lattice]{Frustration on a pyrochlore lattice. Spins occupy the corner of each tetrahedron and must either point directly toward or away from the center of the tetrahedron. Diagram from \cite{Balents2010}.}
+  \label{fig:pyrochlorelattice}
+\end{centering}
+
+Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} was the first confirmed spin ice. This material has a pyrochlore lattice, with Ho\textsuperscript{+3} serving as the magnetic ion at the corner of each tetrahedron. Spins in this system obey a ''two-in, two-out" rule, meaning that the net spin in a tetrahedron is divergenceless. Neutron scattering showed that Ho\textsubscript{2}Ti\textsubscript{2}Os\textsubscript{2} does not develop magnetic order down to 50 mK \cite{Harris1997}. However, the field dependence of neutron scattering shows that applying a magnetic field before cooling can freeze the system in a particular disordered state. This change can be removed by heating and subsequently cooling the sample in zero field. Finally, entropy measurements near 0 K show that the entropy remaining in the ground state indicates a disorder similar to that of water ice, confirming Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} as a spin ice \cite{Ramirez1999}.
 
 
 \subsection{Some Spin Liquid Materials}

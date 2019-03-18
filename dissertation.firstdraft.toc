@@ -13,8 +13,8 @@
 \contentsline {subsection}{\numberline {1.3.1}What is a Spin Liquid?}{14}
 \contentsline {subsubsection}{Geometric Frustration}{14}
 \contentsline {subsubsection}{Frustrated systems that do not order}{16}
-\contentsline {subsection}{\numberline {1.3.2}Some Spin Liquid Materials}{16}
-\contentsline {subsection}{\numberline {1.3.3}The Kitaev Model}{16}
+\contentsline {subsection}{\numberline {1.3.2}Some Spin Liquid Materials}{17}
+\contentsline {subsection}{\numberline {1.3.3}The Kitaev Model}{17}
 \contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium Trichloride}{4}
 \contentsline {chapter}{\numberline {3}Electrolyte Gating}{5}
 \contentsline {chapter}{Bibliography}{6}
