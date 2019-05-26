@@ -112,10 +112,27 @@ Leon Balents.
 \newblock {Spin liquids in frustrated magnets}.
 \newblock {\em Nature}, 464:199--208, 2010.
 
+\bibitem{Wannier1950}
+G~H Wannier.
+\newblock {Antiferromagnetism. The Triangular Ising Net}.
+\newblock {\em Phys. Rev.}, 79(357), 1950.
+
 \bibitem{Ramirez1994}
 A.P. Ramirez.
 \newblock {Strongly geometrically frustrated magnets}.
 \newblock {\em Annual Reviews of Materials Science}, 24:453--480, 1994.
+
+\bibitem{Siddharthan2001}
+R.~Siddharthan, B.~S. Shastry, and A.~P. Ramirez.
+\newblock {Spin ordering and partial ordering in holmium titanate and related
+  systems}.
+\newblock {\em Physical Review B - Condensed Matter and Materials Physics},
+  63(18):1--10, 2001.
+
+\bibitem{Castelnovo2012}
+C.~Castelnovo, R.~Moessner, and S.~L. Sondhi.
+\newblock {Spin Ice, Fractionalization and Topological Order}.
+\newblock {\em Annual Reviews of Physics}, 3(55), 2012.
 
 \bibitem{Bramwell2001}
 Steven~T Bramwell and Michel J~P Gingras.
@@ -131,5 +148,11 @@ M~J Harris, S~T Bramwell, D~F Mcmorrow, T~Zeiske, and K~W Godfrey.
 A~P Ramirez, A~Hayashi, R~J Cava, and R~Siddharthan.
 \newblock {Zero-point entropy in ‘spin ice '}.
 \newblock {\em Letters to Nature}, 399(110):333--335, 1999.
+
+\bibitem{Sachdev2019}
+Subir Sachdev.
+\newblock {Topological order , emergent gauge fields , and Fermi surface
+  reconstruction}.
+\newblock {\em Reports on Progress in Physics}, 82(014001), 2019.
 
 \end{thebibliography}

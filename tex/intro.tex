@@ -194,7 +194,7 @@ Now that we have an understanding of topological order and have examined a physi
 
 \subsection{What is a Spin Liquid?}
 
-Spin liquids are challenging to define. In fact, it is easier to say what they \textit{aren't} rather than what they are. As a working definition, we can define spin liquids as a systems with a ground state composed of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K \cite{Balents2010}. We will later see how this description requires the elements of topological order. But first, to get a physical understanding of spin liquids, we'll look at geometric frustration.
+Spin liquids are challenging to define. In fact, it is easier to say what they \textit{aren't} rather than what they are. As a working definition, we can define spin liquids as a systems with a ground state composed of a quantum superposition of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K \cite{Balents2010}. We will later see how this description requires the elements of topological order. But first, to get a physical understanding of spin liquids, we'll look at geometric frustration.
 
 \subsubsection{Geometric Frustration}
 
@@ -213,9 +213,9 @@ On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an 
   \label{fig:Frustration1}
 \end{centering}
 
-On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy.
+On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy. This frustration prevents antiferromagnetic Ising spins on a triangular lattice from developing long-range magnetic order at any temperature \cite{Wannier1950}.
 
-While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) may be geometrically frustrated when there is a nearest neighbor ferromagnetic or antiferromagnetic interaction. Despit their frustration, many of these systems have interactions (e.g., next-nearest neighbor) that cause them to develop magnetic order at low temperature. We can compare the degree of frustration in frustrated systems that order by calculating the frustration factor \cite{Ramirez1994}:
+While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) may be geometrically frustrated when there is a nearest neighbor ferromagnetic or antiferromagnetic interaction. Despite their frustration, many of these systems have interactions (e.g., next-nearest neighbor) that cause them to develop magnetic order at low temperature. We can compare the degree of frustration in frustrated systems that order by calculating the frustration factor \cite{Ramirez1994}:
 
 \begin{equation}
 f = \frac{|\Theta_{cw}|}{T_{c}}
@@ -235,11 +235,11 @@ Where $\Theta_{cw}$ is the Curie-Weiss temperature\footnote{Note that for an ant
 	\captionof{table}[Frustration factors for selected geometrically frustrated magnets]{Frustration factors for selected geometrically frustrated magnets \cite{Ramirez1994}}\label{tbl:frustratedmagens}
 \end{center}
 
-While most geometrically frustrated systems eventually develop magnetic order, there are some that do not (i.e., $f = \infty$). These systems fall into two broad categories: spin ices and spin liquids.
+While most geometrically frustrated systems eventually develop magnetic order, there are some that do not (i.e., $f = \infty$). We will discuss two: spin ices and spin liquids.
 
-\subsubsection{Frustrated systems that do not order}
+\subsubsection{Frustration and Spin Ices}
 
-A spin ice is a frustrated magnetic system with macroscopic ground state degeneracy that freezes into a disordered configuration at sufficiently low temperature\footnote{These systems are called spin ices because the arrangements of the spins follow the so-called ``ice rules" for proton arrangement in water ice.}. As a spin ice is cooled, thermal fluctuations are no longer sufficiently energetic to change the spin configuration and the system is ``trapped" in a static, randomly chosen, disordered state \cite{Bramwell2001}.
+A spin ice is a frustrated magnetic system with macroscopic ground state degeneracy\footnote{This system has \textit{effective} macroscopic ground state degeneracy. There is actually a single minimal energy ground state for spin ices, but this state is not physically accessible because there are many other disordered states of the only infinitesimally higher energy separated from the true ground state by infinite energy barriers \cite{Siddharthan2001}. Because the system freezes before any ordering can be observed, the ground state is effectively disordered \cite{Castelnovo2012}.} that freezes into a disordered configuration at sufficiently low temperature\footnote{These systems are called spin ices because the arrangements of the spins follow the so-called ``ice rules" for proton arrangement in water ice.}. As a spin ice is cooled, thermal fluctuations are no longer sufficiently energetic to change the spin configuration and the system is ``trapped" in a static, randomly chosen, disordered state \cite{Bramwell2001}. We can imagine that the system locally picks a spin configuration from the ensemble of degenerate minimal energy states and freezes there.
 
 \begin{centering}
 \includegraphics[width=0.3\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/PyrochloreLattice-Balents2010.png}
@@ -248,9 +248,32 @@ A spin ice is a frustrated magnetic system with macroscopic ground state degener
   \label{fig:pyrochlorelattice}
 \end{centering}
 
-Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} was the first confirmed spin ice. This material has a pyrochlore lattice, with Ho\textsuperscript{+3} serving as the magnetic ion at the corner of each tetrahedron. Spins in this system obey a ''two-in, two-out" rule, meaning that the net spin in a tetrahedron is divergenceless. Neutron scattering showed that Ho\textsubscript{2}Ti\textsubscript{2}Os\textsubscript{2} does not develop magnetic order down to 50 mK \cite{Harris1997}. However, the field dependence of neutron scattering shows that applying a magnetic field before cooling can freeze the system in a particular disordered state. This change can be removed by heating and subsequently cooling the sample in zero field. Finally, entropy measurements near 0 K show that the entropy remaining in the ground state indicates a disorder similar to that of water ice, confirming Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} as a spin ice \cite{Ramirez1999}.
+Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} was the first confirmed spin ice. This material has a pyrochlore lattice, with Ho\textsuperscript{+3} serving as the magnetic ion at the corner of each tetrahedron. Spins in this system obey a ``two-in, two-out" rule, meaning that the net spin in a tetrahedron is zero. Neutron scattering has shown that Ho\textsubscript{2}Ti\textsubscript{2}Os\textsubscript{2} does not develop magnetic order down to 50 mK \cite{Harris1997}. However, the field dependence of neutron scattering shows that applying a magnetic field before cooling can freeze the system in a particular disordered state. This change can be removed by heating and subsequently cooling the sample in zero field. Finally, entropy measurements near 0 K show that the entropy remaining in the ground state indicates a disorder similar to that of water ice, confirming Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} as a spin ice \cite{Ramirez1999}.
+
+We have seen that spin ices satisfy the criteria for topological order: massive ground state degeneracy from the frustration of the system, and entanglement of the spins from the ice rules. Accordingly, we could expect spin ices to host fractional excitations, which they do. Consider a tetrahedron in the pryochlore lattice with spins localized on each vertex obeying the ``two-in, two-out" ice rules. If we pay the energetic cost to flip a single spin, we produce two tetrahedra that no longer satisfy the ice rules; one tetrahedron has excess spin, the other tetrahedron is spin deficient.
+
+<insert image from rikita dusad's paper>
+
+Subsequent spin flips can allow these two tetrahedra to diffuse through the lattice without violating the ice rules. Because spin flips without ice rule violations do not cost energy, these spinful defects (hereafter referred to as charges) are not confined. We can see that these charges are fractionalized excitations in two ways. First, there are two defects generated from a single spin flip, meaning the elementary excitation of the system has been split in two. Second, we can see these charges as magnetic monopoles of an emergent gauge field.
+
+<insert image from spin ice, fractionalization, etc>
+
+Each tetrahedron in the spin ice has net zero spin. If we superimpose hypothetical field lines connecting and directed along each spin, the result is a divergenceless field. The charges are then sources and sinks of these field lines. If we imagine the divergenceless field as the \textbf{B} field to which it is mathematically identical, the charges are analogous to magnetic monopoles. Both neutron scattering <cite neutron scattering paper> and direct measurement using a SQUID <cite rikita dusad's paper> confirm the existence of these excitations.
+
+We've already seen that spin ices satisfy the requirements for topological order and have fractional exciaitons. But describing the spin ice as a material having monopoles as fractional excitations gives us an example of another way to identify topological systems: the presence of an emergent gauge field. Emergent gauge fields are associated with topological order \cite{Sachdev2019}, so if we identify a system with an emergent gauge field, we can be reasonably sure it is topological. Armed with a description of the topological nature of spin ices and emergent gauge fields, we can now discuss spin liquids.
+
+\subsubsection{Frustration and Spin Liquids}
+
+Rigorously defined, a spin liquid is a ground state composed of a quantum superposition of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K. But a more physical way to understand a spin liquid is to compare it to a spin ice. A spin liquid is, in some ways, the quantum analog of a spin ice that \textit{never} freezes. To understand this analogy, let's return to the example of antiferromagnetic Ising spins on a triangular lattice.
+
+Like in the spin ice, each spin on the triangular lattice is frustrated by the antiferromagnetic interaction, so there are many states that are degenerate. Also, like in the spin ice, the antiferromagnetic interaction forces the spins to be sensitive to the orientation of their nearest neighbors.
+
+The minimal energy state of this system will have as many nearest neighbor spins as possible oriented anti-parallel to their neighbors. Of course, there are many such states, none of which is preferable to the others. Accordingly, at T = 0 K, the ground state of this system should be a superposition of the degenerate states that minimize the energy.
+
+<insert picture of RVB state here>
+
+This ground state, being composed of only those degenerate states with certain nearest neighbor energy states, is no longer a product state. Instead, the ground state is highly entangled. 
 
 
-\subsection{Some Spin Liquid Materials}
-
-\subsection{The Kitaev Model}
+<Need some text to go here, dealing with topological order in spin ices>
+\subsection{Why are Spin Liquids Interesting?}
