@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  2 JUN 2019 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  2 JUN 2019 14:18
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -560,48 +560,48 @@ See the caption package documentation for explanation.
 -nanophoton.png>] [26]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 83.
+(hyperref)                removing `\mathsurround' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 83.
+(hyperref)                removing `\z@' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 83.
+(hyperref)                removing `subscript' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 87.
 
 
-Overfull \hbox (10.1058pt too wide) in paragraph at lines 90--90
+Overfull \hbox (10.1058pt too wide) in paragraph at lines 94--94
 []\OT1/cmr/bx/n/17.28 Raman Spec-troscopy of RuCl$[]$ with in-situ Elec-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `math shift' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 90.
+(hyperref)                removing `\mathsurround' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 90.
+(hyperref)                removing `\z@' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 90.
+(hyperref)                removing `subscript' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `math shift' on input line 94.
 
 ) [27] (dissertation.firstdraft.bbl [28
 
@@ -621,8 +621,8 @@ Package rerunfilecheck Info: File `dissertation.firstdraft.out' has not changed
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 10710 strings out of 492973
- 156064 string characters out of 3135932
+ 10711 strings out of 492973
+ 156078 string characters out of 3135932
  223990 words of memory out of 3000000
  14309 multiletter control sequences out of 15000+200000
  18193 words of font info for 64 fonts, out of 3000000 for 9000
@@ -651,9 +651,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.firstdraft.pdf (38 pages, 1257431 bytes).
+Output written on dissertation.firstdraft.pdf (38 pages, 1257804 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
