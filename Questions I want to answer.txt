@@ -1,0 +1,11 @@
+Questions I plan on answering
+
+What is a Mott insulator?
+
+How much do you need to dope a mott insulator before it becomes conducting?
+
+Are all QSLs Mott insulators?
+
+Where do the quantum fluctuations that make RuCl3 a spin liquid come from? Do all spin 1/2 systems fluctuate like a spin liquid, or is it something special?
+
+Do spin ices have topological order?

@@ -1,9 +1,84 @@
 \chapter{Raman Spectroscopy}
-This chapter covers Raman spectroscopy measurements
+
+Raman spectroscopy uses inelastic light scattering to measure certain vibrational modes in materials. For single molecules, these modes correspond to Raman-active vibrations that change the polarizability of the molecule. For crystals, these modes are the collective motion of the lattice - the phonon modes.
+
+I have used Raman spectroscopy to investigate the phonon modes of electrolyte-gated \ruclnospace. Because phonon modes are sensitive to bond lengths and atomic interactions, defects or distortion in the lattice should be visible as shifting or broadening of peaks in the Raman spectrum. Therefore Raman spectroscopy can identify changes in the lattice that may explain the absence of an expected electronic phase transition in electrolyte-gated \ruclnospace.
 
 \section{Fundamentals of Raman Spectroscopy}
-What is Raman spectroscopy
-Important equations for Raman spectroscopy
+When a material is illuminated by monochromatic light of frequency $\omega$, the incident light is either absorbed, scattered, reflected, or transmitted. While the spectrum of the transmitted and reflected light contains only light at frequency $\omega$, the spectrum of the scattered light includes both radiation at $\omega$ and additional pairs of frequencies $\omega \pm \omega_{i}$. The frequencies $\omega_{i}$ are typically associated with transitions between rotational, vibrational, and electronic states of the constituent molecules of the material \cite{Long2002}. The scattered light typically has a randomized phase and polarization relative to the incident light.
+
+The highest intensity radiation in the spectrum of scattered light occurs at frequency $\omega$ and is called Rayleigh scattered\footnote{Rayleigh scattering is responsible for diffuse sky radiation, or in otherwords, why the sky is blue.}. Radiation at other frequencies is Raman scattered. Raman scattering with frequency $\omega_{i} < \omega$ is called Stokes Raman scattering; Raman scattering with frequency $\omega_{i} > \omega$ is called anti-Stokes Raman scattering. Necessarily, Rayleigh scattering is an elastic scattering process ($E = \hbar \omega = \hbar \omega_{i}$), while Raman scattering is inelastic ($E_{\text{initial}} = \hbar \omega \neq E_{\text{final}} = \hbar \omega_{i}$).
+
+A single molecule Rayleigh scatters incident light by absorbing a photon, moving from the ground state to an unstable virtual state, then decaying back to the ground state by emitting a photon with energy equal to the incident photon. In contrast, a single molecule Raman scatters incident light by absorbing a photon and moving to unstable virtual state, then decaying to an intermediate state above the ground state by emitting a lower-energy photon \footnote{This is Stokes Raman scattering. If a photon is incident on a molecule in an already excited state, and then the molecule decays back to the ground state, the emitted photon has \textit{more} energy than the incident photon. This type of scattering is anti-Stokes scattering and its magnitude can be used to determine the temperature of a material.}. The intermediate state then decays to the ground state by non-photonic processes (i.e., cooling by collision with other molecules).
+
+Scattering from single crystals follows a similar pattern: an incident photon excites a molecule into an unstable virutal state. The Rayleigh scattering case is identical to that for a single molecule. But for Raman scattering, the intermediate state decays to the ground state by emitting a phonon - a quantized lattice vibration that carries energy away from the excited molecule. By conservation of energy, the emitted photon necessarily has less energy than the incident photon, and that difference in energy\footnote{This difference in energy is referred to as the Raman shift, and is typically expressed in wavenumber $\nu$ having units of inverse length (typically cm$^{-1}$).}. must be equal to the energy of the phonon. Accordingly, the spectrum of Raman-scattered light is rich with information about lattice vibrations. Figure \ref{fig:FundRamanSpect1} provides a visual aid for understanding these scattering processes.
+
+\begin{centering}
+\includegraphics[width=0.9\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nanophoton.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Elastic and inelastic light scattering processes]{An energy level diagram of Rayleigh, Stokes Raman, and anti-Stokes Raman scattering. Image by Nanophoton Corporation, retrieved from \url{https://www.nanophoton.net/raman/raman-spectroscopy.html}}
+  \label{fig:FundRamanSpect1}
+\end{centering}
+
+While Raman spectroscopy is an invaluable tool, it does have limitations. Only certain vibrational modes can participate in Raman scattering. To understand which modes are amenable to investigation by Raman spectroscopy, and the underpinnings of Rayleigh and Raman scattering, we appeal to a classical analysis of the theory of light scattering from molecules. The following discussion is an abbreviated version done by Long \cite{Long2002}.
+
+A molecule exposed to radiation having an incident frequency $\omega_{1}$ will radiate with intensity $I$, given by
+
+\begin{equation}
+I = k'_{\omega} \omega_{s}^{4} p_{0}^{2} \sin^{2} \theta
+\end{equation}
+
+with
+
+\begin{equation}
+k'_{\omega} = \frac{1}{32 \pi^{2} \epsilon_{0} c^{3}}
+\end{equation}
+
+where $p_{0}$ is the magnitude of the electric dipole induced at frequency $\omega_{s}$ which is generally but not necessarily different from $\omega_{1}$. The coresponding wavenumber equations are
+
+\begin{equation}
+I = k'_{\nu} \nu_{s}^{4} p_{0}^{2} \sin^{2} \theta
+\end{equation}
+
+\begin{equation}
+k'_{\nu} = \frac{\pi^{2} c}{2 \epsilon_{0}}
+\end{equation}
+
+We can write the induced electric dipole as a multipole expansion:
+
+\begin{equation}
+\mathbf{p} = \mathbf{p}^{(1)} + \mathbf{p}^{(2)} + \mathbf{p}^{(3)} + ...
+\end{equation}
+
+where
+
+\begin{equation}
+\begin{aligned}
+	\mathbf{p}^{(1)} &= \boldsymbol{\alpha} \cdot \mathbf{E} \\
+	\mathbf{p}^{(2)} &= \frac{1}{2} \boldsymbol{\beta} \cdot \mathbf{E} \mathbf{E} \\
+	\mathbf{p}^{(3)} &= \frac{1}{6} \boldsymbol{\gamma} \cdot \mathbf{E} \mathbf{E} \mathbf{E}
+\end{aligned}
+\end{equation}
+	
+where $\boldsymbol{\alpha}$, $\boldsymbol{\beta}$, and $\boldsymbol{\gamma}$ are the polarizability, hyperpolarizability, and second order hyperpolarizability tensors of second, third, and fourth rank, respectively. An analysis including $\boldsymbol{\beta}$ and $\boldsymbol{\gamma}$ leads to hyper Raman scattering related to higher harmonics of the incident radiation that are beyond the scope of this dissertation. Accordingly, we retain only the dipole term in the multipole expansion.
+
+A priori, there is no reason to assume the polarizability of the molecule will be constant as the constituent atoms vibrate when the molecule is excited. Accordingly, we can expand the polarizability tensor $\boldsymbol{\alpha}$ in a Taylor series of displacements from equilibrium:
+
+\begin{equation}
+\alpha_{\rho \sigma} = (\alpha_{\rho \sigma})_{0} + \sum_{k} \left( \frac{\partial \alpha_{\rho \sigma}}{\partial Q_{k}} \right)_{0} Q_{k} + \frac{1}{2} \sum_{k,l} \left( \frac{\partial^{2} \alpha_{\rho \sigma}}{\partial Q_{k} \partial Q_{l}} \right)_{0} Q_{k} Q_{l} ...
+\end{equation}
+
+where $\alpha_{\rho \sigma}$ are the components of the polarizability tensor (with $\rho$ and $\sigma$ spanning values x, y, and z), $Q_{i}$ are the normal coordinates of vibrations associated with molecular vibrational frequencies $\omega{i}$, and a subscript 0 indicates a value at equilibrium. Taking the electrical harmonicity approximation\footnote{Electrical harmonicity means that the variation of the polarizability in a vibration is proportional to the first power of $Q$, in analogy to mechanical harmonicity where a restoring force is proportional to displacement from equilibrium.}, we retain only the first power of $Q$ and can write the previous equation in the following way:
+
+\begin{equation}
+\begin{aligned}
+	(\alpha_{\rho \sigma})_{k} &= (\alpha_{\rho \sigma})_{0} + (\alpha'_{\rho \sigma})_{k} Q_{k} \\
+	(\alpha'_{\rho \sigma})_{k} &= \left( \frac{\partial \alpha_{\rho \sigma}}{\partial Q_{k}} \right)_{0}
+\end{aligned}
+\end{equation}
+
+
+
 
 \section{Raman Spectrum of RuCl$\textsubscript{3}$}
 Raman modes in RuCl
