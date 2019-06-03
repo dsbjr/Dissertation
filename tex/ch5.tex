@@ -20,7 +20,7 @@ Scattering from single crystals follows a similar pattern: an incident photon ex
   \label{fig:FundRamanSpect1}
 \end{centering}
 
-While Raman spectroscopy is an invaluable tool, it does have limitations. Only certain vibrational modes can participate in Raman scattering. To understand which modes are amenable to investigation by Raman spectroscopy, and the underpinnings of Rayleigh and Raman scattering, we appeal to a classical analysis of the theory of light scattering from molecules. The following discussion is an abbreviated version done by Long \cite{Long2002}.
+While Raman spectroscopy is an invaluable tool, it does have limitations. Only certain vibrational modes can participate in Raman scattering. To understand which modes are amenable to investigation by Raman spectroscopy, and the underpinnings of Rayleigh and Raman scattering, we appeal to a classical analysis of the theory of light scattering from molecules. The following discussion is an abridged version of that found in Long \cite{Long2002}.
 
 A molecule exposed to radiation having an incident frequency $\omega_{1}$ will radiate with intensity $I$, given by
 
@@ -83,6 +83,46 @@ The components $(\alpha'_{\rho \sigma})_{k}$ are a well-formed tensor $\boldsymb
 \boldsymbol{\alpha}_{k} = \boldsymbol{\alpha}_{0} + \boldsymbol{\alpha}'_{k} Q_{k}
 \end{equation}
 
+We know the time dependence of $Q_{k}$, so we can write
+
+\begin{equation}
+\boldsymbol{\alpha}_{k} = \boldsymbol{\alpha}_{0} + \boldsymbol{\alpha}'_{k}Q_{k_{0}} \cos (\omega_{k} t + \delta_{k})
+\end{equation}
+
+We also know the time dependence of the incident radiation
+
+\begin{equation}
+\mathbf{E} = \mathbf{E}_{0} \cos (\omega_{1} t)
+\end{equation}
+
+We can now write the time dependence of the first term in the multipole expansion of the induced dipole moment
+
+\begin{equation}
+\mathbf{p}^{(1)} = \boldsymbol{\alpha}_{0} \mathbf{E}_{0} \cos (\omega_{1} t) + \boldsymbol{\alpha}'_{k} \mathbf{E}_{0} Q_{k_{0}} \cos (\omega_{k} t + \delta) \cos (\omega_{1} t)
+\end{equation}
+
+Using a trigonometric identity, we can write the induced dipole moment in the following suggestive manner
+
+\begin{equation}
+\mathbf{p}^{(1)} = \mathbf{A} \cos (\omega_{1} t) + \mathbf{B} \cos ((\omega_{1} - \omega_{k}) t - \delta) + \mathbf{B} \cos ((\omega_{1} + \omega_{k}) t + \delta)
+\end{equation}
+
+with
+
+\begin{equation}
+\begin{aligned}
+	\mathbf{A} &= \boldsymbol{\alpha}_{0} \mathbf{E}_{0} \\
+	\mathbf{B} &= \boldsymbol{\alpha}'_{k} \mathbf{E}_{0} Q_{k_{0}}
+\end{aligned}
+\end{equation}
+
+Naturally, $\mathbf{A}$ is the dipole moment associated with Rayleigh scattering, and $\mathbf{B}$ is the dipole moment associated with Raman scattering. This analysis shows us two things. First, there is a response at the incident frequency and a pair of shifted frequencies; Rayleigh and Raman scattering naturally emerge from classical light scattering. Second, Rayleigh scattering happens for all molecules, but Raman scattering is only possible when a vibration causes changes in the polarizability, i.e.,
+
+\begin{equation}
+\left( \frac{\partial \alpha_{\rho \sigma}}{\partial Q_{k}} \right)_{0} \neq 0
+\end{equation}
+
+Only some vibrations meet this criterion, and therefore only these Raman-active vibrations can Raman scatter incident light. While a full discussion of Raman selection rules is beyond the scope of this dissertation, molecules of low symmetry are more likely to have Raman-active modes, and molecules of high symmetry are less likely to have Raman-active modes.
 
 \section{Raman Spectrum of RuCl$\textsubscript{3}$}
 Raman modes in RuCl
