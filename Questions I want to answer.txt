@@ -9,3 +9,17 @@ Are all QSLs Mott insulators?
 Where do the quantum fluctuations that make RuCl3 a spin liquid come from? Do all spin 1/2 systems fluctuate like a spin liquid, or is it something special?
 
 Do spin ices have topological order?
+
+Given you only have a small temperature range (100 K), how confident are you in your activation energy measurements?
+
+What is the density of states at the Fermi Energy? Use change in activation energy to set a bound.
+
+What is the screening length in this material?
+
+Given the high effective density of states, where are the carriers going?
+
+Is mystery peak broadening sensitive to gating (for intercalated samples)?
+
+How do changes in Raman mode with intercalation correlate with the expected motion of the atoms in each mode?
+
+For the capacitance fit for transients, how much does error in the fit affect the calculation of the double-layer capacitance?
