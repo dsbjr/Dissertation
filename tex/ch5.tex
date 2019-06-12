@@ -124,7 +124,7 @@ Naturally, $\mathbf{A}$ is the dipole moment associated with Rayleigh scattering
 
 Only some vibrations meet this criterion, and therefore only these Raman-active vibrations can Raman scatter incident light. While a full discussion of Raman selection rules is beyond the scope of this dissertation, molecules of low symmetry are more likely to have Raman-active modes, and molecules of high symmetry are less likely to have Raman-active modes.
 
-\section{Raman Spectrum of RuCl$\textsubscript{3}$}
+\section{Raman Spectrum of \texorpdfstring{RuCl$\textsubscript{3}$}{RuCl3}}
 
 The Raman spectrum of bulk \rucl has been extensively reported  \cite{Sandilands2015,Sandilands2016,Glamazda2017,Mashhadi2018,Zhou2018}. My Raman measurements of \rucl are consistent with published literature and show peaks at 114, 161, 220, 267, 294, 310, and 338 cm$^{-1}$ as seen in Figure \ref{fig:RamanSpectRuCl3-1}.
 
@@ -157,7 +157,7 @@ We can understand these modes by visualizing the vibrations in the lattice (figu
   \label{fig:RamanSpectRuCl3-3}
 \end{centering}
 
-The Raman spectrum of exfoliated \rucl is equivalent to bulk \rucl for exfoliated flakes with thickness greater than $\approx$ 40 nm, as confirmed by my measurements in Figure \ref{fig:RamanSpectRuCl3-4}. For exfoliated flakes thinner than 40 nm, the peaks are broaden and reduced in intensity, perhaps due to substrate roughness or residual stress from exfoliation \cite{Zhou2018}.
+The Raman spectrum of exfoliated \rucl is equivalent to bulk \rucl for exfoliated flakes with thickness greater than $\approx$ 40 nm, as confirmed by my measurements in Figure \ref{fig:RamanSpectRuCl3-4}. For exfoliated flakes thinner than 40 nm, the peaks are broaden and are reduced in intensity, perhaps due to substrate roughness or residual stress from exfoliation \cite{Zhou2018}.
 
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpectrum-Original.jpg}
@@ -167,9 +167,39 @@ The Raman spectrum of exfoliated \rucl is equivalent to bulk \rucl for exfoliate
 \end{centering}
 
 \section{Raman Spectrum of Electrolytes}
+Although to this point we have focused on Raman scattering from crystals, single molecules and liquids can also cause Raman scattering. Accordingly, the Raman spectrum of an ionic liquid must be considered when measuring the Raman spectrum of an electrolyte-gated material. I have characterized the Raman spectra of several electrolytes to determine which is most appropriate for measurements. Figure \ref{fig:RamanSpectElec-1} shows these Raman spectra.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-Original.jpg}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Raman spectra of selected electrolytes]{Raman spectra of selected electrolytes, offset for clarity.}
+  \label{fig:RamanSpectElec-1}
+\end{centering}
+
+Because with one exception, the selected electrolytes would add substantial background to a Raman spectrum or would have features obscuring those of \rucl, I performed the following measurements with DEME-BF4.
+
+\section{Raman Spectroscopy of \texorpdfstring{RuCl$\textsubscript{3}$}{RuCl3} with in-situ Electrolyte Gating}
+
+\subsection{Methods}
+\rucl was exfoliated onto 5 mm x 5mm x 500 $\mu$m chips of 300 nm SiO\textsubscript{2} on degenerately doped Si using a standard scotch tape method; measured \rucl flakes were between 40 and 100 nm thick. A large, coplanar gate, bond pads, and ohmic contacts were defined using either optical or electron beam lithography. 5 nm of Ti and 100 nm of Au were deposited using electron beam evaporation under high vacuum.
+
+Samples were attached to an 8 contact DIP chip carrier using poly(methyl methacrylate). Gold wirebonds connected the sample to the chip carrier, which was mounted on a breadboard. A drop of ionic liquid that covered only the coplanar gate and the \rucl flake was manually applied using a pipette tip. Potential bias was applied using a Keithley 2400 source measurement unit in voltage source mode controlled by GPIB. Applied gate voltage and resulting gate current were recorded during the measurement.
+
+Raman spectra of electrolyte-gated \rucl were measured through the electrolyte on the Stanford Nano Shared Facilities HORIBA Scientific LabRAM HR Evolution Raman Spectrometer in a back scattering configuration, using an unpolarized, 20 mW, 532 nm laser as a light source and a 100x long working distance objective. The laser was attenuated to between 1\% and 25\% power using a neutral density filter.
+
+The laser spot size was approximately 1 $\mu$m, and was moved between each series of acquisitions to prevent photodamage. Typical spectra were produced by five acquisitions of 60 seconds each. Anti-Stokes Raman scattering were not observed at any laser power, confirming that the sample was not heated during measurement.
+
+Raman spectra were processed by subtracting a sigmoidal background associated with the electrolyte. Peak locations and widths were determined by fitting Lorentzian peaks to the processed data using the multiple peak fit algorithm in OriginPro 8.5.
+
+\subsection{Summary of Results}
+Hysteretic transition between two states
+
+For large negative gate voltage, peak locations and widths are equivalent
+
+Change in physical appearance
 
 
 
-\section{Raman Spectroscopy of RuCl$\textsubscript{3}$ with in-situ Electrolyte Gating}
-Intercalated and unintercalated RuCl
-Conclusion that in plane lattice is unperturbed
+
+
+\subsection{Discussion}

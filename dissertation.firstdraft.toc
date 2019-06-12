@@ -42,5 +42,8 @@
 \contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{26}{section.5.1}
 \contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{31}{section.5.2}
 \contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{34}{section.5.3}
-\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{34}{section.5.4}
-\contentsline {chapter}{Bibliography}{35}{chapter*.15}
+\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{35}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Methods}{35}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{35}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Discussion}{35}{subsection.5.4.3}
+\contentsline {chapter}{Bibliography}{36}{chapter*.15}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  10 JUN 2019 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  11 JUN 2019 16:37
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -373,7 +373,7 @@ See the caption package documentation for explanation.
 
 [3]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg, id
-=303, 1148.79187pt x 607.51968pt>
+=320, 1148.79187pt x 607.51968pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jp
 g Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg
@@ -390,7 +390,7 @@ See the caption package documentation for explanation.
 [4 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg>
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopOrder
-EdX.jpg, id=317, 1273.00594pt x 571.38469pt>
+EdX.jpg, id=334, 1273.00594pt x 571.38469pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-Top
 OrderEdX.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopO
@@ -406,8 +406,8 @@ See the caption package documentation for explanation.
 
 [5 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopOr
 derEdX.jpg>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg, id=33
-1, 757.83125pt x 421.575pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg, id=34
+8, 757.83125pt x 421.575pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg G
 raphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg>
@@ -423,7 +423,7 @@ See the caption package documentation for explanation.
 [6] [7 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg
 >] [8]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png, id=3
-62, 607.26875pt x 692.5875pt>
+79, 607.26875pt x 692.5875pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png 
 Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png>
@@ -439,7 +439,7 @@ See the caption package documentation for explanation.
 [9 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png (P
 NG copy)>] [10] [11]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.png, i
-d=406, 764.8575pt x 558.085pt>
+d=423, 764.8575pt x 558.085pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.p
 ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.pn
@@ -456,7 +456,7 @@ See the caption package documentation for explanation.
 [12] [13 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Will
 et.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.png, 
-id=427, 632.3625pt x 219.82124pt>
+id=444, 632.3625pt x 219.82124pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.
 png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.p
@@ -478,7 +478,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/PyrochloreLattice-Balents2010
-.png, id=457, 224.63925pt x 172.2435pt>
+.png, id=474, 224.63925pt x 172.2435pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/PyrochloreLattice-Balent
 s2010.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/PyrochloreLattice-Balents
@@ -497,48 +497,11 @@ See the caption package documentation for explanation.
 
  (tex/ch2.tex
 Chapter 2.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 16.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 16.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 16.
-
 [20
 
 
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 22.
-
-) [21]
+]) [21]
 \openout2 = `./tex/ch3.aux'.
 
  (tex/ch3.tex
@@ -557,36 +520,11 @@ Overfull \hbox (0.76576pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/17.28 Introduction to Elec-tronic Trans-port Mea-sure-
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 20.
-
 [24
 
 
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 24.
-
-) [25]
+]) [25]
 \openout2 = `./tex/ch5.aux'.
 
  (tex/ch5.tex
@@ -597,7 +535,7 @@ Chapter 5.
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nanophot
-on.png, id=528, 1204.5pt x 353.82187pt>
+on.png, id=545, 1204.5pt x 353.82187pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nan
 ophoton.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nano
@@ -613,28 +551,8 @@ See the caption package documentation for explanation.
 
 [27] [28 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
 -nanophoton.png>] [29] [30]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
-
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Origin
-al.jpg, id=578, 722.7pt x 542.025pt>
+al.jpg, id=595, 722.7pt x 542.025pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-O
 riginal.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
@@ -643,6 +561,7 @@ Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkR
 uCl3RamanSpectrum-Original.jpg  used on input line 132.
 (pdftex.def)             Requested size: 216.81pt x 162.60875pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
@@ -650,7 +569,7 @@ See the caption package documentation for explanation.
 [31 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
 iginal.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLabeled
--Original.png, id=592, 1079.53313pt x 842.39719pt>
+-Original.png, id=609, 1079.53313pt x 842.39719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLa
 beled-Original.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
@@ -666,8 +585,8 @@ See the caption package documentation for explanation.
 
 [32 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
 eled-Original.png>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=60
-5, 1705.87312pt x 806.26219pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=62
+2, 1705.87312pt x 806.26219pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png G
 raphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png>
@@ -681,7 +600,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpe
-ctrum-Original.jpg, id=609, 1053.9375pt x 790.45313pt>
+ctrum-Original.jpg, id=627, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Ram
 anSpectrum-Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Rama
@@ -697,36 +616,39 @@ See the caption package documentation for explanation.
 [33 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
 C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpec
 trum-Original.jpg>]
-Overfull \hbox (10.1058pt too wide) in paragraph at lines 172--172
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-Origi
+nal.jpg, id=635, 771.1209pt x 590.205pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-
+Original.jpg Graphic file (type jpg)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
+riginal.jpg>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Elect
+rolyteRamanSpectra-Original.jpg  used on input line 173.
+(pdftex.def)             Requested size: 216.81pt x 165.9407pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 175.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (10.1058pt too wide) in paragraph at lines 181--181
 []\OT1/cmr/bx/n/17.28 Raman Spec-troscopy of RuCl$[]$ with in-situ Elec-
  []
 
+[34 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
+riginal.jpg>]
+Overfull \hbox (7.12137pt too wide) in paragraph at lines 186--187
+[]\OT1/cmr/m/n/12 Samples were at-tached to an 8 con-tact DIP chip car-rier us-
+ing poly(methyl methacry-
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 172.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 172.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 172.
+) [35] (dissertation.firstdraft.bbl [36
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 172.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 172.
-
-) [34] (dissertation.firstdraft.bbl [35
-
-
-] [36] [37])
+] [37] [38])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
- [38]
+ [39]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
 
 (dissertation.firstdraft.aux (tex/intro.aux) (tex/ch2.aux) (tex/ch3.aux)
@@ -735,14 +657,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `dissertation.firstdraft.out' has not changed
 .
-(rerunfilecheck)             Checksum: E6D4862F36DE25E30879BDB833F14520;3095.
+(rerunfilecheck)             Checksum: 21533A8DB178D751C90AD9D07E77D164;3283.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 10806 strings out of 492973
- 158711 string characters out of 3135932
- 224432 words of memory out of 3000000
- 14354 multiletter control sequences out of 15000+200000
+ 10820 strings out of 492973
+ 159247 string characters out of 3135932
+ 224497 words of memory out of 3000000
+ 14362 multiletter control sequences out of 15000+200000
  18193 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,47p,1781b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -769,9 +691,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.firstdraft.pdf (46 pages, 3139935 bytes).
+Output written on dissertation.firstdraft.pdf (47 pages, 4171296 bytes).
 PDF statistics:
- 760 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 785 PDF objects out of 1000 (max. 8388607)
+ 199 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
 
