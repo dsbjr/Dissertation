@@ -3,7 +3,7 @@ This chapter covers the structural, electronic, and magnetic properties of \rucl
 
 \section{Crystal Structure and Synthesis}
 
-Generally, ruthenium (III) chloride (\rucl) is a brown or black solid that is a precursor for 	ruthenium chemistry. It is commonly found as a hydrate, where water molecules are incorporated into its structure. High-purity hydrated ruthenium (III) chloride is commercially available from chemical vendors like Sigma Aldrich. We will consider only anhydrous ruthenium (III) chloride (i.e., without water) in this dissertation.
+Generally, ruthenium (III) chloride (\ruclnospace) is a brown or black solid that is a precursor for 	ruthenium chemistry. It is commonly found as a hydrate, where water molecules are incorporated into its structure. High-purity hydrated ruthenium (III) chloride is commercially available from chemical vendors like Sigma Aldrich. We will consider only anhydrous ruthenium (III) chloride (i.e., without water) in this dissertation.
 
 Ruthenium (III) chloride has two polymorphs, called $\alpha$ and $\beta$. Both $\alpha$ and $\beta$-ruthenium (III) chloride are composed of ruthenium atoms octahedrally coordinated by chlorine. However, in the $\alpha$ polymorph the octahedra are edge sharing, while in the $\beta$ polymorph, the octahedra are face-sharing. The edge-sharing octahedra give the $\alpha$ polymorph its interesting magnetic qualities, and therefore, unless explicitly stated otherwise, we will confine our discussion to $\alpha$ ruthenium (III) chloride and refer to it as \ruclnospace .
 
@@ -16,11 +16,47 @@ At room temperature and ambient pressure, the structure of \rucl consists of edg
   \label{fig:RuCl3CrystStruct-1}
 \end{centering}
 
-\rucl exhibits a structural phase transition from monoclinic (space group C2/m) to rhombohedral (space group R$\overline{3}$) near 150K \cite{Glamazda2017}. This phase transition shows a large degree of thermal hysteresis and has been identified in both magnetic susceptibility and x-ray diffraction measurements \cite{Park2016}.
+\rucl exhibits a structural phase transition from monoclinic (space group C2/m) to rhombohedral (space group R$\overline{3}$) near 150K \cite{Glamazda2017}. This phase transition shows a large degree of thermal hysteresis and has been identified in both magnetic susceptibility and x-ray diffraction measurements \cite{Park2016}. Electronic transport measurements also claim to show evidence of this transition \cite{Mashhadi2018}.
+
+\rucl may be synthesized by several methods, including by direct reaction of Ru and Cl at elevated temperatures in the presence of carbon monoxide \cite{Binotto1971}, chemical vapor growth \cite{Gronke2018}, and by vapor transport techniques using purified commercial $\beta$-\ruclnospace \cite{Cao2016}. The \rucl crystals used for this work were grown by Stephen Nagler and colleagues at Oak Ridge National Laboratory using the latter method.
 
 \section{Electronic Structure}
 
-Discuss evidence that RuCl3 is a Mott insulator. Show plots of calculated electronic structure.
+\rucl is a terrible conductor of electricity. But this highly insulating nature comes from a rich electronic structure that will be relevant when interpreting electronic transport data. Therefore in this section I will briefly review band theory, Mott insulators, and spin-orbit coupling before showing how these concepts explain the peculiarities of \rucl 's electronic structure.
+
+\subsection{A Review of Band Theory and Correlated Materials}
+
+Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. In a crystalline material, each unit cell consists of an identical set of atomic potentials and orbitals that repeat to produce larger orbitals. In the limit of an infinitely large material\footnote{In this case, anything macroscopic is effectively infinitely large relative because macroscopic length scales are so much larger than the size of a unit cell in a crystalline material.}, the wavefunction of an electron in the material will experience periodic boundary conditions across the unit cell. Effectively, the wavefunction must be periodic in space with a period that matches the size of the unit cell. This is \textit{Bloch's Theorem} and it can be expressed mathematically as:
+
+\begin{equation}
+\psi_{k}(x + a) = e^{ika} \psi_{k}(x)
+\end{equation}
+
+where $a$ is the period of the lattice, $k$ is a wavenumber related to the crystal momentum\footnote{The crystal momentum $\hbar k$ is an effective momentum for a particle traveling in a lattice.}, and $\psi_{k}$ is the wavefunction associated with crystal momentum $k$ \cite{Davies1997}.
+
+For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ lead to gaps in the allowed energy for electrons, called band gaps. A simple way to understand these prohibited energies is to make an analogy with Bragg diffraction.
+
+Electrons waves traveling through the material will scatter from each atom. Most of the scattering from different atoms will cancel out, but in some cases the scattered wave will destructively interfere. Consider scattering from a series of planes of atoms separated by distance $d$. The strongest constructive interference occurs when the condition for Bragg reflection is satisfied:
+
+\begin{equation}
+2 d \sin \theta = n \lambda
+\end{equation}
+
+where $\theta$ is the angle of incidence, $\lambda$ is the wavelength of the electron, and$n$ is an indexing integer. The wavevector of the electrons normal to the planes is $k = \frac{2 \pi \sin \theta}{\lambda}$, so we can write the Bragg reflection condition as
+
+\begin{equation}
+k = \frac{n \pi}{d}
+\end{equation} 
+
+Writing the potential perturbation of the planes as a Fourier series:
+
+\begin{equation}
+V(x) = \sum_{n = -\infty}^{\infty} V_{n} \exp \left( \frac{2 \pi i n x}{a} \right) \equiv \sum_{n = -\infty}^{\infty} V_{n} \exp \left(i G_{n} x \right)
+\end{equation}
+
+We see that the Bragg reflection condition is met when the wavevector of an electron is half of the reciprocal lattice wavevector $G_{n}$. Physically, this expression for Bragg reflection condition means that there are no propagating wave states for an electron with wavefunction nodes at the edges of the unit cell. Additionally, it means that propagating states having momentum just above and just below that required by the Bragg reflection condition are separated by an energy gap.
+
+
 
 \section{Magnetic Properties}
 

@@ -169,11 +169,42 @@ A~Glamazda, P~Lemmens, S.-H Do, Y~S Kwon, and K.-Y Choi.
 \newblock {\em PHYSICAL REVIEW B}, 95, 2017.
 
 \bibitem{Park2016}
-S.~Y. Park, S.~H. Do, K.~Y. Choi, D.~Jang, T.~H. Jang, J.~Schefer, C.~M. Wu,
-  J.~S. Gardner, J.~M.~S. Park, J.~H. Park, and Sungdae Ji.
-\newblock Emergence of the isotropic kitaev honeycomb lattice with
-  two-dimensional ising universality in $\alpha$-rucl$_{3}$.
-\newblock 2016.
+S.~Y. {Park}, S.~H. {Do}, K.~Y. {Choi}, D.~{Jang}, T.~H. {Jang}, J.~{Schefer},
+  C.~M. {Wu}, J.~S. {Gardner}, J.~M.~S. {Park}, and J.~H. {Park}.
+\newblock {Emergence of the Isotropic Kitaev Honeycomb Lattice with
+  Two-dimensional Ising Universality in $\alpha$-{R}u{C}l$_3$}.
+\newblock {\em arXiv e-prints}, cond-mat.mtrl-sci:1609.05690, Sep 2016.
+
+\bibitem{Mashhadi2018}
+Soudabeh Mashhadi, Daniel Weber, Leslie~M. Schoop, Armin Schulz, Bettina~V.
+  Lotsch, Marko Burghard, and Klaus Kern.
+\newblock {Electrical Transport Signature of the Magnetic Fluctuation-Structure
+  Relation in $\alpha$-RuCl3Nanoflakes}.
+\newblock {\em Nano Letters}, 18(5):3203--3208, 2018.
+
+\bibitem{Binotto1971}
+L.~Binotto, I.~Pollini, and G.~Spinolo.
+\newblock {Optical and transport properties of the magnetic semiconductor
+  $\alpha$‐{R}u{Cl}3}.
+\newblock {\em Physica Status Solidi (B)}, 44(1):245--252, 1971.
+
+\bibitem{Gronke2018}
+Martin Gr{\"{o}}nke, Peer Schmidt, Martin Valldor, Steffen Oswald, Daniel Wolf,
+  Axel Lubk, Bernd B{\"{u}}chner, and Silke Hampel.
+\newblock {Chemical vapor growth and delamination of $\alpha$-RuCl3 nanosheets
+  down to the monolayer limit}.
+\newblock {\em Nanoscale}, 10(40):19014--19022, 2018.
+
+\bibitem{Cao2016}
+H.~B. Cao, A.~Banerjee, J.~Q. Yan, C.~A. Bridges, M.~D. Lumsden, D.~G. Mandrus,
+  D.~A. Tennant, B.~C. Chakoumakos, and S.~E. Nagler.
+\newblock {Low-temperature crystal and magnetic structure of $\alpha$-RuCl3}.
+\newblock {\em Physical Review B}, 93(13):1--8, 2016.
+
+\bibitem{Davies1997}
+J.~Davies.
+\newblock {\em The Physics of Low-Dimensional Semiconductors: an Introduction}.
+\newblock Cambridge University Press, New York, New York, 1997.
 
 \bibitem{Long2002}
 D.~Long.
@@ -193,13 +224,6 @@ Luke~J Sandilands, Yao Tian, Anjan~A Reijnders, Heung-Sik Kim, K~W Plumb,
 \newblock {Spin-orbit excitations and electronic structure of the putative
   Kitaev magnet $\alpha$-RuCl 3}.
 \newblock {\em PHYSICAL REVIEW B}, 93(075144), 2016.
-
-\bibitem{Mashhadi2018}
-Soudabeh Mashhadi, Daniel Weber, Leslie~M. Schoop, Armin Schulz, Bettina~V.
-  Lotsch, Marko Burghard, and Klaus Kern.
-\newblock {Electrical Transport Signature of the Magnetic Fluctuation-Structure
-  Relation in $\alpha$-RuCl3Nanoflakes}.
-\newblock {\em Nano Letters}, 18(5):3203--3208, 2018.
 
 \bibitem{Zhou2018}
 Boyi Zhou, Yiping Wang, Gavin~B Osterhoudt, Paula Lampen-kelley, David Mandrus,
