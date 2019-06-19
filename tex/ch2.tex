@@ -34,9 +34,16 @@ Matter in the solid state is composed of individual atoms separated by distances
 
 where $a$ is the period of the lattice, $k$ is a wavenumber related to the crystal momentum\footnote{The crystal momentum $\hbar k$ is an effective momentum for a particle traveling in a lattice.}, and $\psi_{k}$ is the wavefunction associated with crystal momentum $k$ \cite{Davies1997}.
 
-For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ lead to gaps in the allowed energy for electrons, called band gaps. A simple way to understand these prohibited energies is to make an analogy with Bragg diffraction.
+For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ lead to gaps in the allowed energy for electrons called band gaps. Band gaps are a natural consequence of electrons in periodic potentials. To understand how band gaps emerge, we will go through a quick analysis of the Kronig-Penney model.
 
-Electrons waves traveling through the material will scatter from each atom. Most of the scattering from different atoms will cancel out, but in some cases the scattered wave will destructively interfere. Consider scattering from a series of planes of atoms separated by distance $d$. The strongest constructive interference occurs when the condition for Bragg reflection is satisfied:
+The Kronig-Penney model describes the propagation of electrons through a square wave potential in space, like the one shown in Figure \ref{fig:RuCl3CrystStruct-2}.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-KronigPenney.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Kronig-Penney Potential]{Square wave potential of height $U_{0}$ with period $a$ and square wave length $b$ (adapted from \cite{Erez2014}).} 
+  \label{fig:RuCl3CrystStruct-2}
+\end{centering}
 
 \begin{equation}
 2 d \sin \theta = n \lambda
@@ -54,7 +61,7 @@ Writing the potential perturbation of the planes as a Fourier series:
 V(x) = \sum_{n = -\infty}^{\infty} V_{n} \exp \left( \frac{2 \pi i n x}{a} \right) \equiv \sum_{n = -\infty}^{\infty} V_{n} \exp \left(i G_{n} x \right)
 \end{equation}
 
-We see that the Bragg reflection condition is met when the wavevector of an electron is half of the reciprocal lattice wavevector $G_{n}$. Physically, this expression for Bragg reflection condition means that there are no propagating wave states for an electron with wavefunction nodes at the edges of the unit cell. Additionally, it means that propagating states having momentum just above and just below that required by the Bragg reflection condition are separated by an energy gap.
+We see that the Bragg reflection condition is met when the wavevector of an electron is half of the reciprocal lattice wavevector $G_{n}$. Physically, this expression for Bragg reflection condition means that there are no propagating wave states for an electron with wavefunction nodes at the edges of the unit cell. Additionally, it means that propagating states having momentum just above and just below that required by the Bragg reflection condition are separated by an energy gap.%
 
 
 
