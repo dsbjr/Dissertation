@@ -7,8 +7,9 @@ A level-1 auxiliary file: ./tex/ch4.aux
 A level-1 auxiliary file: ./tex/ch5.aux
 Database file #1: C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
 Warning--entry type for "topOrderEdX" isn't style-file defined
---line 590 of file C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
+--line 609 of file C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
 Warning--empty author in Binder1987
 Warning--there's a number but no volume in Binder1987
+Warning--empty journal in Mnyukh2011
 Warning--there's a number but no volume in Zhou2018
-(There were 4 warnings)
+(There were 5 warnings)

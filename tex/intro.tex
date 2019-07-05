@@ -14,7 +14,7 @@ Many materials that differ in their constituents and microscopic structure have 
 
 Put simply, a classical phase of matter is a thermodynamic system\footnote{A system with defined thermodynamic state variables e.g., pressure, temperature, entropy.} at equilibrium with uniform physical properties (e.g., density, magnetization). Solids, liquids, gases, and plasmas are examples of phases of matter from our everyday lives, though many more exist. While the ``uniform physical property'' definition is an intuitive way to describe a phase, a rigorous definition also includes analyticity. For a thermodynamic system to constitute a phase of matter, the physical properties of the system must also be analytic functions\footnote{An analytic function is one that is given by a locally convergent power series. This definition implies that all derivatives of the function exist - hence the description of an analytic function as smooth.} of thermodynamic variables \cite{Pathria2011}. Therefore, physical properties of matter in a given phase must be the same for all space, and these properties must be smooth functions of the parameters. For example, liquid water at a uniform temperature (at equilibrium) has the same density everywhere (uniform physical property), and when the temperature increases by a small amount, its density decreases by a correspondingly small amount (analyticity).
 
-Now that we can define a phase of matter, we need a way to distinguish between different phases for a given thermodynamic system. A powerful way to distinguish phases is by looking at the symmetries of the microscopic constituents for a particular phase. Each separate phase has a set of symmetry operations that leave the system invariant. For example, if we imagine shrinking ourselves down to the size of a water molecule in a glass of water, then the scene around us doesn't change no matter where we look or how far we move through space - water molecules are randomly distributed around us. So a liquid has \textit{continuous rotational symmetry} and \textit{continuous translational symmetry}. These symmetries change if we freeze the water into ice. Now as we move through space the distribution of water molecule is equivalent only if we move in units of the lattice constant. Unlike fluids, solids have \textit{discrete translational symmetry}. Upon the freezing of a fluid into a solid, we say that the continuous translation symmetry of the fluid is broken. 
+Now that we can define a phase of matter, we need a way to distinguish between different phases for a given thermodynamic system. A powerful way to distinguish phases is by looking at the symmetries of the microscopic constituents for a particular phase. Each separate phase has a set of symmetry operations that leave the system invariant. For example, if we imagine shrinking ourselves down to the size of a water molecule in a glass of water, then the scene around us doesn't change no matter where we look or how far we move through space - water molecules are randomly distributed around us. So a liquid has \textit{continuous rotational symmetry} and \textit{continuous translational symmetry}. These symmetries change if we freeze the water into ice. Now as we move through space the distribution of water molecules is equivalent only if we move in units of the lattice constant. Unlike fluids, solids have \textit{discrete translational symmetry}. Upon the freezing of a fluid into a solid, we say that the continuous translation symmetry of the fluid is broken. 
 
 We can apply a similar analysis to magnetic systems. In a magnetically disordered phase, spins point in all directions and the system has both time-reversal and continuous rotational symmetries. However, if the spins align and the system becomes ferromagnetic, both of these symmetries are broken. Table \ref{tbl:PhasesSymmetries} lists some common phases and their associated broken symmetries \cite{Chaikin1995}.
 
@@ -30,11 +30,11 @@ We can apply a similar analysis to magnetic systems. In a magnetically disordere
 	\captionof{table}{Selected phases and their associated broken symmetries}\label{tbl:PhasesSymmetries}
 \end{center}
 
-We have discussed what a phase of matter is and how phases are distinguished: the analyticity of the equilibrium properties of the phase, and the symmetries of the microscopic constituents of the phase. However, these two things alone are an incomplete picture, as they do describe transitions between phases. To understand phase transitions, we will appeal to Landau theory.
+We have discussed what a phase of matter is and how phases are distinguished: uniform and analytic equilibrium properties, and the symmetries of microscopic constituents. However, these two things alone are an incomplete picture, as they do not describe transitions between phases. To understand phase transitions, we will appeal to Landau theory.
 
 \subsection{Landau theory and phase transitions}
 
-As discussed previously, a phase of matter must have its properties analytic as a function of thermodynamic state variables (for example, the pressure of a gas and the derivatives of the pressure as a function of temperature must all exist and be continuous). Therefore distinct phases must be separated by values of the thermodynamic state variables at which the physical properties are non-analytic. Given that the physical properties of a system are determined by its free energy, we would expect the non-analyticity to appear in the free energy. From this expectation, Landau theory makes several assumptions \cite{Landau1969}.
+As discussed previously, the physical properties of a phase of matter bust be analytic functions of thermodynamic state variables (for example, the pressure of a gas and the derivatives of the pressure as a function of temperature must all exist and be continuous). Therefore distinct phases must be separated by values of the thermodynamic state variables at which the physical properties are non-analytic. Given that the physical properties of a system are determined by its free energy, we would expect the non-analyticity to appear in the free energy. From this expectation, Landau theory makes several assumptions to formulate a theory of phas transitions \cite{Landau1969}.
 
 \begin{assumption}
 There exists a phenomenological order parameter $\eta$ which characterizes the non-analyticity at the phase transition. $\eta$ is zero in one phase and non-zero in the other.
@@ -68,27 +68,68 @@ Written explicitly,
 f(\phi_{i},T,\eta) = f_{0} + \alpha \eta + A \eta^{2} + B \eta^{3} + C \eta^{4} + ...
 \end{equation}
 
-Because $\eta$ is zero in one phase, it seems reasonable to assume a small $\eta$ near the phase transition. However, the assmed expansion, while it provides a theory, is fraught with peril. Landau himself says \cite{Landau1969}
+Because $\eta$ is zero in one phase, it seems reasonable to assume a small $\eta$ near the phase transition. However, though it turns out to be okay, the assumed expansion is fraught with peril. Landau himself says \cite{Landau1969}
 
 \begin{quote}
 ... the possibility of such an expansion is by no means obvious a priori. Moreover, since, as already mentioned, a transition point ... must be a singularity of the thermodynamic potential, there is every reason to suppose that such an expansion cannot be continued to terms of arbitrarily high order, and that the expansion coefficients can have singularities as functions of [$\phi_{i}$]... A complete elucidation of the nature of the singularity of the thermodynamic potential at the transition point offers great difficulties and has not yet been achieved. ... we shall give a theory based on the assumption that the presence of a singularity does not affect the terms of the expansion that are used.
 \end{quote}
 
+The final assumption of Landau theory relates to the symmetry of the system.
 
+\begin{assumption}
+The symmetries of the free energy expansion must match those of the Hamiltonian describing the low symmetry phase.
+\end{assumption}
 
-We can write free energy $f$ in terms of a state variables other than temperature that we hold constant $\phi_{i}$ and expand it in the state variable we tune $H$ to see a phase transition:
+This assumption ensures that the free energy expansion remains physical. For example, the physical properties of a system with global spin-flip degeneracy are agnostic to which direction is defined as up or down (i.e., the definitions corresponding to positive and negative spin can be swapped without changing the system). Accordingly, only even powers of $\mathbf{M}$ can remain in the free energy expansion.
+
+Using the three assumptions of Landau theory, we can postulate a functional form of the free energy for a system with reflection symmetry \cite{Binder1987}:
 
 \begin{equation}
-f(\phi_{i},T,H) = f(\phi_{i,0},T,H_{0}) + \frac{\partial f}{\partial H}|_{\phi_{0},T,H_{0}} (H-H_{0}) + ...
+f = f_{0} + r(T-T_{c}) \eta^{2} + u \eta^{4} + \nu \eta^{6}
 \end{equation}
 
-For $f$ to be non-analytic, one of the terms in the expansion must be non-analytic. Starting from this expansion, Landau theory makes several assumptions.
+where $T_{c}$ is the critical temperature below which a phase transition can occur. In the subsequent section we will explore the phase transitions described by this functional form.
+
+\subsection{Classifications of phase transitions}
+
+Our functional form of the free energy relates the order parameter and the critical temperature to the free energy of the system. Because thermodynamic systems minimize their free energy, we know that the observed order parameter is one for which the free energy is a local or global minimum.
+
+We can consider two broad classes of phase transitions - those in which the order parameter varies discontinuously between two values, and those in which it varies smoothly. The former are called first order phase transitions, while the latter are called continuous phase transitions.
+
+\subsubsection{First order phase transitions}
+
+Consider our postulated free energy functional form
+
+\begin{equation}
+f = f_{0} + r(T-T_{c}) \eta^{2} + u \eta^{4} + \nu \eta^{6}
+\end{equation}
+
+If $r,\nu > 0$ while $u < 0$, the minima for the order parameter will emerge discontinuously as the temperature is lowered below $T_{c}$, as shown in Figure \ref{fig:ClassPhaseTrans1}.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition-Binder.png}
+  \captionsetup{width=0.9\textwidth}
+  \captionof{figure}[Free energy functional form for a first order phase transition]{Free energy functional form for a first order phase transition. At temperature  $T = T_{c}$, two free energy minima appear at $\pm \eta_{0}$ which are disconnected from the high temperature minima at $\eta = 0$.  Adapted from \cite{Binder1987}.}
+  \label{fig:ClassPhaseTrans1}
+\end{centering}
+
+If we identify the order parameter $\eta$ with the first derivative of free energy with respect to a tunable parameter, then we see that, at a temperature below $T_{c}$, the first derivative of the free energy must change discontinuously. Accordingly, these transitions are called ``first order" transitions. The familiar phase transitions between solids, liquids, and gases are all first order. 
+
+The discontinuous change in the order parameter gives rise to clear experimental signatures that identify a transition as first order. A first order transition necessarily involves an interface between two phases, hysteresis, and latent heat. Any of these phenomena is sufficient to show a transition is first order as they are all concurrent \cite{Mnyukh2011}.
+
+\subsubsection{Continuous phase transitions}
+
+If $r,\nu,u > 0$, the minima for the order parameter will emerge smoothly as the temperature lowered below $T_{c}$, as shown in Figure \ref{fig:ClassPhaseTrans2}.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransition-Binder.png}
+  \captionsetup{width=0.9\textwidth}
+  \captionof{figure}[Free energy functional form for a second order phase transition]{Free energy functional form for a second order phase transition. At temperature  $T = T_{c}$, two free energy minima at $\pm \eta_{0}$ smoothly emerge from the high temperature minima at $\eta = 0$.  Adapted from \cite{Binder1987}.}
+  \label{fig:ClassPhaseTrans2}
+\end{centering}
 
 
-Phases of matter are separated by phase transitions, where the thermodynamic properties (or their derivatives with respect to a parameter) are no longer continuous\footnote{Infinite order phase transitions are a theoretical exception. See \cite{Costin1990}}. For example, when liquid water boils at ambient pressure, its temperature remains the same, but its density decreases discontinuously by a factor of $10^6$.
 
-We can use Landau theory \cite{Landau1937} to more rigorously describe phases of matter by the symmetries of their Hamiltonian\footnote{A symmetry is an operation which leaves the Hamiltonian of the system invariant. For example, the Hamiltonian of a particle in free space $H = \Sigma_{i} \frac{p_{i}^{2}}{2m}$ is invariant under spatial translation $x \rightarrow x + a$}, and the phase transitions between them as the breaking or recovery of those symmetries. For example, when a liquid freezes into a solid crystal, the continuous translational symmetry of the liquid phase becomes a discrete translational symmetry as the molecules in the liquid assemble themselves into a solid. Another example is a material transitioning from a non-magnetic to ferromagnetic phase. When the magnetic moments of the material align, it gains an overall macroscopic magnetization, breaking rotational symmetry. 
-		
 However, in addition to the above examples, there are kinds of matter which maintain a single set of symmetries but nonetheless have phases separated by phase transitions. These kinds of matter possess topological order - a type of order that can define a phase of matter just like symmetry can \cite{Wen1990}.
 
 \section{Topological Phases}
