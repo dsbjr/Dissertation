@@ -34,13 +34,56 @@ We have discussed what a phase of matter is and how phases are distinguished: th
 
 \subsection{Landau theory and phase transitions}
 
-As discussed previously, a phase of matter must have its properties analytic as a function of thermodynamic state variables (for example, the pressure of a gas and the derivatives of the pressure as a function of temperature must all exist and be continuous). Therefore distinct phases must be separated by values of the thermodynamic state variables at which the physical properties are non-analytic. Given that the physical properties of a system are determined by its free energy, we would expect the non-analyticity to appear in the free energy.
+As discussed previously, a phase of matter must have its properties analytic as a function of thermodynamic state variables (for example, the pressure of a gas and the derivatives of the pressure as a function of temperature must all exist and be continuous). Therefore distinct phases must be separated by values of the thermodynamic state variables at which the physical properties are non-analytic. Given that the physical properties of a system are determined by its free energy, we would expect the non-analyticity to appear in the free energy. From this expectation, Landau theory makes several assumptions \cite{Landau1969}.
+
+\begin{assumption}
+There exists a phenomenological order parameter $\eta$ which characterizes the non-analyticity at the phase transition. $\eta$ is zero in one phase and non-zero in the other.
+\end{assumption}
+
+This assumption is easy to understand empirically. For the example of boiling water, we might guess that the order parameter is related density, because density changes discontinuously by a factor of $10^6$ when moving from the liquid to the gas phase. In this example the order parameter is the deviation from the liquid density: $\eta = \rho - \rho_{\text{liquid}}$. For a magnetic transition, we might guess that the order parameter is the net magnetization $\mathbf{M}$. For the magnetically disordered phase $\mathbf{M} = 0$, while for the ferromagnetic phase $\mathbf{M}$ has some nonzero value.
+
+For many systems, the order parameter is related to derivatives of the free energy with respect to the tuned variable \cite{Binder1987}. For boiling water,
+
+\begin{equation}
+\left. \frac{df}{dP} \right\vert_{T_{0}} = \frac{1}{\rho} \simeq \frac{1}{\eta}
+\end{equation}
+
+For magnetization,
+
+\begin{equation}
+\left. \frac{df}{d\mathbf{H}}\right\vert_{T_{0}} = \mathbf{M}
+\end{equation}
+
+These relationships are not surprising: if we write the free energy as an expansion in the tuned variable, the only place for the non-analyticity to hide is in the derivatives.
+
+Having defined an order parameter, Landau theory makes a second assumption.
+
+\begin{assumption}
+The order parameter $\eta$ is small in the neighborhood of the phase transition and the free energy can be expanded in powers of $\eta$.
+\end{assumption}
+
+Written explicitly,
+
+\begin{equation}
+f(\phi_{i},T,\eta) = f_{0} + \alpha \eta + A \eta^{2} + B \eta^{3} + C \eta^{4} + ...
+\end{equation}
+
+Because $\eta$ is zero in one phase, it seems reasonable to assume a small $\eta$ near the phase transition. However, the assmed expansion, while it provides a theory, is fraught with peril. Landau himself says \cite{Landau1969}
+
+\begin{quote}
+... the possibility of such an expansion is by no means obvious a priori. Moreover, since, as already mentioned, a transition point ... must be a singularity of the thermodynamic potential, there is every reason to suppose that such an expansion cannot be continued to terms of arbitrarily high order, and that the expansion coefficients can have singularities as functions of [$\phi_{i}$]... A complete elucidation of the nature of the singularity of the thermodynamic potential at the transition point offers great difficulties and has not yet been achieved. ... we shall give a theory based on the assumption that the presence of a singularity does not affect the terms of the expansion that are used.
+\end{quote}
+
+
 
 We can write free energy $f$ in terms of a state variables other than temperature that we hold constant $\phi_{i}$ and expand it in the state variable we tune $H$ to see a phase transition:
 
 \begin{equation}
 f(\phi_{i},T,H) = f(\phi_{i,0},T,H_{0}) + \frac{\partial f}{\partial H}|_{\phi_{0},T,H_{0}} (H-H_{0}) + ...
 \end{equation}
+
+For $f$ to be non-analytic, one of the terms in the expansion must be non-analytic. Starting from this expansion, Landau theory makes several assumptions.
+
 
 Phases of matter are separated by phase transitions, where the thermodynamic properties (or their derivatives with respect to a parameter) are no longer continuous\footnote{Infinite order phase transitions are a theoretical exception. See \cite{Costin1990}}. For example, when liquid water boils at ambient pressure, its temperature remains the same, but its density decreases discontinuously by a factor of $10^6$.
 
