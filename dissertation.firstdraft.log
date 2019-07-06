@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  6 JUL 2019 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  6 JUL 2019 15:02
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -614,7 +614,7 @@ tvorno.png Graphic file (type png)
 vorno.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Diamo
 ndBandStructure-Chetvorno.png  used on input line 180.
-(pdftex.def)             Requested size: 216.81pt x 99.22693pt.
+(pdftex.def)             Requested size: 325.215pt x 148.84723pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -622,17 +622,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [7 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-D
-avies.png>]) [8 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandSt
-ructure-Chetvorno.png>]
+avies.png>] [8 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStr
+ucture-Chetvorno.png>]) [9]
 \openout2 = `./tex/ch3.aux'.
 
  (tex/ch3.tex
 Chapter 2.
-[9
+[10
 
 
 
-]) [10]
+]) [11]
 \openout2 = `./tex/ch4.aux'.
 
  (tex/ch4.tex
@@ -642,22 +642,22 @@ Overfull \hbox (0.76576pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/17.28 Introduction to Elec-tronic Trans-port Mea-sure-
  []
 
-[11
+[12
 
 
 
-]) [12]
+]) [13]
 \openout2 = `./tex/ch5.aux'.
 
  (tex/ch5.tex
 Chapter 4.
-[13
+[14
 
 
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nanophot
-on.png, id=364, 1204.5pt x 353.82187pt>
+on.png, id=368, 1204.5pt x 353.82187pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nan
 ophoton.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nano
@@ -671,10 +671,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 19.
 See the caption package documentation for explanation.
 
-[14] [15 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
--nanophoton.png>] [16] [17]
+[15] [16 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
+-nanophoton.png>] [17] [18]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Origin
-al.jpg, id=415, 722.7pt x 542.025pt>
+al.jpg, id=419, 722.7pt x 542.025pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-O
 riginal.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
@@ -688,10 +688,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
-[18 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
+[19 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
 iginal.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLabeled
--Original.png, id=427, 1079.53313pt x 842.39719pt>
+-Original.png, id=431, 1079.53313pt x 842.39719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLa
 beled-Original.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
@@ -705,10 +705,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 145.
 See the caption package documentation for explanation.
 
-[19 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
+[20 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
 eled-Original.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=44
-0, 1705.87312pt x 806.26219pt>
+4, 1705.87312pt x 806.26219pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png G
 raphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png>
@@ -722,7 +722,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpe
-ctrum-Original.jpg, id=445, 1053.9375pt x 790.45313pt>
+ctrum-Original.jpg, id=449, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Ram
 anSpectrum-Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Rama
@@ -735,11 +735,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 165.
 See the caption package documentation for explanation.
 
-[20 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
+[21 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
 C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpec
 trum-Original.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-Origi
-nal.jpg, id=453, 771.1209pt x 590.205pt>
+nal.jpg, id=457, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-
 Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
@@ -758,14 +758,14 @@ Overfull \hbox (10.1058pt too wide) in paragraph at lines 181--181
 []\OT1/cmr/bx/n/17.28 Raman Spec-troscopy of RuCl$[]$ with in-situ Elec-
  []
 
-[21 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
+[22 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
 riginal.jpg>]
 Overfull \hbox (7.12137pt too wide) in paragraph at lines 186--187
 []\OT1/cmr/m/n/12 Samples were at-tached to an 8 con-tact DIP chip car-rier us-
 ing poly(methyl methacry-
  []
 
-[22]) [23] (dissertation.firstdraft.bbl [24
+[23]) [24] (dissertation.firstdraft.bbl [25
 
 
 ]
@@ -776,7 +776,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--61
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
- [25]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (dissertation.firstdraft.aux (tex/ch2.aux) (tex/ch3.aux) (tex/ch4.aux)
 (tex/ch5.aux))
@@ -784,13 +784,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `dissertation.firstdraft.out' has not changed
 .
-(rerunfilecheck)             Checksum: E2204FB289293109A11F913E55D72505;2973.
+(rerunfilecheck)             Checksum: 32F1EE7DC96F0DEFC88AC5416D787D4D;2973.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 11265 strings out of 492973
- 165014 string characters out of 3135932
- 227035 words of memory out of 3000000
+ 11266 strings out of 492973
+ 165021 string characters out of 3135932
+ 227036 words of memory out of 3000000
  14852 multiletter control sequences out of 15000+200000
  22301 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -813,9 +813,9 @@ amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.firstdraft.pdf (33 pages, 4126390 bytes).
+Output written on dissertation.firstdraft.pdf (34 pages, 4128177 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
+ 573 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
  339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

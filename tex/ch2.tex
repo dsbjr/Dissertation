@@ -26,7 +26,7 @@ At room temperature and ambient pressure, the structure of \rucl consists of edg
 
 \subsection{Review: Band Theory}
 
-Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. These nature of these broader orbitals defines the range of energies an electron in the solid may have, called bands, and the range of energies an electron may not have, called band gaps. Band theory calculates the bands and band gaps of a material from the properties of allowed electron wavefunctions in a periodic potential. Although based on assumptions that are not always applicable, band theory successfully explains many properties of solid state systems, including electrical resistivity and optical absorption. Before examining the electronic structure of \ruclnospace , we will briefly review band theory to understand some general aspects of band structure.
+Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. These nature of these broader orbitals defines the range of energies an electron in the solid may have, called bands, and the range of energies an electron may not have, called band gaps. Band theory calculates the bands and band gaps of a material from the properties of allowed non-interacting, single electron electron wavefunctions in a periodic potential. Although based on assumptions that are not always applicable, band theory successfully explains many properties of solid state systems, including electrical resistivity and optical absorption. Before examining the electronic structure of \ruclnospace , we will briefly review band theory to understand some general aspects of band structure.
 
 In a crystalline material, each unit cell consists of an identical set of atomic potentials and orbitals that repeat to produce larger orbitals. In the thermodynamic limit, the wavefunction of an electron in the material will experience periodic boundary conditions across the unit cell. Effectively, the wavefunction must be periodic in space with a period that matches the size of the unit cell. This is \textit{Bloch's Theorem} and it can be expressed mathematically as:
 
@@ -177,14 +177,17 @@ The band gaps in Figure \ref{fig:RuCl3ElecStruct-2} appear every $k = \frac{n\pi
 While band gaps always appear at zone boundaries, the nature of the periodic potential dictates the properties of the band structure everywhere else. Consider bringing together a large group of carbon atoms into a diamond lattice. Bands arising from the overlap of 2p and 2s carbon orbitals are shown in figure XX.  At large interatomic distance the orbitals do not overlap, but as the carbon atoms approach the overlap in their orbitals gives rise to delocalized orbitals so densely packed in energy as to effectively be a continuum. These delocalized orbitals are the bands, which are separated by a forbidden region called the band gap.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorno.png}
-  \captionsetup{width=0.5\textwidth}
+\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorno.png}
+  \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Diamond Band Structure and Interatomic Distance]{Diamond band structure as a function of interatomic separation. At large separation bandwidth corresponds to only the allowed energy of the 2s and 2p orbitals. As the separation is reduced, the overlapping orbitals give rise to bands and band gaps. Image adapted from Chetvorno.} 
   \label{fig:RuCl3ElecStruct-3}
 \end{centering}
 
+Bands and band gaps are the electronic structure of a material and determine the material's electronic properties. For example, a material with a band gap between a band where all states are occupied and one with no states occupied is an insulator because energy is required to add or excite an electron into a propagating state. If the band gap in such a material is small, the material is a semiconductor. And if partially filled bands are present, the material is a metal.
 
-\subsection{Review: correlated materials and Mott insulators}
+Band structure calculations for \rucl predict that it should be a metal, which is clearly incorrect. Band theory fails spectacularly in this case because electrons in \rucl are strongly correlated, and electron-electron interactions cannot be neglected. Accordingly, we will study another model to see how electron-electron interactions can cause materials to be insulating that would otherwise predict to be metallic.
+
+\subsection{Review: Correlated Materials and Mott Insulators}
 
 \subsection{\texorpdfstring{\rucl}{RuCl3}as a spin-assisted Mott Insulator}
 
