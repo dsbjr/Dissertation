@@ -37,10 +37,10 @@ We have discussed what a phase of matter is and how phases are distinguished: un
 As discussed previously, the physical properties of a phase of matter bust be analytic functions of thermodynamic state variables (for example, the pressure of a gas and the derivatives of the pressure as a function of temperature must all exist and be continuous). Therefore distinct phases must be separated by values of the thermodynamic state variables at which the physical properties are non-analytic. Given that the physical properties of a system are determined by its free energy, we would expect the non-analyticity to appear in the free energy. From this expectation, Landau theory makes several assumptions to formulate a theory of phas transitions \cite{Landau1969}.
 
 \begin{assumption}
-There exists a phenomenological order parameter $\eta$ which characterizes the non-analyticity at the phase transition. $\eta$ is zero in one phase and non-zero in the other.
+There exists a local, phenomenological order parameter $\eta$ which characterizes the non-analyticity at the phase transition. $\eta$ is zero in one phase and non-zero in the other.
 \end{assumption}
 
-This assumption is easy to understand empirically. For the example of boiling water, we might guess that the order parameter is related density, because density changes discontinuously by a factor of $10^6$ when moving from the liquid to the gas phase. In this example the order parameter is the deviation from the liquid density: $\eta = \rho - \rho_{\text{liquid}}$. For a magnetic transition, we might guess that the order parameter is the net magnetization $\mathbf{M}$. For the magnetically disordered phase $\mathbf{M} = 0$, while for the ferromagnetic phase $\mathbf{M}$ has some nonzero value.
+This assumption is easy to understand empirically. For the example of boiling water, we might guess that the order parameter is related density, because the density can be defined at any single point and changes discontinuously by a factor of $10^6$ when moving from the liquid to the gas phase. In this example the order parameter is the deviation from the liquid density: $\eta = \rho - \rho_{\text{liquid}}$. For a magnetic transition, we might guess that the order parameter is the net magnetization $\mathbf{M}$. For the magnetically disordered phase $\mathbf{M} = 0$, while for the ferromagnetic phase $\mathbf{M}$ has some nonzero value.
 
 For many systems, the order parameter is related to derivatives of the free energy with respect to the tuned variable \cite{Binder1987}. For boiling water,
 
@@ -128,9 +128,14 @@ If $r,\nu,u > 0$, the minima for the order parameter will emerge smoothly as the
   \label{fig:ClassPhaseTrans2}
 \end{centering}
 
+For this type of phase transition, the continuous change in order parameter implies that the non-analyticity must exist in the second or higher order derivatives of the free energy with respect to the tunable parameter. Continuous phase transitions are marked by the absence of latent heat, a divergent susceptibility, an infinite correlation length, and a power law decay of correlations near the critical point \cite{Cardy1996}.
 
+A common example of a continuous phase transition is the ferromagnetic transition of iron\footnote{This transition is not exactly continuous; Yang and colleagues measured a small latent heat and hysteresis \cite{Yang2008}. However, the first order nature of this particular transition may be due to the coupling of the order parameter to other parameters like strain.} near 800\degree C. While we typically associated hysteresis with ferromagnetism, note that the hysteresis that comes to mind is related to changing the direction of magnetization, not the transition between a phase that can be magnetized and a phase that cannot. 
 
-However, in addition to the above examples, there are kinds of matter which maintain a single set of symmetries but nonetheless have phases separated by phase transitions. These kinds of matter possess topological order - a type of order that can define a phase of matter just like symmetry can \cite{Wen1990}.
+\subsection{Conclusion}
+In this section, we have defined phases of matter as thermodynamic systems with uniform and analytic physical properties and certain symmetries associated with their microscopic constituents. We also used Landau theory to understand transitions between phases based on the non-analyticity of the free energy and discontinuous (i.e., first order) or continuous changes in the order parameter. But while Landau theory is powerful, it is necessarily incomplete, as it fails to consider the quantum nature of materials.
+
+Quantum materials may have phase transitions at $T = 0$K that are driven by quantum fluctuations instead of thermal fluctuations. Some quantum phase transitions occur in systems that maintain a single set of symmetries but nonetheless have phases separate by phase transitions. Rather than the local order parameter of Landau theory, these systems possess topological order - a novel type of order than also can be used to characterize a phase \cite{Wen1990}.
 
 \section{Topological Phases}
 

@@ -24,10 +24,17 @@ Y.~Mnyukh.
 \newblock {Second-order phase transitions, L. Landau and his successors}.
 \newblock 3(2):25--30, 2011.
 
-\bibitem{Wen1990}
-X.~G. Wen.
-\newblock {Topological Orders in Rigid States}.
-\newblock {\em International Journal of Modern Physics B}, 4:239--271, 1990.
+\bibitem{Cardy1996}
+John Cardy.
+\newblock {\em Scaling and Renormalization in Statistical Physics}.
+\newblock Cambridge University Press, New York, New York, 1996.
+
+\bibitem{Yang2008}
+Sen Yang, Xiaobing Ren, and Xiaoping Song.
+\newblock {Evidence for first-order nature of the ferromagnetic transition in
+  Ni, Fe, Co, and CoFe2O4}.
+\newblock {\em Physical Review B - Condensed Matter and Materials Physics},
+  78(17):1--6, 2008.
 
 \bibitem{Wen2017}
 Xiao-gang Wen.
