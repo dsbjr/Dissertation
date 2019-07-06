@@ -133,13 +133,13 @@ For this type of phase transition, the continuous change in order parameter impl
 A common example of a continuous phase transition is the ferromagnetic transition of iron\footnote{This transition is not exactly continuous; Yang and colleagues measured a small latent heat and hysteresis \cite{Yang2008}. However, the first order nature of this particular transition may be due to the coupling of the order parameter to other parameters like strain.} near 800\degree C. While we typically associated hysteresis with ferromagnetism, note that the hysteresis that comes to mind is related to changing the direction of magnetization, not the transition between a phase that can be magnetized and a phase that cannot. 
 
 \subsection{Conclusion}
-In this section, we have defined phases of matter as thermodynamic systems with uniform and analytic physical properties and certain symmetries associated with their microscopic constituents. We also used Landau theory to understand transitions between phases based on the non-analyticity of the free energy and discontinuous (i.e., first order) or continuous changes in the order parameter. But while Landau theory is powerful, it is necessarily incomplete, as it fails to consider the quantum nature of materials.
+In this section, we have defined phases of matter as thermodynamic systems with uniform and analytic physical properties and certain symmetries associated with their microscopic constituents. We also used Landau theory to understand transitions between phases based on the non-analyticity of the free energy and discontinuous (i.e., first order) or continuous changes in the order parameter. But while Landau theory is powerful, it is necessarily incomplete, as it fails to consider long-range interactions in certain materials.
 
 Quantum materials may have phase transitions at $T = 0$K that are driven by quantum fluctuations instead of thermal fluctuations. Some quantum phase transitions occur in systems that maintain a single set of symmetries but nonetheless have phases separate by phase transitions. Rather than the local order parameter of Landau theory, these systems possess topological order - a novel type of order than also can be used to characterize a phase \cite{Wen1990}.
 
 \section{Topological Phases}
 
-Topological order is a property of quantum systems that have both large ground state degeneracy and long-range entanglement. In these systems, there is no local order parameter like density or magnetization. Instead, there is a global topological invariant that changes discontinuously between phases \cite{Wen2017}. First, we set out to understand topology by considering the properties of a simple quantum topological system - Kitaev's toric code. Using the topological concepts we learn from the toric code, we will be able to understand the topological nature of some physical systems, including quantum hall states and the eventual subject of this dissertation: the spin liquid.
+Topological order is a property of quantum systems that have both large ground state degeneracy and long-range entanglement. In these systems, there is no local order parameter like density or magnetization. Instead, there is a global topological invariant that changes discontinuously between phases \cite{Wen2017}. First, we set out to understand topology by considering the properties of a simple quantum topological system - Kitaev's toric code. Using the topological concepts we learn from the toric code, we will be able to understand the topological nature of some physical systems, including quantum hall states and spin liquids.
 
 \subsection{The toric code}
 
@@ -175,7 +175,7 @@ Because $A_{s}$ and $B_{s}$ commute, the ground state of the Hamiltonian is simp
   \label{fig:toricCode2}
 \end{centering}
 
-Now consider the minimal energy state associated with $B_{p}$. In the $\sigma^{x}$ basis, using the above argument we find that the minimal energy state consists of loops of the same spin drawn on the dual lattice.\footnote{The dual of a lattice $R$ is the set $\hat{R}$ of all vectors $\mathbf{x} \in$ span($\Lambda$) such that $\mathbf{x} \cdot \mathbf{y}$ is an integer for all $\mathbf{y} \in \Lambda$. In this case, the dual lattice is a square lattice with the same lattice constant having a vertex at the center of each plaquette in the original lattice.} But in the $\sigma^{z}$ basis, $\sigma^{x}$ is off-diagonal. Therefore the states that minimize $B_{p}$ in the $\sigma^{z}$ basis are necessarily superposition states - in this case an equal weight superposition of all the possible states that minimize $A_{s}$ \cite{Savary2017}.\footnote{This illustrates a beautiful symmetry of the toric code. In either (or any) basis, the ground state is highly entangled, as it must be.} This kind of superposition cannot be factored into a product state, and therefore satisfies the second requirement for topological order: long-range entanglement.
+Now consider the minimal energy state associated with $B_{p}$. In the $\sigma^{x}$ basis, using the above argument we find that the minimal energy state consists of loops of the same spin drawn on the dual lattice.\footnote{The dual of a lattice $R$ is the set $\hat{R}$ of all vectors $\mathbf{x} \in$ span($\Lambda$) such that $\mathbf{x} \cdot \mathbf{y}$ is an integer for all $\mathbf{y} \in \Lambda$. In this case, the dual lattice is a square lattice with the same lattice constant having a vertex at the center of each plaquette in the original lattice.} But in the $\sigma^{z}$ basis, $\sigma^{x}$ is off-diagonal. Therefore the states that minimize $B_{p}$ in the $\sigma^{z}$ basis are necessarily superposition states - in this case an equal weight superposition of all the possible states that minimize $A_{s}$ \cite{Savary2017}.\footnote{This illustrates a beautiful symmetry of the toric code. In either (or any) basis, the ground state is highly entangled, as it must be.} This kind of superposition cannot be factored into a product of states, and therefore satisfies the second requirement for topological order: long-range entanglement.
 
 We have seen that the ground state of the toric code Hamiltonian satisfies the requirements for having topological order. But what can we observe about this system that shows it to have topological order? Further investigation of this system shows that it allows quasiparticle excitations with fractional quantum numbers.
 
@@ -301,21 +301,21 @@ Through our examination of the quantum Hall effect, we have seen a physical real
 
 \section{Spin Liquids}
 
-Now that we have an understanding of topological order and have examined a physical realization of a topologically-ordered system, we turn our attention to the subject of this dissertation: the spin liquid.
+Now that we have an understanding of topological order and have examined a physical realization of a topologically-ordered system, we turn our attention to spin liquids.
 
 \subsection{What is a Spin Liquid?}
 
-Spin liquids are challenging to define. In fact, it is easier to say what they \textit{aren't} rather than what they are. As a working definition, we can define spin liquids as a systems with a ground state composed of a quantum superposition of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K \cite{Balents2010}. We will later see how this description requires the elements of topological order. But first, to get a physical understanding of spin liquids, we'll look at geometric frustration.
+Spin liquids are challenging to define. In fact, it is easier to say what they \textit{aren't} rather than what they are. As a working definition, we can define a quantum spin liquids (QSLs) as a system with a ground state composed of a quantum superposition of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K \cite{Balents2010}. A prerequisite for avoiding long range order is geometric frustration. Accordingly, we will first discuss geometric frustration before considering the other properties of spin liquids.
 
-\subsubsection{Geometric Frustration}
+\subsubsection{Geometric Frustration and Spin Liquids}
 
-Consider a system of Ising spins interacting on a square lattice and a triangular lattice according to the following Hamiltonian: 
+Consider a system of classical Ising spins interacting on a square lattice and a triangular lattice according to the following Hamiltonian: 
 
 \begin{equation}
 H = \sum_{\text{N.N.}} -J s_{i} \cdot s_{j}
 \end{equation}
 
-On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an antiferromagnetic interaction ($J < 0$), there is a single minimal energy configuration that is the ground state. The nearest neighbor spins are either parallel or anti-parallel, respectively. These are the ferromagnetic and antiferromagnetic (\textit{Ne{\'e}l}) states. There is also a unique minimal energy configuration for the ferromagnetic interaction on the triangular lattice. But what is the ground state for an antiferromagnetic interaction on the triangular lattice?
+On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an antiferromagnetic interaction ($J < 0$), there is a single minimal energy configuration. The nearest neighbor spins are either parallel or anti-parallel, respectively. These are the ferromagnetic and antiferromagnetic (\textit{Ne{\'e}l}) states. There is also a unique minimal energy configuration for the ferromagnetic interaction on the triangular lattice. But what is the ground state for an antiferromagnetic interaction on the triangular lattice?
 
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.png}
@@ -324,65 +324,38 @@ On the square lattice, given either a ferromagnetic interaction ($J > 0$) or an 
   \label{fig:Frustration1}
 \end{centering}
 
-On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy. This frustration prevents antiferromagnetic Ising spins on a triangular lattice from developing long-range magnetic order at any temperature \cite{Wannier1950}.
+On the triangular lattice, it is not possible to put all three spins into their lowest-energy configuration. For a given plaquette, the system achieves the lowest energy by having two spins parallel. There are three such states\footnote{There are actually six, but global spin flip symmetry makes three of these redundant.} which are energetically degenerate, and in the thermodynamic limit the degeneracy of a plaquette generates an infinite number of energetically degenerate spin configurations. We describe such a system as being ''frustrated" because there is no state where each interaction achieves its minimal energy. This frustration prevents antiferromagnetic Ising spins on a triangular lattice from developing long-range magnetic order at any temperature \cite{Wannier1950}. Instead, as the system is cooled, thermal fluctuations drive the system between disordered, degenerate minimal energy states until the system is too cold to support spin flip excitations; the system freezes in a disordered state.
 
-While the antiferromagnetic interaction on a triangular lattice is a straightforward example of geometric frustration, other lattices (such as the Kagom{\'e} lattice in 2D and the pyrochlore lattice in 3D) may be geometrically frustrated when there is a nearest neighbor ferromagnetic or antiferromagnetic interaction. Despite their frustration, many of these systems have interactions (e.g., next-nearest neighbor) that cause them to develop magnetic order at low temperature. We can compare the degree of frustration in frustrated systems that order by calculating the frustration factor \cite{Ramirez1994}:
+The absence of long-range magnetic order in the classical triangular Ising antiferromagnet suggests that such a system is close to developing the properties of a QSL. If we consider the quantum triangular spin-\textonehalf{} Ising antiferromagnet, we have all the ingredients necessary for a spin liquid. The ground state of such a system is an equally-weighted quantum superposition of degenerate minimal energy states. This ground state is necessarily disordered at 0 K, because it is a superposition of disordered states, and correlated, because it cannot be factored into a product of states. Note that the QSL also satisfies the requirements for topological order, and we would therefore expect it to possess fractional excitations. To understand the fractional excitations in this system, we will discuss the Resonating Valence Bond (RVB) description of a QSL.
 
-\begin{equation}
-f = \frac{|\Theta_{cw}|}{T_{c}}
-\end{equation}
 
-Where $\Theta_{cw}$ is the Curie-Weiss temperature\footnote{Note that for an antiferromagnetic interaction $\Theta_{cw}$ is negative; therefore, we use the absolute value.} extracted from the high-temperature magnetic susceptibility and $T_{c}$ is the temperature at which the material magnetically orders. We can think of $f$ as telling us how strongly the order is suppressed by geometric frustration - the material would like to order at something like $\Theta_{cw}$, but given the geometric frustration, it orders at $T_{c}$ instead. A value of $f$ between 5 and 10 indicates strong geometric frustration. In the range $\Theta_{cw} < T < T_{c}$, we would expect frustration to play a factor: above $\Theta_{cw}$ thermal excitations keep the material from ordering, below $T_{c}$ the material is ordered.
+\subsubsection{The Resonating Valence Bond Description of a Quantum Spin Liquid}
 
-\begin{center}
-	\begin{tabular}{l | l | l | l | l}
-		\hline
-		\hline
-		Material & VCl\textsubscript{2} & NaTiO\textsubscript{2} & ZnCr\textsubscript{2}O\textsubscript{4} & K\textsubscript{2}IrCl\textsubscript{6}\\ \hline
-		Frustration Factor & 12 & $>$500 & 24 & 10\\ \hline \hline
-	\end{tabular}
-	\captionof{table}[Frustration factors for selected geometrically frustrated magnets]{Frustration factors for selected geometrically frustrated magnets \cite{Ramirez1994}}\label{tbl:frustratedmagens}
-\end{center}
+We have seen that the ground state of quantum triangular Ising antiferromagnet satisfies the definition of a QSL, and is composed of a superposition of equally-weighted degenerate states satisfying the nearest-neighbor antiferromagnetic interaction. But what are these degenerate states? What are their properties?
 
-While most geometrically frustrated systems eventually develop magnetic order, there are some that do not (i.e., $f = \infty$). We will discuss two: spin ices and spin liquids.
-
-\subsubsection{Frustration and Spin Ices}
-
-A spin ice is a frustrated magnetic system with macroscopic ground state degeneracy\footnote{This system has \textit{effective} macroscopic ground state degeneracy. There is actually a single minimal energy ground state for spin ices, but this state is not physically accessible because there are many other disordered states of the only infinitesimally higher energy separated from the true ground state by infinite energy barriers \cite{Siddharthan2001}. Because the system freezes before any ordering can be observed, the ground state is effectively disordered \cite{Castelnovo2012}.} that freezes into a disordered configuration at sufficiently low temperature\footnote{These systems are called spin ices because the arrangements of the spins follow the so-called ``ice rules" for proton arrangement in water ice.}. As a spin ice is cooled, thermal fluctuations are no longer sufficiently energetic to change the spin configuration and the system is ``trapped" in a static, randomly chosen, disordered state \cite{Bramwell2001}. We can imagine that the system locally picks a spin configuration from the ensemble of degenerate minimal energy states and freezes there.
+We can picture each degenerate state as a random configuration of spin-0 singlet pairs on the triangular lattice. These pairs, called valence bonds, are maximally entangled and therefore quantum mechanical. At $T = 0$K, the valence bonds undergo quantum fluctuations that allow the system to explore all possible valence bond pairings. We can think of the valence bonds ``resonating'' between different configurations, in analogy to the resonating bonds between carbon atoms in a benzene ring. Figure \ref{fig:RVB1} provides a visualization.
 
 \begin{centering}
-\includegraphics[width=0.3\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/PyrochloreLattice-Balents2010.png}
+\includegraphics[width=0.7\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Balents.png}
   \captionsetup{width=0.75\textwidth}
-  \captionof{figure}[Frustration on a pyrochlore lattice]{Frustration on a pyrochlore lattice. Spins occupy the corner of each tetrahedron and must either point directly toward or away from the center of the tetrahedron. Diagram from \cite{Balents2010}.}
-  \label{fig:pyrochlorelattice}
+  \captionof{figure}[Resonating Valence Bond State on a Triangular Lattice]{Resonating valence bond state on a triangular lattice. The RVB state is the superposition of random valence bond pairings. From \cite{Balents2010}.}
+  \label{fig:RVB1}
 \end{centering}
 
-Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} was the first confirmed spin ice. This material has a pyrochlore lattice, with Ho\textsuperscript{+3} serving as the magnetic ion at the corner of each tetrahedron. Spins in this system obey a ``two-in, two-out" rule, meaning that the net spin in a tetrahedron is zero. Neutron scattering has shown that Ho\textsubscript{2}Ti\textsubscript{2}Os\textsubscript{2} does not develop magnetic order down to 50 mK \cite{Harris1997}. However, the field dependence of neutron scattering shows that applying a magnetic field before cooling can freeze the system in a particular disordered state. This change can be removed by heating and subsequently cooling the sample in zero field. Finally, entropy measurements near 0 K show that the entropy remaining in the ground state indicates a disorder similar to that of water ice, confirming Ho\textsubscript{2}Ti\textsubscript{2}O\textsubscript{2} as a spin ice \cite{Ramirez1999}.
+From the RVB description of this spin liquid, we can understand how fractional excitations emerge. Consider flipping a single spin to break a valence bond into two unpaired spins, each of which is an excitation above the ground state. On flipping a spin, the total spin of the system changes by one, and each charge neutral excitation carries a fractional spin-\textonehalf{}. Because the system resonates between random singlet pairings, the excitations are free to diffuse across the lattice without energetic penalty and are therefore unconfined. These charge-0 spin-\textonehalf{} excitations are called spinons and confirm the QSL as a system with topological order.
 
-We have seen that spin ices satisfy the criteria for topological order: massive ground state degeneracy from the frustration of the system, and entanglement of the spins from the ice rules. Accordingly, we could expect spin ices to host fractional excitations, which they do. Consider a tetrahedron in the pryochlore lattice with spins localized on each vertex obeying the ``two-in, two-out" ice rules. If we pay the energetic cost to flip a single spin, we produce two tetrahedra that no longer satisfy the ice rules; one tetrahedron has excess spin, the other tetrahedron is spin deficient.
-
-<insert image from rikita dusad's paper>
-
-Subsequent spin flips can allow these two tetrahedra to diffuse through the lattice without violating the ice rules. Because spin flips without ice rule violations do not cost energy, these spinful defects (hereafter referred to as charges) are not confined. We can see that these charges are fractionalized excitations in two ways. First, there are two defects generated from a single spin flip, meaning the elementary excitation of the system has been split in two. Second, we can see these charges as magnetic monopoles of an emergent gauge field.
-
-<insert image from spin ice, fractionalization, etc>
-
-Each tetrahedron in the spin ice has net zero spin. If we superimpose hypothetical field lines connecting and directed along each spin, the result is a divergenceless field. The charges are then sources and sinks of these field lines. If we imagine the divergenceless field as the \textbf{B} field to which it is mathematically identical, the charges are analogous to magnetic monopoles. Both neutron scattering <cite neutron scattering paper> and direct measurement using a SQUID <cite rikita dusad's paper> confirm the existence of these excitations.
-
-We've already seen that spin ices satisfy the requirements for topological order and have fractional exciaitons. But describing the spin ice as a material having monopoles as fractional excitations gives us an example of another way to identify topological systems: the presence of an emergent gauge field. Emergent gauge fields are associated with topological order \cite{Sachdev2019}, so if we identify a system with an emergent gauge field, we can be reasonably sure it is topological. Armed with a description of the topological nature of spin ices and emergent gauge fields, we can now discuss spin liquids.
-
-\subsubsection{Frustration and Spin Liquids}
-
-Rigorously defined, a spin liquid is a ground state composed of a quantum superposition of well-formed, correlated, local magnetic moments that do not develop long-range order, even at T = 0 K. But a more physical way to understand a spin liquid is to compare it to a spin ice. A spin liquid is, in some ways, the quantum analog of a spin ice that \textit{never} freezes. To understand this analogy, let's return to the example of antiferromagnetic Ising spins on a triangular lattice.
-
-Like in the spin ice, each spin on the triangular lattice is frustrated by the antiferromagnetic interaction, so there are many states that are degenerate. Also, like in the spin ice, the antiferromagnetic interaction forces the spins to be sensitive to the orientation of their nearest neighbors.
-
-The minimal energy state of this system will have as many nearest neighbor spins as possible oriented anti-parallel to their neighbors. Of course, there are many such states, none of which is preferable to the others. Accordingly, at T = 0 K, the ground state of this system should be a superposition of the degenerate states that minimize the energy.
-
-<insert picture of RVB state here>
-
-This ground state, being composed of only those degenerate states with certain nearest neighbor energy states, is no longer a product state. Instead, the ground state is highly entangled. 
-
-
-<Need some text to go here, dealing with topological order in spin ices>
 \subsection{Why are Spin Liquids Interesting?}
+
+Spin liquids are rich, novel phases of matter possessing topological order and exotic fractional excitations. Accordingly, they are inherently interesting from the perspective of fundamental physics. However, there are other compelling reasons to study spin liquids that are relevant to future technology: quantum computation and high-temperature superconductivity. 
+
+Majorana fermions are massless, self-conjugate (i.e., their own antiparticle) fermions that occur in certain topologically ordered materials. These quasiparticles can robustly store and perform logic operations on quantum information \cite{Lian2017}, potentially meeting the practical quantum computing requirements of scalability and gates that are faster than decoherence time. Majorana fermions are predicted to be quasiparticle excitations of some spin liquids. Therefore spin liquids may provide a realization of technology necessary for quantum computation.
+
+Additionally, spin liquids may be related to an exotic form of superconductivity. In 1986, Anderson proposed the RVB state (a spin liquid) as the explanation for high-temperature superconductivity in lanthanum copper oxide \cite{Anderson1986}. In this explanation for high $T_{c}$ supercondctivity, the singlet pairs in the RVB state hosts, upon hole doping, give rise to coherent, superconducting Cooper pairs  \cite{Chen2018}. A potential explanation for superconductivity beyond BCS is an excellent reason to study spin liquids, and is a major motivator of the work in this dissertation.
+
+\subsection{Physical realizations of spin liquids}
+
+To this point, we have discussed QSLs as abstract entities - states of matter that exist in geometrically frustrated quantum magnets at $T = 0$K. But are there physical realizations of such an abstract construction? Published experimental results confirm there are at least two.
+
+Herbertsmithite (ZnCu\textsubscript{3}(OD)\textsubscript{6}Cl\textsubscript{2}) is a spin-\textonehalf{} kagom\'{e}{} lattice\footnote{The kagom\'{e} lattice, like the triangular lattice, is highly frustrated for antiferromagnetic interactions} antiferromagnet. Neutron scattering measurements of single crystals of herbertsmithite reveal a continuum of spin excitations, rather than the conventional spin waves expected in an ordered ferromagnet \cite{Han2012}. This continuum is consistent with that expected for the spinon excitations of a QSL discussed previously.
+
+$\alpha$-ruthenium (III) chloride is a two-dimensional quantum magnet with anisotropic Heinsenberg interactions between localized effective spin-\textonehalf{} magnetic moments arranged in a honeycomb lattice. Again, neutron scattering experiments show the spin excitation system to match predictions for a special type of QSL called the Kitaev QSL \cite{Banerjee2016}. Further experiments confirm the QSL properties of this material. The next chapter provides a thorough introduction to the physics of this material and serves as a starting point for the later experimental investigations that form the bulk of this dissertation.

@@ -36,6 +36,11 @@ Sen Yang, Xiaobing Ren, and Xiaoping Song.
 \newblock {\em Physical Review B - Condensed Matter and Materials Physics},
   78(17):1--6, 2008.
 
+\bibitem{Wen1990}
+X.~G. Wen.
+\newblock {Topological Orders in Rigid States}.
+\newblock {\em International Journal of Modern Physics B}, 4:239--271, 1990.
+
 \bibitem{Wen2017}
 Xiao-gang Wen.
 \newblock {Colloquium : Zoo of quantum-topological phases of matter}.
@@ -128,43 +133,36 @@ G~H Wannier.
 \newblock {Antiferromagnetism. The Triangular Ising Net}.
 \newblock {\em Phys. Rev.}, 79(357), 1950.
 
-\bibitem{Ramirez1994}
-A.P. Ramirez.
-\newblock {Strongly geometrically frustrated magnets}.
-\newblock {\em Annual Reviews of Materials Science}, 24:453--480, 1994.
+\bibitem{Lian2017}
+Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, Xiao-Liang Qi, and Shou-Cheng Zhang.
+\newblock {Topological Quantum Computation Based on Chiral Majorana Fermions}.
+\newblock 2017.
 
-\bibitem{Siddharthan2001}
-R.~Siddharthan, B.~S. Shastry, and A.~P. Ramirez.
-\newblock {Spin ordering and partial ordering in holmium titanate and related
-  systems}.
-\newblock {\em Physical Review B - Condensed Matter and Materials Physics},
-  63(18):1--10, 2001.
+\bibitem{Anderson1986}
+{P. W. Anderson}.
+\newblock {The Resonating Valence Bond State in La2CuO4 and Superconductivity}.
+\newblock {\em Science}, 235(1):1196--1198, 1986.
 
-\bibitem{Castelnovo2012}
-C.~Castelnovo, R.~Moessner, and S.~L. Sondhi.
-\newblock {Spin Ice, Fractionalization and Topological Order}.
-\newblock {\em Annual Reviews of Physics}, 3(55), 2012.
+\bibitem{Chen2018}
+Ji~Yao Chen and Didier Poilblanc.
+\newblock {Topological Z2 resonating-valence-bond spin liquid on the square
+  lattice}.
+\newblock {\em Physical Review B}, 97(16):2--6, 2018.
 
-\bibitem{Bramwell2001}
-Steven~T Bramwell and Michel J~P Gingras.
-\newblock {Spin Ice State in Frustrated Magnetic Pyrochlore Materials}.
-\newblock {\em Science}, 294(November):1495--1502, 2001.
+\bibitem{Han2012}
+Tian~Heng Han, Joel~S. Helton, Shaoyan Chu, Daniel~G. Nocera, Jose~A.
+  Rodriguez-Rivera, Collin Broholm, and Young~S. Lee.
+\newblock {Fractionalized excitations in the spin-liquid state of a
+  kagome-lattice antiferromagnet}.
+\newblock {\em Nature}, 492(7429):406--410, 2012.
 
-\bibitem{Harris1997}
-M~J Harris, S~T Bramwell, D~F Mcmorrow, T~Zeiske, and K~W Godfrey.
-\newblock {Geometrical Frustration in the Ferromagnetic Pyrochlore Ho2Ti2O7}.
-\newblock {\em Physical Review Letters}, 79(13):3--6, 1997.
-
-\bibitem{Ramirez1999}
-A~P Ramirez, A~Hayashi, R~J Cava, and R~Siddharthan.
-\newblock {Zero-point entropy in ‘spin ice '}.
-\newblock {\em Letters to Nature}, 399(110):333--335, 1999.
-
-\bibitem{Sachdev2019}
-Subir Sachdev.
-\newblock {Topological order , emergent gauge fields , and Fermi surface
-  reconstruction}.
-\newblock {\em Reports on Progress in Physics}, 82(014001), 2019.
+\bibitem{Banerjee2016}
+A~Banerjee, C~A Bridges, J.~Q. Yan, A~A Aczel, L~Li, M~B Stone, G~E Granroth,
+  M~D Lumsden, Y~Yiu, J~Knolle, S~Bhattacharjee, D~L Kovrizhin, R~Moessner, D~A
+  Tennant, D~G Mandrus, and S~E Nagler.
+\newblock {Proximate Kitaev quantum spin liquid behaviour in a honeycomb
+  magnet}.
+\newblock {\em Nature Materials}, 15(7):733--740, 2016.
 
 \bibitem{Plumb2014}
 K.~W. Plumb, J.~P. Clancy, L.~J. Sandilands, V.~Vijay Shankar, Y.~F. Hu, K.~S.
