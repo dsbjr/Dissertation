@@ -4,11 +4,11 @@
 \contentsline {section}{\numberline {1.1}Crystal Structure and Synthesis}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Electronic Structure}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Review: Band Theory}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Review: correlated materials and Mott insulators}{7}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}RuCl\textsubscript {3} as a spin-assisted Mott Insulator}{7}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Magnetic Properties}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}RuCl\textsubscript {3} as a Kitaev Spin Liquid}{7}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}The Kitaev Model}{7}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.2.2}Review: correlated materials and Mott insulators}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}RuCl\textsubscript {3} as a spin-assisted Mott Insulator}{8}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Magnetic Properties}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}RuCl\textsubscript {3} as a Kitaev Spin Liquid}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}The Kitaev Model}{8}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Spin Liquid Behavior in RuCl\textsubscript {3} }{8}{subsection.1.4.2}
 \contentsline {chapter}{\numberline {2}Electrolyte Gating}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction to Electronic Structure}{9}{section.2.1}

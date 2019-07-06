@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  6 JUL 2019 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  6 JUL 2019 14:34
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -557,7 +557,7 @@ Chapter 1.
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plumb.p
-ng, id=248, 759.58781pt x 575.90157pt>
+ng, id=250, 759.58781pt x 575.90157pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Pl
 umb.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plu
@@ -574,39 +574,56 @@ See the caption package documentation for explanation.
 [2 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plum
 b.png>] [3]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-Kron
-igPenney.png, id=282, 1081.03876pt x 495.35063pt>
+igPenney.png, id=283, 1081.03876pt x 495.35063pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure
 -KronigPenney.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-
 KronigPenney.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3
-ElectronicStructure-KronigPenney.png  used on input line 42.
+ElectronicStructure-KronigPenney.png  used on input line 44.
 (pdftex.def)             Requested size: 216.81pt x 99.34047pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 44.
+(caption)                particular \caption on input line 46.
 See the caption package documentation for explanation.
 
 [4 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-K
 ronigPenney.png>] [5]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-Davi
-es.png, id=312, 836.3747pt x 938.75719pt>
+es.png, id=313, 836.3747pt x 938.75719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone
 -Davies.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-
 Davies.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Kroni
-gPenneyExtendedZone-Davies.png  used on input line 167.
+gPenneyExtendedZone-Davies.png  used on input line 169.
 (pdftex.def)             Requested size: 216.81pt x 243.34058pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 169.
+(caption)                particular \caption on input line 171.
 See the caption package documentation for explanation.
 
-[6]) [7 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZ
-one-Davies.png>] [8]
+[6]
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorn
+o.png, id=325, 1957.3125pt x 895.84688pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Che
+tvorno.png Graphic file (type png)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chet
+vorno.png>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Diamo
+ndBandStructure-Chetvorno.png  used on input line 180.
+(pdftex.def)             Requested size: 216.81pt x 99.22693pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 182.
+See the caption package documentation for explanation.
+
+[7 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-D
+avies.png>]) [8 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandSt
+ructure-Chetvorno.png>]
 \openout2 = `./tex/ch3.aux'.
 
  (tex/ch3.tex
@@ -640,7 +657,7 @@ Chapter 4.
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nanophot
-on.png, id=360, 1204.5pt x 353.82187pt>
+on.png, id=364, 1204.5pt x 353.82187pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nan
 ophoton.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nano
@@ -657,7 +674,7 @@ See the caption package documentation for explanation.
 [14] [15 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
 -nanophoton.png>] [16] [17]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Origin
-al.jpg, id=411, 722.7pt x 542.025pt>
+al.jpg, id=415, 722.7pt x 542.025pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-O
 riginal.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
@@ -674,7 +691,7 @@ See the caption package documentation for explanation.
 [18 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
 iginal.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLabeled
--Original.png, id=423, 1079.53313pt x 842.39719pt>
+-Original.png, id=427, 1079.53313pt x 842.39719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLa
 beled-Original.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
@@ -690,8 +707,8 @@ See the caption package documentation for explanation.
 
 [19 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
 eled-Original.png>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=43
-6, 1705.87312pt x 806.26219pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=44
+0, 1705.87312pt x 806.26219pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png G
 raphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png>
@@ -705,7 +722,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpe
-ctrum-Original.jpg, id=441, 1053.9375pt x 790.45313pt>
+ctrum-Original.jpg, id=445, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Ram
 anSpectrum-Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Rama
@@ -722,7 +739,7 @@ See the caption package documentation for explanation.
 C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpec
 trum-Original.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-Origi
-nal.jpg, id=449, 771.1209pt x 590.205pt>
+nal.jpg, id=453, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-
 Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
@@ -771,10 +788,10 @@ Package rerunfilecheck Info: File `dissertation.firstdraft.out' has not changed
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 11258 strings out of 492973
- 164596 string characters out of 3135932
- 227962 words of memory out of 3000000
- 14847 multiletter control sequences out of 15000+200000
+ 11265 strings out of 492973
+ 165014 string characters out of 3135932
+ 227035 words of memory out of 3000000
+ 14852 multiletter control sequences out of 15000+200000
  22301 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,47p,1346b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -796,9 +813,9 @@ amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.firstdraft.pdf (33 pages, 4016691 bytes).
+Output written on dissertation.firstdraft.pdf (33 pages, 4126390 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

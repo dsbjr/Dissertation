@@ -26,7 +26,9 @@ At room temperature and ambient pressure, the structure of \rucl consists of edg
 
 \subsection{Review: Band Theory}
 
-Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. In a crystalline material, each unit cell consists of an identical set of atomic potentials and orbitals that repeat to produce larger orbitals. In the thermodynamic limit, the wavefunction of an electron in the material will experience periodic boundary conditions across the unit cell. Effectively, the wavefunction must be periodic in space with a period that matches the size of the unit cell. This is \textit{Bloch's Theorem} and it can be expressed mathematically as:
+Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. These nature of these broader orbitals defines the range of energies an electron in the solid may have, called bands, and the range of energies an electron may not have, called band gaps. Band theory calculates the bands and band gaps of a material from the properties of allowed electron wavefunctions in a periodic potential. Although based on assumptions that are not always applicable, band theory successfully explains many properties of solid state systems, including electrical resistivity and optical absorption. Before examining the electronic structure of \ruclnospace , we will briefly review band theory to understand some general aspects of band structure.
+
+In a crystalline material, each unit cell consists of an identical set of atomic potentials and orbitals that repeat to produce larger orbitals. In the thermodynamic limit, the wavefunction of an electron in the material will experience periodic boundary conditions across the unit cell. Effectively, the wavefunction must be periodic in space with a period that matches the size of the unit cell. This is \textit{Bloch's Theorem} and it can be expressed mathematically as:
 
 \begin{equation}
 \psi_{k}(x + a) = e^{ika} \psi_{k}(x)
@@ -34,7 +36,7 @@ Matter in the solid state is composed of individual atoms separated by distances
 
 where $a$ is the period of the lattice, $k$ is a wavenumber related to the crystal momentum\footnote{The crystal momentum $\hbar k$ is an effective momentum for a particle traveling in a lattice.}, and $\psi_{k}$ is the wavefunction associated with crystal momentum $k$ \cite{Davies1997}.
 
-For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ lead to gaps in the allowed energy for electrons called band gaps. Band gaps are a natural consequence of electrons in periodic potentials. To understand how band gaps emerge, we will go through a quick analysis of the Kronig-Penney model, loosely following \cite{Davies1997}.
+For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ are the previously discussed band gaps, and are a natural consequence of electrons in periodic potentials. To understand how band gaps emerge, we will go through a quick analysis of the Kronig-Penney model, loosely following \cite{Davies1997}.
 
 The Kronig-Penney model describes the propagation of electrons through a series of potential barriers, like the one shown in Figure \ref{fig:RuCl3ElecStruct-1}.
 
@@ -170,6 +172,16 @@ where $m$ is the effective mass of the electron and $S$ is the strength of the $
   \label{fig:RuCl3ElecStruct-2}
 \end{centering}
 
+The band gaps in Figure \ref{fig:RuCl3ElecStruct-2} appear every $k = \frac{n\pi}{a}$. This wavevectors correspond to reciprocal lattice vectors, and any periodic system will necessarily have band gaps at these value of $k$. While these band gaps emerge naturally from the Kronig-Penney model, we can also interpret them in the context of a diffraction. If a wave with wavelength $\lambda$ scatters from a series of periodic planes separated by distance $a$, the reflected waves destructively interfere with the incident wave when $k = \frac{2\pi}{\lambda} = \frac{n \pi}{a}$, preventing the wave from propagating.
+
+While band gaps always appear at zone boundaries, the nature of the periodic potential dictates the properties of the band structure everywhere else. Consider bringing together a large group of carbon atoms into a diamond lattice. Bands arising from the overlap of 2p and 2s carbon orbitals are shown in figure XX.  At large interatomic distance the orbitals do not overlap, but as the carbon atoms approach the overlap in their orbitals gives rise to delocalized orbitals so densely packed in energy as to effectively be a continuum. These delocalized orbitals are the bands, which are separated by a forbidden region called the band gap.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorno.png}
+  \captionsetup{width=0.5\textwidth}
+  \captionof{figure}[Diamond Band Structure and Interatomic Distance]{Diamond band structure as a function of interatomic separation. At large separation bandwidth corresponds to only the allowed energy of the 2s and 2p orbitals. As the separation is reduced, the overlapping orbitals give rise to bands and band gaps. Image adapted from Chetvorno.} 
+  \label{fig:RuCl3ElecStruct-3}
+\end{centering}
 
 
 \subsection{Review: correlated materials and Mott insulators}
