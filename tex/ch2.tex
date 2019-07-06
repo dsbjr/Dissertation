@@ -22,11 +22,11 @@ At room temperature and ambient pressure, the structure of \rucl consists of edg
 
 \section{Electronic Structure}
 
-\rucl is a terrible conductor of electricity. But this highly insulating nature comes from a rich electronic structure that will be relevant when interpreting electronic transport data. Therefore in this section I will briefly review band theory, Mott insulators, and spin-orbit coupling before showing how these concepts explain the peculiarities of \rucl 's electronic structure.
+\rucl is a terrible conductor of electricity. But this highly insulating nature comes from a rich electronic structure that will be relevant when interpreting electronic transport data. Therefore in this section I will briefly review band theory, Mott insulators, and spin-orbit coupling before showing how these concepts explain the peculiarities of \ruclnospace 's electronic structure.
 
-\subsection{A Review of Band Theory and Correlated Materials}
+\subsection{Review: Band Theory}
 
-Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. In a crystalline material, each unit cell consists of an identical set of atomic potentials and orbitals that repeat to produce larger orbitals. In the limit of an infinitely large material\footnote{In this case, anything macroscopic is effectively infinitely large relative because macroscopic length scales are so much larger than the size of a unit cell in a crystalline material.}, the wavefunction of an electron in the material will experience periodic boundary conditions across the unit cell. Effectively, the wavefunction must be periodic in space with a period that matches the size of the unit cell. This is \textit{Bloch's Theorem} and it can be expressed mathematically as:
+Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. In a crystalline material, each unit cell consists of an identical set of atomic potentials and orbitals that repeat to produce larger orbitals. In the thermodynamic limit, the wavefunction of an electron in the material will experience periodic boundary conditions across the unit cell. Effectively, the wavefunction must be periodic in space with a period that matches the size of the unit cell. This is \textit{Bloch's Theorem} and it can be expressed mathematically as:
 
 \begin{equation}
 \psi_{k}(x + a) = e^{ika} \psi_{k}(x)
@@ -34,26 +34,154 @@ Matter in the solid state is composed of individual atoms separated by distances
 
 where $a$ is the period of the lattice, $k$ is a wavenumber related to the crystal momentum\footnote{The crystal momentum $\hbar k$ is an effective momentum for a particle traveling in a lattice.}, and $\psi_{k}$ is the wavefunction associated with crystal momentum $k$ \cite{Davies1997}.
 
-For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ lead to gaps in the allowed energy for electrons called band gaps. Band gaps are a natural consequence of electrons in periodic potentials. To understand how band gaps emerge, we will go through a quick analysis of the Kronig-Penney model.
+For reasons that will become clear, not all values of $k$ are permitted. These prohibited values of $k$ lead to gaps in the allowed energy for electrons called band gaps. Band gaps are a natural consequence of electrons in periodic potentials. To understand how band gaps emerge, we will go through a quick analysis of the Kronig-Penney model, loosely following \cite{Davies1997}.
 
-The Kronig-Penney model describes the propagation of electrons through a square wave potential in space, like the one shown in Figure \ref{fig:RuCl3CrystStruct-2}.
+The Kronig-Penney model describes the propagation of electrons through a series of potential barriers, like the one shown in Figure \ref{fig:RuCl3ElecStruct-1}.
 
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-KronigPenney.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Kronig-Penney Potential]{Square wave potential of height $U_{0}$ with period $a$ and square wave length $b$ (adapted from \cite{Erez2014}).} 
-  \label{fig:RuCl3CrystStruct-2}
+  \label{fig:RuCl3ElecStruct-1}
+\end{centering}
+
+We begin by analyzing a simpler system, the propagation of a delocalized electron of energy $E$ encountering a semi-infinite potential barrier of height $U_{0}$ at $x = 0$. If we define two regions, $x <0$ and $x>0$, we can write an ansatz for our time-independent wavefunction
+
+\begin{equation}
+\psi(x) =
+	\begin{cases}
+	A e^{i k_{1} x} + B e^{-i k_{1} x}, & x < 0 \\
+	C e^{i k_{2} x} + D e^{-i k_{2} x}, & x > 0
+	\end{cases}
+\end{equation}
+	
+Where $A,B$ ($C,D$) are the amplitudes of the forward and reverse propagating waves for $x<0$ ($x>0$), respectively, and $k_{1}$ and $k_{2}$ are the wavevectors in those regions. The wave function must be continuous everywhere, so the value of the wavefunction and its slope must match at $x = 0$, requiring
+
+\begin{equation}
+	\begin{array}{cc}
+		A + B = C + D, & k_{1}(A - B) = k_{2}(C - D) \\
+	\end{array}
+\end{equation}
+
+Our ansatz and the boundary conditions define a system of equations that can be expressed using a transfer matrix $\mathbf{T_{0}}$, relating the amplitudes of the incident waves to amplitudes on the other side of the step.
+
+\begin{equation}
+	\begin{pmatrix}
+		C \\
+		D \\
+	\end{pmatrix} =
+	\mathbf{T_{0}}
+	\begin{pmatrix}
+		A \\
+		B \\
+	\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\mathbf{T_{0}} = \frac{1}{2 k_{2}}
+	\begin{pmatrix}
+		k_{2} + k_{1} & k_{2} - k_{1} \\
+		k_{2} - k_{1} & k_{2} + k_{1} \\
+	\end{pmatrix}
+\end{equation}
+
+
+While this expression for the transfer matrix holds true only for a step at $x=0$, we can easily translate it in $x$ by changing the phase as follows
+
+\begin{equation}
+\mathbf{T}(x = d) = 
+	\begin{pmatrix}
+		e^{-i k_{2} d} & 0 \\
+		0 & e^{i k_{2} d}  \\
+	\end{pmatrix}
+	\mathbf{T_{0}}
+	\begin{pmatrix}
+		e^{i k_{1} d} & 0 \\
+		0 & e^{-i k_{1} d}  \\
+	\end{pmatrix}
+\end{equation}
+
+Armed with Bloch's Theorem and the transfer matrix formalism, we can make short work of the Kronig-Penney potential. For example, the transfer matrix for the barrier to the immediate right of $x = 0$ is given by
+
+\begin{equation}
+\mathbf{T}(x = d) = 
+	\begin{pmatrix}
+		e^{-i k_{1} a} & 0 \\
+		0 & e^{i k_{1} a}  \\
+	\end{pmatrix}
+	\mathbf{T_{0}}
+	\begin{pmatrix}
+		e^{i k_{1} a} & 0 \\
+		0 & e^{-i k_{1} a}  \\
+	\end{pmatrix}
+\end{equation}
+
+The overall transfer matrix is
+
+\begin{equation}
+\mathbf{T} = ...(\mathbf{A}^{-2}\mathbf{T_{0}} \mathbf{A}^{2})(\mathbf{A}^{-1}\mathbf{T_{0}} \mathbf{A})(\mathbf{T_{0}})(\mathbf{A}^{-1}\mathbf{T_{0}} \mathbf{A})(\mathbf{A}^{-2}\mathbf{T_{0}} \mathbf{A}^{2})...
+\end{equation}
+
+\begin{equation*}
+= ... \mathbf{A}\mathbf{T_{0}}\mathbf{A}\mathbf{T_{0}}\mathbf{A}\mathbf{T_{0}}...
+\end{equation*}
+
+Each unit cell is represented by the product $\mathbf{A}\mathbf{T_{0}}$. Using Bloch's theorem, we can write
+
+\begin{equation}
+	\begin{pmatrix}
+		a_{n+1} \\
+		b_{n+1} \\
+	\end{pmatrix} =
+	\mathbf{AT_{0}}
+	\begin{pmatrix}
+		a_{n} \\
+		b_{n} \\
+	\end{pmatrix} = 
+	e^{i k a}
+	\begin{pmatrix}
+		a_{n} \\
+		b_{n} \\
+	\end{pmatrix}
+\end{equation}
+
+From this equation, we know that $e^{i k a}$ must be an eigenvalue of $\mathbf{AT_{0}}$. For the Kronig-Penney model, we then find
+
+\begin{equation}
+\cos{k a} = \cos{k_{1} w} \cos{k_{2} b} - \frac{k_{1}^{2} + k_{2}^{2}}{2 k_{1} k_{2}} \sin{k_{1} w} \sin{k_{2} b}
+\end{equation}
+
+where $k_{1}$ is the wavevector between barriers, $k_{2}$ is the wavevector in the barriers, and $k$ is the Bloch wavevumber describing the overall propagation of the electron in the lattice.
+
+Note that the range of cosine is only $[-1, 1]$, so for some values of $k_{1}$ and $k_{2}$ there are no (propagating) plane wave solutions. The regions of k-space with propagating solutions are called bands, and the regions without propagating solutions are called band gaps.
+
+If instead of barriers we have a series of $\delta$-function potentials, the equation for the wavevector becomes simpler
+
+\begin{equation}
+\cos{k a} = \cos{k_{1} a} + \left( \frac{m a S}{\hbar^{2}} \right) \frac{\sin{k_{1} a}}{k_{1} a}
+\end{equation}
+
+where $m$ is the effective mass of the electron and $S$ is the strength of the $\delta$ function. In Figure \ref{fig:RuCl3ElecStruct-2}, the energy as a function of wavevector is plotted in the extended zone scheme.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-Davies.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Dispersion Relation for Kronig-Penney Delta Function Model]{Energy vs. Wavevector for Kronig-Penney model of $\delta$-function potentials separated by distance $a$. Note that band gaps appear at integer multiples of $\frac{\pi}{a}$. From \cite{Davies1997}.} 
+  \label{fig:RuCl3ElecStruct-2}
 \end{centering}
 
 
 
+\subsection{Review: correlated materials and Mott insulators}
+
+\subsection{\texorpdfstring{\rucl}{RuCl3}as a spin-assisted Mott Insulator}
 
 
 \section{Magnetic Properties}
 
 Discuss magnetic transitions - paramagnet to antiferromagnet. Stacking faults causing additional magnetic transitions.
 
-\section{\texorpdfstring{\rucl}{RuCl3} as a Kitaev Spin Liquid}
+\section{\texorpdfstring{\rucl}{RuCl3}as a Kitaev Spin Liquid}
 
 \subsection{The Kitaev Model}
 
