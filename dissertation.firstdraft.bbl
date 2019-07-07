@@ -1,5 +1,169 @@
 \begin{thebibliography}{10}
 
+\bibitem{Pathria2011}
+R.~K. Pathria and Paul~D. Beale.
+\newblock {\em {Statistical Mechanics}}.
+\newblock Butterworth-Heinemann, Oxford, UK, 3rd edition, 2011.
+
+\bibitem{Chaikin1995}
+P.~M. Chaikin and T.~C. Lubensky.
+\newblock {\em {Principles of Condensed Matter Physics}}.
+\newblock Cambridge University Press, Cambrige, UK, 1st edition, 1995.
+
+\bibitem{Landau1969}
+L.~D. Landau and E.~M. Lifshitz.
+\newblock {\em Statistical Physics}.
+\newblock Pergamon Press, Ltd., Oxford, UK, 2nd edition, 1969.
+
+\bibitem{Binder1987}
+{Theory of First Order Phase Transitions}.
+\newblock {\em Reports on Progress in Physics}, (50):783--859, 1987.
+
+\bibitem{Mnyukh2011}
+Y.~Mnyukh.
+\newblock {Second-order phase transitions, L. Landau and his successors}.
+\newblock 3(2):25--30, 2011.
+
+\bibitem{Cardy1996}
+John Cardy.
+\newblock {\em Scaling and Renormalization in Statistical Physics}.
+\newblock Cambridge University Press, New York, New York, 1996.
+
+\bibitem{Yang2008}
+Sen Yang, Xiaobing Ren, and Xiaoping Song.
+\newblock {Evidence for first-order nature of the ferromagnetic transition in
+  Ni, Fe, Co, and CoFe2O4}.
+\newblock {\em Physical Review B - Condensed Matter and Materials Physics},
+  78(17):1--6, 2008.
+
+\bibitem{Wen1990}
+X.~G. Wen.
+\newblock {Topological Orders in Rigid States}.
+\newblock {\em International Journal of Modern Physics B}, 4:239--271, 1990.
+
+\bibitem{Wen2017}
+Xiao-gang Wen.
+\newblock {Colloquium : Zoo of quantum-topological phases of matter}.
+\newblock {\em Reviews of Modern Physics}, 89:1--17, 2017.
+
+\bibitem{Kitaev2003}
+A~Yu Kitaev.
+\newblock {Fault-tolerant quantum computation by anyons}.
+\newblock {\em Annals of Physics}, 303:2--30, 2003.
+
+\bibitem{topOrderEdX}
+A.~Akhmerov, J.~Sau, B.~van Heck, M.~Irfan, B.~Nijholt, and T.~O. Rosdahl.
+\newblock Introduction to topological order, 2019.
+\newblock \textit{Available at}
+  \url{https://topocondmat.org/w12_manybody/topoorder.html}.
+
+\bibitem{Savary2017}
+Lucille Savary and Leon Balents.
+\newblock {Quantum Spin Liquids: A Review}.
+\newblock {\em Reports on Progress in Physics}, 80(016502), 2017.
+
+\bibitem{Bravyi2010}
+Sergey Bravyi, Matthew Hastings, and Spyridon Michalakis.
+\newblock {Topological quantum order : Stability under local perturbations
+  Topological}.
+\newblock {\em Journal of Mathematical Physics}, 51(093512), 2010.
+
+\bibitem{Griffiths1999}
+David~J. Griffiths.
+\newblock {\em {Introduction to Electrodynaics}}.
+\newblock Prentice Hall, New Jersey, USA, 3rd edition, 1999.
+
+\bibitem{Pierret2002}
+Robert~F. Pierret.
+\newblock {\em {Advanced Semiconductor Fundamentals}}.
+\newblock Pearson, Upper Saddle Hill, NJ, USA, 2nd edition, 2002.
+
+\bibitem{Beenakker1991}
+C~W~J Beenakker and H~van Houten.
+\newblock {Quantum Transport in Semiconductor Nanostructures}.
+\newblock {\em Solid State Physics}, 44:1--228, 1991.
+
+\bibitem{VonKlitzing1980}
+K~von Klitzing, G~Dorda, and M~Pepper.
+\newblock {New Method for High Accuracy Determination of the Fine-Structure
+  Constant Based on Quantized Hall Resistance}.
+\newblock {\em Physical Review Letters}, 45(6):494--497, 1980.
+
+\bibitem{Yoshioka2002}
+D.~Yoshioka.
+\newblock {\em {The Quantum Hall Effect}}.
+\newblock Springer-Verlag, Berlin, Germany, 1st edition, 2002.
+
+\bibitem{Chakraborty1995}
+T.~Chakraborty and Pietil{\"a}inen P.
+\newblock {\em The Quantum Hall Effects: Integral and Fractional}.
+\newblock Spring-Verlag, Berlin, Germany, 1995.
+
+\bibitem{Tsui1982}
+D.~C. Tsu, H.~L. Stormer, and A.~C. Gossard.
+\newblock Two-dimensional magnetotransport in the extreme quantum limit.
+\newblock {\em Physical Review Letters}, 48, 1982.
+
+\bibitem{Laughlin1983}
+R.~B. Laughlin.
+\newblock Anomalous quantum hall effect: An incompressible quantum fluid with
+  fractionally charged excitations.
+\newblock {\em Physical Review Letters}, 50(1395), 1983.
+
+\bibitem{Willet1987}
+R.~Willet, J.~P. Eisenstein, H.~L. St{\"o}rmer, D.~C. Tsui, A.~C. Gossard, and
+  J.~H. English.
+\newblock Observation of an even-denominator quantum number in the fractional
+  quantum hall effect.
+\newblock {\em Physical Review Letters}, 50(1776), 1987.
+
+\bibitem{Goldman1995}
+V.~J. Goldman and Su. B.
+\newblock Resonant tunneling in the quantum hall regime: Measurement of
+  fractional charge.
+\newblock {\em Science}, 17:1010--1012, 1995.
+
+\bibitem{Balents2010}
+Leon Balents.
+\newblock {Spin liquids in frustrated magnets}.
+\newblock {\em Nature}, 464:199--208, 2010.
+
+\bibitem{Wannier1950}
+G~H Wannier.
+\newblock {Antiferromagnetism. The Triangular Ising Net}.
+\newblock {\em Phys. Rev.}, 79(357), 1950.
+
+\bibitem{Lian2017}
+Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, Xiao-Liang Qi, and Shou-Cheng Zhang.
+\newblock {Topological Quantum Computation Based on Chiral Majorana Fermions}.
+\newblock 2017.
+
+\bibitem{Anderson1986}
+{P. W. Anderson}.
+\newblock {The Resonating Valence Bond State in La2CuO4 and Superconductivity}.
+\newblock {\em Science}, 235(1):1196--1198, 1986.
+
+\bibitem{Chen2018}
+Ji~Yao Chen and Didier Poilblanc.
+\newblock {Topological Z2 resonating-valence-bond spin liquid on the square
+  lattice}.
+\newblock {\em Physical Review B}, 97(16):2--6, 2018.
+
+\bibitem{Han2012}
+Tian~Heng Han, Joel~S. Helton, Shaoyan Chu, Daniel~G. Nocera, Jose~A.
+  Rodriguez-Rivera, Collin Broholm, and Young~S. Lee.
+\newblock {Fractionalized excitations in the spin-liquid state of a
+  kagome-lattice antiferromagnet}.
+\newblock {\em Nature}, 492(7429):406--410, 2012.
+
+\bibitem{Banerjee2016}
+A~Banerjee, C~A Bridges, J.~Q. Yan, A~A Aczel, L~Li, M~B Stone, G~E Granroth,
+  M~D Lumsden, Y~Yiu, J~Knolle, S~Bhattacharjee, D~L Kovrizhin, R~Moessner, D~A
+  Tennant, D~G Mandrus, and S~E Nagler.
+\newblock {Proximate Kitaev quantum spin liquid behaviour in a honeycomb
+  magnet}.
+\newblock {\em Nature Materials}, 15(7):733--740, 2016.
+
 \bibitem{Plumb2014}
 K.~W. Plumb, J.~P. Clancy, L.~J. Sandilands, V.~Vijay Shankar, Y.~F. Hu, K.~S.
   Burch, Hae~Young Kee, and Young~June Kim.
@@ -58,6 +222,25 @@ J.~Davies.
   \url{http://www.erezzetal.com/wp-content/uploads/2014/01/LectureNotes.pdf},
   2014.
 \newblock Online; accessed 19 June 2019.
+
+\bibitem{Yamada2018}
+Susumu Yamada, Toshiyuki Imamura, and Masahiko Machida.
+\newblock High performance lobpcg method for solving multiple eigenvalues of
+  hubbard model: Efficiency of communication avoiding neumann expansion
+  preconditioner.
+\newblock In Rio Yokota and Weigang Wu, editors, {\em Supercomputing
+  Frontiers}, pages 243--256, Cham, 2018. Springer International Publishing.
+
+\bibitem{Atland2010}
+Alexander Altland and Ben Simons.
+\newblock {\em Condensed Matter Field Theory}.
+\newblock Cambridge University Press, Cambridge, UK, 2nd edition, 2010.
+
+\bibitem{Fazekas1990}
+Patrik Fazekas.
+\newblock {\em Lecture Notes on Electron Correlation and Magnetism: Mott
+  Transition and the Hubbard Model}.
+\newblock World Scientific Publishing Co. Pte. Ltd., Singapore, 1990.
 
 \bibitem{Long2002}
 D.~Long.

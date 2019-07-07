@@ -22,7 +22,7 @@ At room temperature and ambient pressure, the structure of \rucl consists of edg
 
 \section{Electronic Structure}
 
-\rucl is a terrible conductor of electricity. But this highly insulating nature comes from a rich electronic structure that will be relevant when interpreting electronic transport data. Therefore in this section I will briefly review band theory, Mott insulators, and spin-orbit coupling before showing how these concepts explain the peculiarities of \ruclnospace 's electronic structure.
+\rucl is a terrible conductor of electricity. But this highly insulating nature comes from a rich electronic structure that will be relevant when interpreting electronic transport data. Therefore in this section I will briefly review band theory and Mott insulators before showing how these concepts explain the peculiarities of \ruclnospace 's electronic structure.
 
 \subsection{Review: Band Theory}
 
@@ -174,7 +174,7 @@ where $m$ is the effective mass of the electron and $S$ is the strength of the $
 
 The band gaps in Figure \ref{fig:RuCl3ElecStruct-2} appear every $k = \frac{n\pi}{a}$. This wavevectors correspond to reciprocal lattice vectors, and any periodic system will necessarily have band gaps at these value of $k$. While these band gaps emerge naturally from the Kronig-Penney model, we can also interpret them in the context of a diffraction. If a wave with wavelength $\lambda$ scatters from a series of periodic planes separated by distance $a$, the reflected waves destructively interfere with the incident wave when $k = \frac{2\pi}{\lambda} = \frac{n \pi}{a}$, preventing the wave from propagating.
 
-While band gaps always appear at zone boundaries, the nature of the periodic potential dictates the properties of the band structure everywhere else. Consider bringing together a large group of carbon atoms into a diamond lattice. Bands arising from the overlap of 2p and 2s carbon orbitals are shown in figure XX.  At large interatomic distance the orbitals do not overlap, but as the carbon atoms approach the overlap in their orbitals gives rise to delocalized orbitals so densely packed in energy as to effectively be a continuum. These delocalized orbitals are the bands, which are separated by a forbidden region called the band gap.
+While band gaps always appear at zone boundaries, the nature of the periodic potential dictates the properties of the band structure everywhere else. Consider bringing together a large group of carbon atoms into a diamond lattice. Bands arising from the overlap of 2p and 2s carbon orbitals are shown in Figure \ref{fig:RuCl3ElecStruct-3}.  At large interatomic distance the orbitals do not overlap, but as the carbon atoms approach the overlap in their orbitals gives rise to delocalized orbitals so densely packed in energy as to effectively be a continuum. These delocalized orbitals are the bands, which are separated by a forbidden region called the band gap.
 
 \begin{centering}
 \includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorno.png}
@@ -188,6 +188,45 @@ Bands and band gaps are the electronic structure of a material and determine the
 Band structure calculations for \rucl predict that it should be a metal, which is clearly incorrect. Band theory fails spectacularly in this case because electrons in \rucl are strongly correlated, and electron-electron interactions cannot be neglected. Accordingly, we will study another model to see how electron-electron interactions can cause materials to be insulating that would otherwise predict to be metallic.
 
 \subsection{Review: Correlated Materials and Mott Insulators}
+
+To appreciate the effect of electron-electron interactions, we will qualitatively explore a simplified version of the celebrated Hubbard model in two dimensions.
+
+\begin{centering}
+\includegraphics[width=0.3\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png}
+  \captionsetup{width=0.5\textwidth}
+  \captionof{figure}[Hubbard Model in Two Dimensions]{The Hubbard model in two dimensions. Zero, one, or two electrons can occupy each lattice site, with double occupancy costing an energy U. Electrons hop between sites with hopping integral $t$. From \cite{Yamada2018}.}
+  \label{fig:RuCl3ElecStruct-5}
+\end{centering}
+
+
+In the Hubbard model, electrons occupy discrete lattice sites (see Figure \ref{fig:RuCl3ElecStruct-5}), rather than propagate in free space. Each lattice site can hold zero, one, or two electrons (which must have opposite spin). The propagation of electrons and the associated kinetic energy is captured by a hopping term in the Hamiltonian, which moves electrons between lattice sites. Interactions are modeled by an on-site repulsion term, which increases the overall energy of the system if two electrons occupy a single site.
+
+The Hamiltonian is given by \cite{Atland2010}
+
+\begin{equation}
+\hat{H} = -t \sum_{<ij>} a^{\dagger}_{i \sigma} a_{j \sigma} + U \sum_{i} \hat{n}_{i \uparrow} \hat{n}_{i \downarrow} + \text{H.c.}
+\end{equation}
+
+where $t$ is the hopping integral, $a_{i \sigma}$ are the creation and annihilation operators for an electron of spin $\sigma$ at lattice site $i$, $U$ (called the Hubbard U) is the on site repulsion, $\hat{n}_{i\uparrow(\downarrow)}$ counts the electrons with spin up (down) on lattice site $i$, and $<ij>$ indicates the sum should go over nearest neighbors.
+
+Considering the limits of the Hubbard model is an instructive exercise. In the dilute limit (i.e., $\braket{n_{i}} << 1$), electron-electron interactions are weak because there aren't enough electrons around to interact with each other, and the model reproduces band theory \cite{Fazekas1990}:
+
+\begin{equation}
+\epsilon(\mathbf{k}) = -2t \sum_{j = x,y} \cos{k_{j} a}
+\end{equation}
+
+In the band limit, $U \rightarrow 0$, causing electron-electron interactions to become negligible; again, we recover band theory. In the atomic limit, $t \rightarrow 0$, the electrons can no longer move, and we have the energy spectrum of a single lattice site. Already we can see the Hubbard model produces results that are more in line with reality. As the lattice spacing increases, $t$ decreases due to decreasing overlap of atomic orbitals, until motion between lattice sites is completely suppressed. In band theory, the lattice spacing could approach infinity and there would still be propagating electron modes (check the Kronig-Penney model to see this).
+
+So far, the limiting cases have predicted what we would expect. But what happens at half-filling ($\braket{n_{i}} \approx 1$)\footnote{Theoretically, any deviation from half-filling should result in a metallic state because the empty site or doubly-occupied site should be able to propagate. However, in a real system defects and impurities may prevent propagation and widen the range of filling values that can support insulating states} when $U$ and $t$ are of similar magnitude? In this case, the model describes competition between the hopping term, which delocalizes the electrons, and the Hubbard U, which localizes them. For small values of $U/t$, the model predicts a metallic system. But for large values of $U/t$, the energetic penalty for double occupancy forces the electrons to stay localized on a particular lattice site and the system is insulating. At a critical value $U^{*} \approx z t$, where $z$ is the coordination number of the lattice, the system undergoes a Mott transition (a continuous phase transition) from an insulating to a metallic state \cite{Fazekas}. We can visualize this transition as the eventual meeting and overlap of occupied and unoccupied Hubbard bands (corresponding to single and double occupancy of the lattice sites) at a the critical value $U^{*}$, as shown in Figure \ref{fig:RuCl3ElecStruct-4}.
+
+\begin{centering}
+\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Mott Transition]{As the on-site repulsion parameter U is reduced below the critical value, the upper and lower Hubbard bands meet and overlap. From \cite{Fazekas1990}.} 
+  \label{fig:RuCl3ElecStruct-4}
+\end{centering}
+
+As we have seen, electron-electron correlations can dramatically change the qualitative behavior of electronic systems in a ways that band theory cannot capture. Now that we have a qualitative understanding of both band theory and correlated systems, we can proceed to study the electronic structure of \ruclnospace .
 
 \subsection{\texorpdfstring{\rucl}{RuCl3}as a spin-assisted Mott Insulator}
 
