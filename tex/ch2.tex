@@ -187,7 +187,7 @@ Bands and band gaps are the electronic structure of a material and determine the
 
 Band structure calculations for \rucl predict that it should be a metal, which is clearly incorrect. Band theory fails spectacularly in this case because electrons in \rucl are strongly correlated, and electron-electron interactions cannot be neglected. Accordingly, we will study another model to see how electron-electron interactions can cause materials to be insulating that would otherwise predict to be metallic.
 
-\subsection{Review: Correlated Materials and Mott Insulators}
+\subsection{Review: The Hubbard Model and Mott Insulators}
 
 To appreciate the effect of electron-electron interactions, we will qualitatively explore a simplified version of the celebrated Hubbard model in two dimensions.
 
@@ -197,7 +197,6 @@ To appreciate the effect of electron-electron interactions, we will qualitativel
   \captionof{figure}[Hubbard Model in Two Dimensions]{The Hubbard model in two dimensions. Zero, one, or two electrons can occupy each lattice site, with double occupancy costing an energy U. Electrons hop between sites with hopping integral $t$. From \cite{Yamada2018}.}
   \label{fig:RuCl3ElecStruct-5}
 \end{centering}
-
 
 In the Hubbard model, electrons occupy discrete lattice sites (see Figure \ref{fig:RuCl3ElecStruct-5}), rather than propagate in free space. Each lattice site can hold zero, one, or two electrons (which must have opposite spin). The propagation of electrons and the associated kinetic energy is captured by a hopping term in the Hamiltonian, which moves electrons between lattice sites. Interactions are modeled by an on-site repulsion term, which increases the overall energy of the system if two electrons occupy a single site.
 
@@ -217,7 +216,7 @@ Considering the limits of the Hubbard model is an instructive exercise. In the d
 
 In the band limit, $U \rightarrow 0$, causing electron-electron interactions to become negligible; again, we recover band theory. In the atomic limit, $t \rightarrow 0$, the electrons can no longer move, and we have the energy spectrum of a single lattice site. Already we can see the Hubbard model produces results that are more in line with reality. As the lattice spacing increases, $t$ decreases due to decreasing overlap of atomic orbitals, until motion between lattice sites is completely suppressed. In band theory, the lattice spacing could approach infinity and there would still be propagating electron modes (check the Kronig-Penney model to see this).
 
-So far, the limiting cases have predicted what we would expect. But what happens at half-filling ($\braket{n_{i}} \approx 1$)\footnote{Theoretically, any deviation from half-filling should result in a metallic state because the empty site or doubly-occupied site should be able to propagate. However, in a real system defects and impurities may prevent propagation and widen the range of filling values that can support insulating states} when $U$ and $t$ are of similar magnitude? In this case, the model describes competition between the hopping term, which delocalizes the electrons, and the Hubbard U, which localizes them. For small values of $U/t$, the model predicts a metallic system. But for large values of $U/t$, the energetic penalty for double occupancy forces the electrons to stay localized on a particular lattice site and the system is insulating. At a critical value $U^{*} \approx z t$, where $z$ is the coordination number of the lattice, the system undergoes a Mott transition (a continuous phase transition) from an insulating to a metallic state \cite{Fazekas}. We can visualize this transition as the eventual meeting and overlap of occupied and unoccupied Hubbard bands (corresponding to single and double occupancy of the lattice sites) at a the critical value $U^{*}$, as shown in Figure \ref{fig:RuCl3ElecStruct-4}.
+So far, the limiting cases have predicted what we would expect. But what happens at half-filling ($\braket{n_{i}} \approx 1$)\footnote{Theoretically, any deviation from half-filling should result in a metallic state because the empty site or doubly-occupied site should be able to propagate. However, in a real system defects and impurities may prevent propagation and widen the range of filling values that can support insulating states.} when $U$ and $t$ are of similar magnitude? In this case, the model describes competition between the hopping term, which delocalizes the electrons, and the Hubbard U, which localizes them. For small values of $U/t$, the model predicts a metallic system. But for large values of $U/t$, the energetic penalty for double occupancy forces the electrons to stay localized on a particular lattice site and the system is insulating. At a critical value $U^{*} \approx z t$, where $z$ is the coordination number of the lattice, the system undergoes a Mott transition (a continuous phase transition) from an insulating to a metallic state \cite{Fazekas}. We can visualize this transition as the eventual meeting and overlap of occupied and unoccupied Hubbard bands (corresponding to single and double occupancy of the lattice sites) at a the critical value $U^{*}$, as shown in Figure \ref{fig:RuCl3ElecStruct-4}.
 
 \begin{centering}
 \includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.png}
@@ -226,18 +225,54 @@ So far, the limiting cases have predicted what we would expect. But what happens
   \label{fig:RuCl3ElecStruct-4}
 \end{centering}
 
-As we have seen, electron-electron correlations can dramatically change the qualitative behavior of electronic systems in a ways that band theory cannot capture. Now that we have a qualitative understanding of both band theory and correlated systems, we can proceed to study the electronic structure of \ruclnospace .
+As we have seen, electron-electron correlations can dramatically change the qualitative behavior of electronic systems in a ways that band theory cannot capture. Now that we have a qualitative understanding of both band theory and Mott insulators, we can proceed to study the electronic structure of \ruclnospace .
 
-\subsection{\texorpdfstring{\rucl}{RuCl3}as a spin-assisted Mott Insulator}
+\subsection{Measured Electronic Properties of \texorpdfstring{\rucl}{RuCl3}}
 
+\subsubsection{Transport measurements}
+
+Early transport measurements of single-crystal \rucl (approximately 50 $\mu$m thick) show it to be an insulator with room-temperature in-plane resistivity near $2x10^{3}$ $\Omega$cm and out of plane resistivity approximately three orders of manitude larger. Conduction is thermally activated both in-plane and out-of-plane with an activation energy of approximately 0.1 eV \cite{Binotto1971}. Subsequent Hall measurements using specially-designed high-resistance electronics found an activation energy of approximately 0.15 eV and showed the conduction to be band transport rather than hopping (mobility increases with decreasing temperature). The majority carriers were shown to be electrons \cite{Rojas1983}.
+
+Recently, transport measurements performed on exfoliated, high-purity \rucl crystals (tens of nanometers in thickness) have found somewhat different results. Measurements at California State University, Long Beach measure 0.08 eV for the thermal activation of conduction \cite{Kim2017}. Measurements at the Max Planck Institute in Germany found dramatically lower room-temperature resistivity and variable range hopping instead of band conduction \cite{Mashhadi2018}. 
+
+Taken together, these measurements suggest \rucl is a simple band insulator with a modest band gap of around 100 meV (allowing for some experimental variation). However, other measurements refine and challenge this view.
+
+\subsubsection{Optical measurements}
+Optical measurements find an optical band gap of about 1 eV, well in excess of the measured thermal activation energy \cite{Sandilands2016}. Optical absorption at higher energies are identified with transitions between Ru and Cl inner orbitals.
+
+While there are extensive Raman spectroscopy measurements, these measurements relate more to magnetic exicitations or phonons and are covered elsewhere in this dissertation.
+
+\subsubsection{Other measurements and calculations}
+Other techniques used to investigate the electronic structure of \rucl include scanning tunneling microscopy and spectroscopy (STM and STS), ange-resolved photoemission spectroscopy (ARPES), and x-ray spectroscopy. STM and STS measurements find a band gap of approximately 0.25 eV and find symmetry breaking of charge distribution on the surface layer of \rucl \cite{Ziatdinov2016}.
+
+ARPES measurements find large gaps (1.2 eV \cite{Zhou2016} and 1.9 eV \cite{Sinn2016}) which are somewhat consistent with optical measurements. However, in order to reproduce to the observed band structure and gaps, electronic structure calculations require both electron-electron (non-zero Hubbard U) and a spin-orbit coupling. Accordingly, these measurements suggest \rucl is a spin-assisted Mott insulator - a Mott insulator that requires spin-orbit coupling to open a gap.
+
+Finally, ARPES, X-ray photoemission, and electron energy loss spectroscopy indicate that the low energy electronic structure of \rucl has an effective \textonehalf spin (i.e., $J_{\text{eff}} = \frac{1}{2}$) \cite{Koitzsch2016}.
+
+\subsection{A unified electronic picture of \texorpdfstring{\rucl}{RuCl3}}
+While there appear to be conflicting measurements in the published literature, many of the salient features of \rucl can be understood in a single framework. First, \rucl is a spin-assisted Mott insulator, in that band structure predicts it to be metallic, but its insulating behaviour is the result of both repulsive electron-electron interactions and spin orbit coupling. Second, differing measurements of the gap are actually measuring different transitions. The 0.1 eV thermal activation for conduction observed in transport measurements comes from a small band approximately 0.1 eV above the Fermi level, which could not be seen in ARPES and was hard to see in optical measurements. Other, larger gaps correspond to transitions between bands with larger energy differences as shown in Figure \ref{fig:RuCl3ElecStruct-6} \cite{Plumb2014}.
+
+\begin{centering}
+\includegraphics[width=0.9\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-Plumb.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Optical Absorption and Calculated Band Structure of \ruclnospace]{Optical absorption and calculated band structure. The features in optical absorption are correlated with transitions between bands. Note the relatively small amplitude of the $\alpha$ feature, which may explain why it was previously unobserved. From \cite{Plumb2014}}. 
+  \label{fig:RuCl3ElecStruct-6}
+\end{centering}
+
+Finally, the conduction electrons identified as charge carriers in transport measurement are actually a $J_{\text{eff}} = \frac{1}{2}$ system localized on ruthenium atoms \cite{Plumb2014}.
 
 \section{Magnetic Properties}
 
+\subsection{Magnetic Transitions}
+
 Discuss magnetic transitions - paramagnet to antiferromagnet. Stacking faults causing additional magnetic transitions.
 
-\section{\texorpdfstring{\rucl}{RuCl3}as a Kitaev Spin Liquid}
+%review this: Kim, H.-S., & Kee, H.-Y. (2015). Crystal structure and magnetism in alpha-RuCl3: an ab-initio study, 155143, 1–10. https://doi.org/10.1103/PhysRevB.93.155143
 
-\subsection{The Kitaev Model}
+%Sears, J. A., Songvilay, M., Plumb, K. W., Clancy, J. P., Qiu, Y., Zhao, Y., … Kim, Y. J. (2015). Magnetic order in α - RuCl3: A honeycomb-lattice quantum magnet with strong spin-orbit coupling. Physical Review B - Condensed Matter and Materials Physics, 91(14). https://doi.org/10.1103/PhysRevB.91.144420
+
+
+\subsection{RuCl3 as a spin liquid}
 
 Discuss and solve the Kitaev model.
 
