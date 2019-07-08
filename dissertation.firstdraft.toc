@@ -34,8 +34,8 @@
 \contentsline {section}{\numberline {2.3}Magnetic Properties}{37}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Effective spin-\textonehalf {} moments in RuCl\textsubscript {3} }{37}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}The Kitaev QSL and its Solution}{39}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Magnetic Transitions}{41}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}RuCl3 as a spin liquid}{41}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.3}Magnetic Transitions}{42}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}RuCl3 as a spin liquid}{42}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Spin Liquid Behavior in RuCl\textsubscript {3} }{42}{subsection.2.3.5}
 \contentsline {chapter}{\numberline {3}Electrolyte Gating}{43}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction to Electronic Structure}{43}{section.3.1}
