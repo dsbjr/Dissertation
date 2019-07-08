@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  7 JUL 2019 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  8 JUL 2019 01:24
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -541,13 +541,13 @@ File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 
 [10
 
-] (dissertation.firstdraft.lof)
+] (dissertation.firstdraft.lof [11
+
+])
 \tf@lof=\write6
 \openout6 = `dissertation.firstdraft.lof'.
 
- [11
-
-]
+ [12]
 \openout2 = `./tex/intro.aux'.
 
  (tex/intro.tex [1
@@ -565,7 +565,7 @@ See the caption package documentation for explanation.
 
 [4] [5] [6]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition-Bin
-der.png, id=409, 834.86906pt x 1043.39813pt>
+der.png, id=430, 834.86906pt x 1043.39813pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransitio
 n-Binder.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition
@@ -582,7 +582,7 @@ See the caption package documentation for explanation.
 [7 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition-
 Binder.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransition-Bi
-nder.png, id=420, 907.13907pt x 1072.005pt>
+nder.png, id=441, 907.13907pt x 1072.005pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransiti
 on-Binder.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransitio
@@ -599,7 +599,7 @@ See the caption package documentation for explanation.
 [8 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransition
 -Binder.png>] [9]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg, id
-=445, 1148.79187pt x 607.51968pt>
+=466, 1148.79187pt x 607.51968pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jp
 g Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg
@@ -616,7 +616,7 @@ See the caption package documentation for explanation.
 [10 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg
 >]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopOrder
-EdX.jpg, id=458, 1273.00594pt x 571.38469pt>
+EdX.jpg, id=478, 1273.00594pt x 571.38469pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-Top
 OrderEdX.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopO
@@ -632,7 +632,7 @@ See the caption package documentation for explanation.
 
 [11 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopO
 rderEdX.jpg>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg, id=47
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg, id=49
 4, 757.83125pt x 421.575pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg G
 raphic file (type jpg)
@@ -649,7 +649,7 @@ See the caption package documentation for explanation.
 [12] [13 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.j
 pg>] [14]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png, id=5
-02, 607.26875pt x 692.5875pt>
+22, 607.26875pt x 692.5875pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png 
 Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png>
@@ -665,7 +665,7 @@ See the caption package documentation for explanation.
 [15 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png (
 PNG copy)>] [16] [17]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.png, i
-d=546, 764.8575pt x 558.085pt>
+d=566, 764.8575pt x 558.085pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.p
 ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.pn
@@ -682,7 +682,7 @@ See the caption package documentation for explanation.
 [18] [19 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Will
 et.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.png, 
-id=567, 632.3625pt x 219.82124pt>
+id=587, 632.3625pt x 219.82124pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.
 png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.p
@@ -699,7 +699,7 @@ See the caption package documentation for explanation.
 [20] [21 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2
 010.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Balents
-.png, id=586, 1541.76pt x 669.2503pt>
+.png, id=607, 1541.76pt x 669.2503pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Ba
 lents.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Bal
@@ -731,7 +731,7 @@ Chapter 2.
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plumb.p
-ng, id=621, 759.58781pt x 575.90157pt>
+ng, id=641, 759.58781pt x 575.90157pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Pl
 umb.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plu
@@ -748,7 +748,7 @@ See the caption package documentation for explanation.
 [26 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plu
 mb.png>] [27]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-Kron
-igPenney.png, id=650, 1081.03876pt x 495.35063pt>
+igPenney.png, id=671, 1081.03876pt x 495.35063pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure
 -KronigPenney.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-
@@ -765,7 +765,7 @@ See the caption package documentation for explanation.
 [28 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-
 KronigPenney.png>] [29]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-Davi
-es.png, id=674, 836.3747pt x 938.75719pt>
+es.png, id=694, 836.3747pt x 938.75719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone
 -Davies.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-
@@ -781,7 +781,7 @@ See the caption package documentation for explanation.
 
 [30]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorn
-o.png, id=687, 1957.3125pt x 895.84688pt>
+o.png, id=707, 1957.3125pt x 895.84688pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Che
 tvorno.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chet
@@ -797,8 +797,8 @@ See the caption package documentation for explanation.
 
 [31 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-
 Davies.png>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png, id=6
-93, 240.9pt x 175.55588pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png, id=7
+13, 240.9pt x 175.55588pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png 
 Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png>
@@ -818,7 +818,7 @@ Yamada.png>]
 LaTeX Warning: Citation `Fazekas' on page 34 undefined on input line 219.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.png, i
-d=713, 2057.43657pt x 551.81157pt>
+d=734, 2057.43657pt x 551.81157pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.p
 ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.pn
@@ -834,31 +834,80 @@ See the caption package documentation for explanation.
 [34 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.pn
 g>] [35] [36]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-Plumb
-.png, id=752, 1222.5675pt x 467.49657pt>
+.png, id=770, 1222.5675pt x 467.49657pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-
 Plumb.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-P
 lumb.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Absor
-ptionBandStructure-Plumb.png  used on input line 256.
+ptionBandStructure-Plumb.png  used on input line 255.
 (pdftex.def)             Requested size: 390.25534pt x 149.22388pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 258.
+(caption)                particular \caption on input line 257.
 See the caption package documentation for explanation.
 
-) [37 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure
--Plumb.png>] [38]
+[37 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-P
+lumb.png>]
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Stamoko
+stas.png, id=779, 2039.36906pt x 804.75656pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-St
+amokostas.png Graphic file (type png)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Sta
+mokostas.png>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Cryst
+alFieldSplitting-Stamokostas.png  used on input line 272.
+(pdftex.def)             Requested size: 390.25534pt x 153.99821pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 274.
+See the caption package documentation for explanation.
+
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamokosta
+s.png, id=785, 959.83594pt x 651.93562pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamo
+kostas.png Graphic file (type png)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamok
+ostas.png>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinO
+rbitSplitting-Stamokostas.png  used on input line 281.
+(pdftex.def)             Requested size: 325.215pt x 220.88919pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 283.
+See the caption package documentation for explanation.
+
+[38 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Sta
+mokostas.png>] [39 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitS
+plitting-Stamokostas.png>]
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png, id=
+806, 1056.19594pt x 380.17032pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png
+ Graphic file (type png)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png>
+
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Kitae
+vLattice-Kitaev.png  used on input line 302.
+(pdftex.def)             Requested size: 325.215pt x 117.05685pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 304.
+See the caption package documentation for explanation.
+
+[40 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png>
+]) [41] [42]
 \openout2 = `./tex/ch3.aux'.
 
  (tex/ch3.tex
 Chapter 3.
-[39
+[43
 
 
 
-]) [40]
+]) [44]
 \openout2 = `./tex/ch4.aux'.
 
  (tex/ch4.tex
@@ -868,22 +917,22 @@ Overfull \hbox (0.76576pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/17.28 Introduction to Elec-tronic Trans-port Mea-sure-
  []
 
-[41
+[45
 
 
 
-]) [42]
+]) [46]
 \openout2 = `./tex/ch5.aux'.
 
  (tex/ch5.tex
 Chapter 5.
-[43
+[47
 
 
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nanophot
-on.png, id=792, 1204.5pt x 353.82187pt>
+on.png, id=860, 1204.5pt x 353.82187pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nan
 ophoton.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nano
@@ -897,10 +946,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 19.
 See the caption package documentation for explanation.
 
-[44] [45 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
--nanophoton.png>] [46] [47]
+[48] [49 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
+-nanophoton.png>] [50] [51]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Origin
-al.jpg, id=842, 722.7pt x 542.025pt>
+al.jpg, id=910, 722.7pt x 542.025pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-O
 riginal.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
@@ -914,10 +963,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
-[48 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
+[52 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
 iginal.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLabeled
--Original.png, id=853, 1079.53313pt x 842.39719pt>
+-Original.png, id=921, 1079.53313pt x 842.39719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLa
 beled-Original.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
@@ -931,10 +980,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 145.
 See the caption package documentation for explanation.
 
-[49 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
+[53 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
 eled-Original.png>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=86
-6, 1705.87312pt x 806.26219pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=93
+4, 1705.87312pt x 806.26219pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png G
 raphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png>
@@ -948,7 +997,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpe
-ctrum-Original.jpg, id=871, 1053.9375pt x 790.45313pt>
+ctrum-Original.jpg, id=939, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Ram
 anSpectrum-Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Rama
@@ -961,11 +1010,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 165.
 See the caption package documentation for explanation.
 
-[50 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
+[54 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
 C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpec
 trum-Original.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-Origi
-nal.jpg, id=879, 771.1209pt x 590.205pt>
+nal.jpg, id=947, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-
 Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
@@ -984,42 +1033,42 @@ Overfull \hbox (10.1058pt too wide) in paragraph at lines 181--181
 []\OT1/cmr/bx/n/17.28 Raman Spec-troscopy of RuCl$[]$ with in-situ Elec-
  []
 
-[51 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
+[55 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
 riginal.jpg>]
 Overfull \hbox (7.12137pt too wide) in paragraph at lines 186--187
 []\OT1/cmr/m/n/12 Samples were at-tached to an 8 con-tact DIP chip car-rier us-
 ing poly(methyl methacry-
  []
 
-[52]) [53]
+[56]) [57]
 \openout2 = `./tex/ch6.aux'.
 
  (tex/ch6.tex
 Chapter 6.
-) [54
+) [58
 
 
 
-] (dissertation.firstdraft.bbl [55
+] (dissertation.firstdraft.bbl [59
 
 
-] [56] [57]
+] [60] [61]
 Underfull \hbox (badness 10000) in paragraph at lines 219--225
 \OT1/cmtt/m/n/12 / / www . erezzetal . com / wp-[]content / uploads / 2014 / 01
  / LectureNotes . pdf$[]\OT1/cmr/m/n/12 ,
  []
 
-[58] [59])
+[62] [63] [64])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
- [60]
+ [65]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
- (dissertation.firstdraft.aux (tex/intro.aux) (tex/ch2.aux)
-(tex/ch3.aux) (tex/ch4.aux) (tex/ch5.aux) (tex/ch6.aux))
+ (dissertation.firstdraft.aux (tex/intro.aux) (tex/ch2.aux) (tex/ch3.aux) (tex/
+ch4.aux) (tex/ch5.aux) (tex/ch6.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `dissertation.firstdraft.out' has not changed
 .
-(rerunfilecheck)             Checksum: 2D385107DFE009B4C868873D6F66C9F6;4273.
+(rerunfilecheck)             Checksum: 4F38D57A33C0C0A8A420FA9531792AF0;4477.
 
 
 LaTeX Warning: There were undefined references.
@@ -1027,39 +1076,40 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 11565 strings out of 492973
- 172611 string characters out of 3135932
- 230118 words of memory out of 3000000
- 14976 multiletter control sequences out of 15000+200000
- 22608 words of font info for 77 fonts, out of 3000000 for 9000
+ 11614 strings out of 492973
+ 174187 string characters out of 3135932
+ 231415 words of memory out of 3000000
+ 14997 multiletter control sequences out of 15000+200000
+ 22949 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,47p,1781b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\dsbjr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.firstdraft.pdf (69 pages, 6821535 bytes).
+tcbx1440.pk> <C:\Users\dsbjr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\tcrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on dissertation.firstdraft.pdf (75 pages, 7841918 bytes).
 PDF statistics:
- 1069 PDF objects out of 1200 (max. 8388607)
- 282 named destinations out of 1000 (max. 500000)
- 519 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1151 PDF objects out of 1200 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
+ 550 words of extra memory for PDF output out of 10000 (max. 10000000)
 

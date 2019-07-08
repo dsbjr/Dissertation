@@ -189,7 +189,7 @@ Band structure calculations for \rucl predict that it should be a metal, which i
 
 \subsection{Review: The Hubbard Model and Mott Insulators}
 
-To appreciate the effect of electron-electron interactions, we will qualitatively explore a simplified version of the celebrated Hubbard model in two dimensions.
+To appreciate the effect of electron-electron interactions, we will qualitatively explore a simplified version of the venerable Hubbard model in two dimensions.
 
 \begin{centering}
 \includegraphics[width=0.3\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png}
@@ -247,10 +247,9 @@ Other techniques used to investigate the electronic structure of \rucl include s
 
 ARPES measurements find large gaps (1.2 eV \cite{Zhou2016} and 1.9 eV \cite{Sinn2016}) which are somewhat consistent with optical measurements. However, in order to reproduce to the observed band structure and gaps, electronic structure calculations require both electron-electron (non-zero Hubbard U) and a spin-orbit coupling. Accordingly, these measurements suggest \rucl is a spin-assisted Mott insulator - a Mott insulator that requires spin-orbit coupling to open a gap.
 
-Finally, ARPES, X-ray photoemission, and electron energy loss spectroscopy indicate that the low energy electronic structure of \rucl has an effective \textonehalf spin (i.e., $J_{\text{eff}} = \frac{1}{2}$) \cite{Koitzsch2016}.
 
 \subsection{A unified electronic picture of \texorpdfstring{\rucl}{RuCl3}}
-While there appear to be conflicting measurements in the published literature, many of the salient features of \rucl can be understood in a single framework. First, \rucl is a spin-assisted Mott insulator, in that band structure predicts it to be metallic, but its insulating behaviour is the result of both repulsive electron-electron interactions and spin orbit coupling. Second, differing measurements of the gap are actually measuring different transitions. The 0.1 eV thermal activation for conduction observed in transport measurements comes from a small band approximately 0.1 eV above the Fermi level, which could not be seen in ARPES and was hard to see in optical measurements. Other, larger gaps correspond to transitions between bands with larger energy differences as shown in Figure \ref{fig:RuCl3ElecStruct-6} \cite{Plumb2014}.
+While there appear to be conflicting measurements in the published literature, many of the salient features of \rucl can be understood in a single framework. First, \rucl is a spin-assisted Mott insulator, in that band structure predicts it to be metallic, but its insulating behaviour is the result of both repulsive electron-electron interactions and spin orbit coupling. Second, differing measurements of the gap are actually measuring different transitions. The 0.1 eV thermal activation for conduction observed in transport measurements comes from a small band approximately 0.1 eV above the Fermi level, which was not seen in ARPES and was hard to see in optical measurements. Other, larger gaps correspond to transitions between bands with larger energy differences as shown in Figure \ref{fig:RuCl3ElecStruct-6} \cite{Plumb2014}.
 
 \begin{centering}
 \includegraphics[width=0.9\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-Plumb.png}
@@ -259,9 +258,107 @@ While there appear to be conflicting measurements in the published literature, m
   \label{fig:RuCl3ElecStruct-6}
 \end{centering}
 
-Finally, the conduction electrons identified as charge carriers in transport measurement are actually a $J_{\text{eff}} = \frac{1}{2}$ system localized on ruthenium atoms \cite{Plumb2014}.
-
 \section{Magnetic Properties}
+
+The magnetic properties of a material are determined by the pairings and spin interactions of its electrons. Accordingly, we will examine these for \rucl, and see that the magnetic properties are dominated by effective spin-\textonehalf electrons localized on the ruthenium atoms. We will then explore the interactions between these localized electrons and how they lead to a realization of the Kitaev model. Finally, we will discuss recent measurements that confirm the electrons to be localized and the behavior of \rucl as a spin liquid.
+
+\subsection{Effective spin-\textonehalf{} moments in \texorpdfstring{\rucl}{RuCl3}}
+
+Ruthenium has electronic configuration [Kr]4d\textsuperscript{7}5s\textsuperscript{1}. In \ruclnospace , the $s$ electron and one 2 $d$ electrons are paired into bonding orbitals and are therefore we neglect their contribution to magnetism. Under this assumption, the magnetism of the material is determined by the remaining 5 electrons in the 4$d$ orbitals.
+
+Because the ruthenium exists in a solid, the energy of the d orbitals is affected by the surrounding crystal. This interaction, called the crystal field effect, actually splits the 4d orbitals into doubly-degenerate e\textsubscript{g} and triply-degenerate t\textsubscript{2g} orbitals, as shown in Figure \ref{fig:RuCl3MagProp-1}.
+
+\begin{centering}
+\includegraphics[width=0.9\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Stamokostas.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Octahedral crystal field splitting of d orbitals]{The presence of octahedral coordination breaks the SO(3) rotational symmetry of the d orbitals and reduces it to the discrete octahedral symmetry $O_{h}$. d orbitals that point directly at ligands become higher in energy than d orbitals that do not by the crystal field splitting energy $\Delta$. From \cite{Stamokostas2018}.} 
+  \label{fig:RuCl3MagProp-1}
+\end{centering}
+
+Spin-orbit coupling further splits the e\textsubscript{g} and t\textsubscript{2g} orbitals\footnote{This is not \textit{exactly} correct. The spin-orbit coupling in \rucl is sufficiently small that it mixes the e\textsubscript{g} and t\textsubscript{2g} orbitals. However, introduction of the Hubbard U term in the Hamiltonian enhances the spin orbit coupling and returns the $J_eff = \frac{1}{2}$ character of a single t\textsubscript{2g} orbital, making this picture qualitatively correct \cite{Kim2015}.} by $\frac{3\zeta}{2}$ (where $\zeta$ is the spin orbit coupling), as shown in Figure \ref{fig:RuCl3MagProp-2}.
+
+\begin{centering}
+\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamokostas.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Spin-orbit splitting of t2g orbitals]{Spin orbit coupling further splits the t\textsubscript{2g} orbitals into effective J = \textonehalf{} and J = $\frac{3}{2}$ states. Adapted from \cite{Stamokostas2018}.} 
+  \label{fig:RuCl3MagProp-2}
+\end{centering}
+
+Four of the remaining $d$ electrons are paired in the  lower-energy $J_{eff} = \frac{3}{2}$ states, while the remaining electron is unpaired and occupies the $J_{eff} = \frac{1}{2}$ state. This electron is responsible for the magnetism of \ruclnospace, and is a localized spin-\textonehalf{} moment. DFT calculations, which accurately reproduce ARPES, x-ray photoemission, and electron energy loss spectroscopy, justifies this $J_{eff} = \frac{1}{2}$ description \cite{Koitzsch2016}.
+
+The problem of interacting spin-\textonehalf{} moments on the vertices of a hexagonal lattice is closely related to the Kitaev model of a quantum spin liquid, which has already been solved. We will now turn our attention to this model.
+
+\subsection{The Kitaev QSL and its Solution}
+
+In 2006, Kitaev developed an exactly solvable model of a QSL \cite{Kitaev2006}. He imagined a system of spins on a hexagonal lattice being described by the following Hamiltonian
+
+\begin{equation}
+H = -J_{x} \sum_{\text{x links}} \sigma_{j}^{x} \sigma_{k}^{x} -J_{y} \sum_{\text{y links}} \sigma_{j}^{y} \sigma_{k}^{y} -J_{z} \sum_{\text{z links}} \sigma_{j}^{z} \sigma_{k}^{z} = \sum_{<ij>,\gamma}K_{\gamma}\sigma_{i}^{\gamma}\sigma_{j}^{\gamma}
+\end{equation}
+
+where the x, y, and z links are defined in Figure \ref{fig:RuCl3MagProp-3}.
+
+\begin{centering}
+\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Lattice for the Kitaev Model]{Definitions of the three types of links on a hexagonal lattice used in the Kitaev Model. From \cite{Kitaev2006}.} 
+  \label{fig:RuCl3MagProp-3}
+\end{centering}
+
+While the anisotropic interaction may seem unusual, but in hexagonal systems with octahedral coordination, small deviations in bond angle lead to inequivalent bonds that could give rise to anisotropy (see Figure \ref{fig:RuCl3CrystStruct-1}.
+
+Surprisingly, the Hamiltonian commutes with the so-called ``plaquette'' operator
+
+\begin{equation}
+W_{p} = \sigma_{1}^{x}\sigma_{2}^{y}\sigma_{3}^{z}\sigma_{4}^{x}\sigma_{5}^{y}\sigma_{6}^{z}
+\end{equation}
+
+which is the product around a hexagonal loop of six spin operators with an index matching that of the outgoing bond. The conserved quantity associated with the plaquette operator is a $Z_{2}$ gauge flux\footnote{$Z_{2}$ refers to the operator taking values $\pm 1$. Gauge flux refers to taking the product around a loop being similar to finding the flux through a surface by integrating a gauge field along the edge.} or vison. These gauge fluxes split the Hilbert space into sectors with given values of $W_{p}$ for each plaquette, making the Hamiltonian block diagonal and easier to solve.
+
+Any fermionic mode can be written as the sum or difference of Majorana operators
+
+\begin{equation}
+\begin{array}{cc}
+	c_{2k-1} = a_{k} + a_{k}^{\dagger}, & c_{2k} = \frac{1}{i} (a_{k} - a_{k}^{\dagger}) \\
+\end{array}
+\end{equation}
+
+Which have the following algebra
+
+\begin{equation}
+\begin{cases}
+	c_{j}^{2} = 1 \\
+	c_{j} c_{l} = - c_{l} c_{j}, & j \neq l \\
+\end{cases}
+\end{equation}
+
+Let us represent the creation and annihilation operators for the spins in the Kitaev Hamiltonian as four majorana operators $b^{x}, b^{y}, b^{z}, c$, and expand the two-dimensional Hilbert subspace into a four-dimensional extended Fock space using the following identifications
+
+\begin{equation}
+\widetilde{\sigma^{\gamma}} = i b^{\gamma} c
+\end{equation}
+
+Writing our Hamiltonian in the extended Fock space we get
+
+\begin{equation}
+\widetilde{H} = \sum_{<ij>,\gamma} K_{\gamma} \widetilde{\sigma^{\gamma}_{i}}\widetilde{\sigma^{\gamma}_{j}} = \sum_{<ij>,\gamma} (i b^{\gamma}_{i}c_{i}) (i b^{\gamma}_{i}c_{j}) = \sum_{<ij>,\gamma} -i(ib^{\gamma}_{i}b^{\gamma}_{j})c_{i}c_{j}
+\end{equation}
+
+Define the term in parentheses as an operator along link $i,j$ where $\gamma \in x,y,z$ refers to the character of the link
+
+\begin{equation}
+\hat{u}_{i,j} = i b_{i}^{\gamma} b_{j}^{\gamma}
+\end{equation}
+
+Then we can write the Hamiltonian in a suggestive form
+
+\begin{equation}
+\begin{array}{cc}
+	\tilde{H} = \frac{i}{4} \sum_{<ij>} \hat{A}_{ij} c_{i} c_{j}, & \hat{A}_{ij} = 2 J^{\gamma}_{ij}\hat{u}_{i,j} \\
+\end{array}
+\end{equation}
+
+Finally, the conduction electrons identified as charge carriers in transport measurement are actually a $J_{\text{eff}} = \frac{1}{2}$ system localized on ruthenium atoms \cite{Plumb2014}.
 
 \subsection{Magnetic Transitions}
 

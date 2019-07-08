@@ -32,32 +32,34 @@
 \contentsline {subsubsection}{Other measurements and calculations}{36}{section*.17}
 \contentsline {subsection}{\numberline {2.2.4}A unified electronic picture of RuCl\textsubscript {3} }{36}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Magnetic Properties}{37}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Magnetic Transitions}{37}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}RuCl3 as a spin liquid}{37}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Spin Liquid Behavior in RuCl\textsubscript {3} }{38}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}Electrolyte Gating}{39}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction to Electronic Structure}{39}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Density of States}{39}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Occupation Function and Charge Density}{39}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Electrochemical Potential and Field-Effect Gating}{39}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Gating using Electrolytes}{40}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Mechanism of Electrolyte Gating}{40}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Properties and Use of Electrolytes}{40}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Notable Electrolyte Gating Measurements}{40}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Electronic Transport}{41}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction to Electronic Transport Measurements}{41}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}AC Transport Measurements}{41}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DC Transport Measurements}{41}{subsection.4.1.2}
-\contentsline {subsubsection}{van der Pauw Measurements}{41}{section*.18}
-\contentsline {section}{\numberline {4.2}RuCl\textsubscript {3} Bulk Crystals}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}Exfoliated RuCl\textsubscript {3} Crystals}{42}{section.4.3}
-\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{43}{section.5.1}
-\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{48}{section.5.2}
-\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{51}{section.5.3}
-\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{52}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Methods}{52}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{53}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Discussion}{53}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{54}{chapter.6}
-\contentsline {chapter}{Bibliography}{55}{chapter*.19}
+\contentsline {subsection}{\numberline {2.3.1}Effective spin-\textonehalf {} moments in RuCl\textsubscript {3} }{37}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The Kitaev QSL and its Solution}{39}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Magnetic Transitions}{41}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}RuCl3 as a spin liquid}{41}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Spin Liquid Behavior in RuCl\textsubscript {3} }{42}{subsection.2.3.5}
+\contentsline {chapter}{\numberline {3}Electrolyte Gating}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction to Electronic Structure}{43}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Density of States}{43}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Occupation Function and Charge Density}{43}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Electrochemical Potential and Field-Effect Gating}{43}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Gating using Electrolytes}{44}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Mechanism of Electrolyte Gating}{44}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Properties and Use of Electrolytes}{44}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Notable Electrolyte Gating Measurements}{44}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Electronic Transport}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to Electronic Transport Measurements}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}AC Transport Measurements}{45}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DC Transport Measurements}{45}{subsection.4.1.2}
+\contentsline {subsubsection}{van der Pauw Measurements}{45}{section*.18}
+\contentsline {section}{\numberline {4.2}RuCl\textsubscript {3} Bulk Crystals}{46}{section.4.2}
+\contentsline {section}{\numberline {4.3}Exfoliated RuCl\textsubscript {3} Crystals}{46}{section.4.3}
+\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{52}{section.5.2}
+\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{55}{section.5.3}
+\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{56}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Methods}{56}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{57}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Discussion}{57}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{58}{chapter.6}
+\contentsline {chapter}{Bibliography}{59}{chapter*.19}
