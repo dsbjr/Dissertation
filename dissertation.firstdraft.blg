@@ -6,9 +6,10 @@ A level-1 auxiliary file: ./tex/ch3.aux
 A level-1 auxiliary file: ./tex/ch4.aux
 A level-1 auxiliary file: ./tex/ch5.aux
 A level-1 auxiliary file: ./tex/ch6.aux
+A level-1 auxiliary file: ./tex/ch7.aux
 Database file #1: C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
 Warning--entry type for "topOrderEdX" isn't style-file defined
---line 950 of file C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
+--line 1099 of file C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
 Warning--I didn't find a database entry for "Fazekas"
 Warning--empty author in Binder1987
 Warning--there's a number but no volume in Binder1987

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  8 JUL 2019 01:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.27)  8 JUL 2019 16:50
 entering extended mode
 **./dissertation.firstdraft.tex
 (dissertation.firstdraft.tex
@@ -431,7 +431,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@assumption=\count112
 
 (dissertation.firstdraft.aux (tex/intro.aux) (tex/ch2.aux) (tex/ch3.aux)
-(tex/ch4.aux) (tex/ch5.aux) (tex/ch6.aux))
+(tex/ch4.aux) (tex/ch5.aux) (tex/ch6.aux) (tex/ch7.aux))
 \openout1 = `dissertation.firstdraft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -560,162 +560,162 @@ Chapter 1.
 ] [3]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 30.
+(caption)                particular \caption on input line 36.
 See the caption package documentation for explanation.
 
 [4] [5] [6]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition-Bin
-der.png, id=432, 834.86906pt x 1043.39813pt>
+der.png, id=444, 834.86906pt x 1043.39813pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransitio
 n-Binder.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition
 -Binder.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/First
-OrderPhaseTransition-Binder.png  used on input line 110.
+OrderPhaseTransition-Binder.png  used on input line 116.
 (pdftex.def)             Requested size: 216.81pt x 270.9587pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 112.
+(caption)                particular \caption on input line 118.
 See the caption package documentation for explanation.
 
 [7 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FirstOrderPhaseTransition-
 Binder.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransition-Bi
-nder.png, id=443, 907.13907pt x 1072.005pt>
+nder.png, id=455, 907.13907pt x 1072.005pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransiti
 on-Binder.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransitio
 n-Binder.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Secon
-dOrderPhaseTransition-Binder.png  used on input line 125.
+dOrderPhaseTransition-Binder.png  used on input line 131.
 (pdftex.def)             Requested size: 216.81pt x 256.20686pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 127.
+(caption)                particular \caption on input line 133.
 See the caption package documentation for explanation.
 
 [8 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SecondOrderPhaseTransition
 -Binder.png>] [9]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg, id
-=468, 1148.79187pt x 607.51968pt>
+=480, 1148.79187pt x 607.51968pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jp
 g Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg
 >
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Toric
-Code-TopOrderEdX.jpg  used on input line 155.
+Code-TopOrderEdX.jpg  used on input line 161.
 (pdftex.def)             Requested size: 216.81pt x 114.65125pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 157.
+(caption)                particular \caption on input line 163.
 See the caption package documentation for explanation.
 
 [10 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-TopOrderEdX.jpg
 >]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopOrder
-EdX.jpg, id=480, 1273.00594pt x 571.38469pt>
+EdX.jpg, id=492, 1273.00594pt x 571.38469pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-Top
 OrderEdX.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopO
 rderEdX.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Toric
-Code-Fractional-TopOrderEdX.jpg  used on input line 172.
+Code-Fractional-TopOrderEdX.jpg  used on input line 178.
 (pdftex.def)             Requested size: 346.89731pt x 155.69705pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 174.
+(caption)                particular \caption on input line 180.
 See the caption package documentation for explanation.
 
 [11 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Fractional-TopO
 rderEdX.jpg>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg, id=49
-6, 757.83125pt x 421.575pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg, id=50
+8, 757.83125pt x 421.575pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg G
 raphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.jpg>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Toric
-Code-Torus-CC.jpg  used on input line 185.
+Code-Torus-CC.jpg  used on input line 191.
 (pdftex.def)             Requested size: 346.89731pt x 192.97481pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 187.
+(caption)                particular \caption on input line 193.
 See the caption package documentation for explanation.
 
 [12] [13 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ToricCode-Torus-CC.j
 pg>] [14]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png, id=5
-24, 607.26875pt x 692.5875pt>
+36, 607.26875pt x 692.5875pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png 
 Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMe
-asurement-vonK.png  used on input line 221.
+asurement-vonK.png  used on input line 227.
 (pdftex.def)             Requested size: 216.81pt x 247.27054pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 223.
+(caption)                particular \caption on input line 229.
 See the caption package documentation for explanation.
 
 [15 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/QHEMeasurement-vonK.png (
 PNG copy)>] [16] [17]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.png, i
-d=568, 764.8575pt x 558.085pt>
+d=580, 764.8575pt x 558.085pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.p
 ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Willet.pn
 g>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEM
-easurement-Willet.png  used on input line 288.
+easurement-Willet.png  used on input line 294.
 (pdftex.def)             Requested size: 216.81pt x 158.19579pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 290.
+(caption)                particular \caption on input line 296.
 See the caption package documentation for explanation.
 
 [18] [19 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/FQHEMeasurement-Will
 et.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.png, 
-id=589, 632.3625pt x 219.82124pt>
+id=601, 632.3625pt x 219.82124pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.
 png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2010.p
 ng>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frust
-ration-Balents2010.png  used on input line 321.
+ration-Balents2010.png  used on input line 327.
 (pdftex.def)             Requested size: 216.81pt x 75.36546pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 323.
+(caption)                particular \caption on input line 329.
 See the caption package documentation for explanation.
 
 [20] [21 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Frustration-Balents2
 010.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Balents
-.png, id=609, 1541.76pt x 669.2503pt>
+.png, id=621, 1541.76pt x 669.2503pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Ba
 lents.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Bal
 ents.png>
 Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/Reson
-atingValenceBond-Balents.png  used on input line 339.
+atingValenceBond-Balents.png  used on input line 345.
 (pdftex.def)             Requested size: 303.53267pt x 131.75424pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 341.
+(caption)                particular \caption on input line 347.
 See the caption package documentation for explanation.
 
 [22 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ResonatingValenceBond-Bal
 ents.png>]
-Overfull \hbox (6.66988pt too wide) in paragraph at lines 351--352
+Overfull \hbox (6.66988pt too wide) in paragraph at lines 357--358
 []\OT1/cmr/m/n/12 Majorana fermions are mass-less, self-conjugate (i.e., their 
 own an-tipar-ti-cle) fermions
  []
@@ -731,7 +731,7 @@ Chapter 2.
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plumb.p
-ng, id=643, 759.58781pt x 575.90157pt>
+ng, id=653, 759.58781pt x 575.90157pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Pl
 umb.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plu
@@ -748,7 +748,7 @@ See the caption package documentation for explanation.
 [26 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plu
 mb.png>] [27]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-Kron
-igPenney.png, id=673, 1081.03876pt x 495.35063pt>
+igPenney.png, id=683, 1081.03876pt x 495.35063pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure
 -KronigPenney.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-
@@ -765,7 +765,7 @@ See the caption package documentation for explanation.
 [28 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-
 KronigPenney.png>] [29]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-Davi
-es.png, id=696, 836.3747pt x 938.75719pt>
+es.png, id=706, 836.3747pt x 938.75719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone
 -Davies.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-
@@ -781,7 +781,7 @@ See the caption package documentation for explanation.
 
 [30]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorn
-o.png, id=709, 1957.3125pt x 895.84688pt>
+o.png, id=719, 1957.3125pt x 895.84688pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Che
 tvorno.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chet
@@ -798,7 +798,7 @@ See the caption package documentation for explanation.
 [31 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-
 Davies.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png, id=7
-15, 240.9pt x 175.55588pt>
+25, 240.9pt x 175.55588pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png 
 Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png>
@@ -818,7 +818,7 @@ Yamada.png>]
 LaTeX Warning: Citation `Fazekas' on page 34 undefined on input line 219.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.png, i
-d=736, 2057.43657pt x 551.81157pt>
+d=746, 2057.43657pt x 551.81157pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.p
 ng Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.pn
@@ -834,7 +834,7 @@ See the caption package documentation for explanation.
 [34 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.pn
 g>] [35] [36]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-Plumb
-.png, id=772, 1222.5675pt x 467.49657pt>
+.png, id=782, 1222.5675pt x 467.49657pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-
 Plumb.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-P
@@ -851,7 +851,7 @@ See the caption package documentation for explanation.
 [37 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-P
 lumb.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Stamoko
-stas.png, id=781, 2039.36906pt x 804.75656pt>
+stas.png, id=791, 2039.36906pt x 804.75656pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-St
 amokostas.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Sta
@@ -866,7 +866,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamokosta
-s.png, id=787, 959.83594pt x 651.93562pt>
+s.png, id=797, 959.83594pt x 651.93562pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamo
 kostas.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamok
@@ -883,7 +883,7 @@ See the caption package documentation for explanation.
 mokostas.png>] [39 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitS
 plitting-Stamokostas.png>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png, id=
-808, 1056.19594pt x 380.17032pt>
+818, 1056.19594pt x 380.17032pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png
  Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png>
@@ -900,7 +900,7 @@ See the caption package documentation for explanation.
 [40 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png>
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevPhaseDiagram-Kitaev.png
-, id=823, 684.30656pt x 432.86719pt>
+, id=833, 684.30656pt x 432.86719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevPhaseDiagram-Kitae
 v.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevPhaseDiagram-Kitaev
@@ -914,17 +914,34 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 378.
 See the caption package documentation for explanation.
 
-[41]) [42 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevPhaseDiagram-
-Kitaev.png>]
+[41]
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HeatCapacityNeutronOrder-Bane
+rjee.png, id=850, 779.16093pt x 316.93407pt>
+File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HeatCapacityNeutronOrder
+-Banerjee.png Graphic file (type png)
+<use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HeatCapacityNeutronOrder-
+Banerjee.png>
+Package pdftex.def Info: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HeatC
+apacityNeutronOrder-Banerjee.png  used on input line 389.
+(pdftex.def)             Requested size: 346.89731pt x 141.10533pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 391.
+See the caption package documentation for explanation.
+
+[42 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevPhaseDiagram-Kitaev
+.png> <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HeatCapacityNeutronOrde
+r-Banerjee.png>] [43]) [44]
 \openout2 = `./tex/ch3.aux'.
 
  (tex/ch3.tex
 Chapter 3.
-[43
+[45
 
 
 
-]) [44]
+]) [46]
 \openout2 = `./tex/ch4.aux'.
 
  (tex/ch4.tex
@@ -934,22 +951,22 @@ Overfull \hbox (0.76576pt too wide) in paragraph at lines 4--4
 []\OT1/cmr/bx/n/17.28 Introduction to Elec-tronic Trans-port Mea-sure-
  []
 
-[45
+[47
 
 
 
-]) [46]
+]) [48]
 \openout2 = `./tex/ch5.aux'.
 
  (tex/ch5.tex
 Chapter 5.
-[47
+[49
 
 
 
 ]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nanophot
-on.png, id=871, 1204.5pt x 353.82187pt>
+on.png, id=907, 1204.5pt x 353.82187pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nan
 ophoton.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter-nano
@@ -963,10 +980,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 19.
 See the caption package documentation for explanation.
 
-[48] [49 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
--nanophoton.png>] [50] [51]
+[50] [51 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RamanRayleighScatter
+-nanophoton.png>] [52] [53]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Origin
-al.jpg, id=921, 722.7pt x 542.025pt>
+al.jpg, id=957, 722.7pt x 542.025pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-O
 riginal.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
@@ -980,10 +997,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
-[52 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
+[54 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrum-Or
 iginal.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLabeled
--Original.png, id=932, 1079.53313pt x 842.39719pt>
+-Original.png, id=968, 1079.53313pt x 842.39719pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLa
 beled-Original.png Graphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
@@ -997,10 +1014,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 145.
 See the caption package documentation for explanation.
 
-[53 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
+[55 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/BulkRuCl3RamanSpectrumLab
 eled-Original.png>]
-<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=94
-5, 1705.87312pt x 806.26219pt>
+<C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png, id=98
+1, 1705.87312pt x 806.26219pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png G
 raphic file (type png)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png>
@@ -1014,7 +1031,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpe
-ctrum-Original.jpg, id=950, 1053.9375pt x 790.45313pt>
+ctrum-Original.jpg, id=986, 1053.9375pt x 790.45313pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Ram
 anSpectrum-Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3Rama
@@ -1027,11 +1044,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 165.
 See the caption package documentation for explanation.
 
-[54 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
+[56 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3RamanModes-Li.png> <
 C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ExfoliatedVsBulkRuCl3RamanSpec
 trum-Original.jpg>]
 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-Origi
-nal.jpg, id=958, 771.1209pt x 590.205pt>
+nal.jpg, id=994, 771.1209pt x 590.205pt>
 File: C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-
 Original.jpg Graphic file (type jpg)
 <use C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
@@ -1050,53 +1067,63 @@ Overfull \hbox (10.1058pt too wide) in paragraph at lines 181--181
 []\OT1/cmr/bx/n/17.28 Raman Spec-troscopy of RuCl$[]$ with in-situ Elec-
  []
 
-[55 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
+[57 <C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteRamanSpectra-O
 riginal.jpg>]
 Overfull \hbox (7.12137pt too wide) in paragraph at lines 186--187
 []\OT1/cmr/m/n/12 Samples were at-tached to an 8 con-tact DIP chip car-rier us-
 ing poly(methyl methacry-
  []
 
-[56]) [57]
+[58]) [59]
 \openout2 = `./tex/ch6.aux'.
 
  (tex/ch6.tex
 Chapter 6.
-) [58
+) [60
 
 
 
-] (dissertation.firstdraft.bbl [59
+]
+\openout2 = `./tex/ch7.aux'.
+
+ (tex/ch7.tex
+Chapter 7.
+) [61
 
 
-] [60] [61]
-Underfull \hbox (badness 10000) in paragraph at lines 219--225
+
+] (dissertation.firstdraft.bbl [62
+
+
+] [63] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 211--217
 \OT1/cmtt/m/n/12 / / www . erezzetal . com / wp-[]content / uploads / 2014 / 01
  / LectureNotes . pdf$[]\OT1/cmr/m/n/12 ,
  []
 
-[62] [63] [64])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
- [65]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
- (dissertation.firstdraft.aux (tex/intro.aux) (tex/ch2.aux) (tex/ch3.aux) (tex/
-ch4.aux) (tex/ch5.aux) (tex/ch6.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+[65] [66] [67] [68])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+ [69]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+ (dissertation.firstdraft.aux (tex/intro.aux)
+(tex/ch2.aux) (tex/ch3.aux) (tex/ch4.aux) (tex/ch5.aux) (tex/ch6.aux)
+(tex/ch7.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `dissertation.firstdraft.out' has not changed
 .
-(rerunfilecheck)             Checksum: 4F38D57A33C0C0A8A420FA9531792AF0;4477.
+(rerunfilecheck)             Checksum: 6CA4EEDB3A48BD882C325083A0093A3E;4540.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 11625 strings out of 492973
- 174631 string characters out of 3135932
- 231508 words of memory out of 3000000
- 15003 multiletter control sequences out of 15000+200000
+ 11661 strings out of 492973
+ 175508 string characters out of 3135932
+ 232189 words of memory out of 3000000
+ 15018 multiletter control sequences out of 15000+200000
  22949 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,47p,1781b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1124,9 +1151,9 @@ sfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.firstdraft.pdf (75 pages, 7877341 bytes).
+Output written on dissertation.firstdraft.pdf (79 pages, 7975483 bytes).
 PDF statistics:
- 1163 PDF objects out of 1200 (max. 8388607)
- 310 named destinations out of 1000 (max. 500000)
- 555 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1211 PDF objects out of 1440 (max. 8388607)
+ 323 named destinations out of 1000 (max. 500000)
+ 576 words of extra memory for PDF output out of 10000 (max. 10000000)
 
