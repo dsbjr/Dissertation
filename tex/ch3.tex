@@ -1,33 +1,41 @@
 \chapter{Electrolyte Gating}
-This chapter is about electrolyte gating
 
-\section{Introduction to Electronic Structure}
+This chapter provides an introduction to electrolyte gating. We discuss the mechanism underlying gating methods, the advantages and disadvantages of gating with an electrolyte, how to choose an electrolyte, and how to design a device for gating. We conclude with a discussion of some important gating measurements.
 
-A few introductory words
+\section{Mechanism of field effect gating}
 
-\subsection{Density of States}
+Condensed matter physicists and electrical engineers often add charge carriers (either electrons or holes) to a material with the hope of changing its properties - increasing or decreasing conductivity, changing an insulator into a metal, or even changing a material's physical structure. The most common and least intrusive method to add carriers uses the field effect to electrostatically gate a material.
 
-Derive density of states in 1, 2, and 3 dimensions
+We can define an electrochemical potential $\mu$ that represents the amount of energy required to add an electron to a system. Using this definition
 
-\subsection{Occupation Function and Charge Density}
+\begin{equation}
+\mu = E_{F} + qV
+\end{equation}
 
-Introduce Fermi and Bose occupation functions. Show they reduce to Boltzmann occupation at high temperature.
+where $E_{F}$ is the Fermi energy\footnote{This is only correct at T = 0 K. At finite temperatures, $E_{F}$ should be replaced with an electrochemical potential at zero field, which reflects the broadening of the occupation function. However, for most materials, the Fermi temperature is so high that the difference is negligible.}, $q$ the charge of an electron, and $V$ the applied electric potential. When two systems with different electrochemical potentials are brought into contact, heat and charge will flow across the interface until the electrochemical potentials are equal. We can exploit this effect to add carriers to a material. If we apply a field to a material that decreases $\mu$, then electrically connect that material to a reservoir of electrons, charge carriers will flow into the material until the chemical potentials are equal. We have used this field effect to increase the carrier density in our material. What is probably the most produced device in the world, the metal-oxide-semiconductor field effect transistor (MOSFET), uses a metal ``gate'' and an insulating oxide to introduce carriers in a semiconductor, controllably changing the conductivity of the semiconductor channel in the device.
 
-Introduce Fermi Energy.
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MOSFET-original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[MOSFET Diagram]{Cartoon of a metal-oxide-semiconductor field effect transistor (MOSFET). Voltage $V_{g}$ applied to the metal gate electrode creates a field which polarizes the oxide dielectric and induces charge carriers in the channel. When the channel is conducting, $V_{sd}$ applied between the source and drain electrodes drives a large current.} 
+  \label{fig:ElecGate-1}
+\end{centering}
 
-\subsection{Electrochemical Potential and Field-Effect Gating}
+We can calculate the charge added to the channel by modeling the MOSFET as a parallel plate capacitor
 
-Extend Fermi energy to non-zero temperature and field.
+\begin{equation}
+Q = CV_{g} = \epsilon \frac{A}{d} V_{g}
+\end{equation}
 
-\section{Gating using Electrolytes}
+Where $A$ is the area of the electrode and $d$ is the thickness of the oxide, we can divide by area to find the induced charge density $n$
 
-\subsection{Mechanism of Electrolyte Gating}
+\begin{equation}
+n = \frac{Q}{A} = \frac{\epsilon V_{g}}{d}
+\end{equation}
 
-Describe how it works with a few graphics
+A state-of-the-art oxide can support a 
 
-\subsection{Properties and Use of Electrolytes}
 
-What kinds of different electrolytes are available? Why use a particular one? What do you need to think about when doing a measurement?
 
 \subsection{Notable Electrolyte Gating Measurements}
 
