@@ -38,24 +38,26 @@
 \contentsline {section}{\numberline {2.5}Summary}{43}{section.2.5}
 \contentsline {chapter}{\numberline {3}Electrolyte Gating}{45}{chapter.3}
 \contentsline {section}{\numberline {3.1}Mechanism of field effect gating}{45}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Notable Electrolyte Gating Measurements}{47}{subsection.3.1.1}
-\contentsline {chapter}{\numberline {4}Electronic Transport}{48}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction to Electronic Transport Measurements}{48}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}AC Transport Measurements}{48}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DC Transport Measurements}{48}{subsection.4.1.2}
-\contentsline {subsubsection}{van der Pauw Measurements}{48}{section*.18}
-\contentsline {section}{\numberline {4.2}RuCl\textsubscript {3} Bulk Crystals}{49}{section.4.2}
-\contentsline {section}{\numberline {4.3}Exfoliated RuCl\textsubscript {3} Crystals}{49}{section.4.3}
-\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{50}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{50}{section.5.1}
-\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{55}{section.5.2}
-\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{58}{section.5.3}
-\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{59}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Methods}{59}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{60}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Discussion}{60}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{61}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusions}{62}{chapter.7}
-\contentsline {section}{\numberline {7.1}Summary of Results}{62}{section.7.1}
-\contentsline {section}{\numberline {7.2}Future Work}{62}{section.7.2}
-\contentsline {chapter}{Bibliography}{63}{chapter*.19}
+\contentsline {section}{\numberline {3.2}Considerations for electrolyte gating}{48}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Choosing the right electrolyte}{48}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Notable Electrolyte Gating Measurements}{50}{section.3.3}
+\contentsline {chapter}{\numberline {4}Electronic Transport}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to Electronic Transport Measurements}{51}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}AC Transport Measurements}{51}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DC Transport Measurements}{51}{subsection.4.1.2}
+\contentsline {subsubsection}{van der Pauw Measurements}{51}{section*.18}
+\contentsline {section}{\numberline {4.2}RuCl\textsubscript {3} Bulk Crystals}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}Exfoliated RuCl\textsubscript {3} Crystals}{52}{section.4.3}
+\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{58}{section.5.2}
+\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{61}{section.5.3}
+\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{62}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Methods}{62}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{63}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Discussion}{63}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{64}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusions}{65}{chapter.7}
+\contentsline {section}{\numberline {7.1}Summary of Results}{65}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{65}{section.7.2}
+\contentsline {chapter}{Bibliography}{66}{chapter*.19}

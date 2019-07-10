@@ -33,10 +33,52 @@ Where $A$ is the area of the electrode and $d$ is the thickness of the oxide, we
 n = \frac{Q}{A} = \frac{\epsilon V_{g}}{d}
 \end{equation}
 
-A state-of-the-art oxide can support a 
+The strongest SiO\textsubscript{2} can withstand a field strength of approximately 1 V/nm before breakdown\footnote{Breakdown occurs when being subjected to an electric field causes a dielectric to lose its insulating properties. Breakdown is caused by a combination of how long the dielectric is subjected to the field and how long the dielectric is subjected to the field.} \cite{Palumbo2019}. Using our parallel plate capacitor model, the maximum amount of charge that can be induced this way is approximately 2 x $10^{12}$ \percmsq . For specially grown high-K dielectrics, this maximum induced charge increases to about 5 x $10^{13}$ \percmsq \cite{Robertson2004}.
+
+While these density changes are impressive, there are use cases for field effect gating that require greater changes in density, including reaching the van Hove singularity in graphene or removing all the carriers from a metal thin film. To achieve larger changes in density, we can appeal to the technique of electrolyte gating.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteGating-original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Mechanism of Electrolyte Gating]{Electrolyte gating uses an electrically polarized molten salt to accumulate ions at the surface of a material of interest. This layer of ions creates an electic double layer capacitor, inducing charge into the material.} 
+  \label{fig:ElecGate-2}
+\end{centering}
+
+Electrolyte gating (\ref{fig:ElecGate-2}) replaces an oxide dielectric with an electrolyte (a molten salt) consisting only of positively and negatively charged species. When a voltage is applied to the gate electrode, the applied electric field causes the charged species to migrate: negative charges accumulate at the gate and positive charges accumulate at the channel (or vice-versa, depending on the sign of the gate voltage). This polarization of charge forms an electrical double layer capacitor at the interface of the channel. To get a sense of the possible induced charge, we can use our previous equation for density, replacing $d$ by the ionic radius of the species (typically ~1 nm), $\epsilon$ by the appropriate dielectric constant, and $V_{g}$ by the maximum voltage that can be applied to the liquid. In this case we find an induced density of 5 x $10^{14}$ \percmsq , an order of magnitude higher than that possible with the best oxide dielectrics.
+
+Changing carrier density by an additional order of magnitude beyond oxide gating is a powerful tool, but electrolyte gating also has strengths and weaknesses that must be considered when designing and executing an experiment. These are discussed in the following section.
+
+\section{Considerations for electrolyte gating}
+
+A successful electrolyte gating experiment involves choosing the most appropriate electrolyte, device geometry, and experimental procedure. We'll examine each in turn.
+
+\subsection{Choosing the right electrolyte}
+
+Electrolytes are typically composed of monovalent, complex molecules. A wide variety of cations and anions are available for use. A selection of these are presented in Figure \ref{fig:ElecGate-3}.
+
+\begin{centering}
+\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/IonicLiquids-Petach.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Structure of Electrolyte Cations]{Selected cations and anions used in anhydrous electrolytes. a. Diethylmethyl(2-methoxyethyl)ammonium, DEME\textsuperscript{+} b. 1-butyl-methylpyrrolidinium, BMPY\textsuperscript{+} c. 1-ethyl-3-methyl-imidazolium, EMI\textsuperscript{+} d. Tetrafluoroborate, BF$_{4}^{-}$ e. Tris(pentafluoroethyl)trifluorophosphate, FAP\textsuperscript{-} f. bis(trisfluoromethylsulfonyl)imide, TFSI\textsuperscript{-}. From \cite{Petach2017}.} 
+  \label{fig:ElecGate-3}
+\end{centering}
+
+The most important concern when choosing an electrolyte is chemistry. Unlike metal-oxide gating, which uses a chemically inert oxide, electrolyte gating involves intimate contact between the material of interest and the (potentially) chemically active electrolyte. Chemical reactions between the material and the electrolyte will change the nature of the material and disturb the double-layer capacitance, making the gating ineffective at best and destructive at worst. 
+
+Applying a potential across the electrolyte creates the possiblity of not just chemical, but electrochemical (i.e., reduction-oxidation) reactions that can have similar effects to those listed above. A method to characterize the electrochemistry of an electrolyte is to measure its electrochemical stability window - the range of voltages beyond which the ions in the electrolyte will begin to react at the electrodes. The electrochemical stability sets the maximum potential that can be applied across the electrolyte, and therefore the maximum induced carrier density.
+
+The electrochemical stability window is typically measured with cyclic voltammetry - sweeping the potential across the electrolyte at a constant rate and measuring the current. This current should be constant, and deviations suggest chemistry is occurring. A cyclic voltammetry measurement for DEME-TFSI is presented in Figure \ref{fig:ElecGate-4}. As seen in the figure, the behavior of the gate current becomes substantially nonlinear around $\pm 2$ volts. Accordingly, I have assumed the electrochemical stability window for this electrolyte and  measurement to be -2 to +2 volts. The observed electrochemical stability window for DEME-BF4 is similar.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DEME-TFSIStabilityWindow-Original.jpg}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Electrochemical stability window for DEME-TFSI]{Cyclic voltammetry measurement of DEME-TFSI (293 K, 1 x $10^{-6}$ Torr). The sweep rate is 13 mV/second. Current density is defined at the working electrode.} 
+  \label{fig:ElecGate-4}
+\end{centering}
+
+Another concern for electrolyte gating is contamination of the electrolyte. Electrolytes are hygroscopic and will 
 
 
-
-\subsection{Notable Electrolyte Gating Measurements}
+\section{Notable Electrolyte Gating Measurements}
 
 Ambipolar gating of WS2. MoS2 metal-insulator transition. Trevor Petach's measurements.
