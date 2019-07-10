@@ -4,7 +4,7 @@ This chapter provides an introduction to electrolyte gating. We discuss the mech
 
 \section{Mechanism of field effect gating}
 
-Condensed matter physicists and electrical engineers often add charge carriers (either electrons or holes) to a material with the hope of changing its properties - increasing or decreasing conductivity, changing an insulator into a metal, or even changing a material's physical structure. The most common and least intrusive method to add carriers uses the field effect to electrostatically gate a material.
+Condensed matter physicists and electrical engineers often add charge carriers (either electrons or holes) to a material with the hope of changing its properties - increasing or decreasing conductivity, changing an insulator into a metal, or even changing a material's physical structure. The most common and least intrusive method to add carriers uses the field effect to electrostatically gate a material. The field effect adds carriers using an electric field rather than chemical substitution or intercalation. 
 
 We can define an electrochemical potential $\mu$ that represents the amount of energy required to add an electron to a system. Using this definition
 
@@ -12,7 +12,7 @@ We can define an electrochemical potential $\mu$ that represents the amount of e
 \mu = E_{F} + qV
 \end{equation}
 
-where $E_{F}$ is the Fermi energy\footnote{This is only correct at T = 0 K. At finite temperatures, $E_{F}$ should be replaced with an electrochemical potential at zero field, which reflects the broadening of the occupation function. However, for most materials, the Fermi temperature is so high that the difference is negligible.}, $q$ the charge of an electron, and $V$ the applied electric potential. When two systems with different electrochemical potentials are brought into contact, heat and charge will flow across the interface until the electrochemical potentials are equal. We can exploit this effect to add carriers to a material. If we apply a field to a material that decreases $\mu$, then electrically connect that material to a reservoir of electrons, charge carriers will flow into the material until the chemical potentials are equal. We have used this field effect to increase the carrier density in our material. What is probably the most produced device in the world, the metal-oxide-semiconductor field effect transistor (MOSFET), uses a metal ``gate'' and an insulating oxide to introduce carriers in a semiconductor, controllably changing the conductivity of the semiconductor channel in the device.
+where $E_{F}$ is the Fermi energy\footnote{This is only correct at T = 0 K. At finite temperatures, $E_{F}$ should be replaced with an electrochemical potential at zero field, which reflects the broadening of the occupation function. However, for most materials, the Fermi temperature is so high that the difference is negligible.}, $q$ is the fundamental charge, and $V$ the applied electric potential. When two systems with different electrochemical potentials are brought into contact, heat and charge will flow across the interface until the electrochemical potentials are equal. We can exploit this effect to add carriers to a material. If we apply a field to a material that decreases $\mu$, then electrically connect that material to a reservoir (i.e., electrical ground), charge carriers will flow into the material until the chemical potentials are equal. We have used the field effect to increase the carrier density in our material. What is probably the most produced device in the world, the metal-oxide-semiconductor field effect transistor (MOSFET), uses a metal ``gate'' and an insulating oxide to introduce carriers in a semiconductor, controllably changing the conductivity of the semiconductor channel in the device.
 
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MOSFET-original.png}
@@ -76,7 +76,13 @@ The electrochemical stability window is typically measured with cyclic voltammet
   \label{fig:ElecGate-4}
 \end{centering}
 
-Another concern for electrolyte gating is contamination of the electrolyte. Electrolytes are hygroscopic and will 
+Another concern for electrolyte gating is contamination of the electrolyte. Electrolytes are polar and hygroscopic; therefore, they will collect moisture and other contaminates from the atmosphere. When solvated in the ionic, these contaminants can create undesirable electrochemical interactions. Fortunately, the high vapor pressure of electrolytes means they can withstand vacuum, so some water can be removed by baking at elevated temperature in high vacuum. However, water remains the biggest source of contamination and exposure to air will necessarily reduce the electrochemical stability window. When possible, in my measurements I have attempted to reduce the exposure of the electrolyte to atmosphere.
+
+Finally, electrolytes freeze below room temperature, which offers some challenges and advantages. Ions in an electrolyte must be free to move for the electrolyte to be polarized, so the electric field must be applied above the freezing temperature. The lower the freezing temperature, the lower the temperature at which the field can be applied. Because electrochemical reactions are suppressed at low temperatures, applying the field just above the freezing temperature minimizes There are often changes in the electric double layer near the freezing temperature, so it is important to avoid electrolytes with transition temperatures in a range of interest for the gated material.
+
+\subsection{Thoughtful device design}
+
+
 
 
 \section{Notable Electrolyte Gating Measurements}
