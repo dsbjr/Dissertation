@@ -15,7 +15,7 @@ We can define an electrochemical potential $\mu$ that represents the amount of e
 where $E_{F}$ is the Fermi energy\footnote{This is only correct at T = 0 K. At finite temperatures, $E_{F}$ should be replaced with an electrochemical potential at zero field, which reflects the broadening of the occupation function. However, for most materials, the Fermi temperature is so high that the difference is negligible.}, $q$ is the fundamental charge, and $V$ the applied electric potential. When two systems with different electrochemical potentials are brought into contact, heat and charge will flow across the interface until the electrochemical potentials are equal. We can exploit this effect to add carriers to a material. If we apply a field to a material that decreases $\mu$, then electrically connect that material to a reservoir (i.e., electrical ground), charge carriers will flow into the material until the chemical potentials are equal. We have used the field effect to increase the carrier density in our material. What is probably the most produced device in the world, the metal-oxide-semiconductor field effect transistor (MOSFET), uses a metal ``gate'' and an insulating oxide to introduce carriers in a semiconductor, controllably changing the conductivity of the semiconductor channel in the device.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MOSFET-original.png}
+\includegraphics[width=0.5\textwidth]{./img/MOSFET-original.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[MOSFET Diagram]{Cartoon of a metal-oxide-semiconductor field effect transistor (MOSFET). Voltage $V_{g}$ applied to the metal gate electrode creates a field which polarizes the oxide dielectric and induces charge carriers in the channel. When the channel is conducting, $V_{sd}$ applied between the source and drain electrodes drives a large current.} 
   \label{fig:ElecGate-1}
@@ -38,7 +38,7 @@ The strongest SiO\textsubscript{2} can withstand a field strength of approximate
 While these density changes are impressive, there are use cases for field effect gating that require greater changes in density, including reaching the van Hove singularity in graphene or removing all the carriers from a metal thin film. To achieve larger changes in density, we can appeal to the technique of electrolyte gating.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/ElectrolyteGating-original.png}
+\includegraphics[width=0.5\textwidth]{./img/ElectrolyteGating-original.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Mechanism of Electrolyte Gating]{Electrolyte gating uses an electrically polarized molten salt to accumulate ions at the surface of a material of interest. This layer of ions creates an electic double layer capacitor, inducing charge into the material.} 
   \label{fig:ElecGate-2}
@@ -57,7 +57,7 @@ A successful electrolyte gating experiment involves choosing the most appropriat
 Electrolytes are typically composed of monovalent, complex molecules. A wide variety of cations and anions are available for use. A selection of these are presented in Figure \ref{fig:ElecGate-3}.
 
 \begin{centering}
-\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/IonicLiquids-Petach.png}
+\includegraphics[width=0.75\textwidth]{./img/IonicLiquids-Petach.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Structure of Electrolyte Cations]{Selected cations and anions used in anhydrous electrolytes. a. Diethylmethyl(2-methoxyethyl)ammonium, DEME\textsuperscript{+} b. 1-butyl-methylpyrrolidinium, BMPY\textsuperscript{+} c. 1-ethyl-3-methyl-imidazolium, EMI\textsuperscript{+} d. Tetrafluoroborate, BF$_{4}^{-}$ e. Tris(pentafluoroethyl)trifluorophosphate, FAP\textsuperscript{-} f. bis(trisfluoromethylsulfonyl)imide, TFSI\textsuperscript{-}. From \cite{Petach2017}.} 
   \label{fig:ElecGate-3}
@@ -70,7 +70,7 @@ Applying a potential across the electrolyte creates the possiblity of not just c
 The electrochemical stability window is typically measured with cyclic voltammetry - sweeping the potential across the electrolyte at a constant rate and measuring the current. This current should be constant, and deviations suggest chemistry is occurring. A cyclic voltammetry measurement for DEME-TFSI is presented in Figure \ref{fig:ElecGate-4}. As seen in the figure, the behavior of the gate current becomes substantially nonlinear around $\pm 2$ volts. Accordingly, I have assumed the electrochemical stability window for this electrolyte and  measurement to be -2 to +2 volts. The observed electrochemical stability window for DEME-BF4 is similar.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DEME-TFSIStabilityWindow-Original.jpg}
+\includegraphics[width=0.5\textwidth]{./img/DEME-TFSIStabilityWindow-Original.jpg}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Electrochemical stability window for DEME-TFSI]{Cyclic voltammetry measurement of DEME-TFSI (293 K, 1 x $10^{-6}$ Torr). The sweep rate is 13 mV/second. Current density is defined at the working electrode.} 
   \label{fig:ElecGate-4}

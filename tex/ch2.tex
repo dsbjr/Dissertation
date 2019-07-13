@@ -10,7 +10,7 @@ Ruthenium (III) chloride has two polymorphs, called $\alpha$ and $\beta$. Both $
 At room temperature and ambient pressure, the structure of \rucl consists of edge-sharing octahedra of chlorine atoms that coordinate ruthenium. These edge-sharing octahedra form a hexagonal lattice that defines the a-b plane of the material. While interactions between atoms in the a-b plane are ionic bonds\footnote{I describe in-plane bonding as ionic because it concerns bonds between metals and non-metals. However, the modest difference in Pauling electronegativity between ruthenium and chlorine (0.96) suggests the bond has substantial covalent character.}, the only interactions along the c-axis are van der Waals bonds. Accordingly, \rucl is referred to as a quasi-2D, two-dimensional, or van der Waals material. The layers have an ABC stacking order, such that the unit cell contains three repeats of the a-b plane. The layer separation is approximately 5.7 \AA, while the separation between ruthenium and chlorine atoms in the a-b plane is approximately 0.6 \AA. This structure is monoclinic and belongs to space group C2/m. As show in Figure \ref{fig:RuCl3CrystStruct-1}, the angles between Ru-Cl bonds are very nearly 90$^{\circ}$. The nearly ideal coordinated of ruthenium atoms will be important to understanding \rucl as a proximate Kitaev spin liquid.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3CrystalStructure-Plumb.png}
+\includegraphics[width=0.5\textwidth]{./img/RuCl3CrystalStructure-Plumb.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Crystal structure of \ruclnospace]{Crystal structure of \rucl (Figure from \cite{Plumb2014}). (a) View of the b-c plane, showing ABC stacking of the layers. (b) View of the a-b plane showing RuCl$_{6}$ octahedra form a hexagonal lattice. (c) \rucl octahedra showing bond angles very close to 90$^{\circ}$.} 
   \label{fig:RuCl3CrystStruct-1}
@@ -41,7 +41,7 @@ For reasons that will become clear, not all values of $k$ are permitted. These p
 The Kronig-Penney model describes the propagation of electrons through a series of potential barriers, like the one shown in Figure \ref{fig:RuCl3ElecStruct-1}.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/RuCl3ElectronicStructure-KronigPenney.png}
+\includegraphics[width=0.5\textwidth]{./img/RuCl3ElectronicStructure-KronigPenney.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Kronig-Penney Potential]{Square wave potential of height $U_{0}$ with period $a$ and square wave length $b$ (adapted from \cite{Erez2014}).} 
   \label{fig:RuCl3ElecStruct-1}
@@ -166,7 +166,7 @@ If instead of barriers we have a series of $\delta$-function potentials, the equ
 where $m$ is the effective mass of the electron and $S$ is the strength of the $\delta$ function. In Figure \ref{fig:RuCl3ElecStruct-2}, the energy as a function of wavevector is plotted in the extended zone scheme.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KronigPenneyExtendedZone-Davies.png}
+\includegraphics[width=0.5\textwidth]{./img/KronigPenneyExtendedZone-Davies.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Dispersion Relation for Kronig-Penney Delta Function Model]{Energy vs. Wavevector for Kronig-Penney model of $\delta$-function potentials separated by distance $a$. Note that band gaps appear at integer multiples of $\frac{\pi}{a}$. From \cite{Davies1997}.} 
   \label{fig:RuCl3ElecStruct-2}
@@ -177,7 +177,7 @@ The band gaps in Figure \ref{fig:RuCl3ElecStruct-2} appear every $k = \frac{n\pi
 While band gaps always appear at zone boundaries, the nature of the periodic potential dictates the properties of the band structure everywhere else. Consider bringing together a large group of carbon atoms into a diamond lattice. Bands arising from the overlap of 2p and 2s carbon orbitals are shown in Figure \ref{fig:RuCl3ElecStruct-3}.  At large interatomic distance the orbitals do not overlap, but as the carbon atoms approach the overlap in their orbitals gives rise to delocalized orbitals so densely packed in energy as to effectively be a continuum. These delocalized orbitals are the bands, which are separated by a forbidden region called the band gap.
 
 \begin{centering}
-\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/DiamondBandStructure-Chetvorno.png}
+\includegraphics[width=0.75\textwidth]{./img/DiamondBandStructure-Chetvorno.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Diamond Band Structure and Interatomic Distance]{Diamond band structure as a function of interatomic separation. At large separation bandwidth corresponds to only the allowed energy of the 2s and 2p orbitals. As the separation is reduced, the overlapping orbitals give rise to bands and band gaps. Image adapted from Chetvorno.} 
   \label{fig:RuCl3ElecStruct-3}
@@ -192,7 +192,7 @@ Band structure calculations for \rucl predict that it should be a metal, which i
 To appreciate the effect of electron-electron interactions, we will qualitatively explore a simplified version of the venerable Hubbard model in two dimensions.
 
 \begin{centering}
-\includegraphics[width=0.3\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HubbardModel-Yamada.png}
+\includegraphics[width=0.3\textwidth]{./img/HubbardModel-Yamada.png}
   \captionsetup{width=0.5\textwidth}
   \captionof{figure}[Hubbard Model in Two Dimensions]{The Hubbard model in two dimensions. Zero, one, or two electrons can occupy each lattice site, with double occupancy costing an energy U. Electrons hop between sites with hopping integral $t$. From \cite{Yamada2018}.}
   \label{fig:RuCl3ElecStruct-5}
@@ -219,7 +219,7 @@ In the band limit, $U \rightarrow 0$, causing electron-electron interactions to 
 So far, the limiting cases have predicted what we would expect. But what happens at half-filling ($\braket{n_{i}} \approx 1$)\footnote{Theoretically, any deviation from half-filling should result in a metallic state because the empty site or doubly-occupied site should be able to propagate. However, in a real system defects and impurities may prevent propagation and widen the range of filling values that can support insulating states.} when $U$ and $t$ are of similar magnitude? In this case, the model describes competition between the hopping term, which delocalizes the electrons, and the Hubbard U, which localizes them. For small values of $U/t$, the model predicts a metallic system. But for large values of $U/t$, the energetic penalty for double occupancy forces the electrons to stay localized on a particular lattice site and the system is insulating. At a critical value $U^{*} \approx z t$, where $z$ is the coordination number of the lattice, the system undergoes a Mott transition (a continuous phase transition) from an insulating to a metallic state \cite{Fazekas}. We can visualize this transition as the eventual meeting and overlap of occupied and unoccupied Hubbard bands (corresponding to single and double occupancy of the lattice sites) at a the critical value $U^{*}$, as shown in Figure \ref{fig:RuCl3ElecStruct-4}.
 
 \begin{centering}
-\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/MottTransition-Fazekas.png}
+\includegraphics[width=0.75\textwidth]{./img/MottTransition-Fazekas.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Mott Transition]{As the on-site repulsion parameter U is reduced below the critical value, the upper and lower Hubbard bands meet and overlap. From \cite{Fazekas1990}.} 
   \label{fig:RuCl3ElecStruct-4}
@@ -252,7 +252,7 @@ ARPES measurements find large gaps (1.2 eV \cite{Zhou2016} and 1.9 eV \cite{Sinn
 While there appear to be conflicting measurements in the published literature, many of the salient features of \rucl can be understood in a single framework. First, \rucl is a spin-assisted Mott insulator, in that band structure predicts it to be metallic, but its insulating behaviour is the result of both repulsive electron-electron interactions and spin orbit coupling. Second, differing measurements of the gap are actually measuring different transitions. The 0.1 eV thermal activation for conduction observed in transport measurements comes from a small band approximately 0.1 eV above the Fermi level, which was not seen in ARPES and was hard to see in optical measurements. Other, larger gaps correspond to transitions between bands with larger energy differences as shown in Figure \ref{fig:RuCl3ElecStruct-6} \cite{Plumb2014}.
 
 \begin{centering}
-\includegraphics[width=0.9\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/AbsorptionBandStructure-Plumb.png}
+\includegraphics[width=0.9\textwidth]{./img/AbsorptionBandStructure-Plumb.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Optical Absorption and Calculated Band Structure of \ruclnospace]{Optical absorption and calculated band structure. The features in optical absorption are correlated with transitions between bands. Note the relatively small amplitude of the $\alpha$ feature, which may explain why it was previously unobserved. From \cite{Plumb2014}}. 
   \label{fig:RuCl3ElecStruct-6}
@@ -269,7 +269,7 @@ Ruthenium has electronic configuration [Kr]4d\textsuperscript{7}5s\textsuperscri
 Because the ruthenium exists in a solid, the energy of the d orbitals is affected by the surrounding crystal. This interaction, called the crystal field effect, actually splits the 4d orbitals into doubly-degenerate e\textsubscript{g} and triply-degenerate t\textsubscript{2g} orbitals, as shown in Figure \ref{fig:RuCl3MagProp-1}.
 
 \begin{centering}
-\includegraphics[width=0.9\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/CrystalFieldSplitting-Stamokostas.png}
+\includegraphics[width=0.9\textwidth]{./img/CrystalFieldSplitting-Stamokostas.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Octahedral crystal field splitting of d orbitals]{The presence of octahedral coordination breaks the SO(3) rotational symmetry of the d orbitals and reduces it to the discrete octahedral symmetry $O_{h}$. d orbitals that point directly at ligands become higher in energy than d orbitals that do not by the crystal field splitting energy $\Delta$. From \cite{Stamokostas2018}.} 
   \label{fig:RuCl3MagProp-1}
@@ -278,7 +278,7 @@ Because the ruthenium exists in a solid, the energy of the d orbitals is affecte
 Spin-orbit coupling further splits the e\textsubscript{g} and t\textsubscript{2g} orbitals\footnote{This is not \textit{exactly} correct. The spin-orbit coupling in \rucl is sufficiently small that it mixes the e\textsubscript{g} and t\textsubscript{2g} orbitals. However, introduction of the Hubbard U term in the Hamiltonian enhances the spin orbit coupling and returns the $J_eff = \frac{1}{2}$ character of a single t\textsubscript{2g} orbital, making this picture qualitatively correct \cite{Kim2015}.} by $\frac{3\zeta}{2}$ (where $\zeta$ is the spin orbit coupling), as shown in Figure \ref{fig:RuCl3MagProp-2}.
 
 \begin{centering}
-\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/SpinOrbitSplitting-Stamokostas.png}
+\includegraphics[width=0.75\textwidth]{./img/SpinOrbitSplitting-Stamokostas.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Spin-orbit splitting of t2g orbitals]{Spin orbit coupling further splits the t\textsubscript{2g} orbitals into effective J = \textonehalf{} and J = $\frac{3}{2}$ states. Adapted from \cite{Stamokostas2018}.} 
   \label{fig:RuCl3MagProp-2}
@@ -299,7 +299,7 @@ H = -J_{x} \sum_{\text{x links}} \sigma_{j}^{x} \sigma_{k}^{x} -J_{y} \sum_{\tex
 where the x, y, and z links are defined in Figure \ref{fig:RuCl3MagProp-3}.
 
 \begin{centering}
-\includegraphics[width=0.75\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevLattice-Kitaev.png}
+\includegraphics[width=0.75\textwidth]{./img/KitaevLattice-Kitaev.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Lattice for the Kitaev Model]{Definitions of the three types of links on a hexagonal lattice used in the Kitaev Model. From \cite{Kitaev2006}.} 
   \label{fig:RuCl3MagProp-3}
@@ -373,7 +373,7 @@ E_{k} = \pm \sqrt{\epsilon_{k}^{2} + \delta_{k}^{2}}
 where $\delta_{k}$ is zero for weakly anisotropic $J^{\gamma}$ and non-zero when the $J^{\gamma}$ violate one of the triangle inequalities. Figure \ref{fig:RuCl3MagProp-4} is a visualization of the phase diagram.
 
 \begin{centering}
-\includegraphics[width=0.5\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/KitaevPhaseDiagram-Kitaev.png}
+\includegraphics[width=0.5\textwidth]{./img/KitaevPhaseDiagram-Kitaev.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Phase Diagram of the Kitaev Model]{Phase Diagram of the Kitaev model, showing a gapless excitation spectrum for weak anisotropy in values of $J_{\gamma}$. From \cite{Kitaev2006}.} 
   \label{fig:RuCl3MagProp-4}
@@ -386,7 +386,7 @@ Majorana fermions are inherently fractional quasiparticles. Accordingly, the low
 Unfortunately, \rucl in its ground state is not a spin liquid. Neutron scattering and heat capacity measurements (shown in Figure \ref{fig:RuCl3MagProp-5}) show that paramagnetic \rucl orders antiferromagnetically with a N\'{e}el temperature of 7 K or 14 K (for samples with stacking faults) \cite{Banerjee2016,Sears2015}.
 
 \begin{centering}
-\includegraphics[width=0.8\textwidth]{C:/Users/dsbjr/Documents/GitHub/Dissertation/img/HeatCapacityNeutronOrder-Banerjee.png}
+\includegraphics[width=0.8\textwidth]{./img/HeatCapacityNeutronOrder-Banerjee.png}
   \captionsetup{width=0.75\textwidth}
   \captionof{figure}[Heat Capacity and Neutron Diffraction show long-range order in \ruclnospace]{(a) Heat capacity measurements of single crystal \rucl show an anomaly near 12 K, consistent with a phase transition. (b) Neutron diffraction measurements showing ordering along two wavevectors near 7 K and 14 K. From \cite{Banerjee2016}.}
   \label{fig:RuCl3MagProp-5}
