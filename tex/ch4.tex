@@ -3,8 +3,21 @@ This chapter describes original measurements of the resistivity of bulk and exfo
 
 \section{Introduction to Electronic Transport Measurements}
 
-Electronic transport measurements characterize the movement of charge through a material by looking for changes in resistivity as a function of some tuned parameter, like temperature, gate voltage, or magnetic field. Because the resistivity is a empirical consequence of both the electronic structure of and scattering processes in a material, changes in resistivity as a function of the tuned parameter provide valuable information about these aspects.
+Electronic transport measurements characterize the movement of charge through a material by looking for changes in resistivity as a function of some tuned parameter, like temperature, carrier density, or magnetic field. Because the resistivity is a empirical consequence of both the electronic structure of and scattering processes in a material, changes in resistivity as a function of the tuned parameter provide valuable information about these aspects.
 
+We can learn about the electronic structure of a material by measuring the thermal activation energy of conduction. Consider a material with its electrochemical potential in the band gap. Because there are no partially occupied bands, the material is an insulator. However, insulators do conduct electricity - in order to do so, a carrier must be thermally excited to the bottom of the conduction band\footnote{Put plainly, a phonon scatters from an electron, increasing its energy so that it now occupies a state in the conduction band.}. From Drude theory \cite{Ashcroft1976}, we know that $\sigma \propto n$, where $n$ is the density of thermally excited electrons. We can write the probability of exciting an electron as a Boltzmann factor:
+
+\begin{equation}
+\mathbb{P}[\text{exc.}] \propto e^{-\frac{\Delta}{kT}}
+\end{equation}
+
+where $k$ is the Boltzmann constant and $\Delta = E_{c} - \mu$. Using the proportionality,
+
+\begin{equation}
+\sigma = A e^{-\frac{\Delta}{kT}}
+\end{equation}
+
+which is the Arrhenius relation. The value of $\Delta$ extracted from a resistance-temperature curve is the separation in energy space between the chemical potential and the bottom of the conduction band. Changes in $\Delta$ as a function of carrier density contain information about the electronic density of states.
 
 
 \section{\texorpdfstring{\rucl}{RuCl3} Bulk Crystals}

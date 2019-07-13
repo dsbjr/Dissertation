@@ -1,8 +1,10 @@
 Questions I plan on answering
 
 What is a Mott insulator?
+A mott insulator is a correlated state of matter in which band theory predicts a material should be conducting, but electron-electron interactions (interpreted as on-site repulsion) prevent charges from moving, forcing the material to be an insulator. Cobalt oxide is a famous example.
 
 How much do you need to dope a mott insulator before it becomes conducting?
+Theoretically, you should only need
 
 Are all QSLs Mott insulators?
 
@@ -11,6 +13,7 @@ From Quantum Spin Liquids: A review (Balents2017)
 7.1.2. Small spin Another feature commonly advo- cated to be important for the realization of QSLs is a low spin. This is based on the familiar notion that in the large S limit, spin-S spins become classical, which in turn is based on the fact that the commutator of two spin operators, if normalized by their “length” S, is of order 1/S. It is indeed true for Heisenberg mod- els, and more generally models with bilinear exchange interactions. However, this conclusion is not general, and must be considered a bit more carefully in practice. A better way to think about the classicality of a spin system is in terms of localization in Hilbert space. A classical state can be considered as the fully polarized (Szi = S) state with a spin quantization axis chosen at each site to coincide with the classical orientation of the spin vector. The single spin operator ~S becomes classical for large S in the sense that it generates tran- sitions only between states with Sz differing by ±1, and for a Hamiltonian which involves only individual Sµ i operators (and not products of multiple operators at a single site), the low energy states become localized near the fully polarized one, because it requires a high order action of the Hamiltonian to connect to states far from this one. However, this conclusion rests on the bilinear exchange form of the Hamiltonian. Indeed, larger spin systems can be highly quantum under certain circumstances. A simple way this occurs is if there are strong single-ion terms that split the spin degeneracy. This can lead to a doublet ground state of the single site problem, which acts then like an effective spin-1/2, if exchange is small compared to the splitting to the next multiplet. This is in fact typical for f electron spins in the lanthanide sequence. A second, less common, way that larger spins can be quantum is through multipolar spin interactions. This means couplings involving a product of many Sµ i operators on a single site. Such operators do not necessarily become classical for large S. Indeed, if we allow all possible operators acting on a spin- S spin, it becomes simply a N = 2S + 1-level system, and we could choose a Hamiltonian which has SU(N) symmetry (see Sec. 4.1) that is more quantum than any SU(2) spin model. Multipolar interactions escape classicality precisely by connecting all the N states directly, thereby avoiding localization near any particular spin projection. The microscopic physics of multipolar interactions is complex, but may arise out of orbitally dependent super-exchange, and spin-orbit coupling[189, 178, 190].
 
 Do spin ices have topological order?
+-Yes, they have classical topological order, which is also a thing. 
 
 Given you only have a small temperature range (100 K), how confident are you in your activation energy measurements?
 
@@ -25,3 +28,9 @@ Is mystery peak broadening sensitive to gating (for intercalated samples)?
 How do changes in Raman mode with intercalation correlate with the expected motion of the atoms in each mode?
 
 For the capacitance fit for transients, how much does error in the fit affect the calculation of the double-layer capacitance?
+
+What about quantum capacitance? you're gating a gapped system.
+
+Can you rule out proton intercalation?
+
+How do you know your field actually falls across the flake and not to the back gate?
