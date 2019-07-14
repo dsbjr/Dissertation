@@ -49,16 +49,18 @@
 \contentsline {subsubsection}{Methods}{55}{section*.18}
 \contentsline {subsubsection}{Summary of results}{56}{section*.19}
 \contentsline {section}{\numberline {4.3}Measurements of exfoliated RuCl\textsubscript {3} crystals}{56}{section.4.3}
-\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{57}{section.5.1}
-\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{62}{section.5.2}
-\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{65}{section.5.3}
-\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{66}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Methods}{66}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{67}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Discussion}{67}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{68}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusions}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Summary of Results}{69}{section.7.1}
-\contentsline {section}{\numberline {7.2}Future Work}{69}{section.7.2}
-\contentsline {chapter}{Bibliography}{70}{chapter*.20}
+\contentsline {subsubsection}{Methods}{56}{section*.20}
+\contentsline {subsection}{\numberline {4.3.1}Summary of results}{57}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{58}{section.5.1}
+\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{66}{section.5.3}
+\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{67}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Methods}{67}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{68}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Discussion}{68}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{69}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusions}{70}{chapter.7}
+\contentsline {section}{\numberline {7.1}Summary of Results}{70}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{70}{section.7.2}
+\contentsline {chapter}{Bibliography}{71}{chapter*.21}
