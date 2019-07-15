@@ -45,7 +45,7 @@ While Hall measurements are not available for these samples, the consistency wit
 \subsubsection{Methods}
 \rucl was exfoliated onto 5 mm x 5mm x 500 $\mu$m chips of 300 nm SiO\textsubscript{2} on degenerately doped Si using a standard scotch tape method; measured \rucl flakes were between 3 and 100 nm thick. A large, coplanar gate, bond pads, and ohmic contacts were defined using either optical or electron beam lithography. Low power argon plasma was used to clean the surface before depositing 5 nm of Ti and 100 nm of Au were deposited using electron beam evaporation under high vacuum.
 
-Samples were mounted on a 32-contact ceramic chip carrier using poly(methyl methacrylate). Gold wirebonds connected the sample to the chip carrier, which was installed in a cryostat. A drop of electrolyte that covered only the coplanar gate and the \rucl flake was manually applied using a pipette tip. The sample and electrolyted were exposed at high vacuum overnight to remove water from the electrolyte. During gating measurements, the electrolyte was biased using a Keithley 2400 source measurement unit in voltage source mode. Applied gate voltage and resulting gate current were recorded during the measurement. Device resistance was also measured by a Keithley 2400 source measurement unit supplying a DC voltage excitation. Temperature was measured using an on-chip resistive thermometer.
+Samples were mounted on a 32-contact ceramic chip carrier using poly(methyl methacrylate). Gold wirebonds connected the sample to the chip carrier, which was installed in a cryostat. A drop of electrolyte (DEME-TFSI or DEME-BF4) that covered only the coplanar gate and the \rucl flake was manually applied using a pipette tip. The sample and electrolyted were exposed at high vacuum overnight to remove water from the electrolyte. During gating measurements, the electrolyte was biased using a Keithley 2400 source measurement unit in voltage source mode. Applied gate voltage and resulting gate current were recorded during the measurement. Device resistance was also measured by a Keithley 2400 source measurement unit supplying a DC voltage excitation. Temperature was measured using an on-chip resistive thermometer.
 
 \subsubsection{Initial sample characterization}
 
@@ -75,10 +75,63 @@ As seen in Figure \ref{fig:ElecTransExf-02}, the activation energy changes by at
 g(E) = \frac{n}{d \Delta E} = \frac{10^{14}\, \text{\percmsq}}{(100\, \text{nm})(20\, \text{meV})} = \text{5 x 10}^{20}\; \text{eV}^{-1} \cdot \text{cm}^{-3}
 \end{equation}
 
-This number is surprisingly large, given that \rucl remains insulating.
+This number is surprisingly large for an insulating material.
 
+\subsubsection{Room temperature gate sweeps}
 
+\begin{centering}
+\includegraphics[width=\textwidth]{./img/BareAndCoveredHysteresis-Origial.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Room Temperature Gate Sweeps for Bare and hBN Covered \rucl]{Resistance (in units of the resistance at zero gate voltage) as a function of electrolyte gate voltage for (a) bare \rucl in contact with an electrolyte and (b) \rucl separated from an electrolyte by a 6 nm hBN spacer. There is substantial hysteresis for the bare device, and no hysteresis for the device with the hBN spacer.} 
+  \label{fig:ElecTransExf-03}
+\end{centering}
+
+Figure \ref{fig:ElecTransExf-03} presents the results of room temperature gate sweeps for \rucl directly in contact with the electrolyte and for \rucl separated from the electrolyte by a 6 nm hexagonal boron nitride (hBN) dielectric. The sample directly in contact shows dramatic hysteresis and changes in resistance, while the sample protected by hBN does not. This result implies that the electrolyte does have an effect on the properties of the sample (despite the small changes to activation energy), and that effect is of a different nature when the electrolyte is in contact with the \ruclnospace .
 
 \section{Quantifying the added charge}
 
+At this point, we understand how electrolyte gating works and have seen its effects on resistance and activation energy. However, we have not yet discussed how to quantify the charge added by a polarized electrolyte. For most materials, a Hall measurement is used; however, Hall measurements are not available because of \ruclnospace 's high resistivity. Instead, we can the capacitance of the electric double layer at the surface of the gated material by modeling it as follows:
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{./img/RandlesCell-Original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[A Randles Cell]{Randles cell model for an electrolyte-material interface. R1 is the electrolyte resistance, R2 is the contact resistance between the electrolyte and the material, and C is the double layer capacitance.} 
+  \label{fig:QuantCharge-01}
+\end{centering}
+
+Figure \ref{fig:QuantCharge-01} is the circuit diagram for a Randles cell, including the electrolyte resistance (R1), the contact resistance between the electrolyte and material (R2), and the capacitance of the electric double layer (C). We can imagine that a charge in the electrolyte diffuses to the surface (characterized by the electrolyte resistance), and then has a choice. It either gets transmitted into the material (contact resistance), or charges the double layer (capacitance). 
+
+Electrochemical impedance spectroscopy is a technique that measures the double layer capacitance by applying an AC bias to the electrolyte and exploiting the RC nature of the Randles cell model. Unfortunately, EIS measurements are sensitive to chemistry and disorder at the interface, and I was not able to produce intelligible EIS data for these devices. Instead, I estimate the double layer capacitance using a Randles cell model and the time-dependent behavior of gate current after a step in gate voltage.
+
+If we solve the Randles cell circuit for current given a voltage $V$ turned on a $t = 0$, we find\footnote{This solution only applies after the electric double layer is established - the ions need time to move first. Ion motion can be seen as a super-exponential change in current which dies away after a few seconds (less than five) in the systems I'm studying.}:
+
+\begin{equation}
+I(t) = V \left(\frac{1}{R_{1} + R_{2}} - \frac{1}{R_{1}} e^{-\frac{t}{R_{1}C}} \right)
+\end{equation}
+
+The first term is the steady-state current, which we can find by letting the gate current reach equilibrium after applying a step voltage. Subtracting the steady-state current, we are left with only the excess current, which has an exponential dependence.
+
+\begin{equation}
+I_{\text{exc}}(t) = - \frac{V}{R_{1}} e^{-\frac{t}{R_{1}C}}
+\end{equation}
+
+We can fit the excess current to the linearized data, and then extract $R_{1}$ from the intercept and $C$ from the time constant.
+
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{./img/ExcessCurrentFit-Original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Excess current following step in gate voltage]{Natural log of gate current vs time, fit to a linear model.} 
+  \label{fig:QuantCharge-02}
+\end{centering}
+
+Calculating the capacitance using this fit and measuring the grounded area covered by the ionic liquid (material, ohmic contacts, and leads), I find values of the double layer capacitance between 5 and 15 $\mu$F/cm$^{2}$. The average value of 10 $\mu$F/cm$^{2}$ corresponds to 1.2 x $10^{14}$ \percmsq , consistent with literature and previous measurements in the Goldhaber-Gordon group.
+
 \section{Discussion}
+
+From the data presented in this chapter, I conclude two things. First, that electrolyte gating accumulates charge on the surface of \rucl and the accumulated charge has an effect. Second, I conclude that at least one of our assumptions is inaccurate. 
+
+The calculated density of states at the Fermi level is anomalously high at 5 x $10^{20}$ $\text{eV}^{-1} \cdot \text{cm}^{-3}$. For context, the best elemental conductor of electricity is silver, which has $g(E_{F}) \approx 10^{22}$. Further, because \rucl is a spin-assisted Mott insulator, these states must be localized states in the gap. It seems unlikely that an insulator has a density of states in the gap that is 1\% of the density of states of the best elemental conductor. Additionally, if the density of states was this high in \ruclnospace , I would expect to see signatures of a temperature-dependent continuum of low-energy optical excitations, which are absent from the spectra in literature. It seems more likely that the addition of charge changes the density of states in some way.
+
+The presence of hysteresis is suggestive of a phase transition, particularly because the hysteresis disappears as the electrolyte is separated from the \rucl and the electric field strength and accumulated charge at the interface decrease. However, there may be other effects that could create such hysteresis, including reversible electrochemical reactions and topotactic interactions between \rucl and the electrolyte\footnote{i.e., ions from the electrolyte intercalating between the layers of \ruclnospace .}. Further measurements are needed to distinguish between these possibilities.
+
