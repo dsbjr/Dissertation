@@ -43,10 +43,42 @@ While Hall measurements are not available for these samples, the consistency wit
 \section{Measurements of exfoliated \texorpdfstring{\rucl}{RuCl3}crystals}
 
 \subsubsection{Methods}
-\rucl was exfoliated onto 5 mm x 5mm x 500 $\mu$m chips of 300 nm SiO\textsubscript{2} on degenerately doped Si using a standard scotch tape method; measured \rucl flakes were between 3 and 100 nm thick. A large, coplanar gate, bond pads, and ohmic contacts were defined using either optical or electron beam lithography. 5 nm of Ti and 100 nm of Au were deposited using electron beam evaporation under high vacuum.
+\rucl was exfoliated onto 5 mm x 5mm x 500 $\mu$m chips of 300 nm SiO\textsubscript{2} on degenerately doped Si using a standard scotch tape method; measured \rucl flakes were between 3 and 100 nm thick. A large, coplanar gate, bond pads, and ohmic contacts were defined using either optical or electron beam lithography. Low power argon plasma was used to clean the surface before depositing 5 nm of Ti and 100 nm of Au were deposited using electron beam evaporation under high vacuum.
 
 Samples were mounted on a 32-contact ceramic chip carrier using poly(methyl methacrylate). Gold wirebonds connected the sample to the chip carrier, which was installed in a cryostat. A drop of electrolyte that covered only the coplanar gate and the \rucl flake was manually applied using a pipette tip. The sample and electrolyted were exposed at high vacuum overnight to remove water from the electrolyte. During gating measurements, the electrolyte was biased using a Keithley 2400 source measurement unit in voltage source mode. Applied gate voltage and resulting gate current were recorded during the measurement. Device resistance was also measured by a Keithley 2400 source measurement unit supplying a DC voltage excitation. Temperature was measured using an on-chip resistive thermometer.
 
-\subsection{Summary of results}
+\subsubsection{Initial sample characterization}
 
-Use data from Rookle02, Rookle03, Rookle09 (I think the contacts were good for these samples) and then RuCl3TransportSample006
+\begin{centering}
+\includegraphics[width=0.75\textwidth]{./img/RuCl3ExfoliatedArrheniusPlotImage-Original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Exfoliated \rucl Arrhenius Plot]{(a) Arrhenius plots for three separate samples of exfoliated \ruclnospace . The thermal activation energy is different between samples, but roughly consistent with bulk samples and published literature. The resistivity is three orders of magnitude smaller than the bulk samples. (b) A typical exfoliated \rucl transport sample.} 
+  \label{fig:ElecTransExf-01}
+\end{centering}
+
+Figure \ref{fig:ElecTransExf-01} presents resistance-temperature curves for exfoliated \rucl samples (without electrolyte). Resistivity is simply activated, and the thermal activation energy remains roughly consistent with my previous measurement of bulk \rucl and with published literature. However, the resistivity between the bulk and exfoliated samples differs by a factor of order $10^3$. The resistivity for bulk and exfoliated \rucl that I have measured is consistent with what has been reported before (compare \cite{Rojas1983} to \cite{Mashhadi2018}), but I have not seen any comment on this difference in the literature.
+
+An obvious explanation is that activated conduction in \rucl is dominated by the surface, and therefore thicker samples seem to have higher resistivity. It is hard to draw this conclusion from the data on hand, as some thicker exfoliated samples are less resistive than thinner samples. However, minor inaccuracies in length, width, and thickness measurements in both the bulk and exfoliated samples may explain the trend. With the data on hand, I can only conclude that the resistivity changes between the bulk and exfoliated samples and may be due to surface conduction or something in the exfoliation process.
+
+\subsubsection{Thermal activation}
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{./img/GatedThermalActivation-Original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Exfoliated \rucl activation energy vs electrolyte gate voltage]{Thermal activation energy of exfoliated \rucl samples as a function of electrolyte gate voltage averaged across four different gate sweeps. For points without error bars, the error is smaller than the size of the point. Despite a substantial applied gate voltage, the activation energy changes by less than 10\% of the ungated value.} 
+  \label{fig:ElecTransExf-02}
+\end{centering}
+
+As seen in Figure \ref{fig:ElecTransExf-02}, the activation energy changes by at most 20 meV from its original value as a function of electrolyte gate voltage. Assuming that the electrolyte accumulates $10^{14}$ \percmsq{} carriers at the edge of the electrochemical stability window, we can estimate the density of states at the Fermi energy as:
+
+\begin{equation}
+g(E) = \frac{n}{d \Delta E} = \frac{10^{14}\, \text{\percmsq}}{(100\, \text{nm})(20\, \text{meV})} = \text{5 x 10}^{20}\; \text{eV}^{-1} \cdot \text{cm}^{-3}
+\end{equation}
+
+This number is surprisingly large, given that \rucl remains insulating.
+
+
+
+\section{Quantifying the added charge}
+
+\section{Discussion}
