@@ -62,9 +62,12 @@
 \contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{72}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Methods}{72}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Summary of Results}{73}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Discussion}{73}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{74}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusions}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Summary of Results}{75}{section.7.1}
-\contentsline {section}{\numberline {7.2}Future Work}{75}{section.7.2}
-\contentsline {chapter}{Bibliography}{76}{chapter*.24}
+\contentsline {subsubsection}{Electrolyte-biased RuCl\textsubscript {3} has two different Raman spectra}{73}{section*.24}
+\contentsline {subsubsection}{Transition between different Raman spectra is hysteretic}{74}{section*.26}
+\contentsline {subsection}{\numberline {5.4.3}Transition between different spectra is associated with a change in appearance}{74}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Discussion}{74}{subsection.5.4.4}
+\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{75}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusions}{76}{chapter.7}
+\contentsline {section}{\numberline {7.1}Summary of Results}{76}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{76}{section.7.2}
+\contentsline {chapter}{Bibliography}{77}{chapter*.27}
