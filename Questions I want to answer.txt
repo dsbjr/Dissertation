@@ -4,9 +4,11 @@ What is a Mott insulator?
 A mott insulator is a correlated state of matter in which band theory predicts a material should be conducting, but electron-electron interactions (interpreted as on-site repulsion) prevent charges from moving, forcing the material to be an insulator. Cobalt oxide is a famous example.
 
 How much do you need to dope a mott insulator before it becomes conducting?
-Theoretically, you should only need
+Theoretically, you should only need a single electron (the phase diagram for the Hubbard model is only insulating at perfect half-filling). However, in reality there are defect or impurity states that can localize added charge, so more is necessary. After you fill those states, you can start conducting. Also see metal-insulator transition and metallization of a mott insulator.
 
 Are all QSLs Mott insulators?
+Not necessarily, but Mott insulators are handy for generating localized spin-1/2 moments.
+
 
 Where do the quantum fluctuations that make RuCl3 a spin liquid come from? Do all spin 1/2 systems fluctuate like a spin liquid, or is it something special?
 From Quantum Spin Liquids: A review (Balents2017)
@@ -18,19 +20,27 @@ Do spin ices have topological order?
 Given you only have a small temperature range (100 K), how confident are you in your activation energy measurements?
 
 What is the density of states at the Fermi Energy? Use change in activation energy to set a bound.
+Done in dissertation - it's 5 x 10^20 eV-1cm-3
 
 What is the screening length in this material?
 
 Given the high effective density of states, where are the carriers going?
+Creating new localized states. Zunger paper?
 
 Is mystery peak broadening sensitive to gating (for intercalated samples)?
+No, it doesn't change as a function of gate voltage.
 
 How do changes in Raman mode with intercalation correlate with the expected motion of the atoms in each mode?
 
 For the capacitance fit for transients, how much does error in the fit affect the calculation of the double-layer capacitance?
+Several capacitance measurements produce values between 5 and 15 uF/cm2
 
 What about quantum capacitance? you're gating a gapped system.
 
 Can you rule out proton intercalation?
 
 How do you know your field actually falls across the flake and not to the back gate?
+
+Why don't you see any new peaks if this is a new phase?
+
+Exactly what x-ray measurements would you need to do to characterize this new phase?
