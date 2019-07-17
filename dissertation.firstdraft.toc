@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {1.4.2}Summary of Results}{11}{subsection.1.4.2}
 \contentsline {subsubsection}{Electrolyte-biased RuCl\textsubscript {3} has two different Raman spectra}{11}{section*.6}
 \contentsline {subsubsection}{Transition between different Raman spectra is hysteretic}{13}{section*.8}
-\contentsline {subsubsection}{Transition between different spectra is associated with a change in appearance}{13}{section*.9}
-\contentsline {subsection}{\numberline {1.4.3}Discussion}{13}{subsection.1.4.3}
-\contentsline {chapter}{\numberline {2}X-Ray Diffraction}{14}{chapter.2}
-\contentsline {chapter}{\numberline {3}Conclusions}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Summary of Results}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Future Work}{15}{section.3.2}
-\contentsline {chapter}{Bibliography}{16}{chapter*.10}
+\contentsline {subsubsection}{Transition between different spectra is associated with a change in appearance}{14}{section*.9}
+\contentsline {subsection}{\numberline {1.4.3}Discussion}{14}{subsection.1.4.3}
+\contentsline {chapter}{\numberline {2}X-Ray Diffraction}{15}{chapter.2}
+\contentsline {chapter}{\numberline {3}Conclusions}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Summary of Results}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Future Work}{16}{section.3.2}
+\contentsline {chapter}{Bibliography}{17}{chapter*.10}
