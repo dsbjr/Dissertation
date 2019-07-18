@@ -49,3 +49,5 @@ Backup slides:
 -How much charge do you need to add to see metallization?
 -How did you do the background subtraction?
 -What about herbertsmithite and other spin liquids?
+-Slide on RuCl3 electronic structure
+-Slide on RuCl3 info (structure, hamiltonian, approximate values, phases, temperatures)
