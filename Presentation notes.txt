@@ -1,0 +1,51 @@
+Giving a good presentation (ted talk style)
+
+Make it a story.
+
+You as the presenter are a mentor like yoda. The presentation is Luke Skywalker.
+
+Possible structure.
+
+Intro: 10 minutes
+-Phases of matter (solid liquid gas)
+-Transitions & symmetry breaking, mention first order transitions and hysteresis
+-Local order parameter
+-Non-locality & topological order (as a way of robustly storing information, use rope & knots analogy)
+-How spin liquids realize toplogical order
+-Path to superconductivity
+
+Middle: 25 minutes
+RuCl3
+-How RuCl3 realizes a spin liquid
+-Evidence for a spin liquid state in RuCl3
+-Previous doping experiments
+-Introduce electrolyte gating
+
+Transport
+-Brief band structure discussion
+-Lack of change in activation energy implies huge density of states at fermi energy
+-Hysteresis suggests phase change
+-Lay out hypothesis of phase change, intercalation, chemistry
+
+Raman
+-Brief discussion of technique
+-Two types of spectra and hysteresis between them
+-Consistent with phase transition but can't rule out inercalation or chemistry
+
+X-rays
+-Brief discussion of technique
+-Interlayer separation doesn't change
+-Rules out intercalation and minimizes chemistry
+
+Conclusion: 5 minutes
+-Phase transition exists without only small changes, no metallization or superconductivity
+-Future work (detailed x-rays, polarization measurements, monolayer hBN)
+-Look toward more structurally robust candidates (like iridates w/ big spin orbit coupling?) to get the job done?
+
+Backup slides:
+-How much charge are you adding?
+-What about other x-ray diffraction peaks?
+-What about stress in flakes?
+-How much charge do you need to add to see metallization?
+-How did you do the background subtraction?
+-What about herbertsmithite and other spin liquids?

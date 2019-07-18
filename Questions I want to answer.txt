@@ -15,14 +15,15 @@ From Quantum Spin Liquids: A review (Balents2017)
 7.1.2. Small spin Another feature commonly advo- cated to be important for the realization of QSLs is a low spin. This is based on the familiar notion that in the large S limit, spin-S spins become classical, which in turn is based on the fact that the commutator of two spin operators, if normalized by their “length” S, is of order 1/S. It is indeed true for Heisenberg mod- els, and more generally models with bilinear exchange interactions. However, this conclusion is not general, and must be considered a bit more carefully in practice. A better way to think about the classicality of a spin system is in terms of localization in Hilbert space. A classical state can be considered as the fully polarized (Szi = S) state with a spin quantization axis chosen at each site to coincide with the classical orientation of the spin vector. The single spin operator ~S becomes classical for large S in the sense that it generates tran- sitions only between states with Sz differing by ±1, and for a Hamiltonian which involves only individual Sµ i operators (and not products of multiple operators at a single site), the low energy states become localized near the fully polarized one, because it requires a high order action of the Hamiltonian to connect to states far from this one. However, this conclusion rests on the bilinear exchange form of the Hamiltonian. Indeed, larger spin systems can be highly quantum under certain circumstances. A simple way this occurs is if there are strong single-ion terms that split the spin degeneracy. This can lead to a doublet ground state of the single site problem, which acts then like an effective spin-1/2, if exchange is small compared to the splitting to the next multiplet. This is in fact typical for f electron spins in the lanthanide sequence. A second, less common, way that larger spins can be quantum is through multipolar spin interactions. This means couplings involving a product of many Sµ i operators on a single site. Such operators do not necessarily become classical for large S. Indeed, if we allow all possible operators acting on a spin- S spin, it becomes simply a N = 2S + 1-level system, and we could choose a Hamiltonian which has SU(N) symmetry (see Sec. 4.1) that is more quantum than any SU(2) spin model. Multipolar interactions escape classicality precisely by connecting all the N states directly, thereby avoiding localization near any particular spin projection. The microscopic physics of multipolar interactions is complex, but may arise out of orbitally dependent super-exchange, and spin-orbit coupling[189, 178, 190].
 
 Do spin ices have topological order?
--Yes, they have classical topological order, which is also a thing. 
+-Yes, they have classical topological order, which is also a thing. Also new 3d paper for cerium pyrochlore 3d spin ice becomes a spin liquid? https://www.nature.com/articles/s41567-019-0577-6
 
 Given you only have a small temperature range (100 K), how confident are you in your activation energy measurements?
+-I would prefer a larger range, but I'm able to extract energies consistent with published literature.
 
 What is the density of states at the Fermi Energy? Use change in activation energy to set a bound.
-Done in dissertation - it's 5 x 10^20 eV-1cm-3
+Done in dissertation - it's 5 x 10^20 eV-1cm-3 Compare to silver, the best elemental conductor, at 10^22 eV-1cm-3
 
-What is the screening length in this material?
+What is the screening length in this material? How far does the field penetrate into the sample?
 
 Given the high effective density of states, where are the carriers going?
 Creating new localized states. Zunger paper?
@@ -31,16 +32,28 @@ Is mystery peak broadening sensitive to gating (for intercalated samples)?
 No, it doesn't change as a function of gate voltage.
 
 How do changes in Raman mode with intercalation correlate with the expected motion of the atoms in each mode?
+Note: Modes are only raman active if there is a net change in bond length. Also, intercalation hypothesis is obsolete.
 
 For the capacitance fit for transients, how much does error in the fit affect the calculation of the double-layer capacitance?
 Several capacitance measurements produce values between 5 and 15 uF/cm2
 
 What about quantum capacitance? you're gating a gapped system.
+Quantum capacitance must be ten times larger than geometric capacitance to be negligible. For the geometric capacitance I calculate, this would require a DOS in the gap of 10^13. Which is not insane. So it's probably fine.
 
 Can you rule out proton intercalation?
+Not necessarily. But where would the protons come from? If you consider DEME to basically become a halolkane DEME-F, haloalkanes have pretty high pKa (30-40), meaning very weak acidity. So there won't be that many protons floating around. Further, protons in aqueous solution are typically "dressed" by other thing, e.g., H+ - H3O+. If that intercalates, I would see it. So my guess is that proton intercalation doesn't happen.
 
 How do you know your field actually falls across the flake and not to the back gate?
+With conventional gating I see nothing. With electrolyte gating I see a large effect. And with a 6 nm spacer I see something in the middle. If I was falling all the way to the back gate then the 6 nm difference wouldn't do anything to the magnitude of the electric field, so I should see nothing with the hBN spacer. But that's not the case. So I'm probably falling in the flake.
 
 Why don't you see any new peaks if this is a new phase?
+-Maybe new peaks come into existence but are obscured by old peaks, which may be broadened by disorder
+-Maybe the peaks I identify are in fact new peaks
 
 Exactly what x-ray measurements would you need to do to characterize this new phase?
+
+Assuming that RuCl3 is a Mott insulator, what density of charge do you need to add before you expect metallization, theoretically?
+Hard to say. Theoretically, Mott insulators are insulating only at half filling, but those aren't realistic. To compare to a realistic system, cuprates have optimal doping around 10%. For a 50 nm flake, there's an area density for sites of order 10^15 per cm sq. I can gate and add order 10^14 per cm sq. So that's around 10%, plus or minus a few percent. 
+
+How does the amount of doping you do compare to chemical substition doping? In electrons per unit cell, for example.
+See above answer. The maximum looks like about 10 percent.

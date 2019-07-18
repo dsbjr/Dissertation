@@ -195,7 +195,7 @@ Raman spectra were processed by subtracting a sigmoidal background associated wi
 
 \subsubsection{Electrolyte-biased \rucl has two different Raman spectra}
 
-Raman spectra \rucl measured under a biased electrolyte divide into two distinct classes. The first, which I refer to as \pone , has fewer and broader peaks than pristine \ruclnospace. The second, \pzero , is almost identical to pristine \ruclnospace. Figure \ref{fig:RuCl3RamanResults-1} shows these different spectra. Each spectrum can be accessed by changing the gate voltage. \pone{} typically appears at positive electrolyte gate voltage, and \pzero{} appears at negative gate voltage.
+Raman spectra of \rucl measured under a biased electrolyte divide into two distinct classes. The first, which I refer to as \pone , has fewer and broader peaks than pristine \ruclnospace. The second, \pzero , is almost identical to pristine \ruclnospace. Figure \ref{fig:RuCl3RamanResults-1} shows these different spectra. Each spectrum can be accessed by changing the gate voltage. \pone{} typically appears at positive electrolyte gate voltage, and \pzero{} appears at negative gate voltage.
 
 
 \begin{figure}[p]
@@ -232,8 +232,33 @@ Table \ref{tbl:RuCl3RamanResults-1} presents a quantitative comparison of the th
 
 \subsubsection{Transition between different Raman spectra is hysteretic}
 
-Electrolyte-biased \rucl switches between spectra \pzero{} and \pone{} as a function of gate voltage. \pone{} emerges from the pristine \rucl spectrum as the electrolyte gate voltage is increased from zero to slightly positive. The spectrum remains in \pone{} until the gate voltage is large and negative (typically V\textsubscript{crit} $\approx$ -1.5 V) when the spectrum abruptly switches back to \pzero . This effect can be seen multiple times as the voltage is swept on a given sample. The peak intensity at 
+Electrolyte-biased \rucl switches between spectra \pzero{} and \pone{} as a function of gate voltage. \pone{} emerges from the pristine \rucl spectrum as the electrolyte gate voltage is increased from zero to slightly positive. The spectrum remains in \pone{} until the gate voltage is large and negative (typically V\textsubscript{crit} $\approx$ -1.5 V) when the spectrum abruptly switches back to \pzero . This effect can be seen multiple times as the voltage is swept on a given sample. Plots of relative intensity and Raman shift for peak 2 presented in Figure \ref{fig:RuCl3RamanResults-2} show the hysteresis in this transition. Similar plots for other peaks can be found in Appendix XX.
 
-\subsubsection{Transition between different spectra is associated with a change in appearance}
+\begin{figure}
+\begin{centering}
+\includegraphics[width=\textwidth]{./img/Peak2HysteresisPlot-Original.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Relative intensity and Raman shift for Peak 2]{(a) relative peak intensity and (b) Raman shift as a function of gate voltage for peak 2, showing hysteresis.}
+  \label{fig:RuCl3RamanResults-2}
+\end{centering}
+\end{figure}
+
+\subsubsection{Transition between different spectra is associated with a change in visual appearance}
+
+The visual appearance of the flake changes abruptly when the spectrum moves from pristine to \pone{} to \pzero . Electrolyte-biased \rucl with Raman spectrum \pone{} have more optical absorption than electrolyte-biased \rucl with Raman spectrum \pzero . Further, as the voltage is swept across V\textsubscript{crit}, an interface between the two regions sweeps across the flake, as shown in Figure \ref{fig:RuCl3RamanResults-3}.
+
+
+\begin{centering}
+\includegraphics[width=\textwidth]{./img/RamanTransitionInterface.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Change in visual appearance correlated with change in Raman spectra]{Change in visual appearance as electrolyte bias drives the Raman spectra between \pzero{} and \pone. Images were taken at a constant gate voltage of 0.02 V after the gate voltage was held at -1.2 V. Note the interface between the light and dark portions of the flake in the center image.}
+  \label{fig:RuCl3RamanResults-3}
+\end{centering}
 
 \subsection{Discussion}
+
+Electrolyte-biased \rucl has two distinct Raman spectra: one is identical to pristine \ruclnospace , the other with some peaks lost and the remaining ones broadened. The spectra switches hysteretically between these two spectra as a function of gate voltage. The spectra are also associated with a lighter (\pzero) and a darker (\pone) visual appearance. An interface between \pzero{} and \pone{} regions appears as electrolyte biasing drives the change in Raman spectrum.
+
+As discussed earlier in this dissertation, hysteresis and an interface are the hallmarks of a first-order phase transition. Further, the size of the hysteresis in gate voltage space roughly matches that found in Raman, despite using a different technique and using a different sweep rate.
+
+These results are consistent with the hypothesis that a phase transition results from adding charge carriers. However, while the Raman measurements support the phase transition hypothesis, they fail to disprove the intercalation or chemical process hypotheses. To address these remaining possibilities, we turn to x-ray diffraction.
