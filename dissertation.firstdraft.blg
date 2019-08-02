@@ -1,19 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: dissertation.firstdraft.aux
 The style file: unsrt.bst
-A level-1 auxiliary file: ./tex/intro.aux
-A level-1 auxiliary file: ./tex/ch2.aux
-A level-1 auxiliary file: ./tex/ch3.aux
-A level-1 auxiliary file: ./tex/ch4.aux
-A level-1 auxiliary file: ./tex/ch5.aux
 A level-1 auxiliary file: ./tex/ch6.aux
 A level-1 auxiliary file: ./tex/ch7.aux
 Database file #1: C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
 Warning--entry type for "topOrderEdX" isn't style-file defined
---line 1217 of file C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
-Warning--I didn't find a database entry for "Fazekas"
+--line 1246 of file C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft.bib
+Warning--there's a number but no volume in Henke1993
+Warning--empty journal in Lian2017
+Warning--empty journal in Mnyukh2011
 Warning--empty author in Binder1987
 Warning--there's a number but no volume in Binder1987
-Warning--empty journal in Mnyukh2011
-Warning--empty journal in Lian2017
 Warning--there's a number but no volume in Zhou2018
 (There were 7 warnings)

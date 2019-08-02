@@ -57,3 +57,10 @@ Hard to say. Theoretically, Mott insulators are insulating only at half filling,
 
 How does the amount of doping you do compare to chemical substition doping? In electrons per unit cell, for example.
 See above answer. The maximum looks like about 10 percent.
+
+Why is the ground state of an antiferromagnet a singlet?
+Just accept this and state it as a fact.
+
+Can you get long-range entanglement from a superposition of short-range entangled things? I think so?
+
+What is the pairing mechanism for a spinon and a hole?

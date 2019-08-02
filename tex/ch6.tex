@@ -19,11 +19,79 @@ Consider a two-dimensional square lattice of points having a separation $d$ of o
 2d \sin \theta = n \lambda
 \end{equation}
 
-The example in Figure
+The equation above can be used to calculate $d$ given incident x-rays of a known wavelength and the scattering angle $\theta$. The diffraction pattern for the lattice in Figure \ref{fig:XrayIntro-1} will show diffraction peaks not just at $\theta = \sin^{-1} \left( \frac{n \lambda}{2d} \right)$, but also at $\theta = \sin^{-1} \left( \frac{n \lambda}{2d\sqrt{2}} \right)$ and others. These ``extra'' peaks appear because the $d$ in the Bragg condition does not necessarily correspond to the distance between atoms, but rather to the distance between scattering planes.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{./img/BraggDiffraction-Cullity.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[2D scattering planes labeled with Miller indices]{Bragg diffraction planes in a 2D square lattice. Each set of planes corresponds to a different spacing and will result in a different family of peaks. Scattering planes are labeled by their Miller indices. From \cite{Cullity2014}.} 
+  \label{fig:XrayIntro-2}
+\end{centering}
+
+Scattering planes are labeled by Miller indices, which can be defined in various ways. Given a set of lattice vectors $\mathbf{a_{1}},\mathbf{a_{2}},\mathbf{a_{3}}$, define reciprocal lattice vectors $\mathbf{b_{i}}$ such that $\mathbf{a_{i}} \cdot \mathbf{b_{j}} = \delta_{ij}$. Then the plane corresponding to Miller indices $(hkl)$ is the plane perpendicular to the vector
+
+\begin{equation}
+\mathbf{g_{hkl}} = h \mathbf{b_{1}} + k \mathbf{b_{2}} + l \mathbf{b_{3}}
+\end{equation}
+
+and the separation between planes $d_{hkl} = \frac{1}{|\mathbf{g_{hkl}}|}$. Alternatively, we can think of Miller indices as the inverse of fractional intercepts in the unit cell, as in Figure \ref{fig:XrayIntro-3}.
+
+\begin{centering}
+\includegraphics[width=0.5\textwidth]{./img/MillerIndices-Cullity.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Unit cell with scattering planes labeled with Miller indices]{Unit cell with scattering planes labeled by Miller indices. Each plane intersects the x, y, and z axes at 1/$n$th of the unit cell dimension, where $n$ is the Miller index for the appropriate axis. From \cite{Cullity2014}.} 
+  \label{fig:XrayIntro-3}
+\end{centering}
+
+To understand this interpretation of scattering planes, consider the (200) plane is Figure \ref{fig:XrayIntro-3}. Because the index $h = 2$, this plane intersects the $\mathbf{a}$ axis at $\frac{1}{2}$ of its extent along the $\mathbf{a}$ direction. $k,l = 0$, so there are no intercepts along the $\mathbf{b}$ and $\mathbf{c}$ axes. The same logic applies for the remaining scattering planes, with the caveat that a bar over an index (like in $(\bar{1} 1 0)$) means that the index is negative. The scattering intensity from planes with low Miller indices is typically higher than from those planes with high Miller indices. This difference results from low index planes having more atoms and therefore a higher electron density with which to scatter x-rays.
+
+To this point, we have used an intuitive and physical approach to understand how x-rays and crystals interact. But underlying our this discussion is a mathematically rigorous theory of x-ray scattering. If we define a scattering wavevector
+
+\begin{equation}
+\mathbf{q} = \mathbf{k_{f} - k_{i}}
+\end{equation}
+
+then we can write the amplitude of the scattered x-rays as the sum of all the scattered waves weighted by their phase
+
+\begin{equation}
+F(\mathbf{q}) = \int \rho_{e}(\mathbf{r}) e^{i \mathbf{q} \cdot \mathbf{r}} d\mathbf{r}
+\end{equation}
+
+where $\rho_{e}(\mathbf{r})$ is the electron density. $F(\mathbf{q})$ is exactly the electron density in reciprocal space. 
+
+We can also arrive at the scattered amplitude by considering the scattering from each atom in the unit cell. X-ray scattering from individual atoms $f(\mathbf{q})$, called atomic form factors, are tabulated \cite{Henke1993}. The scattering from an individual unit cell can be calculated by summing the form factor and weighting it by its position.
+
+\begin{equation}
+F(\mathbf{q}) = \sum_{\text{unit cell}} f(\mathbf{q}) e^{i \mathbf{q} \cdot \mathbf{r}}
+\end{equation}
+
+The scattering intensity is given by
+
+\begin{equation}
+I(\mathbf{q}) = |F(\mathbf{q})|^{2}
+\end{equation}
+
+which is measured in a scattering experiment. From the measured intensity, we can make inferences about $\rho_{e}(\mathbf{r})$ that determine the crystal structure.
+
+\begin{centering}
+\includegraphics[width=0.75\textwidth]{./img/FourRingDiffractometer.png}
+  \captionsetup{width=0.75\textwidth}
+  \captionof{figure}[Diagram of x-ray scattering angles]{Four-ring diffractometer with scattering angles labeled. From \cite{Clark2007}.} 
+  \label{fig:XrayIntro-4}
+\end{centering}
+
+In the laboratory, the scattering vector $\mathbf{q}$ is given not by  $x,y,z$ coordinates, but instead by four angles: $\theta$, $\phi$, $\Omega$, and $\chi$. The definitions of these angles are shown in Figure XX. Loosely speaking, the angles $\theta$ and $\phi$ specify the orientation of the crystal, and the angles $\Omega$ and $\chi$ describe the direction of the beam.
 
 \section{Measurements of \rucl}
 
+
+
 \subsubsection{Methods}
+X-ray scattering measurements were made at Stanford in the Stanford Nano Shared Facilities X-ray Diffraction Laboratory on the Bruker D8 Venture single crystal x-ray diffractometer. Single crystal samples of \rucl approximately 100 $\mu$m thick were affixed to a glass substrate with thin pieces of scotch tape before measurement. Pristine \rucl exfoliated onto a 300 nm Si/SiO\textsubscript{2} substrate were measured similarly.
+
+Electrolyte gating samples using techniques similar to those described in the methods sections of chapters 4 and 5. The samples were electrically contacted using silver epoxy and 8 mil insulated copper wire. Potential bias was provided by a Keithley 2400 source measurement unit.
+
+For electrolyte gating measurements, optimal angles for $\theta$, $\chi$,
 
 \subsection{Pristine \rucl}
 
@@ -38,3 +106,5 @@ Discusses different crystal structures
 
 %Johnson, R. D., Williams, S. C., Haghighirad, A. A., Singleton, J., Zapf, V., Manuel, P., … Coldea, R. (2015). Monoclinic crystal structure of α-RuCl3 and the zigzag antiferromagnetic ground state. Physical Review B - Condensed Matter and Materials Physics, 92(23). https://doi.org/10.1103/PhysRevB.92.235119
 Talks about stacking faults
+
+\nocite{*}
