@@ -74,7 +74,9 @@
 \contentsline {subsection}{\numberline {6.3.1}Pristine RuCl\textsubscript {3} }{86}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Electrolyte-gated RuCl\textsubscript {3} }{89}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Discussion}{90}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusions}{91}{chapter.7}
-\contentsline {section}{\numberline {7.1}Summary of Results}{91}{section.7.1}
-\contentsline {section}{\numberline {7.2}Future Work}{91}{section.7.2}
-\contentsline {chapter}{Bibliography}{92}{chapter*.30}
+\contentsline {chapter}{\numberline {7}Conclusion}{91}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hypotheses}{91}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Unlikely Explanations}{91}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}The case for a phase transition}{93}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Future Work}{93}{section.7.2}
+\contentsline {chapter}{Bibliography}{95}{chapter*.30}
