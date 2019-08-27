@@ -1,82 +1,116 @@
 \contentsline {chapter}{Abstract}{iv}{chapter*.1}
 \contentsline {chapter}{Acknowledgements}{vi}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Classical phases of matter and their transitions}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}What is a classical phase of matter?}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Landau theory and phase transitions}{4}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Classifications of phase transitions}{7}{subsection.1.1.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Context}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Classical phases of matter and their transitions}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}What is a classical phase of matter?}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Landau theory and phase transitions}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Classifications of phase transitions}{6}{subsection.1.2.3}
 \contentsline {subsubsection}{First order phase transitions}{7}{section*.7}
-\contentsline {subsubsection}{Continuous phase transitions}{9}{section*.8}
-\contentsline {subsection}{\numberline {1.1.4}Summary}{10}{subsection.1.1.4}
-\contentsline {section}{\numberline {1.2}Topological Phases}{10}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}The toric code}{11}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Example: Quantum Hall Effects}{15}{subsection.1.2.2}
-\contentsline {subsubsection}{The Classical Hall Effect}{15}{section*.9}
-\contentsline {subsubsection}{The Integer Quantum Hall Effect}{16}{section*.10}
-\contentsline {subsubsection}{The Fractional Quantum Hall Effect}{19}{section*.11}
-\contentsline {subsubsection}{Conclusion}{21}{section*.12}
-\contentsline {section}{\numberline {1.3}Spin Liquids}{21}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}What is a Spin Liquid?}{21}{subsection.1.3.1}
-\contentsline {subsubsection}{Geometric Frustration and Spin Liquids}{22}{section*.13}
-\contentsline {subsubsection}{The Resonating Valence Bond Description of a Quantum Spin Liquid}{23}{section*.14}
-\contentsline {subsection}{\numberline {1.3.2}Why are Spin Liquids Interesting?}{24}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Physical realizations of spin liquids}{25}{subsection.1.3.3}
-\contentsline {chapter}{\numberline {2}Properties of $\alpha $-Ruthenium (III) Chloride}{26}{chapter.2}
-\contentsline {section}{\numberline {2.1}Crystal Structure and Synthesis}{26}{section.2.1}
-\contentsline {section}{\numberline {2.2}Electronic Structure}{28}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Review: Band Theory}{28}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Review: The Hubbard Model and Mott Insulators}{34}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Measured Electronic Properties of RuCl\textsubscript {3} }{36}{subsection.2.2.3}
-\contentsline {subsubsection}{Transport measurements}{36}{section*.15}
-\contentsline {subsubsection}{Optical measurements}{37}{section*.16}
-\contentsline {subsubsection}{Other measurements and calculations}{37}{section*.17}
-\contentsline {subsection}{\numberline {2.2.4}A unified electronic picture of RuCl\textsubscript {3} }{38}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Magnetic Properties}{39}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Effective spin-\textonehalf {} moments in RuCl\textsubscript {3} }{39}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The Kitaev QSL and its Solution}{41}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Spin Liquid Behavior in RuCl\textsubscript {3} }{44}{section.2.4}
-\contentsline {section}{\numberline {2.5}Attempts to dope RuCl3}{45}{section.2.5}
-\contentsline {section}{\numberline {2.6}Summary}{46}{section.2.6}
-\contentsline {chapter}{\numberline {3}Electrolyte Gating}{47}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mechanism of field effect gating}{47}{section.3.1}
-\contentsline {section}{\numberline {3.2}Considerations for electrolyte gating}{50}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Choosing the right electrolyte}{50}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Thoughtful device design}{53}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Summary}{54}{section.3.3}
-\contentsline {chapter}{\numberline {4}Electronic Transport}{55}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction to Electronic Transport Measurements}{55}{section.4.1}
-\contentsline {section}{\numberline {4.2}Measurements of RuCl\textsubscript {3} bulk crystals}{56}{section.4.2}
-\contentsline {subsubsection}{Methods}{56}{section*.18}
-\contentsline {subsubsection}{Summary of results}{57}{section*.19}
-\contentsline {section}{\numberline {4.3}Measurements of exfoliated RuCl\textsubscript {3} crystals}{58}{section.4.3}
-\contentsline {subsubsection}{Methods}{58}{section*.20}
-\contentsline {subsubsection}{Initial sample characterization}{58}{section*.21}
-\contentsline {subsubsection}{Thermal activation}{60}{section*.22}
-\contentsline {subsubsection}{Room temperature gate sweeps}{61}{section*.23}
-\contentsline {section}{\numberline {4.4}Quantifying the added charge}{61}{section.4.4}
-\contentsline {section}{\numberline {4.5}Discussion}{64}{section.4.5}
-\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{65}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentals of Raman Spectroscopy}{65}{section.5.1}
-\contentsline {section}{\numberline {5.2}Raman Spectrum of RuCl$\textsubscript {3}$}{70}{section.5.2}
-\contentsline {section}{\numberline {5.3}Raman Spectrum of Electrolytes}{73}{section.5.3}
-\contentsline {section}{\numberline {5.4}Raman Spectroscopy of RuCl$\textsubscript {3}$ with in-situ Electrolyte Gating}{74}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Methods}{74}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Summary of Results}{75}{subsection.5.4.2}
-\contentsline {subsubsection}{Electrolyte-biased RuCl\textsubscript {3} has two different Raman spectra}{75}{section*.24}
-\contentsline {subsubsection}{Transition between different Raman spectra is hysteretic}{77}{section*.26}
-\contentsline {subsubsection}{Transition between different spectra is associated with a change in visual appearance}{78}{section*.28}
-\contentsline {subsection}{\numberline {5.4.3}Discussion}{79}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{80}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{80}{section.6.1}
-\contentsline {section}{\numberline {6.2}Previous measurements of RuCl\textsubscript {3} }{84}{section.6.2}
-\contentsline {section}{\numberline {6.3}X-ray measurements of RuCl\textsubscript {3} at Stanford}{86}{section.6.3}
-\contentsline {subsubsection}{Methods}{86}{section*.29}
-\contentsline {subsection}{\numberline {6.3.1}Pristine RuCl\textsubscript {3} }{86}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Electrolyte-gated RuCl\textsubscript {3} }{89}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Discussion}{90}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusion}{91}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hypotheses}{91}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Unlikely Explanations}{91}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}The case for a phase transition}{93}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Future Work}{93}{section.7.2}
-\contentsline {chapter}{Bibliography}{95}{chapter*.30}
+\contentsline {subsubsection}{Continuous phase transitions}{8}{section*.8}
+\contentsline {subsection}{\numberline {1.2.4}Summary}{9}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Topological phases}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}The toric code}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Example: quantum Hall effects}{14}{subsection.1.3.2}
+\contentsline {subsubsection}{The Classical Hall Effect}{14}{section*.9}
+\contentsline {subsubsection}{The Integer Quantum Hall Effect}{15}{section*.10}
+\contentsline {subsubsection}{The Fractional Quantum Hall Effect}{18}{section*.11}
+\contentsline {subsubsection}{Conclusion}{19}{section*.12}
+\contentsline {section}{\numberline {1.4}Spin liquids}{20}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}What is a spin liquid?}{20}{subsection.1.4.1}
+\contentsline {subsubsection}{Geometric Frustration and Spin Liquids}{20}{section*.13}
+\contentsline {subsubsection}{The resonating valence bond description of a quantum spin liquid}{22}{section*.14}
+\contentsline {subsection}{\numberline {1.4.2}Why are spin liquids interesting?}{23}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Physical realizations of spin liquids}{23}{subsection.1.4.3}
+\contentsline {chapter}{\numberline {2}Properties of $\alpha $-ruthenium (III) chloride}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}Crystal structure and synthesis}{25}{section.2.1}
+\contentsline {section}{\numberline {2.2}Electronic structure}{27}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Review: band theory}{27}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Review: the Hubbard model and Mott insulators}{32}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Measured electronic properties of RuCl\textsubscript {3} }{35}{subsection.2.2.3}
+\contentsline {subsubsection}{Transport measurements}{35}{section*.15}
+\contentsline {subsubsection}{Optical measurements}{36}{section*.16}
+\contentsline {subsubsection}{Other measurements and calculations}{36}{section*.17}
+\contentsline {subsection}{\numberline {2.2.4}A unified electronic picture of RuCl\textsubscript {3} }{36}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Magnetic properties}{37}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Effective spin-\textonehalf {} moments in RuCl\textsubscript {3} }{37}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The Kitaev QSL and its solution}{39}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Spin liquid behavior in RuCl\textsubscript {3} }{42}{section.2.4}
+\contentsline {section}{\numberline {2.5}Attempts to dope RuCl\textsubscript {3} }{43}{section.2.5}
+\contentsline {section}{\numberline {2.6}Summary}{44}{section.2.6}
+\contentsline {chapter}{\numberline {3}Electrolyte Gating}{46}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mechanism of field effect gating}{46}{section.3.1}
+\contentsline {section}{\numberline {3.2}Considerations for electrolyte gating}{49}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Choosing the right electrolyte}{49}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Thoughtful device design}{52}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Summary}{53}{section.3.3}
+\contentsline {chapter}{\numberline {4}Electronic Transport}{54}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to electronic transport measurements}{54}{section.4.1}
+\contentsline {section}{\numberline {4.2}Measurements of RuCl\textsubscript {3} bulk crystals}{55}{section.4.2}
+\contentsline {subsubsection}{Methods}{55}{section*.18}
+\contentsline {subsubsection}{Summary of results}{56}{section*.19}
+\contentsline {section}{\numberline {4.3}Measurements of exfoliated RuCl\textsubscript {3} crystals}{56}{section.4.3}
+\contentsline {subsubsection}{Methods}{56}{section*.20}
+\contentsline {subsubsection}{Initial sample characterization}{57}{section*.21}
+\contentsline {subsubsection}{Thermal activation}{58}{section*.22}
+\contentsline {subsubsection}{Room temperature gate sweeps}{59}{section*.23}
+\contentsline {section}{\numberline {4.4}Quantifying the added charge}{60}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{62}{section.4.5}
+\contentsline {chapter}{\numberline {5}Raman Spectroscopy}{63}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fundamentals of Raman spectroscopy}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}Raman spectrum of RuCl$\textsubscript {3}$}{68}{section.5.2}
+\contentsline {section}{\numberline {5.3}Raman spectrum of electrolytes}{71}{section.5.3}
+\contentsline {section}{\numberline {5.4}Raman spectroscopy of RuCl$\textsubscript {3}$ with in-situ electrolyte gating}{72}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Methods}{72}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Summary of results}{73}{subsection.5.4.2}
+\contentsline {subsubsection}{Electrolyte-biased RuCl\textsubscript {3} has two different Raman spectra}{73}{section*.24}
+\contentsline {subsubsection}{Transition between different Raman spectra is hysteretic}{75}{section*.26}
+\contentsline {subsubsection}{Transition between different spectra is associated with a change in visual appearance}{75}{section*.28}
+\contentsline {subsection}{\numberline {5.4.3}Discussion}{76}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}X-Ray Diffraction}{78}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{78}{section.6.1}
+\contentsline {section}{\numberline {6.2}Previous measurements of RuCl\textsubscript {3} }{82}{section.6.2}
+\contentsline {section}{\numberline {6.3}X-ray measurements of RuCl\textsubscript {3} at Stanford}{83}{section.6.3}
+\contentsline {subsubsection}{Methods}{83}{section*.29}
+\contentsline {subsection}{\numberline {6.3.1}Pristine RuCl\textsubscript {3} }{84}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Electrolyte-gated RuCl\textsubscript {3} }{86}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Discussion}{87}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusion}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hypotheses}{89}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Unlikely explanations}{89}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}The case for a phase transition}{91}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Future work}{91}{section.7.2}
+\contentsline {chapter}{Appendices}{93}{section*.30}
+\contentsline {chapter}{\numberline {A}Procedures}{94}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Producing samples}{94}{section.a.A.1}
+\contentsline {subsubsection}{Cleaving wafers for exfoliation}{94}{section*.31}
+\contentsline {subsubsection}{Exfoliation of graphene}{94}{section*.32}
+\contentsline {subsubsection}{Exfoliation of boron nitride}{96}{section*.33}
+\contentsline {subsubsection}{Exfoliation of ruthenium chloride}{96}{section*.34}
+\contentsline {subsubsection}{Finding and naming flakes}{96}{section*.35}
+\contentsline {subsubsection}{Making PPC/GEL-PAK stamps}{97}{section*.36}
+\contentsline {subsubsection}{Preparing device substrates}{98}{section*.37}
+\contentsline {subsubsection}{Stacking graphene and boron nitride}{98}{section*.38}
+\contentsline {subsubsection}{Making open graphene samples}{100}{section*.39}
+\contentsline {section}{\numberline {A.2}Designing devices}{101}{section.a.A.2}
+\contentsline {subsubsection}{Atomic force microscopy}{101}{section*.40}
+\contentsline {subsubsection}{Device Design}{101}{section*.41}
+\contentsline {subsubsection}{Design principles}{104}{section*.42}
+\contentsline {section}{\numberline {A.3}Fabrication}{105}{section.a.A.3}
+\contentsline {subsubsection}{E-beam lithography tips}{105}{section*.43}
+\contentsline {subsubsection}{Alignment marks}{108}{section*.44}
+\contentsline {subsubsection}{Topgate}{108}{section*.45}
+\contentsline {subsubsection}{Etch}{109}{section*.46}
+\contentsline {subsubsection}{Ohmics}{110}{section*.47}
+\contentsline {section}{\numberline {A.4}Applying ionic liquid}{111}{section.a.A.4}
+\contentsline {section}{\numberline {A.5}Miscellaneous tips}{111}{section.a.A.5}
+\contentsline {chapter}{\numberline {B}Other work}{112}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}Scanning tunneling microscopy at NIST}{112}{section.a.B.1}
+\contentsline {section}{\numberline {B.2}Graphene quantum hall in pulsed fields}{112}{section.a.B.2}
+\contentsline {subsubsection}{Introduction}{112}{section*.48}
+\contentsline {subsubsection}{Experimental}{113}{section*.49}
+\contentsline {subsubsection}{Results and Discussion}{113}{section*.50}
+\contentsline {subsubsection}{Conclusions}{114}{section*.51}
+\contentsline {section}{\numberline {B.3}Phonon drag in AlGaN/GaN two-dimensional electron gases for high thermoelectric performance}{114}{section.a.B.3}
+\contentsline {section}{\numberline {B.4}Terahertz spectroscopy of RuCl\textsubscript {3} }{114}{section.a.B.4}
+\contentsline {chapter}{Bibliography}{115}{chapter*.52}

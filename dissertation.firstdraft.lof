@@ -1,56 +1,59 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Free energy functional form for a first order phase transition}}{8}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Free energy functional form for a second order phase transition}}{9}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Toric code operators on the lattice}}{11}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Fractional excitations in the toric code}}{12}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Topologically distinct loops in the toric code}}{14}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces von Klitzing's measurement of the quantum Hall effect}}{16}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Fractional Quantum Hall Effect Measurement}}{20}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Geometric Frustration on the Triangular Lattice}}{22}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Resonating Valence Bond State on a Triangular Lattice}}{24}{figure.1.9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Free energy functional form for a first order phase transition}}{7}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Free energy functional form for a second order phase transition}}{8}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Toric code operators on the lattice}}{10}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Fractional excitations in the toric code}}{11}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Topologically distinct loops in the toric code}}{13}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces von Klitzing's measurement of the quantum Hall effect}}{15}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Fractional Quantum Hall Effect Measurement}}{19}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Geometric Frustration on the Triangular Lattice}}{21}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Resonating Valence Bond State on a Triangular Lattice}}{22}{figure.1.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Crystal structure of RuCl\textsubscript {3}}}{27}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Kronig-Penney Potential}}{30}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispersion Relation for Kronig-Penney Delta Function Model}}{32}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diamond Band Structure and Interatomic Distance}}{33}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Hubbard Model in Two Dimensions}}{34}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Mott Transition}}{36}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Optical Absorption and Calculated Band Structure of RuCl\textsubscript {3}}}{38}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Octahedral crystal field splitting of d orbitals}}{39}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Spin-orbit splitting of t2g orbitals}}{40}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Lattice for the Kitaev Model}}{41}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Phase Diagram of the Kitaev Model}}{43}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Heat Capacity and Neutron Diffraction show long-range order in RuCl\textsubscript {3}}}{44}{figure.2.12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Crystal structure of RuCl\textsubscript {3}}}{26}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Kronig-Penney Potential}}{28}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dispersion Relation for Kronig-Penney Delta Function Model}}{31}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diamond Band Structure and Interatomic Distance}}{32}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Hubbard Model in Two Dimensions}}{33}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Mott Transition}}{34}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Optical Absorption and Calculated Band Structure of RuCl\textsubscript {3}}}{37}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Octahedral crystal field splitting of d orbitals}}{38}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Spin-orbit splitting of t2g orbitals}}{39}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Lattice for the Kitaev Model}}{40}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Phase Diagram of the Kitaev Model}}{42}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Heat Capacity and Neutron Diffraction show long-range order in RuCl\textsubscript {3}}}{42}{figure.2.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces MOSFET Diagram}}{48}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mechanism of Electrolyte Gating}}{49}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure of Electrolyte Cations}}{51}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Electrochemical stability window for DEME-TFSI}}{52}{figure.3.4}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces MOSFET Diagram}}{47}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mechanism of Electrolyte Gating}}{48}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Structure of Electrolyte Cations}}{49}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Electrochemical stability window for DEME-TFSI}}{51}{figure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Bulk RuCl\textsubscript {3} Arrhenius Plot}}{57}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Exfoliated RuCl\textsubscript {3} Arrhenius Plot}}{58}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Exfoliated RuCl\textsubscript {3} activation energy vs electrolyte gate voltage}}{60}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Room Temperature Gate Sweeps for Bare and hBN Covered RuCl\textsubscript {3} }}{61}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A Randles Cell}}{62}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Excess current following step in gate voltage}}{63}{figure.4.6}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Bulk RuCl\textsubscript {3} Arrhenius Plot}}{56}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Exfoliated RuCl\textsubscript {3} Arrhenius Plot}}{57}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Exfoliated RuCl\textsubscript {3} activation energy vs electrolyte gate voltage}}{58}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Room Temperature Gate Sweeps for Bare and hBN Covered RuCl\textsubscript {3} }}{59}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A Randles Cell}}{60}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Excess current following step in gate voltage}}{61}{figure.4.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Elastic and inelastic light scattering processes}}{67}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Raman spectrum of bulk RuCl\textsubscript {3}}}{71}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Raman spectrum of bulk RuCl\textsubscript {3}with labeled symmetries}}{72}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagram of RuCl\textsubscript {3} Raman Modes}}{72}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Bulk and exfoliated RuCl\textsubscript {3} Raman Spectrum}}{73}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Raman spectra of selected electrolytes}}{74}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Raman spectra of pristine RuCl\textsubscript {3}, P\textsubscript {0}{}, and P\textsubscript {1}}}{76}{figure.caption.25}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Relative intensity and Raman shift for Peak 2}}{78}{figure.caption.27}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Change in visual appearance correlated with change in Raman spectra}}{79}{figure.5.9}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Elastic and inelastic light scattering processes}}{65}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Raman spectrum of bulk RuCl\textsubscript {3}}}{68}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Raman spectrum of bulk RuCl\textsubscript {3}with labeled symmetries}}{69}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagram of RuCl\textsubscript {3} Raman Modes}}{70}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Bulk and exfoliated RuCl\textsubscript {3} Raman Spectrum}}{70}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Raman spectra of selected electrolytes}}{71}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Raman spectra of pristine RuCl\textsubscript {3}, P\textsubscript {-}{}, and P\textsubscript {+}}}{74}{figure.caption.25}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Relative intensity and Raman shift for Peak 2}}{75}{figure.caption.27}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Change in visual appearance correlated with change in Raman spectra}}{76}{figure.5.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces X-ray scattering from a lattice}}{81}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 2D scattering planes labeled with Miller indices}}{82}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Unit cell with scattering planes labeled with Miller indices}}{82}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagram of x-ray scattering angles}}{84}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Intercalated RuCl\textsubscript {3} interlayer spacing}}{85}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Bulk RuCl\textsubscript {3} diffraction pattern}}{87}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Exfoliated RuCl\textsubscript {3} diffraction pattern}}{87}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Exfoliated RuCl\textsubscript {3} diffractogram}}{88}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Electrolyte-biased exfoliated RuCl\textsubscript {3} diffraction pattern}}{89}{figure.6.9}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces X-ray scattering from a lattice}}{79}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 2D scattering planes labeled with Miller indices}}{79}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Unit cell with scattering planes labeled with Miller indices}}{80}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagram of x-ray scattering angles}}{82}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Intercalated RuCl\textsubscript {3} interlayer spacing}}{83}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Bulk RuCl\textsubscript {3} diffraction pattern}}{84}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Exfoliated RuCl\textsubscript {3} diffraction pattern}}{85}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Exfoliated RuCl\textsubscript {3} diffractogram}}{86}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Electrolyte-biased exfoliated RuCl\textsubscript {3} diffraction pattern}}{87}{figure.6.9}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Graphene quantum Hall in pulsed field}}{114}{figure.a.B.1}

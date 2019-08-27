@@ -1,11 +1,11 @@
-\chapter{Properties of \texorpdfstring{$\alpha$-Ruthenium (III) Chloride}{alpha-RuCl3}}
+\chapter{Properties of \texorpdfstring{$\alpha$-ruthenium (III) chloride}{alpha-RuCl3}}
 This chapter covers the structural, electronic, and magnetic properties of \rucl and serves as a reference for further discussion of the material. This chapter also contains a discussion of the Kitaev model and how \rucl realizes this model in the lab. Finally, I discuss published measurements of \rucl and how they confirm it as a proximate Kitaev spin liquid.
 
-\section{Crystal Structure and Synthesis}
+\section{Crystal structure and synthesis}
 
 Generally, ruthenium (III) chloride (\ruclnospace) is a brown or black solid that is a precursor for 	ruthenium chemistry. It is commonly found as a hydrate, where water molecules are incorporated into its structure. High-purity hydrated ruthenium (III) chloride is commercially available from chemical vendors like Sigma Aldrich. We will consider only anhydrous ruthenium (III) chloride (i.e., without water) in this dissertation.
 
-Ruthenium (III) chloride has two polymorphs, called $\alpha$ and $\beta$. Both $\alpha$ and $\beta$-ruthenium (III) chloride are composed of ruthenium atoms octahedrally coordinated by chlorine. However, in the $\alpha$ polymorph the octahedra are edge sharing, while in the $\beta$ polymorph, the octahedra are face-sharing. The edge-sharing octahedra give the $\alpha$ polymorph its interesting magnetic qualities, and therefore, unless explicitly stated otherwise, we will confine our discussion to $\alpha$ ruthenium (III) chloride and refer to it as \ruclnospace .
+Ruthenium (III) chloride has two polymorphs, called $\alpha$ and $\beta$. Both $\alpha$ and $\beta$-ruthenium (III) chloride are composed of ruthenium atoms octahedrally coordinated by chlorine. However, in the $\alpha$ polymorph the octahedra are edge sharing, while in the $\beta$ polymorph, the octahedra are face-sharing. The edge-sharing octahedra give the $\alpha$ polymorph its interesting magnetic qualities, and therefore, unless explicitly stated otherwise, we will confine our discussion to $\alpha$-ruthenium (III) chloride and refer to it as \ruclnospace .
 
 At room temperature and ambient pressure, the structure of \rucl consists of edge-sharing octahedra of chlorine atoms that coordinate ruthenium. These edge-sharing octahedra form a hexagonal lattice that defines the a-b plane of the material. While interactions between atoms in the a-b plane are ionic bonds\footnote{I describe in-plane bonding as ionic because it concerns bonds between metals and non-metals. However, the modest difference in Pauling electronegativity between ruthenium and chlorine (0.96) suggests the bond has substantial covalent character.}, the only interactions along the c-axis are van der Waals bonds. Accordingly, \rucl is referred to as a quasi-2D, two-dimensional, or van der Waals material. The layers have an ABC stacking order, such that the unit cell contains three repeats of the a-b plane. The layer separation is approximately 5.7 \AA, while the separation between ruthenium and chlorine atoms in the a-b plane is approximately 0.6 \AA. This structure is monoclinic and belongs to space group C2/m. As show in Figure \ref{fig:RuCl3CrystStruct-1}, the angles between Ru-Cl bonds are very nearly 90$^{\circ}$. The nearly ideal coordinated of ruthenium atoms will be important to understanding \rucl as a proximate Kitaev spin liquid.
 
@@ -20,11 +20,11 @@ At room temperature and ambient pressure, the structure of \rucl consists of edg
 
 \rucl may be synthesized by several methods, including by direct reaction of Ru and Cl at elevated temperatures in the presence of carbon monoxide \cite{Binotto1971}, chemical vapor growth \cite{Gronke2018}, and by vapor transport techniques using purified commercial $\beta$-\ruclnospace \cite{Cao2016}. The \rucl crystals used for this work were grown by Stephen Nagler and colleagues at Oak Ridge National Laboratory using the latter method.
 
-\section{Electronic Structure}
+\section{Electronic structure}
 
 \rucl is a terrible conductor of electricity. But this highly insulating nature comes from a rich electronic structure that will be relevant when interpreting electronic transport data. Therefore in this section I will briefly review band theory and Mott insulators before showing how these concepts explain the peculiarities of \ruclnospace 's electronic structure.
 
-\subsection{Review: Band Theory}
+\subsection{Review: band theory}
 
 Matter in the solid state is composed of individual atoms separated by distances so small (typically \AA s or less) that the atomic orbitals interact and combine to form a broader set of molecular orbitals extending over the entire material. These nature of these broader orbitals defines the range of energies an electron in the solid may have, called bands, and the range of energies an electron may not have, called band gaps. Band theory calculates the bands and band gaps of a material from the properties of allowed non-interacting, single electron electron wavefunctions in a periodic potential. Although based on assumptions that are not always applicable, band theory successfully explains many properties of solid state systems, including electrical resistivity and optical absorption. Before examining the electronic structure of \ruclnospace , we will briefly review band theory to understand some general aspects of band structure.
 
@@ -47,7 +47,7 @@ The Kronig-Penney model describes the propagation of electrons through a series 
   \label{fig:RuCl3ElecStruct-1}
 \end{centering}
 
-We begin by analyzing a simpler system, the propagation of a delocalized electron of energy $E$ encountering a semi-infinite potential barrier of height $U_{0}$ at $x = 0$. If we define two regions, $x <0$ and $x>0$, we can write an ansatz for our time-independent wavefunction
+We begin by analyzing a simpler system: the propagation of a delocalized electron of energy $E$ encountering a semi-infinite potential barrier of height $U_{0}$ at $x = 0$. If we define two regions, $x <0$ and $x>0$, we can write an ansatz for our time-independent wavefunction
 
 \begin{equation}
 \psi(x) =
@@ -172,22 +172,22 @@ where $m$ is the effective mass of the electron and $S$ is the strength of the $
   \label{fig:RuCl3ElecStruct-2}
 \end{centering}
 
-The band gaps in Figure \ref{fig:RuCl3ElecStruct-2} appear every $k = \frac{n\pi}{a}$. This wavevectors correspond to reciprocal lattice vectors, and any periodic system will necessarily have band gaps at these value of $k$. While these band gaps emerge naturally from the Kronig-Penney model, we can also interpret them in the context of a diffraction. If a wave with wavelength $\lambda$ scatters from a series of periodic planes separated by distance $a$, the reflected waves destructively interfere with the incident wave when $k = \frac{2\pi}{\lambda} = \frac{n \pi}{a}$, preventing the wave from propagating.
+The band gaps in Figure \ref{fig:RuCl3ElecStruct-2} appear every $k = \frac{n\pi}{a}$. These wavevectors correspond to reciprocal lattice vectors, and any periodic system will necessarily have band gaps at these value of $k$. While these band gaps emerge naturally from the Kronig-Penney model, we can also interpret them in the context of a diffraction. If a wave with wavelength $\lambda$ scatters from a series of periodic planes separated by distance $a$, the reflected waves destructively interfere with the incident wave when $k = \frac{2\pi}{\lambda} = \frac{n \pi}{a}$, preventing the wave from propagating.
 
 While band gaps always appear at zone boundaries, the nature of the periodic potential dictates the properties of the band structure everywhere else. Consider bringing together a large group of carbon atoms into a diamond lattice. Bands arising from the overlap of 2p and 2s carbon orbitals are shown in Figure \ref{fig:RuCl3ElecStruct-3}.  At large interatomic distance the orbitals do not overlap, but as the carbon atoms approach the overlap in their orbitals gives rise to delocalized orbitals so densely packed in energy as to effectively be a continuum. These delocalized orbitals are the bands, which are separated by a forbidden region called the band gap.
 
 \begin{centering}
 \includegraphics[width=0.75\textwidth]{./img/DiamondBandStructure-Chetvorno.png}
   \captionsetup{width=0.75\textwidth}
-  \captionof{figure}[Diamond Band Structure and Interatomic Distance]{Diamond band structure as a function of interatomic separation. At large separation bandwidth corresponds to only the allowed energy of the 2s and 2p orbitals. As the separation is reduced, the overlapping orbitals give rise to bands and band gaps. Image adapted from Chetvorno.} 
+  \captionof{figure}[Diamond Band Structure and Interatomic Distance]{Diamond band structure as a function of interatomic separation. At large separation, the bandwidth corresponds to only the allowed energy of the 2s and 2p orbitals. As the separation is reduced, the overlapping orbitals give rise to bands and band gaps. Image adapted from Chetvorno.} 
   \label{fig:RuCl3ElecStruct-3}
 \end{centering}
 
 Bands and band gaps are the electronic structure of a material and determine the material's electronic properties. For example, a material with a band gap between a band where all states are occupied and one with no states occupied is an insulator because energy is required to add or excite an electron into a propagating state. If the band gap in such a material is small, the material is a semiconductor. And if partially filled bands are present, the material is a metal.
 
-Band structure calculations for \rucl predict that it should be a metal, which is clearly incorrect. Band theory fails spectacularly in this case because electrons in \rucl are strongly correlated, and electron-electron interactions cannot be neglected. Accordingly, we will study another model to see how electron-electron interactions can cause materials to be insulating that would otherwise predict to be metallic.
+Band structure calculations for \rucl predict that it should be a metal, which is clearly incorrect. Band theory fails spectacularly in this case because electrons in \rucl are strongly correlated, and electron-electron interactions cannot be neglected. Accordingly, we will study another model to see how electron-electron interactions can cause materials to be insulating that we would otherwise predict to be metallic.
 
-\subsection{Review: The Hubbard Model and Mott Insulators}
+\subsection{Review: the Hubbard model and Mott insulators}
 
 To appreciate the effect of electron-electron interactions, we will qualitatively explore a simplified version of the venerable Hubbard model in two dimensions.
 
@@ -216,7 +216,7 @@ Considering the limits of the Hubbard model is an instructive exercise. In the d
 
 In the band limit, $U \rightarrow 0$, causing electron-electron interactions to become negligible; again, we recover band theory. In the atomic limit, $t \rightarrow 0$, the electrons can no longer move, and we have the energy spectrum of a single lattice site. Already we can see the Hubbard model produces results that are more in line with reality. As the lattice spacing increases, $t$ decreases due to decreasing overlap of atomic orbitals, until motion between lattice sites is completely suppressed. In band theory, the lattice spacing could approach infinity and there would still be propagating electron modes (check the Kronig-Penney model to see this).
 
-So far, the limiting cases have predicted what we would expect. But what happens at half-filling ($\braket{n_{i}} \approx 1$)\footnote{Theoretically, any deviation from half-filling should result in a metallic state because the empty site or doubly-occupied site should be able to propagate. However, in a real system defects and impurities may prevent propagation and widen the range of filling values that can support insulating states.} when $U$ and $t$ are of similar magnitude? In this case, the model describes competition between the hopping term, which delocalizes the electrons, and the Hubbard U, which localizes them. For small values of $U/t$, the model predicts a metallic system. But for large values of $U/t$, the energetic penalty for double occupancy forces the electrons to stay localized on a particular lattice site and the system is insulating. At a critical value $U^{*} \approx z t$, where $z$ is the coordination number of the lattice, the system undergoes a Mott transition (a continuous phase transition) from an insulating to a metallic state \cite{Fazekas}. We can visualize this transition as the eventual meeting and overlap of occupied and unoccupied Hubbard bands (corresponding to single and double occupancy of the lattice sites) at a the critical value $U^{*}$, as shown in Figure \ref{fig:RuCl3ElecStruct-4}.
+So far, the limiting cases have predicted what we would expect. But what happens at half-filling ($\braket{n_{i}} \approx 1$)\footnote{Theoretically, any deviation from half-filling should result in a metallic state because the empty site or doubly-occupied site should be able to propagate. However, in a real system defects and impurities may prevent propagation and widen the range of filling values that can support insulating states.} when $U$ and $t$ are of similar magnitude? In this case, the model describes competition between the hopping term, which delocalizes the electrons, and the Hubbard U, which localizes them. For small values of $U/t$, the model predicts a metallic system. But for large values of $U/t$, the energetic penalty for double occupancy forces the electrons to stay localized on a particular lattice site and the system is insulating. At a critical value $U^{*} \approx z t$, where $z$ is the coordination number of the lattice, the system undergoes a Mott transition (a continuous phase transition) from an insulating to a metallic state \cite{Fazekas1990}. We can visualize this transition as the eventual meeting and overlap of occupied and unoccupied Hubbard bands (corresponding to single and double occupancy of the lattice sites) at a the critical value $U^{*}$, as shown in Figure \ref{fig:RuCl3ElecStruct-4}.
 
 \begin{centering}
 \includegraphics[width=0.75\textwidth]{./img/MottTransition-Fazekas.png}
@@ -227,23 +227,23 @@ So far, the limiting cases have predicted what we would expect. But what happens
 
 As we have seen, electron-electron correlations can dramatically change the qualitative behavior of electronic systems in a ways that band theory cannot capture. Now that we have a qualitative understanding of both band theory and Mott insulators, we can proceed to study the electronic structure of \ruclnospace .
 
-\subsection{Measured Electronic Properties of \texorpdfstring{\rucl}{RuCl3}}
+\subsection{Measured electronic properties of \texorpdfstring{\rucl}{RuCl3}}
 
 \subsubsection{Transport measurements}
 
-Early transport measurements of single-crystal \rucl (approximately 50 $\mu$m thick) show it to be an insulator with room-temperature in-plane resistivity near $2x10^{3}$ $\Omega$cm and out of plane resistivity approximately three orders of manitude larger. Conduction is thermally activated both in-plane and out-of-plane with an activation energy of approximately 0.1 eV \cite{Binotto1971}. Subsequent Hall measurements using specially-designed high-resistance electronics found an activation energy of approximately 0.15 eV and showed the conduction to be band transport rather than hopping (mobility increases with decreasing temperature). The majority carriers were shown to be electrons \cite{Rojas1983}.
+Early transport measurements of single-crystal \rucl (approximately 50 $\mu$m thick) show it to be an insulator with room-temperature in-plane resistivity near 2 x 10\textsuperscript{3} $\Omega$cm and out-of-plane resistivity approximately three orders of manitude larger. Conduction is thermally activated both in-plane and out-of-plane with an activation energy of approximately 0.1 eV \cite{Binotto1971}. Subsequent Hall measurements using specially-designed high-resistance electronics found an activation energy of approximately 0.15 eV and showed the conduction to be band transport rather than hopping (mobility increases with decreasing temperature). The majority carriers were shown to be electrons \cite{Rojas1983}.
 
 Recently, transport measurements performed on exfoliated, high-purity \rucl crystals (tens of nanometers in thickness) have found somewhat different results. Measurements at California State University, Long Beach measure 0.08 eV for the thermal activation of conduction \cite{Kim2017}. Measurements at the Max Planck Institute in Germany found dramatically lower room-temperature resistivity and variable range hopping instead of band conduction \cite{Mashhadi2018}. 
 
-Taken together, these measurements suggest \rucl is a simple band insulator with a modest band gap of around 100 meV (allowing for some experimental variation). However, other measurements refine and challenge this view.
+Taken together, these measurements suggest \rucl is a simple band insulator with a modest band gap of around 100 meV (allowing for some experimental variation). However, other measurements refine and expand on this description.
 
 \subsubsection{Optical measurements}
 Optical measurements find an optical band gap of about 1 eV, well in excess of the measured thermal activation energy \cite{Sandilands2016}. Optical absorption at higher energies are identified with transitions between Ru and Cl inner orbitals.
 
-While there are extensive Raman spectroscopy measurements, these measurements relate more to magnetic exicitations or phonons and are covered elsewhere in this dissertation.
+While there are extensive Raman spectroscopy measurements, these measurements relate more to magnetic excitations or phonons and are covered elsewhere in this dissertation.
 
 \subsubsection{Other measurements and calculations}
-Other techniques used to investigate the electronic structure of \rucl include scanning tunneling microscopy and spectroscopy (STM and STS), ange-resolved photoemission spectroscopy (ARPES), and x-ray spectroscopy. STM and STS measurements find a band gap of approximately 0.25 eV and find symmetry breaking of charge distribution on the surface layer of \rucl \cite{Ziatdinov2016}.
+Other techniques used to investigate the electronic structure of \rucl include scanning tunneling microscopy and spectroscopy (STM and STS), angle-resolved photoemission spectroscopy (ARPES), and x-ray spectroscopy. STM and STS measurements find a band gap of approximately 0.25 eV and find symmetry breaking of charge distribution on the surface layer of \rucl \cite{Ziatdinov2016}.
 
 ARPES measurements find large gaps (1.2 eV \cite{Zhou2016} and 1.9 eV \cite{Sinn2016}) which are somewhat consistent with optical measurements. However, in order to reproduce to the observed band structure and gaps, electronic structure calculations require both electron-electron (non-zero Hubbard U) and a spin-orbit coupling. Accordingly, these measurements suggest \rucl is a spin-assisted Mott insulator - a Mott insulator that requires spin-orbit coupling to open a gap.
 
@@ -258,13 +258,13 @@ While there appear to be conflicting measurements in the published literature, m
   \label{fig:RuCl3ElecStruct-6}
 \end{centering}
 
-\section{Magnetic Properties}
+\section{Magnetic properties}
 
-The magnetic properties of a material are determined by the pairings and spin interactions of its electrons. Accordingly, we will examine these for \rucl, and see that the magnetic properties are dominated by effective spin-\textonehalf electrons localized on the ruthenium atoms. We will then explore the interactions between these localized electrons and how they lead to a realization of the Kitaev model. Finally, we will discuss recent measurements that confirm the electrons to be localized and the behavior of \rucl as a spin liquid.
+The magnetic properties of a material are determined by the pairings and spin interactions of its electrons. Accordingly, we will examine these for \ruclnospace , and see that the magnetic properties are dominated by effective spin-\textonehalf{} electrons localized on the ruthenium atoms. We will then explore the interactions between these localized electrons and how they lead to a realization of the Kitaev model. Finally, we will discuss recent measurements that confirm the electrons to be localized and the behavior of \rucl as a spin liquid.
 
 \subsection{Effective spin-\textonehalf{} moments in \texorpdfstring{\rucl}{RuCl3}}
 
-Ruthenium has electronic configuration [Kr]4d\textsuperscript{7}5s\textsuperscript{1}. In \ruclnospace , the $s$ electron and one 2 $d$ electrons are paired into bonding orbitals and are therefore we neglect their contribution to magnetism. Under this assumption, the magnetism of the material is determined by the remaining 5 electrons in the 4$d$ orbitals.
+Ruthenium has electronic configuration [Kr]4d\textsuperscript{7}5s\textsuperscript{1}. In \ruclnospace , the $s$ electron and one 2 $d$ electrons are paired into bonding orbitals and therefore we neglect their contribution to magnetism. Under this assumption, the magnetism of the material is determined by the remaining 5 electrons in the 4$d$ orbitals.
 
 Because the ruthenium exists in a solid, the energy of the d orbitals is affected by the surrounding crystal. This interaction, called the crystal field effect, actually splits the 4d orbitals into doubly-degenerate e\textsubscript{g} and triply-degenerate t\textsubscript{2g} orbitals, as shown in Figure \ref{fig:RuCl3MagProp-1}.
 
@@ -284,11 +284,11 @@ Spin-orbit coupling further splits the e\textsubscript{g} and t\textsubscript{2g
   \label{fig:RuCl3MagProp-2}
 \end{centering}
 
-Four of the remaining $d$ electrons are paired in the  lower-energy $J_{eff} = \frac{3}{2}$ states, while the remaining electron is unpaired and occupies the $J_{eff} = \frac{1}{2}$ state. This electron is responsible for the magnetism of \ruclnospace, and is a localized spin-\textonehalf{} moment. DFT calculations, which accurately reproduce ARPES, x-ray photoemission, and electron energy loss spectroscopy, justifies this $J_{eff} = \frac{1}{2}$ description \cite{Koitzsch2016}.
+Four of the remaining $d$ electrons are paired in the  lower-energy $J_{eff} = \frac{3}{2}$ states, while the remaining electron is unpaired and occupies the $J_{eff} = \frac{1}{2}$ state. This electron is responsible for the magnetism of \ruclnospace, and is a localized spin-\textonehalf{} moment. DFT calculations, which accurately reproduce ARPES, x-ray photoemission, and electron energy loss spectroscopy, justifiy this $J_{eff} = \frac{1}{2}$ description \cite{Koitzsch2016}.
 
 The problem of interacting spin-\textonehalf{} moments on the vertices of a hexagonal lattice is closely related to the Kitaev model of a quantum spin liquid, which has already been solved. We will now turn our attention to this model.
 
-\subsection{The Kitaev QSL and its Solution}
+\subsection{The Kitaev QSL and its solution}
 
 In 2006, Kitaev developed an exactly solvable model of a QSL \cite{Kitaev2006}. He imagined a system of spins on a hexagonal lattice being described by the following Hamiltonian
 
@@ -305,7 +305,7 @@ where the x, y, and z links are defined in Figure \ref{fig:RuCl3MagProp-3}.
   \label{fig:RuCl3MagProp-3}
 \end{centering}
 
-While the anisotropic interaction may seem unusual, but in hexagonal systems with octahedral coordination, small deviations in bond angle lead to inequivalent bonds that could give rise to anisotropy (see Figure \ref{fig:RuCl3CrystStruct-1}.
+The anisotropic interaction may seem unusual, but in hexagonal systems with octahedral coordination, small deviations in bond angle lead to inequivalent bonds that could give rise to anisotropy (see Figure \ref{fig:RuCl3CrystStruct-1}.
 
 Surprisingly, the Hamiltonian commutes with the so-called ``plaquette'' operator
 
@@ -381,7 +381,7 @@ where $\delta_{k}$ is zero for weakly anisotropic $J^{\gamma}$ and non-zero when
 
 Majorana fermions are inherently fractional quasiparticles. Accordingly, the low-energy excitations of the Kitaev Hamiltonian reveal the topological nature of this system. Observing (1) the absence of long-range magnetic order down to 0 K and (2) a broad spectrum of magnetic excitations (either gapped or gapless) in \rucl would be powerful evidence of its spin liquid character.
 
-\section{Spin Liquid Behavior in \texorpdfstring{\rucl}{RuCl3}}
+\section{Spin liquid behavior in \texorpdfstring{\rucl}{RuCl3}}
 
 Unfortunately, \rucl in its ground state is not a spin liquid. Neutron scattering and heat capacity measurements (shown in Figure \ref{fig:RuCl3MagProp-5}) show that paramagnetic \rucl orders antiferromagnetically with a N\'{e}el temperature of 7 K or 14 K (for samples with stacking faults) \cite{Banerjee2016,Sears2015}.
 
@@ -394,17 +394,17 @@ Unfortunately, \rucl in its ground state is not a spin liquid. Neutron scatterin
 
 However, neutron scattering measurements of magnetic excitations in \rucl do not match linear spin wave theory, and in fact show some characteristics consistent with Majorana fermions and $Z_{2}$ gauge fluxes \cite{Banerjee2017}. Therefore, \rucl is best described as a proximate Kitaev spin liquid - not quite there, but close.
 
-If \rucl is close to a spin liquid, then perhaps suppressing the antiferromagentic order will realize an authentic spin liquid state. 	The application of a strong ($H_{c} = 7-9$ Tesla) in-plane magnetic field eliminates the transition to antiferromagnetic order and points to a quantum critical phase transition as a function of applied field near $H_{c}$. Time-of-flight inelastic neutron scattering with in-plane field shows both an absence of magnetic order and broad, gapped spectrum of magnetic excitations consistent with a Kitaev QSL \cite{Banerjee2017}. Terahertz spectroscopy measurements show similar results \cite{Wang2017}. NMR measurements with an in-plane field are also consistent with a Kitaev QSL \cite{Baek2017}. In a striking thermal conductivity measurement, \rucl in an in-plane field was found to have a half-quantized thermal Hall conductance - a direct measurement of the spin liquid and topological nature of the field-induced state \cite{Kasahara2018}. Finally, substitution of Ru\textsuperscript{3+} with spin vacancies using Ir\textsuperscript{3+} suppresses the antiferromagnetic order and gives neutron scattering results consistent with a Kitaev QSL, even in the absence of an in-plane magnetic field \cite{Lampen-Kelley2017}.
+If \rucl is close to a spin liquid, then perhaps suppressing the antiferromagentic order will realize an authentic spin liquid state. 	The application of a strong ($H_{c} = 7-9$ Tesla) in-plane magnetic field eliminates the transition to antiferromagnetic order and points to a quantum critical phase transition as a function of applied field near $H_{c}$. Time-of-flight inelastic neutron scattering with in-plane field shows both an absence of magnetic order and a broad, gapped spectrum of magnetic excitations consistent with a Kitaev QSL \cite{Banerjee2017}. Terahertz spectroscopy measurements show similar results \cite{Wang2017}. NMR measurements with an in-plane field are also consistent with a Kitaev QSL \cite{Baek2017}. In a striking thermal conductivity measurement, \rucl in an in-plane field was found to have a half-quantized thermal Hall conductance - a direct measurement of the spin liquid and topological nature of the field-induced state \cite{Kasahara2018}. Finally, substitution of Ru\textsuperscript{3+} with spin vacancies using Ir\textsuperscript{3+} suppresses the antiferromagnetic order and gives neutron scattering results consistent with a Kitaev QSL, even in the absence of an in-plane magnetic field \cite{Lampen-Kelley2017}.
 
-\section{Attempts to dope RuCl3}
-As stated in \ref{whyqslinteresting}, doped spin liquids may be related to high $T_{c}$ superconductivity. Additionally, doping Mott insulators can lead to interesting correlated and quantum electronic phases. Therefore, studying doped \rucl is relevant to much of condensed matter physics.
+\section{Attempts to dope \rucl}
+As stated in \ref{whyqslinteresting}, doped spin liquids may be related to high-$T_{c}$ superconductivity. Additionally, doping Mott insulators can lead to interesting correlated and quantum electronic phases. Therefore, studying doped \rucl is relevant to much of condensed matter physics.
 
-There have been several attempts to dope \rucl and observe some kind of transition. A common method of doping in 2D materials is intercalation of charge donors. For \ruclnospace , potassium can be inserted between the layers to provide doping. Potassium-intercalated \rucl investigated with ARPES shows a slightly modified band structure, without a change in gap or other properties. Doping by evaporating rubidium atoms onto the surface of unintercalated \rucl produced similar results. \cite{Zhou2016}. DFT calculations for the potassium-intercalated \rucl show charge partitioning into double occupancy of ruthenium atoms on one sublattice\footnote{The hexagonal lattice is a bipartite lattice and can be split into two interpenetrating triangular lattices} while the $J_{eff} = \frac{1}{2}$ state in ruthenium atoms on the other sublattice remains unoccupied. This charge ordering blocks the relevant interactions that make \rucl a Kitaev QSL \cite{Koitzsch2017}. Substituting chromium for ruthenium, which should hole dope the material and maintain the hexagonal lattice, causes significant stacking faults. Additionally, the lower spin-orbit coupling in chromium \cite{Fisk1968} may prevent the formation of a $J_{eff} = \frac{1}{2}$ state on the chromium atoms, and therefore prevent charge doping \cite{Roslova2019}.
+There have been several attempts to dope \rucl and observe some kind of transition. A common method of doping in 2D materials is intercalation of charge donors. For \ruclnospace , potassium can be inserted between the layers to provide doping. Potassium-intercalated \rucl investigated with ARPES shows a slightly modified band structure, without a change in gap or other properties. Doping by evaporating rubidium atoms onto the surface of unintercalated \rucl produced similar results. \cite{Zhou2016}. DFT calculations for the potassium-intercalated \rucl show charge partitioning into double occupancy of ruthenium atoms on one sublattice\footnote{The hexagonal lattice is a bipartite lattice and can be split into two interpenetrating triangular lattices.} while the $J_{eff} = \frac{1}{2}$ state in ruthenium atoms on the other sublattice remains unoccupied. This charge ordering blocks the relevant interactions that make \rucl a Kitaev QSL \cite{Koitzsch2017}. Substituting chromium for ruthenium, which should hole dope the material and maintain the hexagonal lattice, causes significant stacking faults. Additionally, the lower spin-orbit coupling in chromium \cite{Fisk1968} may prevent the formation of a $J_{eff} = \frac{1}{2}$ state on the chromium atoms, and therefore prevent charge doping of the intended system \cite{Roslova2019}.
 
 Unfortunately, most of the previous attempts to dope \rucl have either disordered the lattice, electronic structure, or both. Doping with evaporated rubidium atoms added an unknown amount of charge which may not have been sufficient to identify a transition. To explored doped \ruclnospace, what is needed is a method to add a known amount of charge that does not disorder the lattice or electronic structure.
 
 \section{Summary}
 
-We have seen that \ruclnospace has a rich electronic and magnetic struture. It is a spin-assisted Mott insulator, depending on both electron-electron interactions and spin-orbit coupling to open a gap at the Fermi level. The observed thermal activation of conductance and various spectroscopy measurements are consistent with predicted band structure. \rucl is also a proximate Kitaev spin liquid, whose ground state shares some of the properties of a spin liquid despite ordering antiferromagnetically. When this antiferromagnetic order is suppressed by an in-plane magnetic field or spin vacancies, the ground state becomes an authentic Kitaev QSL, complete with broad magnetic scattering and fractionalized excitations. Finally, we have seen that previous attempts to dope \rucl have been too intrusive to draw conclusions about doped spin liquid physics.
+We have seen that \rucl has a rich electronic and magnetic struture. It is a spin-assisted Mott insulator, depending on both electron-electron interactions and spin-orbit coupling to open a gap at the Fermi level. The observed thermal activation of conductance and various spectroscopy measurements are consistent with predicted band structure. \rucl is also a proximate Kitaev spin liquid, whose ground state shares some of the properties of a spin liquid despite ordering antiferromagnetically. When this antiferromagnetic order is suppressed by an in-plane magnetic field or spin vacancies, the ground state becomes an authentic Kitaev QSL, complete with broad magnetic scattering and fractionalized excitations. Finally, we have seen that previous attempts to dope \rucl have been too intrusive to draw conclusions about doped spin liquid physics.
 
 Now that we have a thorough understanding of \ruclnospace , we can discuss the technique that unifies this dissertation and may provide some insight into doped \rucl - electrolyte gating.

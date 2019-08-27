@@ -4,8 +4,8 @@ Raman spectroscopy uses inelastic light scattering to measure certain vibrationa
 
 I have used Raman spectroscopy to investigate the phonon modes of electrolyte-gated \ruclnospace. Because phonon modes are sensitive to bond lengths and atomic interactions, defects or distortion in the lattice should be visible as shifting or broadening of peaks in the Raman spectrum. Therefore Raman spectroscopy can identify changes in the lattice that may explain the absence of an expected electronic phase transition in electrolyte-gated \ruclnospace.
 
-\section{Fundamentals of Raman Spectroscopy}
-When a material is illuminated by monochromatic light of frequency $\omega$, the incident light is either absorbed, scattered, reflected, or transmitted. While the spectrum of the transmitted and reflected light contains only light at frequency $\omega$, the spectrum of the scattered light includes both radiation at $\omega$ and additional pairs of frequencies $\omega \pm \omega_{i}$. The frequencies $\omega_{i}$ are typically associated with transitions between rotational, vibrational, and electronic states of the constituent molecules of the material \cite{Long2002}. The scattered light typically has a randomized phase and polarization relative to the incident light.
+\section{Fundamentals of Raman spectroscopy}
+When a material is illuminated by monochromatic light of frequency $\omega$, the incident light is either absorbed, scattered, reflected, or transmitted. While the spectrum of the transmitted and reflected light contains only light at frequency $\omega$, the spectrum of the scattered light includes both radiation at $\omega$ and additional pairs of frequencies $\omega \pm \omega_{i}$. The frequencies $\omega_{i}$ are typically associated with transitions between rotational, vibrational, and electronic states of the constituent molecules of the material \cite{Long2002}. The scattered light typically has a randomized phase relative to the incident light.
 
 The highest intensity radiation in the spectrum of scattered light occurs at frequency $\omega$ and is called Rayleigh scattered\footnote{Rayleigh scattering is responsible for diffuse sky radiation, or in otherwords, why the sky is blue.}. Radiation at other frequencies is Raman scattered. Raman scattering with frequency $\omega_{i} < \omega$ is called Stokes Raman scattering; Raman scattering with frequency $\omega_{i} > \omega$ is called anti-Stokes Raman scattering. Necessarily, Rayleigh scattering is an elastic scattering process ($E = \hbar \omega = \hbar \omega_{i}$), while Raman scattering is inelastic ($E_{\text{initial}} = \hbar \omega \neq E_{\text{final}} = \hbar \omega_{i}$).
 
@@ -124,7 +124,7 @@ Naturally, $\mathbf{A}$ is the dipole moment associated with Rayleigh scattering
 
 Only some vibrations meet this criterion, and therefore only these Raman-active vibrations can Raman scatter incident light. While a full discussion of Raman selection rules is beyond the scope of this dissertation, molecules of low symmetry are more likely to have Raman-active modes, and molecules of high symmetry are less likely to have Raman-active modes.
 
-\section{Raman Spectrum of \texorpdfstring{RuCl$\textsubscript{3}$}{RuCl3}}
+\section{Raman spectrum of \texorpdfstring{RuCl$\textsubscript{3}$}{RuCl3}}
 
 The Raman spectrum of bulk \rucl has been extensively reported  \cite{Sandilands2015,Sandilands2016,Glamazda2017,Mashhadi2018,Zhou2018}. My Raman measurements of \rucl are consistent with published literature and show peaks at 114, 161, 220, 267, 294, 310, and 338 cm$^{-1}$ as seen in Figure \ref{fig:RamanSpectRuCl3-1}.
 
@@ -148,7 +148,7 @@ Raman-active vibrations for the D\textsubscript{3d} space group present in \rucl
 
 The measured spectrum of \rucl has five modes with polarizations consistent with E\textsubscript{g} - one more than allowed by the symmetry of the D\textsubscript{3d} space group. The mode at 220 cm\textsuperscript{-1} is least likely to be a D\textsubscript{3d} mode and may instead be a defect mode or related to interlayer coupling because of its low intensity \cite{Sandilands2015}.
 
-We can understand these modes by visualizing the vibrations in the lattice (figure reference goes here). The two A\textsubscript{g} modes involve expanding and contracting the chlorine atoms around the stationary ruthenium plane. The four E\textsubscript{g} modes involve in-plane motion of the ruthenium atoms. Figure \ref{fig:RamanSpectRuCl3-3} provides a visualization of these modes\footnote{Note that \cite{Li2019} and \cite{Sandilands2015} disagree about the nature of these modes. \cite{Li2019} considers the mode at 338 cm$^{-1}$ to be a defect mode, while \cite{Sandilands2015} considers it to be the second A\textsubscript{1g} mode because it disappears in cross-polarization.}.
+We can understand these modes by visualizing the vibrations in the lattice, which can be calculated using DFT \cite{Li2019}. The two A\textsubscript{g} modes involve expanding and contracting the chlorine atoms around the stationary ruthenium plane. The four E\textsubscript{g} modes involve in-plane motion of the ruthenium atoms. Figure \ref{fig:RamanSpectRuCl3-3} provides a visualization of these modes\footnote{Note that \cite{Li2019} and \cite{Sandilands2015} disagree about the nature of these modes. \cite{Li2019} considers the mode at 338 cm$^{-1}$ to be a defect mode, while \cite{Sandilands2015} considers it to be the second A\textsubscript{1g} mode because it disappears in cross-polarization.}.
 
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{./img/RuCl3RamanModes-Li.png}
@@ -166,8 +166,8 @@ The Raman spectrum of exfoliated \rucl is equivalent to bulk \rucl for exfoliate
   \label{fig:RamanSpectRuCl3-4}
 \end{centering}
 
-\section{Raman Spectrum of Electrolytes}
-Although to this point we have focused on Raman scattering from crystals, single molecules and liquids can also cause Raman scattering. Accordingly, the Raman spectrum of an ionic liquid must be considered when measuring the Raman spectrum of an electrolyte-gated material. I have characterized the Raman spectra of several electrolytes to determine which is most appropriate for measurements. Figure \ref{fig:RamanSpectElec-1} shows these Raman spectra.
+\section{Raman spectrum of electrolytes}
+Although to this point we have focused on Raman scattering from crystals, single molecules and liquids can also cause Raman scattering. Accordingly, the Raman spectrum of an electrolyte must be considered when measuring the Raman spectrum of an electrolyte-gated material. I have characterized the Raman spectra of several electrolytes to determine which is most appropriate for measurements. Figure \ref{fig:RamanSpectElec-1} shows these Raman spectra.
 
 \begin{centering}
 \includegraphics[width=0.5\textwidth]{./img/ElectrolyteRamanSpectra-Original.jpg}
@@ -176,26 +176,26 @@ Although to this point we have focused on Raman scattering from crystals, single
   \label{fig:RamanSpectElec-1}
 \end{centering}
 
-Because with one exception, the selected electrolytes would add substantial background to a Raman spectrum or would have features obscuring those of \rucl, I performed the following measurements with DEME-BF4.
+Because with one exception the selected electrolytes would add substantial background to a Raman spectrum or would have features obscuring those of \ruclnospace , I performed the following measurements with DEME-BF4.
 
-\section{Raman Spectroscopy of \texorpdfstring{RuCl$\textsubscript{3}$}{RuCl3} with in-situ Electrolyte Gating}
+\section{Raman spectroscopy of \texorpdfstring{RuCl$\textsubscript{3}$}{RuCl3} with in-situ electrolyte gating}
 
 \subsection{Methods}
 \rucl was exfoliated onto 5 mm x 5mm x 500 $\mu$m chips of 300 nm SiO\textsubscript{2} on degenerately doped Si using a standard scotch tape method; measured \rucl flakes were between 40 and 100 nm thick. A large, coplanar gate, bond pads, and ohmic contacts were defined using either optical or electron beam lithography. 5 nm of Ti and 100 nm of Au were deposited using electron beam evaporation under high vacuum.
 
-Samples were attached to an 8 contact DIP chip carrier using poly(methyl methacrylate). Gold wirebonds connected the sample to the chip carrier, which was mounted on a breadboard. A drop of ionic liquid that covered only the coplanar gate and the \rucl flake was manually applied using a pipette tip. Potential bias was applied using a Keithley 2400 source measurement unit in voltage source mode controlled by GPIB. Applied gate voltage and resulting gate current were recorded during the measurement.
+Samples were attached to an 8 contact DIP chip carrier using poly(methyl methacrylate). Gold wirebonds connected the sample to the chip carrier, which was mounted on a breadboard. A drop of electrolyte that covered only the coplanar gate and the \rucl flake was manually applied using a pipette tip. Potential bias was applied using a Keithley 2400 source measurement unit in voltage source mode controlled by GPIB. Applied gate voltage and resulting gate current were recorded during the measurement.
 
 Raman spectra of electrolyte-gated \rucl were measured through the electrolyte on the Stanford Nano Shared Facilities HORIBA Scientific LabRAM HR Evolution Raman Spectrometer in a back scattering configuration, using an unpolarized, 20 mW, 532 nm laser as a light source and a 100x long working distance objective. The laser was attenuated to between 1\% and 25\% power using a neutral density filter.
 
-The laser spot size was approximately 1 $\mu$m, and was moved between each series of acquisitions to prevent photodamage. Typical spectra were produced by five acquisitions of 60 seconds each. Anti-Stokes Raman scattering were not observed and peak positions did not change at any laser power, confirming that the sample was not heated during measurement.
+The laser spot size was approximately 1 $\mu$m, and was moved between each series of acquisitions to prevent photodamage. Typical spectra were produced by five acquisitions of 60 seconds each. Anti-Stokes Raman scattering were not observed and peak positions did not change with laser power, confirming that the sample was not heated during measurement.
 
 Raman spectra were processed by subtracting a sigmoidal background associated with the electrolyte. Spurious peaks (from ambient high energy radiation or fluorescent lighting) were removed. Peak locations and widths were determined by fitting Lorentzian peaks to the processed data using the multiple peak fit algorithm in OriginPro 8.5.
 
-\subsection{Summary of Results}
+\subsection{Summary of results}
 
 \subsubsection{Electrolyte-biased \rucl has two different Raman spectra}
 
-Raman spectra of \rucl measured under a biased electrolyte divide into two distinct classes. The first, which I refer to as \pone , has fewer and broader peaks than pristine \ruclnospace. The second, \pzero , is almost identical to pristine \ruclnospace. Figure \ref{fig:RuCl3RamanResults-1} shows these different spectra. Each spectrum can be accessed by changing the gate voltage. \pone{} typically appears at positive electrolyte gate voltage, and \pzero{} appears at negative gate voltage.
+Raman spectra of \rucl measured under a biased electrolyte divide into two distinct classes. The first, which I refer to as \pplus , has fewer and broader peaks than pristine \ruclnospace. The second, \pminus , is almost identical to pristine \ruclnospace. Figure \ref{fig:RuCl3RamanResults-1} shows these different spectra. Each spectrum can be accessed by changing the gate voltage. \pplus{} typically appears at positive electrolyte gate voltage, and \pminus{} appears at negative gate voltage.
 
 
 \begin{figure}[p]
@@ -213,7 +213,7 @@ Raman spectra of \rucl measured under a biased electrolyte divide into two disti
 		\includegraphics[width=\linewidth]{./img/RuCl3RamanSpectrumP0.png}
 	\end{minipage}
 	\begin{minipage}{0.5\textwidth}
-		\captionof{figure}[Raman spectra of pristine \ruclnospace , \pzero{}, and \pone]{Backgronund-subtracted Raman spectra of (a) pristine \rucl without electrolyte applied, (b) \rucl with electrolyte applied and spectrum $P_{1}$, and (c) \rucl with electrolyte applied in spectrum $P_{0}$. Black lines are data, blue lines are Lorentzians simultaneously fit to the data, and red lines are the sum of the Lorentzians. Features near 400 and 520 cm\textsuperscript{-1} are from the substrate. The spectra for pristine \rucl and \pzero{} are nearly identical.}
+		\captionof{figure}[Raman spectra of pristine \ruclnospace , \pminus{}, and \pplus]{Backgronund-subtracted Raman spectra of (a) pristine \rucl without electrolyte applied, (b) \rucl with electrolyte applied and spectrum \pplus, and (c) \rucl with electrolyte applied in spectrum \pminus. Black lines are data, blue lines are Lorentzians simultaneously fit to the data, and red lines are the sum of the Lorentzians. Features near 400 and 520 cm\textsuperscript{-1} are from the substrate. The spectra for pristine \rucl and \pminus{} are nearly identical.}
 	\label{fig:RuCl3RamanResults-1}
 	\end{minipage}
 \end{figure}
@@ -222,17 +222,17 @@ Raman spectra of \rucl measured under a biased electrolyte divide into two disti
 	\begin{tabular}{l}
 		\includegraphics[width=0.75\linewidth]{./img/RuCl3RamanP0P1ComparisonTable-Original.png}
 	\end{tabular}
-	\captionof{table}[Quantitative comparison of Raman spectra \pzero{} and \pone]{Quantitative comparison of Raman spectra for a particular device for pristine \ruclnospace , \pzero , and \pone . Red X's indicate the peak is not present or too small to fit in \pone . Peak 8 does not correspond to a symmetry of \rucl but is required for a convergent fit.}
+	\captionof{table}[Quantitative comparison of Raman spectra \pminus{} and \pplus]{Quantitative comparison of Raman spectra for a particular device for pristine \ruclnospace , \pminus , and \pplus . Red X's indicate the peak is not present or too small to fit in \pplus . Peak 8 does not correspond to a symmetry of \rucl but is required for a convergent fit.}
 	\label{tbl:RuCl3RamanResults-1}
 \end{center}
 
-Table \ref{tbl:RuCl3RamanResults-1} presents a quantitative comparison of the three different spectra for a particular \rucl device. Peaks 1 through 7 have only small, random changes between pristine \rucl and \pzero , suggesting these peaks are identical. Peak 8, which is not related to a symmetry of \rucl but must be included for the fit to converge, broadens substantially in \pzero . Peak 8 may be a surface mode which is disordered by the application of the electrolyte.
+Table \ref{tbl:RuCl3RamanResults-1} presents a quantitative comparison of the three different spectra for a particular \rucl device. Peaks 1 through 7 have only small, random changes between pristine \rucl and \pminus approximately equal to the $\pm${} 1 cm\textsuperscript{-1} uncertainty of the fit, suggesting these peaks are identical. Peak 8, which is not related to a symmetry of \rucl but must be included for the fit to converge, broadens substantially in \pminus . Peak 8 may be a surface mode which is disordered by the application of the electrolyte.
 
-\pone{} is substantially different from pristine \rucl and \pzero . Several peaks are absent in \pone , and the remaining peaks are broader.
+\pplus{} is substantially different from pristine \rucl and \pminus . Several peaks are absent in \pplus , and the remaining peaks are broader.
 
 \subsubsection{Transition between different Raman spectra is hysteretic}
 
-Electrolyte-biased \rucl switches between spectra \pzero{} and \pone{} as a function of gate voltage. \pone{} emerges from the pristine \rucl spectrum as the electrolyte gate voltage is increased from zero to slightly positive. The spectrum remains in \pone{} until the gate voltage is large and negative (typically V\textsubscript{crit} $\approx$ -1.5 V) when the spectrum abruptly switches back to \pzero . This effect can be seen multiple times as the voltage is swept on a given sample. Plots of relative intensity and Raman shift for peak 2 presented in Figure \ref{fig:RuCl3RamanResults-2} show the hysteresis in this transition. Similar plots for other peaks can be found in Appendix XX.
+Electrolyte-biased \rucl switches between spectra \pminus{} and \pplus{} as a function of gate voltage. \pplus{} emerges from the pristine \rucl spectrum as the electrolyte gate voltage is increased from zero to slightly positive. The spectrum remains in \pplus{} until the gate voltage is large and negative (typically V\textsubscript{crit} $\approx$ -1.5 V) when the spectrum abruptly switches back to \pminus . This effect can be seen multiple times as the voltage is swept on a given sample. Plots of relative intensity and Raman shift for peak 2 presented in Figure \ref{fig:RuCl3RamanResults-2} show the hysteresis in this transition.
 
 \begin{figure}
 \begin{centering}
@@ -245,20 +245,20 @@ Electrolyte-biased \rucl switches between spectra \pzero{} and \pone{} as a func
 
 \subsubsection{Transition between different spectra is associated with a change in visual appearance}
 
-The visual appearance of the flake changes abruptly when the spectrum moves from pristine to \pone{} to \pzero . Electrolyte-biased \rucl with Raman spectrum \pone{} have more optical absorption than electrolyte-biased \rucl with Raman spectrum \pzero . Further, as the voltage is swept across V\textsubscript{crit}, an interface between the two regions sweeps across the flake, as shown in Figure \ref{fig:RuCl3RamanResults-3}.
+The visual appearance of the flake changes abruptly when the spectrum moves from pristine to \pplus{} to \pminus . Electrolyte-biased \rucl with Raman spectrum \pplus{} has more optical absorption than electrolyte-biased \rucl with Raman spectrum \pminus . Further, as the voltage is swept across V\textsubscript{crit}, an interface between the two regions sweeps across the flake, as shown in Figure \ref{fig:RuCl3RamanResults-3}. While the optical absorption changes with electrolyte bias (i.e., \rucl having spectrum \pminus{} is ``lighter''), the mottled appearance and colors of the flake are irreversible.
 
 
 \begin{centering}
 \includegraphics[width=\textwidth]{./img/RamanTransitionInterface.png}
   \captionsetup{width=0.75\textwidth}
-  \captionof{figure}[Change in visual appearance correlated with change in Raman spectra]{Change in visual appearance as electrolyte bias drives the Raman spectra between \pzero{} and \pone. Images were taken at a constant gate voltage of 0.02 V after the gate voltage was held at -1.2 V. Note the interface between the light and dark portions of the flake in the center image.}
+  \captionof{figure}[Change in visual appearance correlated with change in Raman spectra]{Change in visual appearance as electrolyte bias drives the Raman spectra between \pminus{} and \pplus. Images were taken at a constant gate voltage of 0.02 V after the gate voltage was held at -1.2 V. Note the interface between the light and dark portions of the flake in the center image.}
   \label{fig:RuCl3RamanResults-3}
 \end{centering}
 
 \subsection{Discussion}
 
-Electrolyte-biased \rucl has two distinct Raman spectra: one is identical to pristine \ruclnospace , the other with some peaks lost and the remaining ones broadened. The spectra switches hysteretically between these two spectra as a function of gate voltage. The spectra are also associated with a lighter (\pzero) and a darker (\pone) visual appearance. An interface between \pzero{} and \pone{} regions appears as electrolyte biasing drives the change in Raman spectrum.
+Electrolyte-biased \rucl has two distinct Raman spectra: one is identical to pristine \ruclnospace , the other has fewer, broader peaks. The spectrum switches hysteretically between these two spectra as a function of gate voltage. The spectra are also associated with a lighter (\pminus) and a darker (\pplus) visual appearance. An interface between \pminus{} and \pplus{} regions appears as electrolyte biasing drives the change in Raman spectrum.
 
-As discussed earlier in this dissertation, hysteresis and an interface are the hallmarks of a first-order phase transition. Further, the size of the hysteresis in gate voltage space roughly matches that found in Raman, despite using a different technique and using a different sweep rate.
+As discussed earlier in this dissertation, hysteresis and an interface are the hallmarks of a first-order phase transition. Further, the range of electrolyte gate voltage associated with hysteresis in conductance roughly matches that found in Raman, despite using a different technique and using a different sweep rate.
 
-These results are consistent with the hypothesis that a phase transition results from adding charge carriers. However, while the Raman measurements support the phase transition hypothesis, they fail to disprove the intercalation or chemical process hypotheses. To address these remaining possibilities, we turn to x-ray diffraction.
+These results are consistent with the hypothesis that a phase transition results from adding charge carriers. However, while the Raman measurements support the phase transition hypothesis, they fail to disprove intercalation or rule out the presence of electrochemical reactions. To address these remaining possibilities, we turn to x-ray diffraction.

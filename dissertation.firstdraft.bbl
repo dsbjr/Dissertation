@@ -20,9 +20,9 @@ L.~D. Landau and E.~M. Lifshitz.
 \newblock {\em Reports on Progress in Physics}, (50):783--859, 1987.
 
 \bibitem{Mnyukh2011}
-Y.~Mnyukh.
+Y.~{Mnyukh}.
 \newblock {Second-order phase transitions, L. Landau and his successors}.
-\newblock 3(2):25--30, 2011.
+\newblock {\em arXiv e-prints}, page arXiv:1102.1085, Feb 2011.
 
 \bibitem{Cardy1996}
 John Cardy.
@@ -134,9 +134,11 @@ G~H Wannier.
 \newblock {\em Phys. Rev.}, 79(357), 1950.
 
 \bibitem{Lian2017}
-Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, Xiao-Liang Qi, and Shou-Cheng Zhang.
-\newblock {Topological Quantum Computation Based on Chiral Majorana Fermions}.
-\newblock 2017.
+Biao {Lian}, Xiao-Qi {Sun}, Abolhassan {Vaezi}, Xiao-Liang {Qi}, and Shou-Cheng
+  {Zhang}.
+\newblock {Topological quantum computation based on chiral Majorana fermions}.
+\newblock {\em Proceedings of the National Academy of Science},
+  115(43):10938--10942, Oct 2018.
 
 \bibitem{Anderson1986}
 {P. W. Anderson}.
@@ -485,5 +487,84 @@ J.~M. Fletcher, W.~E. Gardner, A.~C. Fox, and G.~Topping.
 \newblock {X-ray, Infrared, and Magnetic Studies of alpha- and beta-ruthenium
   trichloride}.
 \newblock {\em Journal of the Chemical Society}, 8(428):1038--1045, 1967.
+
+\bibitem{Porto2006}
+S~Porto.
+\newblock {Raman Scattering by F Centers}.
+\newblock {\em Nature}, 207(5003):1238--1238, 2006.
+
+\bibitem{Benedek1967}
+G.~Benedek and G.~F. Nardelli.
+\newblock {Raman scattering by color centers}.
+\newblock {\em Physical Review}, 154(3):872--876, 1967.
+
+\bibitem{Moller1972}
+W.~M{\"{o}}ller and R.~Kaiser.
+\newblock {Impurity induced Raman spectra of NaCl and KCl crystals with various
+  monovalent impurities}.
+\newblock {\em Physica Status Solidi (B)}, 50(1):155--169, 1972.
+
+\bibitem{Kim2016}
+Heung-Sik Kim and Hae-Young Kee.
+\newblock {Crystal structure and magnetism in alpha-RuCl3: an ab-initio study}.
+\newblock {\em Physical Review B}, 155143(93):1--10, 2016.
+
+\bibitem{Zhou2018b}
+Boyi {Zhou}, J.~{Balgley}, P.~{Lampen-Kelley}, J.~Q. {Yan}, D.~G. {Mandrus},
+  and E.~A. {Henriksen}.
+\newblock {Gate-tuned charge-doping and magnetism in graphene/a-RuCl3
+  heterostructures}.
+\newblock {\em arXiv e-prints}, page arXiv:1811.04838, Nov 2018.
+
+\bibitem{Biswas2019}
+Sananda {Biswas}, Ying {Li}, Stephen~M. {Winter}, Johannes {Knolle}, and Roser
+  {Valenti}.
+\newblock {Electronic properties of alpha-RuCl3 in proximity to graphene}.
+\newblock {\em arXiv e-prints}, page arXiv:1908.04793, Aug 2019.
+
+\bibitem{CastroNeto2009}
+a.~H. {Castro Neto}, N.~M.~R. Peres, K.~S. Novoselov, and a.~K. Geim.
+\newblock {The electronic properties of graphene}.
+\newblock {\em Reviews of Modern Physics}, 81(1):109--162, jan 2009.
+
+\bibitem{Jain1989}
+J.~K. Jain.
+\newblock Composite-fermion approach for the fractional quantum hall effect.
+\newblock {\em Phys. Rev. Lett.}, 63:199--202, Jul 1989.
+
+\bibitem{Papic2011}
+Z.~Papi\ifmmode~\acute{c}\else \'{c}\fi{}, R.~Thomale, and D.~A. Abanin.
+\newblock Tunable electron interactions and fractional quantum hall states in
+  graphene.
+\newblock {\em Phys. Rev. Lett.}, 107:176602, Oct 2011.
+
+\bibitem{Nayak2008}
+Chetan Nayak, Steven~H. Simon, Ady Stern, Michael Freedman, and Sankar
+  Das~Sarma.
+\newblock Non-abelian anyons and topological quantum computation.
+\newblock {\em Rev. Mod. Phys.}, 80:1083--1159, Sep 2008.
+
+\bibitem{Lee2016}
+Menyoung Lee, Patrick Gallagher, David Goldhaber-Gordon, John~R. Wallbank,
+  Vladimir~I. Fal'Ko, Kenji Watanabe, and Takashi Taniguchi.
+\newblock {Ballistic miniband conduction in a graphene superlattice}.
+\newblock {\em Science}, 353(6307):1526--1529, 2016.
+
+\bibitem{Yalamarthy2019}
+Ananth~Saran Yalamarthy, Miguel {Mu{\~{n}}oz Rojo}, Alexandra Bruefach, Derrick
+  Boone, Karen~M. Dowling, Peter~F. Satterthwaite, David Goldhaber-Gordon, Eric
+  Pop, and Debbie~G. Senesky.
+\newblock {Significant Phonon Drag Enables High Power Factor in the AlGaN/GaN
+  Two-Dimensional Electron Gas}.
+\newblock {\em Nano Letters}, 19(6):3770--3776, 2019.
+
+\bibitem{Liang2018}
+Liang Wu, A.~Little, E.~E. Aldape, D.~Rees, E.~Thewalt, P.~Lampen-Kelley,
+  A.~Banerjee, C.~A. Bridges, J.-Q. Yan, D.~Boone, S.~Patankar,
+  D.~Goldhaber-Gordon, D.~Mandrus, S.~E. Nagler, E.~Altman, and J.~Orenstein.
+\newblock Field evolution of magnons in
+  $\ensuremath{\alpha}\text{\ensuremath{-}}{\mathrm{rucl}}_{3}$ by
+  high-resolution polarized terahertz spectroscopy.
+\newblock {\em Phys. Rev. B}, 98:094425, Sep 2018.
 
 \end{thebibliography}

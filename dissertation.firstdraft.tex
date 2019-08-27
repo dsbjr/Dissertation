@@ -17,7 +17,8 @@
 \usepackage{textcomp}
 \usepackage{braket}
 \usepackage{amsfonts}
-\usepackage{geometry}
+%\usepackage{geometry}
+\usepackage[toc,page]{appendix}
 \usepackage[pdfencoding=auto]{hyperref}
 % default is now online June/2016 version
 %\usepackage[online]{suthesis-2e}
@@ -65,8 +66,8 @@
 \newcommand{\ruclnospace}{RuCl\textsubscript{3}}
 \newtheorem{assumption}{Assumption}
 \newcommand{\percmsq}{e\textsuperscript{-}/cm\textsuperscript{2}}
-\newcommand{\pone}{P\textsubscript{1}}
-\newcommand{\pzero}{P\textsubscript{0}}
+\newcommand{\pplus}{P\textsubscript{+}}
+\newcommand{\pminus}{P\textsubscript{-}}
 
 \bibliographystyle{unsrt}
 
@@ -85,18 +86,30 @@
 
 %% Abstract can be any number of pages
     \prefacesection{Abstract}
-A quantum spin liquid (QSL) is an exotic phase of matter identified by interacting spins that do not develop long-range magnetic order down to T = 0 K. QSLs have topological order and are therefore relevant to storing and processing quantum information. Additionally, hole-doped QSLs may be related to high temperature superconductivity, making the study of this phase relevant to a broad section of condensed matter physics.
+A quantum spin liquid (QSL) is an exotic phase of matter identified by interacting spins that do not develop long-range magnetic order down to T = 0 K. QSLs have topological order and are therefore relevant to storing and processing quantum information. Additionally, doped QSLs may be related to high temperature-superconductivity, making the study of this phase relevant to a broad section of condensed matter physics.
 
-Recently, the two-dimensional material and spin-assisted Mott insulator $\alpha$-ruthenium (III) chloride (\ruclnospace) has attracted research interest because of its relationship to spin liquids. Localized electrons in \rucl have anisotropic Ising interactions that are described by the Kitaev model – a theoretical type of spin liquid that is exactly solvable. The low-temperature antiferromagnetic order in \rucl can be suppressed by an in-plane magnetic field to create a field-induced QSL, identifying \rucl as a proximate Kitaev spin liquid.
+Recently, the two-dimensional material and spin-assisted Mott insulator $\alpha$-ruthenium (III) chloride (\ruclnospace) has attracted research interest because of its relationship to spin liquids. Localized electrons in \rucl have anisotropic Ising interactions that are described by the Kitaev model – a theoretical model of a spin liquid that is exactly solvable. The low-temperature antiferromagnetic order in \rucl can be suppressed by an in-plane magnetic field to create a field-induced QSL, identifying \rucl as a proximate Kitaev spin liquid.
 
-Because \rucl is both a proximate Kitaev spin liquid and a Mott insulator, charge doping may create interesting electronic phases. Previous attempts to chemically dope \rucl have been unsuccessful. However, previously used doping techniques either disordered the lattice or added an unmeasured amount of charge, making this negative result hard to interpret. Charge doping by electrolyte biasing would eliminate these problems, and improve on previous measurements.
+Because \rucl is both a proximate Kitaev spin liquid and a Mott insulator, charge doping may create interesting electronic phases. Previous attempts to chemically dope \rucl have been unsuccessful. However, previously-used doping techniques either disordered the lattice or added an unmeasured amount of charge, making this negative result hard to interpret. Charge doping by electrolyte biasing would eliminate these problems, and improve on previous measurements.
 
-I use electronic transport measurements and Raman spectroscopy under electrolyte bias to show that, upon doping, \rucl undergoes a first order phase transition with only small changes in conductivity. X-ray diffraction of electrolyte-biased \rucl rules out intercalation being the cause of this phase transition, and confirms the assumption that electrochemical interactions are negligible. I conclude that this phase transition prevents \rucl from being used to study doped spin liquid physics and suggest further measurements to characterize the newly identified phase.
+I use electronic transport measurements and Raman spectroscopy under electrolyte bias to show that, upon doping, \rucl undergoes a first order phase transition with only small changes in conductivity. X-ray diffraction of electrolyte-biased \rucl rules out intercalation being the cause of this phase transition, and confirms the assumption that electrochemical reactions are negligible. I suggest that this phase transition prevents \rucl from being used to study doped spin liquid physics and present further measurements to characterize the newly identified phase.
 
 %% one can also have a prefacesection that is a Preface instead of
 %% Acknowledgements.   The thematic purpose is the same (thanks).
     \prefacesection{Acknowledgements}
-        Here is where I thank people and include some quotes.
+        PhDs do not happen in a vacuum, and mine is no exception. I am indebted to too many people to name; please indulge the following attempt.
+        
+        I would first like to honor my committee. During my time at Stanford I have had the pleasure and privilege of being advised by David Goldhaber-Gordon. I have yet to meet a kinder or more intelligent man, and the way he does science remains an inspiration to me. David's advisor (and my grand-advisor) Marc Kastner was the mastermind behind this research, and if you look closely at this work you will see his influence everywhere. Marc's incredible knowledge and guidance were invaluable - I can truthfully say I would not have finished without him. Ian Fisher, my academic advisor, has been an incredible teacher and thought partner through this process. I am grateful for the time you spent with me, despite me not being a member of your group. My defense chair, Evan Reed, was the first person who explained band theory to me in a way I understood. Thank you, Evan, for making sure I really got it. Finally, Benjamin Feldman is an experimentalist whose work I've admired even before he became a Stanford faculty member. I appreciate you lending your time to make sure I was successful.
+
+        My mentors in the Goldhaber-Gordon group have also been scientists beyond compare. John Bartel, who taught me what a low-pass filter was; Menyoung Lee, who built the group's first graphene transfer station and showed me e-beam lithography; and Patrick Gallagher, who taught me a  list of things to long to recount and whose AFM tips I used until my very last day: thank you. My immediate seniors, Eli Fox and Lucas Peeters, provided sorely needed discussions that helped sharpen my understanding of this work and our shared discipline. My peers - Aaron Sharpe, Winston Pouse, Connie Hsueh, and Linsey Rodenbach - you have been more than just colleagues. You are treasured friends. I will cherish my bond with you for the rest of my life. And to all the members of the group, your support, encouragement, and empathy are what allowed me to persevere. Thank you.
+
+        I had the honor of visiting the National Institute of Standards and Technology during summer 2015. I thank the electron physics group for hosting me, Dr. Joseph Stroscio for advising me during my time there, and the National Physical Sciences Consortium for funding this trip and partially funding four years of my PhD.
+
+        My family has been a consistent source of comfort and motivation over the past six years. I thank my father, Dr. Derrick S. Boone, Sr., for exposing me to math and science at an early age and for staying with me during the last month leading up to my defense. I thank my mother, Patricia Boone, for loving me and keeping me sane during a challenging childhood. And I thank my sister, Madeleine Boone, and brother, Jacob Boone, for their consistent support.
+
+        My wife, Andrea Leigh Schwartz Boone, has been an incredible partner to me since our meeting in 2010, reunion in 2013, and marriage in 2016. There is no one I love, respect, or admire more. We have been through so much in our short time together, and through it all you have given me the gift of a home. To you I owe a debt I cannot repay.
+
+        Finally, to my son and first child, Everett James Boone: being your father is the realization of my greatest dream. I have loved you from the moment I felt your first kick in your mother's womb, and I am in awe of you each day. Know that as long as I draw breath, I will be your biggest cheerleader and greatest champion. I dedicate this dissertation to you.
 
 %% afterpreface produces a table of contents and any other tables
 %% wanted. At the end pagenumbering changes from roman to arabic and
@@ -117,6 +130,10 @@ I use electronic transport measurements and Raman spectroscopy under electrolyte
 \include{./tex/ch6}
 
 \include{./tex/ch7}
+
+\include{./tex/appendixA}
+
+\include{./tex/AppendixB}
 
 \bibliography{C:/Users/dsbjr/Documents/GitHub/Dissertation/tex/dissertation.firstdraft}
 
